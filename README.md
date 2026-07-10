@@ -67,11 +67,10 @@ npm run build && npm run preview
 ## Deployment
 
 Cloudflare Pages project `ap127-v3` (ap127-v3.pages.dev). `.github/workflows/deploy.yml` builds and
-deploys on push to `main` via `wrangler pages deploy`.
+deploys automatically on push to `main` via `wrangler pages deploy`, using the `CLOUDFLARE_API_TOKEN`
+repo secret (set 2026-07-10).
 
-**Open item:** the `CLOUDFLARE_API_TOKEN` repo secret has not been set yet (same class of gap this
-ecosystem has hit before, e.g. DB001's dispatcher — see AP127_Docs §10). Until it's added, deploy
-manually:
+Manual deploy (rarely needed — CI handles pushes to `main`):
 
 ```bash
 npm run build

@@ -16,9 +16,9 @@ cat public/data/manifest.json | python3 -c "import json,sys; m=json.load(sys.std
 ## Key facts — things that trip up new sessions
 - **Directory discipline**: this repo is `/Users/nugui/AP127_V3`. `/Users/nugui` itself is ALSO a git
   repo (a personal one, never commit into it — always confirm `pwd` before `git add -A`).
-- **Deploy**: CF Pages project `ap127-v3`. `.github/workflows/deploy.yml` exists but `CLOUDFLARE_API_TOKEN`
-  secret is NOT yet set on this repo — deploys are manual until then: `npm run build && npx wrangler
-  pages deploy dist --project-name ap127-v3 --branch main`.
+- **Deploy**: CF Pages project `ap127-v3`. `.github/workflows/deploy.yml` auto-deploys on push to `main`
+  using the `CLOUDFLARE_API_TOKEN` repo secret (set 2026-07-10). Manual fallback: `npm run build &&
+  npx wrangler pages deploy dist --project-name ap127-v3 --branch main`.
 - **Data ingest**: `.github/workflows/refresh-data.yml` runs hourly at :25. `npm run ingest` runs it
   locally. Never make a single upstream source's failure fatal (per-source isolation is load-bearing —
   see pipeline/ingest.ts).
@@ -42,4 +42,4 @@ redesign — do NOT port V2's `view-slotfinder.js`/`view-autoslotfinder.js` logi
 is considered imperfect.
 
 ## Master reference
-Full ecosystem architecture, deploy steps, secrets: https://ap127-docs.pages.dev (§2.9 once added)
+Full ecosystem architecture, deploy steps, secrets: https://ap127-docs.pages.dev (§2.10)

@@ -1,0 +1,90 @@
+{
+ "schemaVersion": 1,
+ "pipelineVersion": "3.0.0",
+ "generatedAt": "2026-07-10T00:16:33.619Z",
+ "sources": {
+  "flights": {
+   "sourceUrl": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
+   "fetchedAt": "2026-07-10T00:16:33.619Z",
+   "upstreamFetchedAt": "2026-07-09T23:59:26Z",
+   "contentHash": "sha256:65b33089ed2eef070ef6b30972c9114ea7238e34822945e713545077194672a8",
+   "lastChangedAt": "2026-07-10T00:16:33.619Z",
+   "records": {
+    "flights": 4102,
+    "instructors": 24,
+    "resources": 38,
+    "leaves": 368,
+    "flightsAfterDedup": 3044
+   },
+   "validation": {
+    "errors": [],
+    "warnings": [
+     {
+      "code": "DUPLICATE_ID",
+      "message": "duplicate flight ids",
+      "count": 132,
+      "samples": [
+       "ACTUAL_ONLY_29",
+       "ACTUAL_ONLY_",
+       "ACTUAL_ONLY_7",
+       "ACTUAL_ONLY_3031",
+       "ACTUAL_ONLY_3026",
+       "ACTUAL_ONLY_3026",
+       "ACTUAL_ONLY_3040",
+       "ACTUAL_ONLY_3074"
+      ]
+     },
+     {
+      "code": "DEDUP_KEY_FALLBACK",
+      "message": "planned Completed rows removed via student|date|lesson fallback — ACTUAL_ONLY id did not derive to a planned id; check upstream ID format",
+      "count": 1,
+      "samples": [
+       "SANGYAI P.|2026-06-11|PDXC 30"
+      ]
+     }
+    ]
+   },
+   "transforms": {
+    "dedupRemovedById": 1057,
+    "dedupRemovedByKey": 1,
+    "unplannedStripped": 213,
+    "nickBridged": 3
+   },
+   "diff": null
+  },
+  "progress": {
+   "sourceUrl": "https://ap127-data-api.anusorn-tanmetha.workers.dev",
+   "fetchedAt": "2026-07-10T00:16:33.619Z",
+   "upstreamFetchedAt": "2026-07-10T00:01:52.747Z",
+   "contentHash": "sha256:45119407e0d7fec30989a5088e5baaf2dc1074ae051abcb5488046730da319e8",
+   "lastChangedAt": "2026-07-10T00:16:33.619Z",
+   "records": {
+    "students": 28,
+    "curriculum": 96
+   },
+   "validation": {
+    "errors": [],
+    "warnings": []
+   },
+   "diff": null
+  },
+  "ngt": {
+   "sourceUrl": "https://ap127-db001.pages.dev/cache.json",
+   "fetchedAt": "2026-07-10T00:16:33.619Z",
+   "upstreamFetchedAt": "2026-07-10T00:00:33.404Z",
+   "contentHash": "sha256:c4b13d16ae3d46742733e174c3390330e4d94175ab2395c6e77c9371c6bf4fc4",
+   "lastChangedAt": "2026-07-10T00:16:33.619Z",
+   "records": {
+    "ap124": 9,
+    "ap126": 28,
+    "ap127": 28,
+    "ap129": 13
+   },
+   "validation": {
+    "errors": [],
+    "warnings": []
+   },
+   "diff": null
+  }
+ }
+}

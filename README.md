@@ -17,10 +17,10 @@ this is a parallel, additive project.
 | Cache-busting | manual `?v=pNN` bump | content-hashed by Vite |
 | Data hygiene | browser IIFEs at load time | typed, unit-tested ingest pipeline |
 | Data trust | console warnings only | provenance manifest + in-UI lineage popovers |
-| Tests | none | 140 vitest unit/golden-parity tests |
+| Tests | none | 152 vitest unit/golden-parity tests |
 | Mobile | some panels desktop-only | full information parity on every view (a scalable bottom-tab + "More" sheet) |
 | Simulation | 3 separate tabs (Simulation/Sim2/Sim3) | 1 unified tab, strategy switch |
-| Slot Finder | entangled busy-map, one duty-hour exemption patch | independent composable constraint predicates, one duty rule, always applied |
+| Slot Finder | Auto Slot Finder: dispatcher ranking + reserve/release, on an entangled busy-map with a duty-hour exemption patch | Auto Slot Finder rebuilt on independent composable constraint predicates (one duty rule, always applied); same ranking + reserve/release + cascade |
 | "Next lesson" dates | sometimes the simulator's projection | always the real ops schedule, or explicit "TBC" — never a simulated guess |
 
 ## Structure
@@ -36,11 +36,13 @@ tests/        golden-parity tests vs frozen real V2 output
 
 ## Views (all 10 phases from the original plan are live)
 
-Home · Schedule (Day/Gantt/Week/Month/Roster, one URL-shareable state) · AP127 Detail (ranking, pace
-monitor, pace bands, combined/race/lead-lag/timeline/overall charts, time travel) · Student Lens ·
-Aircraft (Fleet/Utilization/FI Stat/SP Stat) · School Performance (plan vs. real flown records) ·
-Simulation (unified what-if scheduler) · Slot Finder (ground-up constraint redesign) · Watchdog admin ·
-Data Integrity (cross-check + full provenance) · User Guide.
+Home (daily brief + full Day Glance analytics: status-mix donut, batch breakdown, instructor load,
+AP-127 spotlight table) · Schedule (Day/Gantt/Week/Month/Roster, one URL-shareable state) · AP127 Detail
+(ranking, pace monitor, pace bands, combined/race/lead-lag/timeline/overall charts, time travel) ·
+Student Lens · Aircraft (Fleet/Utilization/FI Stat/SP Stat) · School Performance (plan vs. real flown
+records) · Simulation (unified what-if scheduler) · Auto Slot Finder (pace-ranked SPs, auto-proposed
+slots, reserve/release with cascade deconfliction — on the composable constraint engine) · Watchdog
+admin · Data Integrity (cross-check + full provenance) · User Guide.
 
 ## Data pipeline
 

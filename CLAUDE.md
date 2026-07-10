@@ -9,7 +9,7 @@ GitHub: `AP127CMD/CMDV3` | Live: https://ap127-v3.pages.dev | Local: `/Users/nug
 ## Verify actual state — run before starting
 ```bash
 git log --oneline -10                              # last real changes
-npm test 2>&1 | tail -6                             # 140 tests should pass
+npm test 2>&1 | tail -6                             # 152 tests should pass
 grep -c '"flights"' public/data/manifest.json       # confirm manifest is intact
 cat public/data/manifest.json | python3 -c "import json,sys; m=json.load(sys.stdin); print(m['generatedAt'])"
 ```
@@ -45,6 +45,16 @@ cat public/data/manifest.json | python3 -c "import json,sys; m=json.load(sys.std
   read `Student.planned[]` (the NGT scheduler's simulated projection) to display a date anywhere outside
   the Simulation view — see `types.ts`'s comment on that field and `pipeline/transform.ts`. This was a
   real bug found and fixed in Student Lens; don't reintroduce it in new views.
+- **Slot Finder is the AUTO Slot Finder, not a manual lookup** (`src/views/slots`, `src/domain/autoslot.ts`).
+  It ranks AP-127 SPs by pace (behindSort), auto-proposes each one's earliest valid slot, and reserves
+  them with cascade deconfliction (a reservation becomes a synthetic busy flight for everyone searched
+  after it). It sits ON TOP of the composable constraint engine (`src/domain/slotfinder.ts`) — don't
+  confuse the two; slotfinder.ts is the predicates, autoslot.ts is the dispatcher workflow. An earlier
+  build shipped only the manual single-lookup; the user corrected that.
+- **Home is the full V2 Day Glance**, not a lighter brief: status-mix donut (`StatusDonut.tsx`, inline
+  SVG), batch breakdown, instructor load, and the AP-127 spotlight table are all present, powered by
+  tested `batchBreakdown`/`instructorLoad`/`tailUsage` in `kpis.ts`. An earlier build dropped these; the
+  user flagged them as missed features. Keep Home rich.
 - **Watchdog talks to a live external worker** (`src/data/watchdog.ts`, `ap127-watchdog.anusorn-tanmetha.workers.dev`)
   — the only exception to "V3 only fetches its own /data/*.json". Its CORS allowlist only permits
   `ap127-v3.pages.dev` (added in `AP127CMD/CMDV2@59cdbd60`, user-approved) — **not** localhost, so the

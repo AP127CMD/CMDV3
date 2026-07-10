@@ -265,6 +265,10 @@ export function normalizeStudents(rawStudents: RawProgressStudent[]): Student[] 
         actualMins: f.actual_mins ?? hmToMin(f.actual_ft ?? null),
         date: f.date,
       })),
+      // Raw NGT scheduler projection — captured for the future Simulation
+      // feature ONLY. No app view may read Student.planned to display a
+      // "next lesson" date; that must always come from the real ops
+      // schedule (see src/domain/upcoming.ts).
       ...(s.planned
         ? { planned: s.planned.map((p) => ({ lesson: p.lesson, date: p.date, mins: p.mins ?? null })) }
         : {}),

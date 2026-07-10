@@ -99,3 +99,13 @@ export function minutesOf(hhmm: string | null | undefined): number | null {
 export function weekdayOf(iso: string): number {
   return new Date(iso + 'T00:00:00Z').getUTCDay();
 }
+
+/** Days since the Unix epoch for a YYYY-MM-DD — a plain numeric x-axis unit. */
+export function dayNumber(iso: string): number {
+  return Math.floor(new Date(iso + 'T12:00:00Z').getTime() / 86_400_000);
+}
+
+/** Inverse of dayNumber(). */
+export function isoFromDayNumber(n: number): string {
+  return new Date(n * 86_400_000).toISOString().slice(0, 10);
+}

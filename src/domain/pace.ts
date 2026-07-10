@@ -160,3 +160,202 @@ export function projectFinishDate(
   }
   return null;
 }
+
+// ── Pace Monitor (V2 renderAP127Pace) ─────────────────────────────────────
+
+export interface PaceMonitorResult {
+  rangeStart: string;
+  rangeDays: number;
+  actHrs: number;
+  actLessons: number;
+  remHrsBatch: number;
+  remLessonsBatch: number;
+  daysRemaining: number | null; // to planEnd
+  neededHrsPerDay: number | null;
+  neededLessonsPerDay: number | null;
+  gapHrsPerDay: number | null; // actual - needed (positive = ahead)
+  gapLessonsPerDay: number | null;
+  n: number; // student count
+}
+
+/**
+ * Batch pace over a window ending at `today`: actual hours/lessons flown vs
+ * what's still needed per day to hit `planEnd` (V2 renderAP127Pace). Pass
+ * `rangeDays = 0` for "all time" (measured from `batchStart`).
+ */
+export function paceMonitor(
+  students: readonly Student[],
+  curriculum: readonly CurriculumRow[],
+  curMap: Record<string, number>,
+  today: string,
+  rangeDays: number,
+  batchStart: string,
+): PaceMonitorResult {
+  const n = students.length || 1;
+  const rangeStart = rangeDays === 0 ? batchStart : addDays(today, -rangeDays);
+  const effRangeDays = rangeDays === 0 ? Math.max(1, dateDiff(today, batchStart) ?? 1) : rangeDays;
+
+  let actHrs = 0;
+  let actLessons = 0;
+  for (const s of students) {
+    for (const f of s.flown ?? []) {
+      if (!f.date || f.date < rangeStart || f.date > today) continue;
+      actHrs += (curMap[f.lesson] ?? flightMins(f)) / 60;
+      actLessons++;
+    }
+  }
+
+  const totalHrsDone = students.reduce((a, s) => a + studentHours(s, curMap), 0);
+  const totalLesDone = students.reduce((a, s) => a + s.done, 0);
+  const currHrs = curriculumHours(curriculum);
+  const currLessons = curriculum.length || students[0]?.total || 0;
+  const remHrsBatch = Math.max(currHrs * n - totalHrsDone, 0);
+  const remLessonsBatch = Math.max(currLessons * n - totalLesDone, 0);
+
+  const planEnd = curriculum
+    .map((c) => c.plannedDate)
+    .filter((d): d is string => !!d)
+    .sort()
+    .at(-1);
+  const daysRemaining = planEnd ? Math.max(dateDiff(planEnd, today) ?? 0, 0) : null;
+
+  const neededHrsPerDay = daysRemaining ? remHrsBatch / daysRemaining : null;
+  const neededLessonsPerDay = daysRemaining ? remLessonsBatch / daysRemaining : null;
+  const actualHrsPerDay = actHrs / effRangeDays;
+  const actualLessonsPerDay = actLessons / effRangeDays;
+
+  return {
+    rangeStart,
+    rangeDays: effRangeDays,
+    actHrs,
+    actLessons,
+    remHrsBatch,
+    remLessonsBatch,
+    daysRemaining,
+    neededHrsPerDay,
+    neededLessonsPerDay,
+    gapHrsPerDay: neededHrsPerDay == null ? null : actualHrsPerDay - neededHrsPerDay,
+    gapLessonsPerDay: neededLessonsPerDay == null ? null : actualLessonsPerDay - neededLessonsPerDay,
+    n,
+  };
+}
+
+export interface EtcStudentResult {
+  student: Student;
+  etc: string | null;
+  atRisk: boolean;
+}
+
+export interface EtcResult {
+  planEnd: string | null;
+  cohortEtc: string | null;
+  onTrack: number;
+  atRisk: number;
+  avgDelayDays: number | null;
+  perStudent: EtcStudentResult[];
+}
+
+/**
+ * Estimated-time-to-completion, all-time pace per student (V2's ETC box).
+ * A student is "at risk" when their ETC falls after the curriculum plan end.
+ */
+export function etcProjection(
+  students: readonly Student[],
+  curriculum: readonly CurriculumRow[],
+  curMap: Record<string, number>,
+  today: string,
+  batchStart: string,
+): EtcResult {
+  const daysFromStart = Math.max(dateDiff(today, batchStart) ?? 1, 1);
+  const currHrs = curriculumHours(curriculum);
+  const planEnd = curriculum
+    .map((c) => c.plannedDate)
+    .filter((d): d is string => !!d)
+    .sort()
+    .at(-1) ?? null;
+
+  const perStudent: EtcStudentResult[] = students.map((s) => {
+    const hrs = studentHours(s, curMap);
+    const rem = Math.max(currHrs - hrs, 0);
+    const pace = hrs / daysFromStart;
+    let etc: string | null = null;
+    if (rem <= 0) etc = today;
+    else if (pace > 0) {
+      let acc = 0;
+      let cur = today;
+      for (let i = 0; i < 2000; i++) {
+        cur = addDays(cur, 1);
+        acc += pace;
+        if (acc >= rem) {
+          etc = cur;
+          break;
+        }
+      }
+    }
+    const atRisk = !etc || (planEnd != null && etc > planEnd);
+    return { student: s, etc, atRisk };
+  });
+
+  const onTrack = perStudent.filter((p) => !p.atRisk).length;
+  const atRisk = perStudent.length - onTrack;
+  const delays = perStudent
+    .filter((p) => p.atRisk && p.etc && planEnd)
+    .map((p) => dateDiff(p.etc!, planEnd!) ?? 0)
+    .filter((d) => d > 0);
+  const avgDelayDays = delays.length ? delays.reduce((a, b) => a + b, 0) / delays.length : null;
+
+  const avgHrsDone = students.reduce((a, s) => a + studentHours(s, curMap), 0) / (students.length || 1);
+  const avgRem = Math.max(currHrs - avgHrsDone, 0);
+  const cohortPace = avgHrsDone / daysFromStart;
+  let cohortEtc: string | null = null;
+  if (avgRem <= 0) cohortEtc = today;
+  else if (cohortPace > 0) {
+    let acc = 0;
+    let cur = today;
+    for (let i = 0; i < 2000; i++) {
+      cur = addDays(cur, 1);
+      acc += cohortPace;
+      if (acc >= avgRem) {
+        cohortEtc = cur;
+        break;
+      }
+    }
+  }
+
+  return { planEnd, cohortEtc, onTrack, atRisk, avgDelayDays, perStudent };
+}
+
+// ── Pace bands (3-way ahead/mid/behind split by lessons done) ────────────
+
+export interface PaceBand {
+  band: 'ahead' | 'mid' | 'behind';
+  lo: number;
+  hi: number;
+  students: Student[];
+}
+
+/** V2's 3-band split: divides the done-count spread into thirds. */
+export function paceBands(students: readonly Student[]): PaceBand[] {
+  if (!students.length) return [];
+  const dones = students.map((s) => s.done);
+  const leaderDone = Math.max(...dones);
+  const lagDone = Math.min(...dones);
+  const spread = Math.max(leaderDone - lagDone, 1);
+  const step = Math.max(Math.ceil(spread / 3), 1);
+  const aheadLo = leaderDone - step + 1;
+  const midLo = leaderDone - 2 * step + 1;
+
+  const ahead: Student[] = [];
+  const mid: Student[] = [];
+  const behind: Student[] = [];
+  for (const s of students) {
+    if (s.done >= aheadLo) ahead.push(s);
+    else if (s.done >= midLo) mid.push(s);
+    else behind.push(s);
+  }
+  return [
+    { band: 'ahead', lo: aheadLo, hi: leaderDone, students: ahead },
+    { band: 'mid', lo: midLo, hi: aheadLo - 1, students: mid },
+    { band: 'behind', lo: lagDone, hi: midLo - 1, students: behind },
+  ];
+}

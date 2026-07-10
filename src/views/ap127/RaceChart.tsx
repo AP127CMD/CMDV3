@@ -1,7 +1,9 @@
 // Actual-vs-batch race: cumulative lessons (or hours) per student over time,
-// thick magenta batch-average line on top (V2 race chart, Lessons/Hours modes).
+// thick magenta batch-average line on top (V2 race chart, Lessons/Hours modes
+// + per-student solo filter). Mode + solo are lifted to the parent so the
+// Individual Lead/Lag History chart below can share them (V2 behavior).
 
-import { useMemo, useState } from 'react';
+import { useMemo } from 'react';
 import { Line } from 'react-chartjs-2';
 import { Chip } from '@/components/atoms';
 import { ChartCard, useChartDefaults } from '@/components/charts';
@@ -18,13 +20,20 @@ export function RaceChart({
   curMap,
   batchStart,
   asOfDate,
+  mode,
+  onModeChange,
+  solo,
+  onSoloChange,
 }: {
   students: readonly Student[];
   curMap: Record<string, number>;
   batchStart: string;
   asOfDate: string;
+  mode: 'lessons' | 'hours';
+  onModeChange: (m: 'lessons' | 'hours') => void;
+  solo: string | null;
+  onSoloChange: (nick: string | null) => void;
 }) {
-  const [mode, setMode] = useState<'lessons' | 'hours'>('lessons');
   const defs = useChartDefaults();
 
   const data = useMemo(() => {
@@ -49,7 +58,8 @@ export function RaceChart({
           label: s.nick,
           data: series[i],
           borderColor: LINE_COLORS[i % LINE_COLORS.length],
-          borderWidth: 1,
+          borderWidth: !solo || s.nick === solo ? 1 : 0,
+          hidden: !!solo && s.nick !== solo,
           pointRadius: 0,
           tension: 0.2,
         })),
@@ -64,21 +74,35 @@ export function RaceChart({
         },
       ],
     };
-  }, [students, curMap, batchStart, asOfDate, mode, defs.theme.highlight]);
+  }, [students, curMap, batchStart, asOfDate, mode, solo, defs.theme.highlight]);
 
   return (
     <ChartCard
       title="Race — cumulative per student"
       accent="var(--highlight)"
       hint={
-        <span className="flex gap-1">
-          <Chip active={mode === 'lessons'} onClick={() => setMode('lessons')}>Lessons</Chip>
-          <Chip active={mode === 'hours'} onClick={() => setMode('hours')}>Hours</Chip>
+        <span className="flex flex-wrap items-center gap-1">
+          <Chip active={mode === 'lessons'} onClick={() => onModeChange('lessons')}>Lessons</Chip>
+          <Chip active={mode === 'hours'} onClick={() => onModeChange('hours')}>Hours</Chip>
+          <span className="mx-1 text-ink-3">·</span>
+          <Chip active={!solo} onClick={() => onSoloChange(null)}>ALL</Chip>
+          <select
+            value={solo ?? ''}
+            onChange={(e) => onSoloChange(e.target.value || null)}
+            className="mono rounded border border-line bg-bg px-1 py-0.5 text-[9px] text-ink-2"
+          >
+            <option value="">solo…</option>
+            {students.map((s) => (
+              <option key={s.nick} value={s.nick}>
+                {s.nick}
+              </option>
+            ))}
+          </select>
         </span>
       }
       refSpec={{
         sources: ['progress'],
-        basis: `cumulative ${mode} per student, ${batchStart} → ${asOfDate}`,
+        basis: `cumulative ${mode} per student, ${batchStart} → ${asOfDate}${solo ? ` · filtered to ${solo}` : ''}`,
         method: mode === 'hours' ? 'Hours per lesson: curriculum planned minutes when known, else actual minutes.' : undefined,
       }}
       height={300}

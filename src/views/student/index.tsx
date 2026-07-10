@@ -13,6 +13,7 @@ import { normLesson } from '@/domain/lessons';
 import { reconcile, type ReconcileRow } from '@/domain/reconcile';
 import { buildCurriculumMap, idleDays, lastFlightDate, projectFinishDate, studentHours } from '@/domain/pace';
 import { isAP127Batch } from '@/domain/batches';
+import { upcomingLessons } from '@/domain/upcoming';
 import type { Flight, Student } from '@/domain/types';
 
 interface LensRow {
@@ -21,8 +22,9 @@ interface LensRow {
   progDate?: string;
   progMins?: number | null;
   opsFlight?: Flight;
-  planDate?: string;
-  status: 'ok' | 'review' | 'missing_in_ops' | 'missing_in_progress' | 'scheduled' | 'plan';
+  /** Real ops-scheduled date for a not-yet-flown lesson; null = TBC (never a simulated date). */
+  upcomingDate?: string | null;
+  status: 'ok' | 'review' | 'missing_in_ops' | 'missing_in_progress' | 'scheduled' | 'upcoming';
   detail?: string;
 }
 
@@ -32,7 +34,7 @@ const SRC_STYLE: Record<LensRow['status'], { color: string; label: string }> = {
   missing_in_ops: { color: 'var(--col-cancel)', label: 'PROG ONLY' },
   missing_in_progress: { color: 'var(--col-cancel)', label: 'OPS ONLY' },
   scheduled: { color: 'var(--col-stby)', label: 'SCHED' },
-  plan: { color: 'var(--ink-3)', label: 'PLAN' },
+  upcoming: { color: 'var(--ink-3)', label: 'UPCOMING' },
 };
 
 export default function StudentView() {
@@ -67,7 +69,9 @@ export default function StudentView() {
       (opsByLesson.get(k) ?? opsByLesson.set(k, []).get(k)!).push(f);
     }
     const progByLesson = new Map(student.flown.map((f) => [f.lessonNorm, f]));
-    const plannedByLesson = new Map((student.planned ?? []).map((p) => [normLesson(p.lesson), p]));
+    // Remaining curriculum lessons, matched against the REAL ops schedule only
+    // (TBC when not yet scheduled) — never the NGT scheduler's simulated plan.
+    const upcoming = upcomingLessons(student, curriculum, flights);
 
     const keys = new Set<string>([
       ...progByLesson.keys(),
@@ -97,23 +101,23 @@ export default function StudentView() {
         detail: rec?.detail,
       });
     }
-    // future planned rows (not yet flown/scheduled)
-    for (const [k, p] of plannedByLesson) {
-      if (!keys.has(k)) {
-        rows.push({ lessonNorm: k, lesson: p.lesson, planDate: p.date, status: 'plan' });
+    // Remaining lessons not yet flown/matched above — real ops date or TBC.
+    for (const u of upcoming) {
+      if (!keys.has(u.lessonNorm)) {
+        rows.push({ lessonNorm: u.lessonNorm, lesson: u.lesson, upcomingDate: u.date, opsFlight: u.opsFlight ?? undefined, status: 'upcoming' });
       }
     }
-    // Activity (flown/scheduled) newest-first, then future plan rows soonest-first.
-    const activity = rows.filter((r) => r.status !== 'plan');
-    const plans = rows.filter((r) => r.status === 'plan');
+    // Activity (flown/scheduled) newest-first, then upcoming rows soonest-first (TBC last).
+    const activity = rows.filter((r) => r.status !== 'upcoming');
+    const upcomingRows = rows.filter((r) => r.status === 'upcoming');
     activity.sort((a, b) =>
       (b.progDate ?? b.opsFlight?.date ?? '').localeCompare(a.progDate ?? a.opsFlight?.date ?? ''),
     );
-    plans.sort((a, b) => (a.planDate ?? '9999').localeCompare(b.planDate ?? '9999'));
+    upcomingRows.sort((a, b) => (a.upcomingDate ?? '9999').localeCompare(b.upcomingDate ?? '9999'));
     rows.length = 0;
-    rows.push(...activity, ...plans);
+    rows.push(...activity, ...upcomingRows);
 
-    const upcoming = myOps
+    const upcomingOpsFlights = myOps
       .filter((f) => f.status === 'Pending' && f.date >= today)
       .sort((a, b) => a.date.localeCompare(b.date));
 
@@ -123,8 +127,8 @@ export default function StudentView() {
     const paceWindowDays = 30;
     const from30 = student.flown.filter((f) => (dateDiff(today, f.date) ?? 99) <= paceWindowDays).length;
     const etc = projectFinishDate(student.remaining, from30 / 22, today); // ~22 workable days / 30
-    return { rows, upcoming, per, idle, hrs, etc, windowStart: recon.totals.windowStart };
-  }, [student, recon, flights, today, curMap]);
+    return { rows, upcomingOpsFlights, per, idle, hrs, etc, windowStart: recon.totals.windowStart };
+  }, [student, recon, flights, today, curMap, curriculum]);
 
   if (isLoading) return <LoadingBlock label="loading students…" />;
 
@@ -205,7 +209,7 @@ export default function StudentView() {
                 {model?.rows.map((r) => {
                   const st = SRC_STYLE[r.status];
                   return (
-                    <tr key={r.lessonNorm + (r.planDate ?? '')} className="border-b border-line-soft align-top hover:bg-bg-2">
+                    <tr key={r.lessonNorm + (r.upcomingDate ?? '')} className="border-b border-line-soft align-top hover:bg-bg-2">
                       <td className="px-2 py-1.5">
                         <Tag color={st.color}>{st.label}</Tag>
                       </td>
@@ -215,8 +219,8 @@ export default function StudentView() {
                           <span className="mono text-ink-2">
                             {r.progDate} · {r.progMins ?? '—'}m
                           </span>
-                        ) : r.planDate ? (
-                          <span className="mono text-ink-3">plan {r.planDate}</span>
+                        ) : r.status === 'upcoming' ? (
+                          <span className="mono text-ink-3">{r.upcomingDate ? `real ops ${r.upcomingDate}` : 'TBC — not yet scheduled'}</span>
                         ) : (
                           <span className="mono" style={{ color: r.status === 'missing_in_progress' ? 'var(--col-cancel)' : 'var(--ink-3)' }}>
                             {r.status === 'missing_in_progress' ? 'not logged' : '—'}
@@ -245,10 +249,10 @@ export default function StudentView() {
         </Panel>
 
         {/* Upcoming */}
-        <Panel title="Upcoming ops flights" hint={`${model?.upcoming.length ?? 0}`}>
-          {(model?.upcoming.length ?? 0) === 0 && <div className="mono py-4 text-center text-[10px] text-ink-3">nothing scheduled yet</div>}
+        <Panel title="Upcoming ops flights" hint={`${model?.upcomingOpsFlights.length ?? 0}`}>
+          {(model?.upcomingOpsFlights.length ?? 0) === 0 && <div className="mono py-4 text-center text-[10px] text-ink-3">nothing scheduled yet</div>}
           <div className="flex flex-col gap-1">
-            {model?.upcoming.map((f) => (
+            {model?.upcomingOpsFlights.map((f) => (
               <button key={f.id} type="button" onClick={() => setDrawer(f)} className="flex cursor-pointer items-center gap-2 rounded border border-line-soft bg-bg px-2 py-1.5 text-left hover:border-[var(--highlight)]">
                 <span className="mono text-[10px] font-bold text-ink">{f.date}</span>
                 <span className="mono text-[10px] text-ink-2">{f.start ?? '—'}</span>

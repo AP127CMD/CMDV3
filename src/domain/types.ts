@@ -89,6 +89,12 @@ export interface Student {
   pct: number;
   nextLesson: string | null;
   flown: FlownLesson[];
+  /**
+   * The NGT scheduler's SIMULATED forward projection — raw data captured for
+   * the Simulation feature only. Never read this to display a "next lesson"
+   * date anywhere else; use domain/upcoming.ts (real ops schedule, TBC
+   * otherwise) for every other view.
+   */
   planned?: PlannedLesson[];
 }
 

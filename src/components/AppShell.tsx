@@ -27,9 +27,13 @@ const NAV_MAIN: NavItem[] = [
   { to: '/slots', icon: '⚡', label: 'Slot Finder' },
   { to: '/watchdog', icon: '◍', label: 'Watchdog' },
   { to: '/integrity', icon: '⇄', label: 'Data Integrity' },
+  { to: '/help', icon: '?', label: 'User Guide' },
 ];
 
-const NAV_SOON: NavItem[] = [{ to: '/help', icon: '?', label: 'User Guide', soon: true }];
+// All phases from the plan are now real views — no "soon" placeholders
+// remain. Kept as an empty array (rather than removing the mechanism)
+// since it's the natural home for whatever ships next.
+const NAV_SOON: NavItem[] = [];
 
 const ALL_NAV = [...NAV_MAIN, ...NAV_SOON];
 
@@ -186,9 +190,11 @@ export function AppShell() {
           {NAV_MAIN.map((i) => (
             <RailLink key={i.to} item={i} collapsed={collapsed} />
           ))}
-          <div className="mono uc mt-3 mb-1 px-2.5 text-[8px] text-ink-3">
-            {!collapsed && 'Later phases'}
-          </div>
+          {NAV_SOON.length > 0 && (
+            <div className="mono uc mt-3 mb-1 px-2.5 text-[8px] text-ink-3">
+              {!collapsed && 'Later phases'}
+            </div>
+          )}
           {NAV_SOON.map((i) => (
             <RailLink key={i.to} item={i} collapsed={collapsed} />
           ))}

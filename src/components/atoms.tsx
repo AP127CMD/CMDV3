@@ -8,6 +8,7 @@ export function Panel({
   children,
   className = '',
   bodyClassName = '',
+  id,
 }: {
   title?: ReactNode;
   hint?: ReactNode;
@@ -15,9 +16,11 @@ export function Panel({
   children: ReactNode;
   className?: string;
   bodyClassName?: string;
+  /** Anchor id, e.g. for in-page "jump to section" links. */
+  id?: string;
 }) {
   return (
-    <div className={`min-w-0 overflow-hidden rounded-lg border border-line bg-surface ${className}`}>
+    <div id={id} className={`min-w-0 overflow-hidden rounded-lg border border-line bg-surface scroll-mt-16 ${className}`}>
       {title != null && (
         <div
           className="flex items-center gap-2 border-b border-line bg-bg-2 px-3.5 py-2"

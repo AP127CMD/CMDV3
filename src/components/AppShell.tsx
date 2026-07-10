@@ -1,10 +1,11 @@
 // Layout shell: sticky top bar; left rail on desktop, bottom tab bar on
-// mobile. MOBILE PARITY RULE: everything in the top bar must be reachable on
-// mobile — FreshnessBar renders in the top bar always (it shrinks), theme
-// chips live in the rail footer AND the mobile "more" sheet.
+// mobile. MOBILE PARITY RULE: everything reachable on desktop must be
+// reachable on mobile. The nav list grows across phases, so mobile uses a
+// small set of primary tabs + a "More" sheet listing every remaining view —
+// never a fixed tab bar that silently runs out of room.
 
 import { useState } from 'react';
-import { NavLink, Outlet, useLocation } from 'react-router';
+import { Link, NavLink, Outlet, useLocation } from 'react-router';
 import { FreshnessBar } from './FreshnessBar';
 import { THEMES, useTheme } from '@/state/theme';
 
@@ -21,15 +22,22 @@ const NAV_MAIN: NavItem[] = [
   { to: '/ap127', icon: '▰', label: 'AP127 Detail' },
   { to: '/student', icon: '◉', label: 'Student Lens' },
   { to: '/aircraft', icon: '✦', label: 'Aircraft' },
+  { to: '/performance', icon: '◷', label: 'School Perf' },
   { to: '/integrity', icon: '⇄', label: 'Data Integrity' },
 ];
 
 const NAV_SOON: NavItem[] = [
-  { to: '/performance', icon: '◷', label: 'School Perf', soon: true },
   { to: '/sim', icon: '◈', label: 'Simulation', soon: true },
   { to: '/slots', icon: '⚡', label: 'Slot Finder', soon: true },
   { to: '/watchdog', icon: '◍', label: 'Watchdog', soon: true },
 ];
+
+const ALL_NAV = [...NAV_MAIN, ...NAV_SOON];
+
+// The 4 tabs that live permanently in the mobile bottom bar. Everything else
+// (including future additions) is reached through "More" — this ceiling
+// never needs revisiting as views are added.
+const MOBILE_PRIMARY = ['/', '/schedule', '/ap127', '/student'];
 
 function ThemeChips() {
   const { theme, setTheme } = useTheme();
@@ -82,24 +90,59 @@ function RailLink({ item, collapsed }: { item: NavItem; collapsed: boolean }) {
   );
 }
 
-const MOBILE_TABS: Array<{ to: string; icon: string; label: string }> = [
-  { to: '/', icon: '◎', label: 'Home' },
-  { to: '/schedule', icon: '▦', label: 'Sched' },
-  { to: '/ap127', icon: '▰', label: 'AP127' },
-  { to: '/student', icon: '◉', label: 'SP' },
-  { to: '/aircraft', icon: '✦', label: 'A/C' },
-  { to: '/integrity', icon: '⇄', label: 'Data' },
-];
+function MoreSheet({ onClose }: { onClose: () => void }) {
+  const rest = ALL_NAV.filter((n) => !MOBILE_PRIMARY.includes(n.to));
+  return (
+    <>
+      <div className="fixed inset-0 z-40 bg-black/50 md:hidden" onClick={onClose} />
+      <div className="fixed inset-x-0 bottom-0 z-50 rounded-t-xl border border-line bg-bg p-3 pb-20 md:hidden">
+        <div className="mono uc mb-2 flex items-center text-[10px] font-bold text-ink">
+          More views
+          <button type="button" onClick={onClose} className="mono ml-auto h-7 w-7 cursor-pointer rounded border border-line text-ink-2">✕</button>
+        </div>
+        <div className="mb-3 flex items-center gap-1.5">
+          <span className="mono uc text-[8px] text-ink-3">Data freshness</span>
+          <FreshnessBar />
+        </div>
+        <div className="mb-3 flex items-center gap-1.5">
+          <span className="mono uc text-[8px] text-ink-3">Theme</span>
+          <ThemeChips />
+        </div>
+        <div className="grid grid-cols-2 gap-1.5">
+          {rest.map((item) =>
+            item.soon ? (
+              <div key={item.to} className="mono uc flex items-center gap-2 rounded-md border border-line-soft px-2.5 py-2 text-[10.5px] text-ink-3 opacity-50">
+                <span className="text-[13px]">{item.icon}</span>
+                {item.label}
+                <span className="ml-auto text-[7px]">SOON</span>
+              </div>
+            ) : (
+              <Link
+                key={item.to}
+                to={item.to}
+                onClick={onClose}
+                className="mono uc flex items-center gap-2 rounded-md border border-line px-2.5 py-2 text-[10.5px] font-semibold text-ink-2 no-underline hover:border-[var(--highlight)] hover:text-[var(--highlight)]"
+              >
+                <span className="text-[13px]">{item.icon}</span>
+                {item.label}
+              </Link>
+            ),
+          )}
+        </div>
+      </div>
+    </>
+  );
+}
 
 export function AppShell() {
   const [collapsed, setCollapsed] = useState(
     () => localStorage.getItem('ap127v3-rail-collapsed') === '1',
   );
+  const [moreOpen, setMoreOpen] = useState(false);
   const loc = useLocation();
   const current =
-    [...NAV_MAIN, ...NAV_SOON].find(
-      (n) => n.to === loc.pathname || (n.to !== '/' && loc.pathname.startsWith(n.to)),
-    )?.label ?? '';
+    ALL_NAV.find((n) => n.to === loc.pathname || (n.to !== '/' && loc.pathname.startsWith(n.to)))?.label ?? '';
+  const inMore = current && !MOBILE_PRIMARY.includes(loc.pathname) && loc.pathname !== '/';
 
   const toggle = () => {
     setCollapsed((v) => {
@@ -159,9 +202,9 @@ export function AppShell() {
         </main>
       </div>
 
-      {/* Mobile bottom tabs (theme chips live on Home for mobile) */}
+      {/* Mobile bottom tabs: 4 primary + More (reaches every other view) */}
       <nav className="fixed inset-x-0 bottom-0 z-40 flex border-t border-line bg-bg-2/95 backdrop-blur md:hidden">
-        {MOBILE_TABS.map((t) => (
+        {NAV_MAIN.filter((n) => MOBILE_PRIMARY.includes(n.to)).map((t) => (
           <NavLink
             key={t.to}
             to={t.to}
@@ -172,10 +215,20 @@ export function AppShell() {
             }
           >
             <span className="text-[15px] leading-none">{t.icon}</span>
-            <span className="uc">{t.label}</span>
+            <span className="uc">{t.label === 'Home' ? 'Home' : t.label.split(' ')[0]}</span>
           </NavLink>
         ))}
+        <button
+          type="button"
+          onClick={() => setMoreOpen(true)}
+          className="mono flex min-h-[52px] flex-1 flex-col items-center justify-center gap-0.5 text-[8px]"
+          style={{ color: inMore ? 'var(--highlight)' : 'var(--ink-3)' }}
+        >
+          <span className="text-[15px] leading-none">☰</span>
+          <span className="uc">More</span>
+        </button>
       </nav>
+      {moreOpen && <MoreSheet onClose={() => setMoreOpen(false)} />}
     </div>
   );
 }

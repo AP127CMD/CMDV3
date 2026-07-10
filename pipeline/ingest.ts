@@ -184,7 +184,6 @@ async function main() {
   // ── 3. NGT ───────────────────────────────────────────────────────────────
   {
     const label = 'ngt';
-    const prevNgt = readJsonIfExists<NgtFile>(join(DATA_DIR, 'ngt.json'));
     try {
       const text = await fetchWithRetry(UPSTREAMS.ngt, { minBytes: 200 });
       const raw = parseNgtJson(text);

@@ -11,6 +11,7 @@ const IntegrityView = lazy(() => import('./views/integrity'));
 const AircraftView = lazy(() => import('./views/aircraft'));
 const SchoolPerformanceView = lazy(() => import('./views/performance'));
 const SimulationView = lazy(() => import('./views/simulation'));
+const SlotFinderView = lazy(() => import('./views/slots'));
 const SoonView = lazy(() => import('./views/soon'));
 
 const wrap = (el: React.ReactNode) => <Suspense fallback={<LoadingBlock />}>{el}</Suspense>;
@@ -28,7 +29,7 @@ export const router = createBrowserRouter([
       { path: 'aircraft', element: wrap(<AircraftView />) },
       { path: 'performance', element: wrap(<SchoolPerformanceView />) },
       { path: 'sim', element: wrap(<SimulationView />) },
-      { path: 'slots', element: wrap(<SoonView title="Slot Finder" />) },
+      { path: 'slots', element: wrap(<SlotFinderView />) },
       { path: 'watchdog', element: wrap(<SoonView title="Watchdog" />) },
       { path: '*', element: wrap(<HomeView />) },
     ],

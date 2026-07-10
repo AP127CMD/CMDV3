@@ -24,13 +24,11 @@ const NAV_MAIN: NavItem[] = [
   { to: '/aircraft', icon: '✦', label: 'Aircraft' },
   { to: '/performance', icon: '◷', label: 'School Perf' },
   { to: '/sim', icon: '◈', label: 'Simulation' },
+  { to: '/slots', icon: '⚡', label: 'Slot Finder' },
   { to: '/integrity', icon: '⇄', label: 'Data Integrity' },
 ];
 
-const NAV_SOON: NavItem[] = [
-  { to: '/slots', icon: '⚡', label: 'Slot Finder', soon: true },
-  { to: '/watchdog', icon: '◍', label: 'Watchdog', soon: true },
-];
+const NAV_SOON: NavItem[] = [{ to: '/watchdog', icon: '◍', label: 'Watchdog', soon: true }];
 
 const ALL_NAV = [...NAV_MAIN, ...NAV_SOON];
 

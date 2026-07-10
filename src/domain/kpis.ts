@@ -121,3 +121,61 @@ export function hourlyPulse(flights: readonly Flight[]): HourlyPulse {
 export function blockHours(flights: readonly Flight[]): number {
   return flights.reduce((a, f) => a + (f.durMin ?? 0), 0) / 60;
 }
+
+// ── Day breakdowns (V2 Day Glance panels) ─────────────────────────────────
+
+export interface GroupStat {
+  key: string;
+  total: number;
+  completed: number;
+  pending: number;
+  canceled: number;
+  standby: number;
+  sim: number;
+  hours: number; // completed block hours
+  schedHours: number; // scheduled block hours
+}
+
+function groupStats(flights: readonly Flight[], keyOf: (f: Flight) => string | null): GroupStat[] {
+  const map = new Map<string, GroupStat>();
+  for (const f of flights) {
+    const k = keyOf(f);
+    if (!k) continue;
+    const g =
+      map.get(k) ??
+      { key: k, total: 0, completed: 0, pending: 0, canceled: 0, standby: 0, sim: 0, hours: 0, schedHours: 0 };
+    g.total++;
+    if (f.status === 'Completed') g.completed++;
+    else if (f.status === 'Canceled') g.canceled++;
+    else g.pending++;
+    if (f.isStandby) g.standby++;
+    if (f.isSim) g.sim++;
+    const h = (f.durMin ?? 0) / 60;
+    g.schedHours += h;
+    if (f.status === 'Completed') g.hours += h;
+    map.set(k, g);
+  }
+  return [...map.values()];
+}
+
+/** Per-batch stats for a day, AP-127 first then by descending flight count. */
+export function batchBreakdown(flights: readonly Flight[]): GroupStat[] {
+  return groupStats(flights, (f) => f.batch).sort((a, b) => {
+    const aAp = isAP127Batch(a.key) ? 1 : 0;
+    const bAp = isAP127Batch(b.key) ? 1 : 0;
+    return bAp - aAp || b.total - a.total;
+  });
+}
+
+/** Per-instructor stats, busiest (most completed block hours) first. */
+export function instructorLoad(flights: readonly Flight[]): GroupStat[] {
+  return groupStats(flights, (f) => f.instructor).sort((a, b) => b.hours - a.hours || b.total - a.total);
+}
+
+/** Per-tail stats, busiest first (SIM/classroom excluded). */
+export function tailUsage(flights: readonly Flight[]): GroupStat[] {
+  return groupStats(
+    flights.filter((f) => !f.isSim && f.tail && !/SIM|Classroom/i.test(f.type ?? '')),
+    (f) => f.tail,
+  ).sort((a, b) => b.hours - a.hours || b.total - a.total);
+}

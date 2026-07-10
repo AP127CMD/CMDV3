@@ -4,16 +4,17 @@
 
 import { useMemo, useState } from 'react';
 import { Link } from 'react-router';
-import { Kpi, LoadingBlock, Panel, Tag } from '@/components/atoms';
+import { Kpi, LoadingBlock, Panel, StatusPill, Tag } from '@/components/atoms';
 import { FlightDrawer } from '@/components/FlightDrawer';
 import { SourceInfo, METHOD_BLOCK_TIME } from '@/components/SourceInfo';
 import { THEMES, useTheme } from '@/state/theme';
 import { useFlightsFile, useManifest, useStudents } from '@/data/queries';
-import { computeDayStats, hourlyPulse } from '@/domain/kpis';
+import { batchBreakdown, computeDayStats, hourlyPulse, instructorLoad } from '@/domain/kpis';
 import { reconcile } from '@/domain/reconcile';
 import { bkkNowMin, bkkToday, fmtDay, minutesOf } from '@/domain/dates';
 import { idleDays } from '@/domain/pace';
 import { batchColorVar, isAP127Batch } from '@/domain/batches';
+import { StatusDonut } from '@/components/StatusDonut';
 import type { Flight } from '@/domain/types';
 
 function hoursFmt(h: number): string {
@@ -76,6 +77,18 @@ export default function HomeView() {
     const flying = new Set(dayFlights.filter((f) => !f.isSim && f.tail).map((f) => f.tail));
     return { total: real.length, maint, flyingCount: flying.size };
   }, [resources, dayFlights]);
+
+  const batches = useMemo(() => batchBreakdown(dayFlights), [dayFlights]);
+  const instr = useMemo(() => instructorLoad(dayFlights).slice(0, 6), [dayFlights]);
+  const ap127Today = useMemo(
+    () =>
+      dayFlights
+        .filter((f) => isAP127Batch(f.batch))
+        .sort((a, b) => (minutesOf(a.start) ?? 0) - (minutesOf(b.start) ?? 0)),
+    [dayFlights],
+  );
+  const maxBatchTotal = Math.max(1, ...batches.map((b) => b.total));
+  const maxInstrHours = Math.max(0.1, ...instr.map((i) => i.schedHours));
 
   const warnings = useMemo(() => {
     if (!manifest) return [];
@@ -284,7 +297,89 @@ export default function HomeView() {
             </div>
           )}
         </Panel>
+
+        {/* Status mix donut (V2 Day Glance) */}
+        <Panel title="Status mix" hint="mutually exclusive · sim/standby excluded from status">
+          <StatusDonut mix={stats.mix} />
+        </Panel>
+
+        {/* Batch breakdown */}
+        <Panel title="Batch breakdown" hint="today · AP-127 first">
+          {batches.length === 0 && <div className="mono py-3 text-center text-[10px] text-ink-3">no flights today</div>}
+          <div className="flex flex-col gap-1.5">
+            {batches.map((b) => (
+              <div key={b.key} className="flex items-center gap-2">
+                <span className="mono w-16 shrink-0 text-[9.5px] font-bold" style={{ color: batchColorVar(b.key) }}>{b.key}</span>
+                <div className="flex h-3 flex-1 overflow-hidden rounded-sm bg-bg" style={{ width: `${(b.total / maxBatchTotal) * 100}%`, minWidth: 20 }} title={`${b.completed} done · ${b.pending} pending · ${b.canceled} canceled`}>
+                  <span style={{ flex: b.completed, background: 'var(--col-done)' }} />
+                  <span style={{ flex: b.pending, background: 'var(--col-pending)' }} />
+                  <span style={{ flex: b.canceled, background: 'var(--col-cancel)' }} />
+                </div>
+                <span className="mono num w-6 shrink-0 text-right text-[9.5px] font-bold text-ink">{b.total}</span>
+              </div>
+            ))}
+          </div>
+        </Panel>
+
+        {/* Instructor load */}
+        <Panel title="Instructor load" hint="busiest today, by scheduled hrs">
+          {instr.length === 0 && <div className="mono py-3 text-center text-[10px] text-ink-3">no instructors active</div>}
+          <div className="flex flex-col gap-1.5">
+            {instr.map((i) => (
+              <div key={i.key} className="flex items-center gap-2">
+                <span className="mono w-24 shrink-0 truncate text-[9.5px] text-ink-2">{i.key}</span>
+                <div className="h-2 flex-1 overflow-hidden rounded-full bg-bg">
+                  <div className="h-full rounded-full bg-[var(--col-pending)]" style={{ width: `${(i.schedHours / maxInstrHours) * 100}%` }} />
+                </div>
+                <span className="mono num w-16 shrink-0 text-right text-[9px] text-ink-2">{hoursFmt(i.schedHours)}h · {i.total}fl</span>
+              </div>
+            ))}
+          </div>
+        </Panel>
       </div>
+
+      {/* AP-127 Spotlight — today's cohort flights */}
+      <Panel
+        title={<span className="text-[var(--highlight)]">◆ AP-127 Spotlight</span>}
+        accent="var(--highlight)"
+        hint={`${ap127Today.length} flights today`}
+        bodyClassName="p-0"
+      >
+        {ap127Today.length === 0 ? (
+          <div className="mono py-4 text-center text-[10px] text-ink-3">no AP-127 flights scheduled today</div>
+        ) : (
+          <div className="overflow-x-auto scroll-shadow-x">
+            <table className="w-full min-w-[720px] border-collapse text-[11px]">
+              <thead>
+                <tr className="mono uc bg-bg-2 text-[8px] text-ink-3">
+                  <th className="px-2 py-1.5 text-left">Status</th>
+                  <th className="px-2 text-left">Student</th>
+                  <th className="px-2 text-left">Instructor</th>
+                  <th className="px-2 text-left">Lesson</th>
+                  <th className="px-2 text-left">Start</th>
+                  <th className="px-2 text-left">End</th>
+                  <th className="px-2 text-left">A/C</th>
+                  <th className="px-2 text-left">Tail</th>
+                </tr>
+              </thead>
+              <tbody>
+                {ap127Today.map((f) => (
+                  <tr key={f.id} onClick={() => setDrawer(f)} className="cursor-pointer border-b border-line-soft hover:bg-bg-2" style={{ boxShadow: 'inset 3px 0 0 var(--highlight)' }}>
+                    <td className="px-2 py-1.5"><StatusPill status={f.status} /></td>
+                    <td className="px-2 font-semibold whitespace-nowrap text-ink">{f.student ?? '—'}</td>
+                    <td className="px-2 whitespace-nowrap text-ink-2">{f.instructor ?? '—'}</td>
+                    <td className="mono px-2 whitespace-nowrap text-ink">{f.lesson ?? '—'}</td>
+                    <td className="mono px-2 whitespace-nowrap">{f.start ?? '—'}</td>
+                    <td className="mono px-2 whitespace-nowrap text-ink-2">{f.end ?? '—'}</td>
+                    <td className="mono px-2 text-[10px] whitespace-nowrap text-ink-2">{f.type ?? '—'}</td>
+                    <td className="mono px-2 whitespace-nowrap text-ink-2">{f.tail ?? '—'}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        )}
+      </Panel>
 
       <div className="mono uc px-1 pb-2 text-[8px] text-ink-3">
         AP127 CMD V3 · data mirrored hourly from operations, progress & training-program feeds · V2 remains at ap127-ngt2.pages.dev

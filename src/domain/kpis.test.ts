@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { blockHours, computeDayStats, hourlyPulse } from './kpis';
+import { batchBreakdown, blockHours, computeDayStats, hourlyPulse, instructorLoad, tailUsage } from './kpis';
 import type { Flight } from './types';
 
 const f = (p: Partial<Flight>): Flight =>
@@ -84,5 +84,36 @@ describe('hourlyPulse', () => {
 describe('blockHours', () => {
   it('sums durMin only', () => {
     expect(blockHours([f({ durMin: 90, airborneMin: 10 }), f({ durMin: 30 })])).toBeCloseTo(2);
+  });
+});
+
+describe('day breakdowns', () => {
+  const flights = [
+    f({ batch: 'AP-126', instructor: 'FI A', tail: 'HS-T1', status: 'Completed', durMin: 60 }),
+    f({ batch: 'AP-126', instructor: 'FI A', tail: 'HS-T1', status: 'Pending', durMin: 90 }),
+    f({ batch: 'AP-127', instructor: 'FI B', tail: 'HS-T2', status: 'Completed', durMin: 120 }),
+    f({ batch: 'AP-127', instructor: 'FI B', tail: 'SIM', type: 'DA40_SIM', isSim: true, status: 'Completed', durMin: 120 }),
+  ];
+
+  it('batchBreakdown puts AP-127 first regardless of count', () => {
+    const b = batchBreakdown(flights);
+    expect(b[0].key).toBe('AP-127'); // AP-127 first even though AP-126 has same count
+    const ap126 = b.find((x) => x.key === 'AP-126')!;
+    expect(ap126.total).toBe(2);
+    expect(ap126.completed).toBe(1);
+    expect(ap126.pending).toBe(1);
+  });
+
+  it('instructorLoad sorts by completed block hours desc', () => {
+    const il = instructorLoad(flights);
+    expect(il[0].key).toBe('FI B'); // 2h + 2h(sim) completed vs FI A 1h
+    expect(il[0].hours).toBeCloseTo(4);
+  });
+
+  it('tailUsage excludes SIM flights and sorts by hours', () => {
+    const tu = tailUsage(flights);
+    expect(tu.map((t) => t.key)).not.toContain('SIM');
+    expect(tu[0].key).toBe('HS-T2'); // 2h completed
+    expect(tu.find((t) => t.key === 'HS-T1')!.hours).toBeCloseTo(1); // only the completed 60m
   });
 });

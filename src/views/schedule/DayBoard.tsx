@@ -67,7 +67,7 @@ export function DayBoard({
     setSort((s) => (s.key === key ? { key, dir: s.dir === 1 ? -1 : 1 } : { key, dir: 1 }));
 
   return (
-    <div className="overflow-x-auto">
+    <div className="overflow-x-auto scroll-shadow-x">
       <table className="w-full min-w-[860px] border-collapse text-[11.5px]">
         <thead>
           <tr className="sticky top-0 z-10 bg-bg-2">

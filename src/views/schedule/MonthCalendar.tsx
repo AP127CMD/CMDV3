@@ -63,7 +63,7 @@ export function MonthCalendar({
   const max = Math.max(1, ...[...agg.values()].map((a) => a.total));
 
   return (
-    <div className="overflow-x-auto">
+    <div className="overflow-x-auto scroll-shadow-x">
       <div className="grid min-w-[720px] grid-cols-7 gap-1">
         {['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN'].map((w) => (
           <div key={w} className="mono uc py-1 text-center text-[8.5px] text-ink-3">

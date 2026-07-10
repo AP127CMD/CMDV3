@@ -84,7 +84,7 @@ export function RosterMatrix({
         <Chip active={who === 'instructor'} onClick={() => setWho('instructor')}>FI</Chip>
         <span className="mono uc ml-auto text-[8px] text-ink-3">last 14 days → {date}</span>
       </div>
-      <div className="overflow-x-auto rounded-lg border border-line">
+      <div className="overflow-x-auto scroll-shadow-x rounded-lg border border-line">
         <table className="w-full min-w-[820px] border-collapse">
           <thead>
             <tr className="bg-bg-2">

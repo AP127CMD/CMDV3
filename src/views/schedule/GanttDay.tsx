@@ -83,7 +83,7 @@ export function GanttDay({
         <Chip onClick={() => setPxPerHour((v) => Math.min(160, v + 12))}>+</Chip>
       </div>
 
-      <div className="overflow-x-auto rounded-lg border border-line">
+      <div className="overflow-x-auto scroll-shadow-x rounded-lg border border-line">
         <div style={{ width: width + 92, minWidth: '100%' }}>
           {/* hour axis */}
           <div className="sticky top-0 z-20 flex border-b border-line bg-bg-2">

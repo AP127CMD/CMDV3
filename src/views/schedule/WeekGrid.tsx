@@ -48,7 +48,7 @@ export function WeekGrid({
   const today = bkkToday();
 
   return (
-    <div className="overflow-x-auto">
+    <div className="overflow-x-auto scroll-shadow-x">
       <div className="grid min-w-[980px] grid-cols-7 gap-1.5">
         {days.map((d) => {
           const fd = fmtDay(d);

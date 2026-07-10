@@ -30,7 +30,7 @@ export function Heatmap({
   const max = Math.max(0.1, ...rows.flatMap((r) => [...r.cells.values()].map((c) => c.hours)));
 
   return (
-    <div className="overflow-x-auto rounded-lg border border-line">
+    <div className="overflow-x-auto scroll-shadow-x rounded-lg border border-line">
       <table className="w-full border-collapse" style={{ minWidth: 120 + days.length * 34 }}>
         <thead>
           <tr className="bg-bg-2">

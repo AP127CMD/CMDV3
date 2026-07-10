@@ -208,7 +208,7 @@ export default function Ap127View() {
         }
         bodyClassName="p-0"
       >
-        <div className="overflow-x-auto">
+        <div className="overflow-x-auto scroll-shadow-x">
           <table className="w-full min-w-[880px] border-collapse text-[11px]">
             <thead>
               <tr className="mono uc bg-bg-2 text-[8px] text-ink-3">

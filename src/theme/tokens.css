@@ -158,3 +158,22 @@ body {
 ::-webkit-scrollbar-track {
   background: transparent;
 }
+
+/* Scroll-shadow affordance for horizontally-scrollable tables/heatmaps —
+   makes "there's more to the right" discoverable on mobile without a JS
+   scroll listener (classic dual-gradient background-attachment trick). */
+.scroll-shadow-x {
+  background:
+    linear-gradient(to right, var(--bg) 0%, transparent 24px) 0 0,
+    linear-gradient(to left, var(--bg) 0%, transparent 24px) 100% 0,
+    linear-gradient(to right, oklch(0 0 0 / 0.35), transparent 10px) 0 0,
+    linear-gradient(to left, oklch(0 0 0 / 0.35), transparent 10px) 100% 0;
+  background-repeat: no-repeat;
+  background-color: var(--bg);
+  background-size:
+    24px 100%,
+    24px 100%,
+    10px 100%,
+    10px 100%;
+  background-attachment: local, local, scroll, scroll;
+}

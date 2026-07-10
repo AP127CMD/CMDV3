@@ -53,7 +53,7 @@ export function Kpi({
         {info}
       </div>
       <div className="num mt-0.5 text-[19px] leading-tight font-bold text-ink">{value}</div>
-      {sub != null && <div className="mono uc mt-0.5 truncate text-[8px] text-ink-3">{sub}</div>}
+      {sub != null && <div className="mono uc mt-0.5 text-[8px] leading-snug text-ink-3">{sub}</div>}
     </div>
   );
 }

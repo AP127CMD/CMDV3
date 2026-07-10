@@ -191,7 +191,7 @@ export default function StudentView() {
       <div className="grid grid-cols-1 gap-3 lg:grid-cols-3">
         {/* Merged timeline */}
         <Panel title="Lesson record — ops ⇄ progress merged" hint="newest first" className="lg:col-span-2" bodyClassName="p-0">
-          <div className="overflow-x-auto">
+          <div className="overflow-x-auto scroll-shadow-x">
             <table className="w-full min-w-[640px] border-collapse text-[10.5px]">
               <thead>
                 <tr className="mono uc bg-bg-2 text-[8px] text-ink-3">

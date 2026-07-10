@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "ap127v3",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--", "--port", "7431", "--strictPort"],
+      "port": 7431,
+      "cwd": "/Users/nugui/AP127_V3"
+    }
+  ]
+}

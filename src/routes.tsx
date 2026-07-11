@@ -7,6 +7,7 @@ const HomeView = lazy(() => import('./views/home'));
 const ScheduleView = lazy(() => import('./views/schedule'));
 const Ap127View = lazy(() => import('./views/ap127'));
 const StudentView = lazy(() => import('./views/student'));
+const CurriculumProgView = lazy(() => import('./views/curriculum'));
 const IntegrityView = lazy(() => import('./views/integrity'));
 const AircraftView = lazy(() => import('./views/aircraft'));
 const SchoolPerformanceView = lazy(() => import('./views/performance'));
@@ -26,6 +27,7 @@ export const router = createBrowserRouter([
       { path: 'schedule/:layout?', element: wrap(<ScheduleView />) },
       { path: 'ap127', element: wrap(<Ap127View />) },
       { path: 'student/:nick?', element: wrap(<StudentView />) },
+      { path: 'curriculum', element: wrap(<CurriculumProgView />) },
       { path: 'integrity', element: wrap(<IntegrityView />) },
       { path: 'aircraft', element: wrap(<AircraftView />) },
       { path: 'performance', element: wrap(<SchoolPerformanceView />) },

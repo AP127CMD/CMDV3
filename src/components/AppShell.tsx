@@ -21,6 +21,7 @@ const NAV_MAIN: NavItem[] = [
   { to: '/schedule', icon: '▦', label: 'Schedule' },
   { to: '/ap127', icon: '▰', label: 'AP127 Detail' },
   { to: '/student', icon: '◉', label: 'Student Lens' },
+  { to: '/curriculum', icon: '▤', label: 'Curriculum Prog' },
   { to: '/aircraft', icon: '✦', label: 'Aircraft' },
   { to: '/performance', icon: '◷', label: 'School Perf' },
   { to: '/sim', icon: '◈', label: 'Simulation' },

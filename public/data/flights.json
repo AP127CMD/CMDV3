@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-11T10:36:28.860Z",
+ "generatedAt": "2026-07-11T12:08:26.910Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-11T10:36:28.860Z",
-  "upstreamFetchedAt": "2026-07-11T10:33:23Z"
+  "fetchedAt": "2026-07-11T12:08:26.910Z",
+  "upstreamFetchedAt": "2026-07-11T12:03:21Z"
  },
  "flights": [
   {
@@ -77710,9 +77710,9 @@
    "inst": null
   },
   {
-   "id": "BK-MRE67I9Z",
+   "id": "ACTUAL_ONLY_BK-MRE67I9Z",
    "date": "2026-07-11",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "08:30",
@@ -77734,7 +77734,10 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-MREK0YOB",
@@ -78273,8 +78276,8 @@
    "status": "Pending",
    "isSim": false,
    "isStandby": false,
-   "start": "09:30",
-   "end": "10:45",
+   "start": "06:30",
+   "end": "07:45",
    "durMin": 75,
    "student": "TUPPAWAT S.",
    "studentKey": "TUPPAWAT S.",
@@ -78282,8 +78285,8 @@
    "instructor": "PHAHOLYUTH P.",
    "batch": "AP-129",
    "batchKey": "AP129",
-   "lesson": "CDGL 06",
-   "lessonNorm": "CDGL 06",
+   "lesson": "CDGL 05",
+   "lessonNorm": "CDGL 05",
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPX",
@@ -78309,11 +78312,11 @@
    "instructor": "PHAHOLYUTH P.",
    "batch": "AP-129",
    "batchKey": "AP129",
-   "lesson": "CDGL 07",
-   "lessonNorm": "CDGL 07",
+   "lesson": "CDGL 06",
+   "lessonNorm": "CDGL 06",
    "cond": null,
    "type": "DA40TDI",
-   "tail": "HS-TPO",
+   "tail": "HS-TPX",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,
@@ -78448,7 +78451,7 @@
    "lessonNorm": "CDGL 03",
    "cond": null,
    "type": "DA40TDI",
-   "tail": "HS-TPX",
+   "tail": "HS-TPO",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,

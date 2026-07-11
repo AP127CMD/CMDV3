@@ -1,20 +1,20 @@
 {
  "schemaVersion": 1,
  "pipelineVersion": "3.0.0",
- "generatedAt": "2026-07-11T09:01:07.487Z",
+ "generatedAt": "2026-07-11T10:36:28.860Z",
  "sources": {
   "flights": {
    "sourceUrl": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-   "fetchedAt": "2026-07-11T09:01:07.487Z",
-   "upstreamFetchedAt": "2026-07-11T08:58:26Z",
-   "contentHash": "sha256:35f1ba20b9efb3947eb474d799665bf79ac6940c0622fecd098ced1fd081c512",
-   "lastChangedAt": "2026-07-11T09:01:07.487Z",
+   "fetchedAt": "2026-07-11T10:36:28.860Z",
+   "upstreamFetchedAt": "2026-07-11T10:33:23Z",
+   "contentHash": "sha256:06adad0269cb3021402464ecae9679d66508cb3c5afd062f6610c538fc40a269",
+   "lastChangedAt": "2026-07-11T10:36:28.860Z",
    "records": {
-    "flights": 3631,
+    "flights": 3630,
     "instructors": 0,
     "resources": 0,
     "leaves": 0,
-    "flightsAfterDedup": 2779
+    "flightsAfterDedup": 2778
    },
    "validation": {
     "errors": [],
@@ -51,24 +51,22 @@
     "nickBridged": 3
    },
    "diff": {
-    "added": 5,
+    "added": 4,
     "removed": 5,
-    "changed": 25,
+    "changed": 4,
     "changedFields": {
      "lesson": 1,
-     "start": 21,
-     "end": 21,
-     "instructor": 3,
-     "tail": 14
+     "start": 3,
+     "end": 3
     }
    }
   },
   "progress": {
    "sourceUrl": "https://ap127-data-api.anusorn-tanmetha.workers.dev",
-   "fetchedAt": "2026-07-11T09:01:07.487Z",
-   "upstreamFetchedAt": "2026-07-11T09:00:41.992Z",
-   "contentHash": "sha256:7beba86e435b64349411c9e31d389e46cd09965d6a40da53ba20be695701e583",
-   "lastChangedAt": "2026-07-11T09:01:07.487Z",
+   "fetchedAt": "2026-07-11T10:36:28.860Z",
+   "upstreamFetchedAt": "2026-07-11T10:35:55.103Z",
+   "contentHash": "sha256:5cf5c9ec6b5502beb80670ab7bb6ecc00550b12e3062c0d07aaff9b72cccd10f",
+   "lastChangedAt": "2026-07-11T10:36:28.860Z",
    "records": {
     "students": 28,
     "curriculum": 96
@@ -80,19 +78,15 @@
    "diff": {
     "added": 0,
     "removed": 0,
-    "changed": 3,
-    "changedFields": {
-     "done": 3,
-     "nextLesson": 3
-    }
+    "changed": 0
    }
   },
   "ngt": {
    "sourceUrl": "https://ap127-db001.pages.dev/cache.json",
-   "fetchedAt": "2026-07-11T09:01:07.487Z",
-   "upstreamFetchedAt": "2026-07-11T09:00:41.992Z",
-   "contentHash": "sha256:f16098cad5907daff7dab7e00e8c0804ca72d6137f572650855b98c69c2276c2",
-   "lastChangedAt": "2026-07-11T09:01:07.487Z",
+   "fetchedAt": "2026-07-11T10:36:28.860Z",
+   "upstreamFetchedAt": "2026-07-11T10:35:55.103Z",
+   "contentHash": "sha256:5cb2af3bc88c11ed40ab63ae14759e66b615c3cc257b1ef9507286bc090117da",
+   "lastChangedAt": "2026-07-11T10:36:28.860Z",
    "records": {
     "ap124": 9,
     "ap126": 28,

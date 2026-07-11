@@ -55,6 +55,12 @@ cat public/data/manifest.json | python3 -c "import json,sys; m=json.load(sys.std
   SVG), batch breakdown, instructor load, and the AP-127 spotlight table are all present, powered by
   tested `batchBreakdown`/`instructorLoad`/`tailUsage` in `kpis.ts`. An earlier build dropped these; the
   user flagged them as missed features. Keep Home rich.
+- **AP127 Detail's Race chart student filter is per-student TOGGLE BUTTONS, not a dropdown**
+  (`views/ap127/RaceChart.tsx`) — a wrapping row below the chart, one button per SP, click to solo/
+  click again for ALL (V2's `d127-race-toggles` exactly). It also renders a dashed "Planned target"
+  line (cumulative curriculum lessons/hours by `plannedDate`) — don't drop either when touching this
+  chart; both were explicitly requested after an earlier build shipped a single `<select>` and no
+  planned-target line.
 - **Aircraft's Fleet + OPS Cross-Check tabs fetch a live Google Sheet CSV directly** (`src/data/fleetSheet.ts`,
   same public `/pub?...output=csv` URL V2 uses) — the SECOND deliberate exception to "V3 only fetches its
   own /data/*.json" (after Watchdog), because the sheet is ops-hand-edited throughout the day and mirroring

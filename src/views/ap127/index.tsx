@@ -292,6 +292,7 @@ export default function Ap127View() {
       <BatchHistChart students={students} curriculum={curriculum} today={today} />
       <RaceChart
         students={students}
+        curriculum={curriculum}
         curMap={curMap}
         batchStart={batchStart}
         asOfDate={today}

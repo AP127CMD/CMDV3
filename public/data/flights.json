@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-11T15:26:22.888Z",
+ "generatedAt": "2026-07-11T17:25:52.481Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-11T15:26:22.888Z",
-  "upstreamFetchedAt": "2026-07-11T15:23:18Z"
+  "fetchedAt": "2026-07-11T17:25:52.481Z",
+  "upstreamFetchedAt": "2026-07-11T17:23:15Z"
  },
  "flights": [
   {
@@ -87443,9 +87443,9 @@
    }
   },
   {
-   "id": "BK-MRE67E3C",
+   "id": "ACTUAL_ONLY_BK-MRE67E3C",
    "date": "2026-07-11",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -87467,7 +87467,10 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-MRE67I9Z",
@@ -88141,7 +88144,7 @@
   {
    "id": "BK-MREC2ZNM",
    "date": "2026-07-12",
-   "status": "Pending",
+   "status": "Canceled",
    "isSim": false,
    "isStandby": false,
    "start": "10:40",

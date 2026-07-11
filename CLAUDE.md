@@ -9,7 +9,7 @@ GitHub: `AP127CMD/CMDV3` | Live: https://ap127-v3.pages.dev | Local: `/Users/nug
 ## Verify actual state — run before starting
 ```bash
 git log --oneline -10                              # last real changes
-npm test 2>&1 | tail -6                             # 152 tests should pass
+npm test 2>&1 | tail -6                             # 171 tests should pass
 grep -c '"flights"' public/data/manifest.json       # confirm manifest is intact
 cat public/data/manifest.json | python3 -c "import json,sys; m=json.load(sys.stdin); print(m['generatedAt'])"
 ```
@@ -55,6 +55,18 @@ cat public/data/manifest.json | python3 -c "import json,sys; m=json.load(sys.std
   SVG), batch breakdown, instructor load, and the AP-127 spotlight table are all present, powered by
   tested `batchBreakdown`/`instructorLoad`/`tailUsage` in `kpis.ts`. An earlier build dropped these; the
   user flagged them as missed features. Keep Home rich.
+- **Aircraft's Fleet + OPS Cross-Check tabs fetch a live Google Sheet CSV directly** (`src/data/fleetSheet.ts`,
+  same public `/pub?...output=csv` URL V2 uses) — the SECOND deliberate exception to "V3 only fetches its
+  own /data/*.json" (after Watchdog), because the sheet is ops-hand-edited throughout the day and mirroring
+  it through the hourly pipeline would show stale maintenance/cert status. Parsing is pure/tested in
+  `src/domain/fleetSheet.ts`. The old ops-resource-derived roster/type breakdown is now the "Roster" tab
+  (`fleet` was renamed `sheet`/`crosscheck`/`roster` — don't confuse the tab ids).
+- **Curriculum Prog** (`src/views/curriculum`, `/curriculum`) is the ONLY view spanning all 4 batches at
+  the student-card level. AP127 students come from the roster-merged `Student[]` (progress.json); AP124/
+  126/129 come from `ngt.json`'s `batches.ap124/ap126/ap129` (`NgtBatchStudent[]` — no nick/fi/se, matching
+  V2's own AP127-only roster scope). `domain/curriculumProg.ts` merges the two shapes and provides a
+  batch-agnostic version of the real-ops-only upcoming-lesson rule — don't use `domain/upcoming.ts` here,
+  it's hardcoded to AP127.
 - **Watchdog talks to a live external worker** (`src/data/watchdog.ts`, `ap127-watchdog.anusorn-tanmetha.workers.dev`)
   — the only exception to "V3 only fetches its own /data/*.json". Its CORS allowlist only permits
   `ap127-v3.pages.dev` (added in `AP127CMD/CMDV2@59cdbd60`, user-approved) — **not** localhost, so the

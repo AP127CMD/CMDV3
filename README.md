@@ -34,15 +34,16 @@ src/views/    home, schedule, ap127, student, aircraft, performance, sim, slots,
 tests/        golden-parity tests vs frozen real V2 output
 ```
 
-## Views (all 10 phases from the original plan are live)
+## Views (all 10 phases from the original plan are live, plus Curriculum Prog)
 
 Home (daily brief + full Day Glance analytics: status-mix donut, batch breakdown, instructor load,
 AP-127 spotlight table) · Schedule (Day/Gantt/Week/Month/Roster, one URL-shareable state) · AP127 Detail
 (ranking, pace monitor, pace bands, combined/race/lead-lag/timeline/overall charts, time travel) ·
-Student Lens · Aircraft (Fleet/Utilization/FI Stat/SP Stat) · School Performance (plan vs. real flown
-records) · Simulation (unified what-if scheduler) · Auto Slot Finder (pace-ranked SPs, auto-proposed
-slots, reserve/release with cascade deconfliction — on the composable constraint engine) · Watchdog
-admin · Data Integrity (cross-check + full provenance) · User Guide.
+Student Lens · Curriculum Prog (per-student plan cards across all 4 batches, full real-record drawer) ·
+Aircraft (live Fleet sheet, OPS Cross-Check, Roster, Utilization/FI Stat/SP Stat) · School Performance
+(plan vs. real flown records) · Simulation (unified what-if scheduler) · Auto Slot Finder (pace-ranked
+SPs, auto-proposed slots, reserve/release with cascade deconfliction, Cards/Timeline layouts) ·
+Watchdog admin · Data Integrity (cross-check + full provenance) · User Guide.
 
 ## Data pipeline
 

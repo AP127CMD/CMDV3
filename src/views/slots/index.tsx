@@ -7,10 +7,12 @@
 import { useMemo, useState } from 'react';
 import { Link } from 'react-router';
 import { Chip, EmptyState, LoadingBlock, Panel, Tag } from '@/components/atoms';
+import { FlightDrawer } from '@/components/FlightDrawer';
 import { useFlightsFile, useStudents } from '@/data/queries';
 import { bkkToday, minutesOf } from '@/domain/dates';
 import { behindSort } from '@/domain/pace';
 import { inferFiQualifications } from '@/domain/slotfinder';
+import type { Flight } from '@/domain/types';
 import {
   autoPropose,
   type AutoContextBase,
@@ -19,6 +21,7 @@ import {
   type SlotOption,
   type SpProposal,
 } from '@/domain/autoslot';
+import { SlotTimeline } from './Timeline';
 
 const DURATIONS = [45, 60, 75, 90, 120, 150];
 const BUFFERS = [0, 15, 30, 45];
@@ -51,6 +54,8 @@ export default function SlotFinderView() {
   const [includeSims, setIncludeSims] = useState(false);
   const [reservations, setReservations] = useState<AutoReservation[]>([]);
   const [choice, setChoice] = useState<Record<string, string>>({}); // studentKey -> "fi__tail"
+  const [layout, setLayout] = useState<'cards' | 'timeline'>('cards');
+  const [flightDrawer, setFlightDrawer] = useState<Flight | null>(null);
 
   const flights = useMemo(() => file.data?.data.flights ?? [], [file.data]);
   const allResources = file.data?.data.resources ?? [];
@@ -179,8 +184,26 @@ export default function SlotFinderView() {
       <div className="flex flex-wrap items-center gap-2">
         <Chip active onClick={autoReserveAll} accent="var(--highlight)">⚡ Auto-reserve all proposable</Chip>
         {reservedCount > 0 && <Chip onClick={() => setReservations([])}>Release all ({reservedCount})</Chip>}
+        <span className="mx-1 hidden h-4 w-px bg-line sm:inline-block" />
+        <Chip active={layout === 'cards'} onClick={() => setLayout('cards')}>Cards</Chip>
+        <Chip active={layout === 'timeline'} onClick={() => setLayout('timeline')}>Timeline</Chip>
         <span className="mono uc ml-auto text-[9px] text-ink-3">{proposals.filter((p) => p.status === 'proposed').length} proposable · {reservedCount} reserved</span>
       </div>
+
+      {layout === 'timeline' && (
+        <Panel title="Timeline" hint={`${date} · search window ${searchStart}–${searchEnd}`} bodyClassName="p-2">
+          <SlotTimeline
+            date={date}
+            dayFlights={dayFlights}
+            reservations={reservations}
+            searchStartMin={base.searchStartMin}
+            searchEndMin={base.searchEndMin}
+            runwayClosed={base.runwayClosed ?? null}
+            onRelease={release}
+            onOpenFlight={setFlightDrawer}
+          />
+        </Panel>
+      )}
 
       {/* Dispatcher proposal summary */}
       {reservedCount > 0 && (
@@ -215,21 +238,24 @@ export default function SlotFinderView() {
       )}
 
       {/* Per-SP proposal cards */}
-      <div className="grid grid-cols-1 gap-2 lg:grid-cols-2">
-        {proposals.map((p) => (
-          <SpCard
-            key={p.student.key}
-            p={p}
-            total={ranked.length}
-            choice={choice[p.student.key]}
-            onChoose={(v) => setChoice((prev) => ({ ...prev, [p.student.key]: v }))}
-            onReserve={(opt) => reserve(p, opt)}
-            onRelease={() => release(p.student.key)}
-          />
-        ))}
-      </div>
+      {layout === 'cards' && (
+        <div className="grid grid-cols-1 gap-2 lg:grid-cols-2">
+          {proposals.map((p) => (
+            <SpCard
+              key={p.student.key}
+              p={p}
+              total={ranked.length}
+              choice={choice[p.student.key]}
+              onChoose={(v) => setChoice((prev) => ({ ...prev, [p.student.key]: v }))}
+              onReserve={(opt) => reserve(p, opt)}
+              onRelease={() => release(p.student.key)}
+            />
+          ))}
+        </div>
+      )}
 
       {!proposals.length && <EmptyState title="No AP-127 students loaded" />}
+      <FlightDrawer flight={flightDrawer} onClose={() => setFlightDrawer(null)} />
 
       <div className="mono uc px-1 text-[8px] text-ink-3">
         Every proposed slot passed: FI type-qualification · runway closure · FI/SP leave · aircraft

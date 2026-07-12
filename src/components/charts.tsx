@@ -13,6 +13,7 @@ import {
   TimeScale,
   Tooltip,
 } from 'chart.js';
+import ChartDataLabels from 'chartjs-plugin-datalabels';
 import { useEffect, useMemo, useState, type ReactNode } from 'react';
 import { Panel } from './atoms';
 import { SourceInfo, type SourceRef } from './SourceInfo';
@@ -28,6 +29,7 @@ ChartJS.register(
   Tooltip,
   Legend,
   Filler,
+  ChartDataLabels,
 );
 
 export function cssVar(name: string): string {
@@ -84,6 +86,9 @@ export function useChartDefaults() {
             titleFont: { family: 'JetBrains Mono', size: 10 },
             bodyFont: { family: 'JetBrains Mono', size: 10 },
           },
+          // Off by default (V2's copts() rule) — charts opt in per-dataset,
+          // e.g. School Performance's stacked bars (see performance/index.tsx).
+          datalabels: { display: false },
         },
         scales: {
           x: {

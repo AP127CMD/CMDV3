@@ -35,6 +35,33 @@ const BATCH_SIM_HEX: Record<SchoolBatch, string> = {
   AP129: 'rgba(244,222,177,0.55)',
 };
 
+// Value labels on stacked-bar segments — V2's School Performance rule: only
+// label a segment once it's visually big enough to hold text (≥0.5h), 1dp.
+const SEGMENT_DATALABELS = {
+  display: (ctx: { dataset: { data: unknown[] }; dataIndex: number }) => {
+    const v = ctx.dataset.data[ctx.dataIndex];
+    return typeof v === 'number' && v >= 0.5;
+  },
+  color: 'rgba(255,255,255,0.85)',
+  font: { family: 'JetBrains Mono', size: 7 },
+  formatter: (v: unknown) => (typeof v === 'number' && v >= 0.5 ? v.toFixed(1) : null),
+  anchor: 'center' as const,
+  align: 'center' as const,
+};
+
+// Same idea for flight-COUNT segments (integers, so any non-zero value labels).
+const COUNT_DATALABELS = {
+  display: (ctx: { dataset: { data: unknown[] }; dataIndex: number }) => {
+    const v = ctx.dataset.data[ctx.dataIndex];
+    return typeof v === 'number' && v > 0;
+  },
+  color: 'rgba(255,255,255,0.85)',
+  font: { family: 'JetBrains Mono', size: 7 },
+  formatter: (v: unknown) => (typeof v === 'number' && v > 0 ? v : null),
+  anchor: 'center' as const,
+  align: 'center' as const,
+};
+
 const PACE_STYLE: Record<string, { label: string; color: string }> = {
   'on-track': { label: 'ON TRACK', color: 'var(--col-done)' },
   caution: { label: 'CAUTION', color: 'var(--col-pending)' },
@@ -180,6 +207,7 @@ export default function SchoolPerformanceView() {
           }}
           options={{
             ...defs.base,
+            plugins: { ...defs.base.plugins, datalabels: SEGMENT_DATALABELS },
             scales: {
               x: { ...defs.base.scales.x, stacked: true, ticks: { ...defs.base.scales.x.ticks, autoSkip: true, maxTicksLimit: 14 } },
               y: { ...defs.base.scales.y, stacked: true, title: { display: true, text: 'hours', color: defs.theme.ink3, font: { family: 'JetBrains Mono', size: 8 } } },
@@ -206,6 +234,7 @@ export default function SchoolPerformanceView() {
           }}
           options={{
             ...defs.base,
+            plugins: { ...defs.base.plugins, datalabels: SEGMENT_DATALABELS },
             scales: {
               x: { ...defs.base.scales.x, stacked: true },
               y: { ...defs.base.scales.y, stacked: true, title: { display: true, text: 'hours', color: defs.theme.ink3, font: { family: 'JetBrains Mono', size: 8 } } },
@@ -214,9 +243,42 @@ export default function SchoolPerformanceView() {
         />
       </ChartCard>
 
-      {/* Recent N days */}
+      {/* Recent N days — flight counts per batch (V2's perfRecent chart) */}
+      <ChartCard
+        title="Recent days — flights"
+        hint={
+          <span className="flex gap-1">
+            {[7, 14, 30].map((n) => (
+              <Chip key={n} active={recentN === n} onClick={() => setRecentN(n)}>{n}d</Chip>
+            ))}
+          </span>
+        }
+        refSpec={{ sources: ['ngt'], basis: `last ${recentN} calendar days, flight counts by batch` }}
+        height={220}
+      >
+        <Bar
+          data={{
+            labels: recentDays.map((d) => d.date.slice(5)),
+            datasets: SCHOOL_BATCHES.filter((b) => batchFilter === 'ALL' || batchFilter === b).map((b) => ({
+              label: b,
+              data: recentDays.map((d) => d.byBatch[b].n + (showSim ? d.byBatch[b].simN : 0)),
+              backgroundColor: BATCH_HEX[b],
+              stack: 'r',
+            })),
+          }}
+          options={{
+            ...defs.base,
+            plugins: { ...defs.base.plugins, datalabels: COUNT_DATALABELS },
+            scales: {
+              x: { ...defs.base.scales.x, stacked: true, ticks: { ...defs.base.scales.x.ticks, autoSkip: true, maxTicksLimit: 14 } },
+              y: { ...defs.base.scales.y, stacked: true, beginAtZero: true, title: { display: true, text: 'flights/day', color: defs.theme.ink3, font: { family: 'JetBrains Mono', size: 8 } } },
+            },
+          }}
+        />
+      </ChartCard>
+
       <Panel
-        title="Recent days"
+        title="Recent days — table"
         hint={
           <span className="flex gap-1">
             {[7, 14, 30].map((n) => (

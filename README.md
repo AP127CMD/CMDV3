@@ -34,16 +34,23 @@ src/views/    home, schedule, ap127, student, aircraft, performance, sim, slots,
 tests/        golden-parity tests vs frozen real V2 output
 ```
 
-## Views (all 10 phases from the original plan are live, plus Curriculum Prog)
+## Views (every V2 view now has a V3 counterpart)
 
 Home (daily brief + full Day Glance analytics: status-mix donut, batch breakdown, instructor load,
-AP-127 spotlight table) · Schedule (Day/Gantt/Week/Month/Roster, one URL-shareable state) · AP127 Detail
-(ranking, pace monitor, pace bands, combined/race/lead-lag/timeline/overall charts, time travel) ·
-Student Lens · Curriculum Prog (per-student plan cards across all 4 batches, full real-record drawer) ·
-Aircraft (live Fleet sheet, OPS Cross-Check, Roster, Utilization/FI Stat/SP Stat) · School Performance
-(plan vs. real flown records) · Simulation (unified what-if scheduler) · Auto Slot Finder (pace-ranked
-SPs, auto-proposed slots, reserve/release with cascade deconfliction, Cards/Timeline layouts) ·
-Watchdog admin · Data Integrity (cross-check + full provenance) · User Guide.
+AP-127 spotlight table) · Schedule (Day/Gantt/Week/Month/Roster, one URL-shareable state; batch-TYPE
+quick chips; Month has an in-place day-detail panel + density toggle; Gantt has −/FIT/+ zoom) ·
+AP127 Detail (ranking, pace monitor, pace bands, combined/race/lead-lag/timeline/overall charts, time
+travel) · Student Lens · Curriculum Prog (per-student plan cards across all 4 batches, full real-record
+drawer) · Ops Analytics (date-range status tiles, AP-batch donut, AP-127 spotlight,
+batch/instructor/student breakdowns by flights or hours) · Aircraft (live Fleet sheet, OPS Cross-Check,
+Roster, Utilization/FI Stat/SP Stat) · School Performance (plan vs. real flown records) · School
+Analysis (pace & at-risk analytics vs own-batch median, DoW distribution, low-activity weeks) ·
+Simulation (unified what-if scheduler) · Auto Slot Finder (pace-ranked SPs, auto-proposed slots,
+reserve/release with cascade deconfliction, Cards/Timeline layouts) · Watchdog admin (+ ☁ CF Usage
+quota tab) · Data Integrity (cross-check + full provenance) · User Guide.
+
+Share presets: open with `?g=students` or `?g=instructors` to trim the nav for that audience (sticks
+for the session; any other `?g=` restores full nav).
 
 ## Data pipeline
 

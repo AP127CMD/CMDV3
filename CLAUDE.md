@@ -9,7 +9,7 @@ GitHub: `AP127CMD/CMDV3` | Live: https://ap127-v3.pages.dev | Local: `/Users/nug
 ## Verify actual state — run before starting
 ```bash
 git log --oneline -10                              # last real changes
-npm test 2>&1 | tail -6                             # 171 tests should pass
+npm test 2>&1 | tail -6                             # 179 tests should pass
 grep -c '"flights"' public/data/manifest.json       # confirm manifest is intact
 cat public/data/manifest.json | python3 -c "import json,sys; m=json.load(sys.stdin); print(m['generatedAt'])"
 ```
@@ -55,6 +55,17 @@ cat public/data/manifest.json | python3 -c "import json,sys; m=json.load(sys.std
   SVG), batch breakdown, instructor load, and the AP-127 spotlight table are all present, powered by
   tested `batchBreakdown`/`instructorLoad`/`tailUsage` in `kpis.ts`. An earlier build dropped these; the
   user flagged them as missed features. Keep Home rich.
+- **Every V2 view now has a V3 counterpart** — the last three to land were Ops Analytics
+  (`views/analytics`, V2 SummaryBoard), School Analysis (`views/analysis` + tested
+  `domain/analysis.ts`), and Watchdog's ☁ CF Usage tab (V2's cfusage view; same X-API-Key as the
+  test panel). Nav also honors V2's `?g=students` / `?g=instructors` share presets (AppShell,
+  session-sticky; any other `?g=` clears). If a "V3 is missing X from V2" report comes in, check
+  V2's `js/shell.js` GROUPS nav + the registry() map first — that's the authoritative view list.
+- **ChartCard self-heals zero-width mounts** (`components/charts.tsx`): a chart created while its
+  container measures 0px keeps its bars at the origin (V2's observeChartResize problem). ChartCard
+  always renders, and if the wrapper measured 0 at mount it RAF-polls briefly and remounts the chart
+  once real width appears. Do NOT replace this with a render-gate on ResizeObserver — that deadlocks
+  blank in environments where RO never fires (the embedded preview browser does exactly this).
 - **Numeric datalabels on charts are OFF by default app-wide** (`chartjs-plugin-datalabels`, registered
   once in `components/charts.tsx`, defaulted off via `useChartDefaults()`'s `base.plugins.datalabels`) —
   matches V2's `copts()` rule. The ONLY charts that opt in are School Performance's 3 stacked bars

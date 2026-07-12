@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-12T15:27:53.906Z",
+ "generatedAt": "2026-07-12T17:29:31.338Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-12T15:27:53.906Z",
-  "upstreamFetchedAt": "2026-07-12T15:23:29Z"
+  "fetchedAt": "2026-07-12T17:29:31.338Z",
+  "upstreamFetchedAt": "2026-07-12T17:28:33Z"
  },
  "flights": [
   {
@@ -87920,9 +87920,9 @@
    }
   },
   {
-   "id": "BK-39FK-8409",
+   "id": "ACTUAL_ONLY_BK-39FK-8409",
    "date": "2026-07-12",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": true,
    "isStandby": false,
    "start": "17:00",
@@ -87944,7 +87944,10 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-L879-4063",
@@ -88240,7 +88243,7 @@
   {
    "id": "BK-MREC7FFN",
    "date": "2026-07-12",
-   "status": "Pending",
+   "status": "Canceled",
    "isSim": false,
    "isStandby": false,
    "start": "09:00",

@@ -55,6 +55,12 @@ cat public/data/manifest.json | python3 -c "import json,sys; m=json.load(sys.std
   SVG), batch breakdown, instructor load, and the AP-127 spotlight table are all present, powered by
   tested `batchBreakdown`/`instructorLoad`/`tailUsage` in `kpis.ts`. An earlier build dropped these; the
   user flagged them as missed features. Keep Home rich.
+- **Numeric datalabels on charts are OFF by default app-wide** (`chartjs-plugin-datalabels`, registered
+  once in `components/charts.tsx`, defaulted off via `useChartDefaults()`'s `base.plugins.datalabels`) —
+  matches V2's `copts()` rule. The ONLY charts that opt in are School Performance's 3 stacked bars
+  (`views/performance/index.tsx`: Daily/Monthly hours label segments ≥0.5h 1dp, Recent-days-flights
+  labels any non-zero integer count) — same threshold/format as V2. Don't turn datalabels on elsewhere
+  without checking with the user first; V2 deliberately keeps every other chart tooltip-only.
 - **AP127 Detail's Race chart student filter is per-student TOGGLE BUTTONS, not a dropdown**
   (`views/ap127/RaceChart.tsx`) — a wrapping row below the chart, one button per SP, click to solo/
   click again for ALL (V2's `d127-race-toggles` exactly). It also renders a dashed "Planned target"

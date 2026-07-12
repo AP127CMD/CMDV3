@@ -76,6 +76,32 @@ export async function postTest(apiKey: string, destLabel: string, message: strin
   });
 }
 
+export interface CfUsage {
+  date: string;
+  _cached?: boolean;
+  kv: { reads: number; writes: number; deletes: number; lists: number };
+  worker: { requests: number };
+  limits?: Record<string, number>;
+  error?: string;
+}
+
+/** Cloudflare free-tier usage via the worker's /cf-usage (requires API key). */
+export async function getCfUsage(apiKey: string): Promise<CfUsage> {
+  const res = await fetch(`${WORKER_URL}/cf-usage`, { headers: { 'X-API-Key': apiKey } });
+  if (res.status === 401) throw new Error('Wrong API key');
+  if (!res.ok) throw new Error(`watchdog API /cf-usage: HTTP ${res.status}`);
+  return res.json() as Promise<CfUsage>;
+}
+
+/** Free-tier daily limits (fallback when the worker response has none). */
+export const CF_LIMITS: Record<string, number> = {
+  kvReads: 100000,
+  kvWrites: 1000,
+  kvDeletes: 1000,
+  kvLists: 1000,
+  workerRequests: 100000,
+};
+
 const KEY_STORAGE = 'ap127v3-watchdog-key';
 export const getStoredApiKey = () => localStorage.getItem(KEY_STORAGE);
 export const setStoredApiKey = (key: string) => localStorage.setItem(KEY_STORAGE, key);

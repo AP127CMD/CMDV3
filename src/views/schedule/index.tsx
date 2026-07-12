@@ -71,6 +71,7 @@ export default function ScheduleView() {
             date={s.state.date}
             matches={s.matches}
             onPickDay={(d) => s.patch({ date: d, layout: 'day' })}
+            onOpen={setDrawer}
           />
         )}
         {s.state.layout === 'roster' && (

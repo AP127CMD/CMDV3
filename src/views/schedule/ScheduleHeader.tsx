@@ -65,6 +65,35 @@ export function ScheduleHeader({
   const toggleIn = (arr: string[], v: string) =>
     arr.includes(v) ? arr.filter((x) => x !== v) : [...arr, v];
 
+  // One-click batch-TYPE groups (V2's Schedule quick filter): each chip toggles
+  // every batch of that family at once.
+  const typeOf = (label: string): string => {
+    if (/^AP-?\d/i.test(label)) return 'AP';
+    if (/^HP/i.test(label)) return 'HP';
+    if (/^PPL/i.test(label)) return 'PPL';
+    if (/^TCAR/i.test(label)) return 'TCAR';
+    if (/^MEP/i.test(label)) return 'MEP';
+    return 'OTHER';
+  };
+  const typeGroups = useMemo(() => {
+    const g = new Map<string, string[]>();
+    for (const [key, label] of options.batches) {
+      const t = typeOf(label);
+      (g.get(t) ?? g.set(t, []).get(t)!).push(key);
+    }
+    const order = ['AP', 'HP', 'PPL', 'TCAR', 'MEP', 'OTHER'];
+    return order.filter((t) => g.has(t)).map((t) => [t, g.get(t)!] as const);
+  }, [options.batches]);
+
+  const toggleTypeGroup = (keys: string[]) => {
+    const allIn = keys.every((k) => state.batches.includes(k));
+    patch({
+      batches: allIn
+        ? state.batches.filter((k) => !keys.includes(k))
+        : [...new Set([...state.batches, ...keys])],
+    });
+  };
+
   return (
     <div className="sticky top-12 z-30 border-b border-line bg-bg/95 px-3 py-2 backdrop-blur">
       <div className="flex flex-wrap items-center gap-1.5">
@@ -157,6 +186,14 @@ export function ScheduleHeader({
 
             <div className="mono uc mt-3 mb-1 text-[8.5px] text-ink-3">
               Batch {state.batches.length > 0 && `· ${state.batches.length}`}
+            </div>
+            <div className="mb-1.5 flex flex-wrap items-center gap-1">
+              <span className="mono uc text-[7.5px] text-ink-3">quick:</span>
+              {typeGroups.map(([t, keys]) => (
+                <Chip key={t} active={keys.every((k) => state.batches.includes(k))} onClick={() => toggleTypeGroup(keys)} title={`Toggle all ${keys.length} ${t} batches`}>
+                  {t} · {keys.length}
+                </Chip>
+              ))}
             </div>
             <div className="flex max-h-32 flex-wrap gap-1 overflow-y-auto">
               {options.batches.map(([key, label]) => (

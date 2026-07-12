@@ -4,13 +4,22 @@
 // write operations (save config, send test) require the same X-API-Key V2
 // uses, entered once and stored locally — never hardcoded or exposed here.
 
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { Chip, EmptyState, Kpi, LoadingBlock, Panel, Tag } from '@/components/atoms';
 import { useWatchdogConfig, useWatchdogLog, useWatchdogStatus } from '@/data/watchdog-queries';
-import { clearStoredApiKey, getStoredApiKey, postTest, setStoredApiKey, type Destination } from '@/data/watchdog';
+import {
+  CF_LIMITS,
+  clearStoredApiKey,
+  getCfUsage,
+  getStoredApiKey,
+  postTest,
+  setStoredApiKey,
+  type CfUsage,
+  type Destination,
+} from '@/data/watchdog';
 import { bkkToday } from '@/domain/dates';
 
-type Tab = 'status' | 'roster' | 'destinations' | 'log';
+type Tab = 'status' | 'roster' | 'destinations' | 'log' | 'cfusage';
 
 function ago(iso: string | null): string {
   if (!iso) return '—';
@@ -54,6 +63,7 @@ export default function WatchdogView() {
           <Chip active={tab === 'roster'} onClick={() => setTab('roster')}>Roster</Chip>
           <Chip active={tab === 'destinations'} onClick={() => setTab('destinations')}>Destinations</Chip>
           <Chip active={tab === 'log'} onClick={() => setTab('log')}>Log</Chip>
+          <Chip active={tab === 'cfusage'} onClick={() => setTab('cfusage')}>☁ CF Usage</Chip>
         </div>
       </div>
 
@@ -74,6 +84,7 @@ export default function WatchdogView() {
       {tab === 'roster' && <RosterTab />}
       {tab === 'destinations' && <DestinationsTab />}
       {tab === 'log' && <LogTab />}
+      {tab === 'cfusage' && <CfUsageTab />}
     </div>
   );
 }
@@ -329,6 +340,114 @@ function LogTab() {
               ))}
             </tbody>
           </table>
+        </div>
+      )}
+    </Panel>
+  );
+}
+
+// ── CF Usage ─────────────────────────────────────────────────────────────
+
+function usageColor(p: number): string {
+  if (p >= 80) return 'var(--col-cancel)';
+  if (p >= 50) return 'var(--col-pending)';
+  return 'var(--col-done)';
+}
+
+function UsageBar({ label, used, limit }: { label: string; used: number; limit: number }) {
+  const p = Math.min(100, Math.round((used / limit) * 100));
+  const color = usageColor(p);
+  return (
+    <div className="flex flex-col gap-0.5">
+      <div className="flex items-baseline justify-between">
+        <span className="mono text-[10.5px] font-semibold text-ink">{label}</span>
+        <span className="mono text-[10px] text-ink-2">
+          {used.toLocaleString()} / {limit.toLocaleString()}
+          <span className="ml-1 text-[8.5px] text-ink-3">per day</span>
+        </span>
+      </div>
+      <div className="h-2.5 overflow-hidden rounded bg-bg-2">
+        <div className="h-full rounded" style={{ width: `${p}%`, minWidth: used > 0 ? 4 : 0, background: color, transition: 'width .4s' }} />
+      </div>
+      <div className="mono text-[9px]" style={{ color: p >= 50 ? color : 'var(--ink-3)' }}>{p}% used</div>
+    </div>
+  );
+}
+
+function CfUsageTab() {
+  const [apiKey, setApiKey] = useState<string | null>(() => getStoredApiKey());
+  const [data, setData] = useState<CfUsage | null>(null);
+  const [error, setError] = useState<string | null>(null);
+  const [loading, setLoading] = useState(false);
+  const [fetchedAt, setFetchedAt] = useState<string | null>(null);
+
+  const load = async (key: string) => {
+    setLoading(true);
+    setError(null);
+    try {
+      const json = await getCfUsage(key);
+      if (json.error) setError(json.error);
+      else {
+        setData(json);
+        setFetchedAt(new Date().toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' }));
+      }
+    } catch (e) {
+      setError((e as Error).message);
+      if ((e as Error).message === 'Wrong API key') {
+        clearStoredApiKey();
+        setApiKey(null);
+      }
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  useEffect(() => {
+    if (apiKey) void load(apiKey);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [apiKey]);
+
+  const limits = { ...CF_LIMITS, ...(data?.limits ?? {}) };
+
+  return (
+    <Panel
+      title="☁ Cloudflare usage"
+      hint={
+        <span className="flex items-center gap-2">
+          <span className="mono uc text-[8.5px] text-ink-3">free-tier limits · resets 00:00 UTC{data?._cached ? ' · cached' : ''}{fetchedAt ? ` · ${fetchedAt}` : ''}</span>
+          {apiKey && (
+            <Chip onClick={() => apiKey && load(apiKey)}>{loading ? '…' : '⟳ Refresh'}</Chip>
+          )}
+        </span>
+      }
+    >
+      {!apiKey ? (
+        <div className="flex flex-col gap-2">
+          <div className="mono text-[10px] text-ink-3">
+            Usage data needs the watchdog X-API-Key (same key as the Status tab's test panel).
+          </div>
+          <ApiKeyGate onSet={setApiKey} />
+        </div>
+      ) : error ? (
+        <div className="mono text-[10px] text-[var(--col-cancel)]">Error: {error}</div>
+      ) : !data ? (
+        <div className="mono py-3 text-[10px] text-ink-3">{loading ? 'loading usage…' : 'no data yet'}</div>
+      ) : (
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+          <div className="flex flex-col gap-3">
+            <div className="mono uc text-[9px] font-bold text-ink-2">Workers KV · AP127_WD namespace</div>
+            <UsageBar label="Reads" used={data.kv.reads} limit={limits.kvReads} />
+            <UsageBar label="Writes" used={data.kv.writes} limit={limits.kvWrites} />
+            <UsageBar label="Deletes" used={data.kv.deletes} limit={limits.kvDeletes} />
+            <UsageBar label="Lists" used={data.kv.lists} limit={limits.kvLists} />
+          </div>
+          <div className="flex flex-col gap-3">
+            <div className="mono uc text-[9px] font-bold text-ink-2">Workers · ap127-watchdog</div>
+            <UsageBar label="Requests" used={data.worker.requests} limit={limits.workerRequests} />
+            <div className="mono mt-auto text-[9px] text-ink-3">
+              Date: {data.date} UTC · Cloudflare Analytics API · 5-min cache on the worker
+            </div>
+          </div>
         </div>
       )}
     </Panel>

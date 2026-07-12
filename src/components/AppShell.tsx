@@ -38,12 +38,34 @@ const NAV_MAIN: NavItem[] = [
 // since it's the natural home for whatever ships next.
 const NAV_SOON: NavItem[] = [];
 
-const ALL_NAV = [...NAV_MAIN, ...NAV_SOON];
+// Share presets (V2's ?g= links): open the site with ?g=students or
+// ?g=instructors to trim the nav for that audience. The choice sticks for the
+// session (react-router drops the query on navigation), so a shared link
+// keeps its trimmed nav while the plain URL always shows everything.
+const SHARE_PRESETS: Record<string, string[]> = {
+  students: ['/', '/ap127', '/student', '/curriculum', '/help'],
+  instructors: ['/', '/schedule', '/ap127', '/student', '/curriculum', '/analytics', '/aircraft', '/slots', '/help'],
+};
+
+function sharePreset(): string[] | null {
+  const g = new URLSearchParams(window.location.search).get('g');
+  if (g !== null) {
+    if (SHARE_PRESETS[g.toLowerCase()]) sessionStorage.setItem('ap127v3-share', g.toLowerCase());
+    else sessionStorage.removeItem('ap127v3-share');
+  }
+  const key = g?.toLowerCase() ?? sessionStorage.getItem('ap127v3-share') ?? '';
+  return SHARE_PRESETS[key] ?? null;
+}
+
+const PRESET = sharePreset();
+const NAV_VISIBLE = PRESET ? NAV_MAIN.filter((n) => PRESET.includes(n.to)) : NAV_MAIN;
+
+const ALL_NAV = [...NAV_VISIBLE, ...NAV_SOON];
 
 // The 4 tabs that live permanently in the mobile bottom bar. Everything else
 // (including future additions) is reached through "More" — this ceiling
 // never needs revisiting as views are added.
-const MOBILE_PRIMARY = ['/', '/schedule', '/ap127', '/student'];
+const MOBILE_PRIMARY = (PRESET ?? ['/', '/schedule', '/ap127', '/student']).slice(0, 4);
 
 function ThemeChips() {
   const { theme, setTheme } = useTheme();
@@ -190,7 +212,7 @@ export function AppShell() {
           className="hidden shrink-0 flex-col gap-0.5 overflow-y-auto border-r border-line bg-bg-2 p-2 transition-[width] duration-150 md:flex"
           style={{ width: collapsed ? 54 : 200 }}
         >
-          {NAV_MAIN.map((i) => (
+          {NAV_VISIBLE.map((i) => (
             <RailLink key={i.to} item={i} collapsed={collapsed} />
           ))}
           {NAV_SOON.length > 0 && (
@@ -212,7 +234,7 @@ export function AppShell() {
 
       {/* Mobile bottom tabs: 4 primary + More (reaches every other view) */}
       <nav className="fixed inset-x-0 bottom-0 z-40 flex border-t border-line bg-bg-2/95 backdrop-blur md:hidden">
-        {NAV_MAIN.filter((n) => MOBILE_PRIMARY.includes(n.to)).map((t) => (
+        {NAV_VISIBLE.filter((n) => MOBILE_PRIMARY.includes(n.to)).map((t) => (
           <NavLink
             key={t.to}
             to={t.to}

@@ -121,27 +121,25 @@ export function ChartCard({
   children: ReactNode;
   accent?: string;
 }) {
-  // Mount the chart only once the wrapper has real width. A chart created
-  // while a lazy-loaded route's container is still 0px wide keeps its bars at
-  // the origin even after Chart.js resizes the axes (V2 hit the same and used
-  // observeChartResize). Gating on width fixes every ChartCard at once.
+  // A chart created while a lazy-loaded route's container is still 0px wide
+  // keeps its bars at the origin even after Chart.js resizes the axes (V2 hit
+  // the same and used observeChartResize). If the wrapper measures 0 at mount,
+  // poll a few seconds for real width and remount the chart once it appears —
+  // never gate rendering, so charts can't go blank in environments where the
+  // measurement never materializes.
   const wrapRef = useRef<HTMLDivElement>(null);
-  const [sized, setSized] = useState(false);
+  const [gen, setGen] = useState(0);
   useEffect(() => {
     const el = wrapRef.current;
-    if (!el) return;
-    if (el.clientWidth > 0) {
-      setSized(true);
-      return;
-    }
-    const ro = new ResizeObserver(() => {
-      if (el.clientWidth > 0) {
-        setSized(true);
-        ro.disconnect();
-      }
-    });
-    ro.observe(el);
-    return () => ro.disconnect();
+    if (!el || el.clientWidth > 0) return;
+    let raf = 0;
+    let tries = 0;
+    const tick = () => {
+      if (el.clientWidth > 0) setGen((g) => g + 1);
+      else if (tries++ < 600) raf = requestAnimationFrame(tick);
+    };
+    raf = requestAnimationFrame(tick);
+    return () => cancelAnimationFrame(raf);
   }, []);
 
   return (
@@ -156,7 +154,9 @@ export function ChartCard({
       accent={accent}
     >
       <div ref={wrapRef} style={{ height, position: 'relative' }}>
-        {sized && children}
+        <div key={gen} style={{ position: 'absolute', inset: 0 }}>
+          {children}
+        </div>
       </div>
     </Panel>
   );

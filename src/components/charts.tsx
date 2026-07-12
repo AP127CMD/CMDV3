@@ -14,7 +14,7 @@ import {
   Tooltip,
 } from 'chart.js';
 import ChartDataLabels from 'chartjs-plugin-datalabels';
-import { useEffect, useMemo, useState, type ReactNode } from 'react';
+import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import { Panel } from './atoms';
 import { SourceInfo, type SourceRef } from './SourceInfo';
 import { useTheme } from '@/state/theme';
@@ -121,6 +121,29 @@ export function ChartCard({
   children: ReactNode;
   accent?: string;
 }) {
+  // Mount the chart only once the wrapper has real width. A chart created
+  // while a lazy-loaded route's container is still 0px wide keeps its bars at
+  // the origin even after Chart.js resizes the axes (V2 hit the same and used
+  // observeChartResize). Gating on width fixes every ChartCard at once.
+  const wrapRef = useRef<HTMLDivElement>(null);
+  const [sized, setSized] = useState(false);
+  useEffect(() => {
+    const el = wrapRef.current;
+    if (!el) return;
+    if (el.clientWidth > 0) {
+      setSized(true);
+      return;
+    }
+    const ro = new ResizeObserver(() => {
+      if (el.clientWidth > 0) {
+        setSized(true);
+        ro.disconnect();
+      }
+    });
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
+
   return (
     <Panel
       title={
@@ -132,7 +155,9 @@ export function ChartCard({
       hint={hint}
       accent={accent}
     >
-      <div style={{ height, position: 'relative' }}>{children}</div>
+      <div ref={wrapRef} style={{ height, position: 'relative' }}>
+        {sized && children}
+      </div>
     </Panel>
   );
 }

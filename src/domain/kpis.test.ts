@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { batchBreakdown, blockHours, computeDayStats, hourlyPulse, instructorLoad, tailUsage } from './kpis';
+import { batchBreakdown, blockHours, computeDayStats, hourlyPulse, instructorLoad, studentBreakdown, tailUsage } from './kpis';
 import type { Flight } from './types';
 
 const f = (p: Partial<Flight>): Flight =>
@@ -108,6 +108,15 @@ describe('day breakdowns', () => {
     const il = instructorLoad(flights);
     expect(il[0].key).toBe('FI B'); // 2h + 2h(sim) completed vs FI A 1h
     expect(il[0].hours).toBeCloseTo(4);
+  });
+
+  it('studentBreakdown skips unnamed students and sorts by completed hours', () => {
+    const sb = studentBreakdown([
+      f({ student: 'A K.', status: 'Completed', durMin: 120 }),
+      f({ student: 'B K.', status: 'Completed', durMin: 60 }),
+      f({ student: null, status: 'Completed', durMin: 600 }),
+    ]);
+    expect(sb.map((s) => s.key)).toEqual(['A K.', 'B K.']);
   });
 
   it('tailUsage excludes SIM flights and sorts by hours', () => {

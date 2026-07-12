@@ -9,6 +9,8 @@ const Ap127View = lazy(() => import('./views/ap127'));
 const StudentView = lazy(() => import('./views/student'));
 const CurriculumProgView = lazy(() => import('./views/curriculum'));
 const IntegrityView = lazy(() => import('./views/integrity'));
+const OpsAnalyticsView = lazy(() => import('./views/analytics'));
+const SchoolAnalysisView = lazy(() => import('./views/analysis'));
 const AircraftView = lazy(() => import('./views/aircraft'));
 const SchoolPerformanceView = lazy(() => import('./views/performance'));
 const SimulationView = lazy(() => import('./views/simulation'));
@@ -29,8 +31,10 @@ export const router = createBrowserRouter([
       { path: 'student/:nick?', element: wrap(<StudentView />) },
       { path: 'curriculum', element: wrap(<CurriculumProgView />) },
       { path: 'integrity', element: wrap(<IntegrityView />) },
+      { path: 'analytics', element: wrap(<OpsAnalyticsView />) },
       { path: 'aircraft', element: wrap(<AircraftView />) },
       { path: 'performance', element: wrap(<SchoolPerformanceView />) },
+      { path: 'analysis', element: wrap(<SchoolAnalysisView />) },
       { path: 'sim', element: wrap(<SimulationView />) },
       { path: 'slots', element: wrap(<SlotFinderView />) },
       { path: 'watchdog', element: wrap(<WatchdogView />) },

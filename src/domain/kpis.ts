@@ -172,6 +172,11 @@ export function instructorLoad(flights: readonly Flight[]): GroupStat[] {
   return groupStats(flights, (f) => f.instructor).sort((a, b) => b.hours - a.hours || b.total - a.total);
 }
 
+/** Per-student stats (flights with no named student skipped), busiest first. */
+export function studentBreakdown(flights: readonly Flight[]): GroupStat[] {
+  return groupStats(flights, (f) => f.student).sort((a, b) => b.hours - a.hours || b.total - a.total);
+}
+
 /** Per-tail stats, busiest first (SIM/classroom excluded). */
 export function tailUsage(flights: readonly Flight[]): GroupStat[] {
   return groupStats(

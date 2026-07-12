@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-12T10:47:01.856Z",
+ "generatedAt": "2026-07-12T12:09:45.025Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-12T10:47:01.856Z",
-  "upstreamFetchedAt": "2026-07-12T10:43:09Z"
+  "fetchedAt": "2026-07-12T12:09:45.025Z",
+  "upstreamFetchedAt": "2026-07-12T12:08:23Z"
  },
  "flights": [
   {
@@ -88463,9 +88463,9 @@
    }
   },
   {
-   "id": "BK-MRH5BAVX",
+   "id": "ACTUAL_ONLY_BK-MRH5BAVX",
    "date": "2026-07-12",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": true,
    "isStandby": false,
    "start": "16:00",
@@ -88487,7 +88487,10 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-S6EW-4151",

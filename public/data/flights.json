@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-12T12:09:45.025Z",
+ "generatedAt": "2026-07-12T13:59:20.217Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-12T12:09:45.025Z",
-  "upstreamFetchedAt": "2026-07-12T12:08:23Z"
+  "fetchedAt": "2026-07-12T13:59:20.217Z",
+  "upstreamFetchedAt": "2026-07-12T13:53:21Z"
  },
  "flights": [
   {
@@ -87803,9 +87803,9 @@
    }
   },
   {
-   "id": "BK-GBU2-6206",
+   "id": "ACTUAL_ONLY_BK-GBU2-6206",
    "date": "2026-07-12",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": true,
    "isStandby": false,
    "start": "14:00",
@@ -87827,7 +87827,10 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-KUEA-8973",
@@ -87944,9 +87947,9 @@
    "inst": null
   },
   {
-   "id": "BK-L879-4063",
+   "id": "ACTUAL_ONLY_BK-L879-4063",
    "date": "2026-07-12",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": true,
    "isStandby": false,
    "start": "19:00",
@@ -87968,12 +87971,15 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
-   "id": "BK-PV8C-0749",
+   "id": "ACTUAL_ONLY_BK-PV8C-0749",
    "date": "2026-07-12",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": true,
    "isStandby": false,
    "start": "18:00",
@@ -87995,7 +88001,10 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-MREBIXTJ",

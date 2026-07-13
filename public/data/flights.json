@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-12T23:12:21.770Z",
+ "generatedAt": "2026-07-13T00:13:58.820Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-12T23:12:21.770Z",
-  "upstreamFetchedAt": "2026-07-12T23:08:40Z"
+  "fetchedAt": "2026-07-13T00:13:58.820Z",
+  "upstreamFetchedAt": "2026-07-13T00:13:23Z"
  },
  "flights": [
   {
@@ -88654,8 +88654,8 @@
    "instructor": "JIRAT R.",
    "batch": "AP-126",
    "batchKey": "AP126",
-   "lesson": "CDIF(SIM) 59",
-   "lessonNorm": "CDIF(SIM) 59",
+   "lesson": "CDIF(SIM) 61",
+   "lessonNorm": "CDIF(SIM) 61",
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
@@ -89047,7 +89047,7 @@
   {
    "id": "BK-AP-127-SIWA-NJQUN",
    "date": "2026-07-13",
-   "status": "Pending",
+   "status": "Canceled",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -89128,7 +89128,7 @@
   {
    "id": "BK-AP-127-TAKO-LYHI6",
    "date": "2026-07-13",
-   "status": "Pending",
+   "status": "Canceled",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -89263,7 +89263,7 @@
   {
    "id": "BK-AP-127-AKAR-3EZ8Q",
    "date": "2026-07-13",
-   "status": "Pending",
+   "status": "Canceled",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -89506,7 +89506,7 @@
   {
    "id": "BK-AP-127-PICH-SX7ZX",
    "date": "2026-07-13",
-   "status": "Pending",
+   "status": "Canceled",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",

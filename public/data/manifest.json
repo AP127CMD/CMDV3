@@ -1,14 +1,14 @@
 {
  "schemaVersion": 1,
  "pipelineVersion": "3.0.0",
- "generatedAt": "2026-07-13T20:36:01.578Z",
+ "generatedAt": "2026-07-13T22:14:07.905Z",
  "sources": {
   "flights": {
    "sourceUrl": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-   "fetchedAt": "2026-07-13T20:36:01.578Z",
-   "upstreamFetchedAt": "2026-07-13T20:33:32Z",
-   "contentHash": "sha256:7d21738f0211c1b06efbff8fa643b6fc58cd10a4c2dd1136d491e369dbd3918e",
-   "lastChangedAt": "2026-07-13T20:36:01.578Z",
+   "fetchedAt": "2026-07-13T22:14:07.905Z",
+   "upstreamFetchedAt": "2026-07-13T22:13:36Z",
+   "contentHash": "sha256:2427e5b711bbd9c06d19361b7cf0299e51a5c99d1417baee2b412db11691e40f",
+   "lastChangedAt": "2026-07-13T22:14:07.905Z",
    "records": {
     "flights": 4222,
     "instructors": 0,
@@ -53,15 +53,20 @@
    "diff": {
     "added": 0,
     "removed": 0,
-    "changed": 0
+    "changed": 11,
+    "changedFields": {
+     "instructor": 8,
+     "start": 7,
+     "end": 7
+    }
    }
   },
   "progress": {
    "sourceUrl": "https://ap127-data-api.anusorn-tanmetha.workers.dev",
-   "fetchedAt": "2026-07-13T20:36:01.578Z",
-   "upstreamFetchedAt": "2026-07-13T20:31:20.642Z",
+   "fetchedAt": "2026-07-13T22:14:07.905Z",
+   "upstreamFetchedAt": "2026-07-13T22:11:07.621Z",
    "contentHash": "sha256:9b127c674f8fb154f55c14f45b272c21be181aee4c24e34a689f7d12fe48badb",
-   "lastChangedAt": "2026-07-13T20:36:01.578Z",
+   "lastChangedAt": "2026-07-13T22:14:07.905Z",
    "records": {
     "students": 28,
     "curriculum": 96
@@ -78,10 +83,10 @@
   },
   "ngt": {
    "sourceUrl": "https://ap127-db001.pages.dev/cache.json",
-   "fetchedAt": "2026-07-13T20:36:01.578Z",
-   "upstreamFetchedAt": "2026-07-13T20:31:20.642Z",
+   "fetchedAt": "2026-07-13T22:14:07.905Z",
+   "upstreamFetchedAt": "2026-07-13T22:11:07.621Z",
    "contentHash": "sha256:c1e49baf4e1ab3284302bf13534c7ad9f86c831087b9261cae799a5445d0b456",
-   "lastChangedAt": "2026-07-13T20:36:01.578Z",
+   "lastChangedAt": "2026-07-13T22:14:07.905Z",
    "records": {
     "ap124": 9,
     "ap126": 28,

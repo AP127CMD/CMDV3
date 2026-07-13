@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-13T11:32:28.241Z",
+ "generatedAt": "2026-07-13T15:15:38.715Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-13T11:32:28.241Z",
-  "upstreamFetchedAt": "2026-07-13T11:28:33Z"
+  "fetchedAt": "2026-07-13T15:15:38.715Z",
+  "upstreamFetchedAt": "2026-07-13T15:13:49Z"
  },
  "flights": [
   {
@@ -89378,9 +89378,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-WATT-JVXVD",
+   "id": "ACTUAL_ONLY_BK-AP-126-WATT-JVXVD",
    "date": "2026-07-13",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "08:30",
@@ -89402,7 +89402,10 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-126-THAN-VBYXN",
@@ -90038,9 +90041,9 @@
    "inst": null
   },
   {
-   "id": "BK-MRGZN7XQ",
+   "id": "ACTUAL_ONLY_BK-MRGZN7XQ",
    "date": "2026-07-13",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": true,
    "isStandby": false,
    "start": "08:30",
@@ -90062,12 +90065,15 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
-   "id": "BK-MRGZN9PN",
+   "id": "ACTUAL_ONLY_BK-MRGZN9PN",
    "date": "2026-07-13",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": true,
    "isStandby": false,
    "start": "09:40",
@@ -90089,7 +90095,10 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-MRGZNB24",
@@ -91333,7 +91342,7 @@
    "student": "AWIRUT S.",
    "studentKey": "AWIRUT S.",
    "nick": "A-RUT",
-   "instructor": "WISANU T.",
+   "instructor": "PARINYA B.",
    "batch": "AP-127",
    "batchKey": "AP127",
    "lesson": "CSGL 20",
@@ -91962,6 +91971,33 @@
    "cond": "Solo",
    "type": "C172",
    "tail": "HS-TPH",
+   "tkoff": null,
+   "ldgTime": null,
+   "airborneMin": null,
+   "to": null,
+   "ldg": null,
+   "inst": null
+  },
+  {
+   "id": "BK-MRJC0WYQ",
+   "date": "2026-07-14",
+   "status": "Pending",
+   "isSim": false,
+   "isStandby": false,
+   "start": "18:30",
+   "end": "19:30",
+   "durMin": 60,
+   "student": "VIRUTH S.",
+   "studentKey": "VIRUTH S.",
+   "nick": null,
+   "instructor": "PHAHOLYUTH P.",
+   "batch": "AP-121",
+   "batchKey": "AP121",
+   "lesson": "CDGL 01",
+   "lessonNorm": "CDGL 01",
+   "cond": null,
+   "type": "DA40CS",
+   "tail": "HS-TVG",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,
@@ -92929,8 +92965,8 @@
    "instructor": null,
    "batch": "AP-126",
    "batchKey": "AP126",
-   "lesson": "CDIF(SIM) 64",
-   "lessonNorm": "CDIF(SIM) 64",
+   "lesson": "CDIF(SIM) 65",
+   "lessonNorm": "CDIF(SIM) 65",
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",

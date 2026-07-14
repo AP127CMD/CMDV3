@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-14T10:58:08.367Z",
+ "generatedAt": "2026-07-14T12:42:09.755Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-14T10:58:08.367Z",
-  "upstreamFetchedAt": "2026-07-14T10:53:27Z"
+  "fetchedAt": "2026-07-14T12:42:09.755Z",
+  "upstreamFetchedAt": "2026-07-14T12:38:30Z"
  },
  "flights": [
   {
@@ -87296,9 +87296,9 @@
    }
   },
   {
-   "id": "BK-55XM-1982",
+   "id": "ACTUAL_ONLY_BK-55XM-1982",
    "date": "2026-07-11",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "09:00",
@@ -87320,7 +87320,10 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-5YHY-5324",
@@ -90773,9 +90776,9 @@
    }
   },
   {
-   "id": "BK-MRIP2OHE",
+   "id": "ACTUAL_ONLY_BK-MRIP2OHE",
    "date": "2026-07-14",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": true,
    "isStandby": false,
    "start": "15:00",
@@ -90797,7 +90800,10 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-MRIU0CXM",
@@ -90974,9 +90980,9 @@
    }
   },
   {
-   "id": "BK-MRIW1BNL",
+   "id": "ACTUAL_ONLY_BK-MRIW1BNL",
    "date": "2026-07-14",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "08:30",
@@ -90998,7 +91004,10 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-MRIW1E69",

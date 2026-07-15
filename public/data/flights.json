@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-15T11:05:06.684Z",
+ "generatedAt": "2026-07-15T12:45:54.870Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-15T11:05:06.684Z",
-  "upstreamFetchedAt": "2026-07-15T11:03:47Z"
+  "fetchedAt": "2026-07-15T12:45:54.870Z",
+  "upstreamFetchedAt": "2026-07-15T12:43:46Z"
  },
  "flights": [
   {
@@ -92339,9 +92339,9 @@
    "inst": null
   },
   {
-   "id": "BK-KSOF-0243",
+   "id": "ACTUAL_ONLY_BK-KSOF-0243",
    "date": "2026-07-15",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": true,
    "isStandby": false,
    "start": "16:00",
@@ -92363,7 +92363,10 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-EK1R-3556",
@@ -92426,9 +92429,9 @@
    }
   },
   {
-   "id": "BK-W6HR-9493",
+   "id": "ACTUAL_ONLY_BK-W6HR-9493",
    "date": "2026-07-15",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": true,
    "isStandby": false,
    "start": "16:00",
@@ -92450,7 +92453,10 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-J45Z-2626",
@@ -93848,9 +93854,9 @@
    "inst": null
   },
   {
-   "id": "BK-MRKG54HG",
+   "id": "ACTUAL_ONLY_BK-MRKG54HG",
    "date": "2026-07-15",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "10:30",
@@ -93872,7 +93878,10 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-MRKG579X",
@@ -94139,9 +94148,9 @@
    }
   },
   {
-   "id": "BK-MRLUTF0S",
+   "id": "ACTUAL_ONLY_BK-MRLUTF0S",
    "date": "2026-07-15",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "16:00",
@@ -94163,7 +94172,10 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-L1PB-0904",
@@ -94711,8 +94723,8 @@
    "status": "Pending",
    "isSim": false,
    "isStandby": false,
-   "start": "06:30",
-   "end": "07:45",
+   "start": "11:00",
+   "end": "12:15",
    "durMin": 75,
    "student": "TAKORN C.",
    "studentKey": "TAKORN C.",
@@ -94724,7 +94736,7 @@
    "lessonNorm": "CSGL 22",
    "cond": "Solo",
    "type": "DA40CS",
-   "tail": null,
+   "tail": "HS-TVE",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,
@@ -94870,7 +94882,7 @@
   {
    "id": "BK-AP-127-KORN-4NF8K",
    "date": "2026-07-16",
-   "status": "Pending",
+   "status": "Canceled",
    "isSim": false,
    "isStandby": false,
    "start": "11:00",
@@ -95009,17 +95021,17 @@
    "isSim": false,
    "isStandby": false,
    "start": "10:20",
-   "end": "11:50",
-   "durMin": 90,
+   "end": "11:35",
+   "durMin": 75,
    "student": "DOLSAKUL S.",
    "studentKey": "DOLSAKUL S.",
    "nick": null,
    "instructor": "PARINYA B.",
    "batch": "AP-128",
    "batchKey": "AP128",
-   "lesson": "CDIL 21",
-   "lessonNorm": "CDIL 21",
-   "cond": null,
+   "lesson": "CSGL 20",
+   "lessonNorm": "CSGL 20",
+   "cond": "Solo",
    "type": "C172",
    "tail": "HS-TPF",
    "tkoff": null,

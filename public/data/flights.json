@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-15T12:45:54.870Z",
+ "generatedAt": "2026-07-15T15:03:17.505Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-15T12:45:54.870Z",
-  "upstreamFetchedAt": "2026-07-15T12:43:46Z"
+  "fetchedAt": "2026-07-15T15:03:17.505Z",
+  "upstreamFetchedAt": "2026-07-15T14:59:15Z"
  },
  "flights": [
   {
@@ -92486,9 +92486,9 @@
    "inst": null
   },
   {
-   "id": "BK-WD91-2436",
+   "id": "ACTUAL_ONLY_BK-WD91-2436",
    "date": "2026-07-15",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": true,
    "isStandby": false,
    "start": "18:00",
@@ -92510,12 +92510,15 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
-   "id": "BK-MRIPI034",
+   "id": "ACTUAL_ONLY_BK-MRIPI034",
    "date": "2026-07-15",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": true,
    "isStandby": false,
    "start": "20:00",
@@ -92537,7 +92540,10 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-MRJZSK3B",
@@ -93743,9 +93749,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-129-WARI-APZI3",
+   "id": "ACTUAL_ONLY_BK-AP-129-WARI-APZI3",
    "date": "2026-07-15",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "16:00",
@@ -93767,7 +93773,10 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-129-CHAI-B842C",
@@ -94723,8 +94732,8 @@
    "status": "Pending",
    "isSim": false,
    "isStandby": false,
-   "start": "11:00",
-   "end": "12:15",
+   "start": "10:50",
+   "end": "12:05",
    "durMin": 75,
    "student": "TAKORN C.",
    "studentKey": "TAKORN C.",
@@ -94774,7 +94783,7 @@
   {
    "id": "BK-AP-127-AKAR-LU3F3",
    "date": "2026-07-16",
-   "status": "Pending",
+   "status": "Canceled",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -94831,8 +94840,8 @@
    "status": "Pending",
    "isSim": false,
    "isStandby": false,
-   "start": "08:20",
-   "end": "09:35",
+   "start": "12:40",
+   "end": "13:55",
    "durMin": 75,
    "student": "PICHAKORN J.",
    "studentKey": "PICHAKORN J.",
@@ -94844,7 +94853,7 @@
    "lessonNorm": "CSGL 26",
    "cond": "Solo",
    "type": "DA40CS",
-   "tail": null,
+   "tail": "HS-TVE",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,
@@ -94858,8 +94867,8 @@
    "status": "Pending",
    "isSim": false,
    "isStandby": false,
-   "start": "11:50",
-   "end": "13:05",
+   "start": "12:00",
+   "end": "13:15",
    "durMin": 75,
    "student": "TEERAWAJ C.",
    "studentKey": "TEERAWAJ C.",
@@ -94871,7 +94880,7 @@
    "lessonNorm": "CSGL 26",
    "cond": "Solo",
    "type": "DA40CS",
-   "tail": null,
+   "tail": "HS-TVD",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,
@@ -95528,33 +95537,6 @@
    "inst": null
   },
   {
-   "id": "BK-AP-127-PORN-O5DGK",
-   "date": "2026-07-16",
-   "status": "Pending",
-   "isSim": false,
-   "isStandby": false,
-   "start": "11:40",
-   "end": "12:55",
-   "durMin": 75,
-   "student": "PORNSKUL D.",
-   "studentKey": "PORNSKUL D.",
-   "nick": "P-KUL",
-   "instructor": "SOWAN C.",
-   "batch": "AP-127",
-   "batchKey": "AP127",
-   "lesson": "CSGL 26",
-   "lessonNorm": "CSGL 26",
-   "cond": "Solo",
-   "type": "DA40CS",
-   "tail": "HS-TVD",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
-  },
-  {
    "id": "BK-MRLLT70Q",
    "date": "2026-07-16",
    "status": "Pending",
@@ -95614,8 +95596,8 @@
    "status": "Pending",
    "isSim": false,
    "isStandby": false,
-   "start": "11:00",
-   "end": "12:30",
+   "start": "11:20",
+   "end": "12:50",
    "durMin": 90,
    "student": "PANITHAN V.",
    "studentKey": "PANITHAN V.",
@@ -95898,6 +95880,33 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPW",
+   "tkoff": null,
+   "ldgTime": null,
+   "airborneMin": null,
+   "to": null,
+   "ldg": null,
+   "inst": null
+  },
+  {
+   "id": "BK-MRM6MK3A",
+   "date": "2026-07-16",
+   "status": "Pending",
+   "isSim": false,
+   "isStandby": false,
+   "start": "06:30",
+   "end": "08:00",
+   "durMin": 90,
+   "student": "SETASIT P.",
+   "studentKey": "SETASIT P.",
+   "nick": "S-SIT",
+   "instructor": "EKKAPHOP R.",
+   "batch": "AP-127",
+   "batchKey": "AP127",
+   "lesson": "CSXV 33",
+   "lessonNorm": "CSXV 33",
+   "cond": "Solo",
+   "type": "DA40TDI",
+   "tail": "HS-TPV",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,

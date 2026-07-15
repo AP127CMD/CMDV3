@@ -1,14 +1,14 @@
 {
  "schemaVersion": 1,
  "pipelineVersion": "3.0.0",
- "generatedAt": "2026-07-14T23:14:29.034Z",
+ "generatedAt": "2026-07-15T00:08:57.591Z",
  "sources": {
   "flights": {
    "sourceUrl": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-   "fetchedAt": "2026-07-14T23:14:29.034Z",
-   "upstreamFetchedAt": "2026-07-14T23:14:08Z",
-   "contentHash": "sha256:ba7216b35fbc97b7d10f02f0093961776125cb950a1098b4ae41ec15f6f8d4f1",
-   "lastChangedAt": "2026-07-14T23:14:29.034Z",
+   "fetchedAt": "2026-07-15T00:08:57.591Z",
+   "upstreamFetchedAt": "2026-07-15T00:03:43Z",
+   "contentHash": "sha256:fbefd543982ef800f6cf561b568f2ad1081559d46447935c9c98f8a0dd33d100",
+   "lastChangedAt": "2026-07-15T00:08:57.591Z",
    "records": {
     "flights": 4309,
     "instructors": 0,
@@ -53,15 +53,18 @@
    "diff": {
     "added": 0,
     "removed": 0,
-    "changed": 0
+    "changed": 1,
+    "changedFields": {
+     "status": 1
+    }
    }
   },
   "progress": {
    "sourceUrl": "https://ap127-data-api.anusorn-tanmetha.workers.dev",
-   "fetchedAt": "2026-07-14T23:14:29.034Z",
-   "upstreamFetchedAt": "2026-07-14T23:11:07.645Z",
+   "fetchedAt": "2026-07-15T00:08:57.591Z",
+   "upstreamFetchedAt": "2026-07-15T00:06:20.875Z",
    "contentHash": "sha256:6f956556f7966c83319791bae44d141a416b3fac8583fc8cd1d17d3ec3375558",
-   "lastChangedAt": "2026-07-14T23:14:29.034Z",
+   "lastChangedAt": "2026-07-15T00:08:57.591Z",
    "records": {
     "students": 28,
     "curriculum": 96
@@ -78,10 +81,10 @@
   },
   "ngt": {
    "sourceUrl": "https://ap127-db001.pages.dev/cache.json",
-   "fetchedAt": "2026-07-14T23:14:29.034Z",
-   "upstreamFetchedAt": "2026-07-14T23:11:07.645Z",
+   "fetchedAt": "2026-07-15T00:08:57.591Z",
+   "upstreamFetchedAt": "2026-07-15T00:06:20.875Z",
    "contentHash": "sha256:cf9b48bf59879faeeeb13047510915780a42dc9ec4232a84f4703a4c615826bd",
-   "lastChangedAt": "2026-07-14T23:14:29.034Z",
+   "lastChangedAt": "2026-07-15T00:08:57.591Z",
    "records": {
     "ap124": 9,
     "ap126": 28,

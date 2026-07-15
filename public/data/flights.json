@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-14T23:14:29.034Z",
+ "generatedAt": "2026-07-15T00:08:57.591Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-14T23:14:29.034Z",
-  "upstreamFetchedAt": "2026-07-14T23:14:08Z"
+  "fetchedAt": "2026-07-15T00:08:57.591Z",
+  "upstreamFetchedAt": "2026-07-15T00:03:43Z"
  },
  "flights": [
   {
@@ -92914,7 +92914,7 @@
   {
    "id": "BK-MRK3CVNV",
    "date": "2026-07-15",
-   "status": "Pending",
+   "status": "Canceled",
    "isSim": false,
    "isStandby": false,
    "start": "10:30",

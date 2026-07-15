@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-15T20:28:47.421Z",
+ "generatedAt": "2026-07-15T22:16:50.691Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-15T20:28:47.421Z",
-  "upstreamFetchedAt": "2026-07-15T20:28:31Z"
+  "fetchedAt": "2026-07-15T22:16:50.691Z",
+  "upstreamFetchedAt": "2026-07-15T22:13:33Z"
  },
  "flights": [
   {
@@ -93671,9 +93671,9 @@
    }
   },
   {
-   "id": "BK-MRKCK9DS",
+   "id": "ACTUAL_ONLY_BK-MRKCK9DS",
    "date": "2026-07-15",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": true,
    "isStandby": false,
    "start": "20:00",
@@ -93695,7 +93695,10 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-MRKE2DJX",

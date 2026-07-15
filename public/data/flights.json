@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-15T09:24:16.337Z",
+ "generatedAt": "2026-07-15T11:05:06.684Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-15T09:24:16.337Z",
-  "upstreamFetchedAt": "2026-07-15T09:23:36Z"
+  "fetchedAt": "2026-07-15T11:05:06.684Z",
+  "upstreamFetchedAt": "2026-07-15T11:03:47Z"
  },
  "flights": [
   {
@@ -90467,9 +90467,9 @@
    }
   },
   {
-   "id": "BK-0ZYW-9216",
+   "id": "ACTUAL_ONLY_BK-0ZYW-9216",
    "date": "2026-07-14",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": true,
    "isStandby": false,
    "start": "06:00",
@@ -90491,7 +90491,10 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-BQGI-4609",
@@ -90674,9 +90677,9 @@
    }
   },
   {
-   "id": "BK-MREDFX8V",
+   "id": "ACTUAL_ONLY_BK-MREDFX8V",
    "date": "2026-07-14",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "08:00",
@@ -90698,7 +90701,10 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-MRILN22U",
@@ -93241,7 +93247,7 @@
   {
    "id": "BK-MRK3QJ05",
    "date": "2026-07-15",
-   "status": "Pending",
+   "status": "Canceled",
    "isSim": false,
    "isStandby": false,
    "start": "16:00",
@@ -94046,9 +94052,9 @@
    }
   },
   {
-   "id": "BK-MRKHV1DI",
+   "id": "ACTUAL_ONLY_BK-MRKHV1DI",
    "date": "2026-07-15",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": true,
    "isStandby": false,
    "start": "14:00",
@@ -94070,7 +94076,10 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-MRLBR7FV",
@@ -95482,7 +95491,7 @@
   {
    "id": "BK-AP-128-KITT-8UEJV",
    "date": "2026-07-16",
-   "status": "Pending",
+   "status": "Canceled",
    "isSim": false,
    "isStandby": false,
    "start": "08:10",

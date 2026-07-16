@@ -1,20 +1,20 @@
 {
  "schemaVersion": 1,
  "pipelineVersion": "3.0.0",
- "generatedAt": "2026-07-16T00:13:12.417Z",
+ "generatedAt": "2026-07-16T03:43:05.420Z",
  "sources": {
   "flights": {
    "sourceUrl": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-   "fetchedAt": "2026-07-16T00:13:12.417Z",
-   "upstreamFetchedAt": "2026-07-16T00:08:00Z",
-   "contentHash": "sha256:96cf758c05e5e6e9e36be827f4482b1e9f8045de0cda8766cc55ad1a54d6df82",
-   "lastChangedAt": "2026-07-16T00:13:12.417Z",
+   "fetchedAt": "2026-07-16T03:43:05.420Z",
+   "upstreamFetchedAt": "2026-07-16T03:38:07Z",
+   "contentHash": "sha256:f50350f1693f887f208c2e887258d16176434c1d016d12c533ceb36d2aa3f085",
+   "lastChangedAt": "2026-07-16T03:43:05.420Z",
    "records": {
-    "flights": 4365,
+    "flights": 4371,
     "instructors": 0,
     "resources": 0,
     "leaves": 0,
-    "flightsAfterDedup": 3307
+    "flightsAfterDedup": 3313
    },
    "validation": {
     "errors": [],
@@ -51,50 +51,54 @@
     "nickBridged": 3
    },
    "diff": {
-    "added": 0,
-    "removed": 0,
-    "changed": 0
+    "added": 19,
+    "removed": 13,
+    "changed": 29,
+    "changedFields": {
+     "lesson": 10,
+     "status": 1,
+     "start": 19,
+     "end": 19,
+     "instructor": 14,
+     "tail": 7,
+     "durMin": 1
+    }
    }
   },
   "progress": {
    "sourceUrl": "https://ap127-data-api.anusorn-tanmetha.workers.dev",
-   "fetchedAt": "2026-07-16T00:13:12.417Z",
-   "upstreamFetchedAt": "2026-07-16T00:10:20.539Z",
-   "contentHash": "sha256:df279db9ba36ae727ff1d8c273145a542330f257ad2023fbff02c1924e976f17",
-   "lastChangedAt": "2026-07-16T00:13:12.417Z",
+   "fetchedAt": "2026-07-16T03:43:05.420Z",
+   "upstreamFetchedAt": "2026-07-16T03:40:30.939Z",
+   "contentHash": "sha256:34fd85867b3b3c4c6691d621e0d780dbd26f2098d4e26ae1f498ffc562c465d9",
+   "lastChangedAt": "2026-07-16T03:43:05.420Z",
    "records": {
-    "students": 27,
+    "students": 28,
     "curriculum": 96
    },
    "validation": {
     "errors": [],
-    "warnings": [
-     {
-      "code": "ROSTER_MISSING",
-      "message": "roster students absent from the progress feed (upstream usually self-heals; do NOT fabricate)",
-      "count": 1,
-      "samples": [
-       "Watcharaphol Vongnoi"
-      ]
-     }
-    ]
+    "warnings": []
    },
    "diff": {
-    "added": 0,
-    "removed": 1,
-    "changed": 0
+    "added": 1,
+    "removed": 0,
+    "changed": 2,
+    "changedFields": {
+     "done": 2,
+     "nextLesson": 2
+    }
    }
   },
   "ngt": {
    "sourceUrl": "https://ap127-db001.pages.dev/cache.json",
-   "fetchedAt": "2026-07-16T00:13:12.417Z",
-   "upstreamFetchedAt": "2026-07-16T00:10:20.539Z",
-   "contentHash": "sha256:89a85045bb1c0313f9361bb712f6567cf061292cc10de3189bc850f17a404b8e",
-   "lastChangedAt": "2026-07-16T00:13:12.417Z",
+   "fetchedAt": "2026-07-16T03:43:05.420Z",
+   "upstreamFetchedAt": "2026-07-16T03:40:30.939Z",
+   "contentHash": "sha256:443df9b07f2a04d08a5dd977cbb704799f1a43477e274515c9f8469e304ac5bc",
+   "lastChangedAt": "2026-07-16T03:43:05.420Z",
    "records": {
     "ap124": 9,
     "ap126": 28,
-    "ap127": 27,
+    "ap127": 28,
     "ap129": 13
    },
    "validation": {

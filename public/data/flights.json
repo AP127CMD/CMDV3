@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-16T06:35:25.529Z",
+ "generatedAt": "2026-07-16T09:32:01.783Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-16T06:35:25.529Z",
-  "upstreamFetchedAt": "2026-07-16T06:32:57Z"
+  "fetchedAt": "2026-07-16T09:32:01.783Z",
+  "upstreamFetchedAt": "2026-07-16T09:28:26Z"
  },
  "flights": [
   {
@@ -93701,9 +93701,9 @@
    }
   },
   {
-   "id": "BK-MRKE2DJX",
+   "id": "ACTUAL_ONLY_BK-MRKE2DJX",
    "date": "2026-07-15",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "16:00",
@@ -93725,7 +93725,10 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-MRKEBBT5",
@@ -94307,9 +94310,9 @@
    "inst": null
   },
   {
-   "id": "BK-SCKO-9941",
+   "id": "ACTUAL_ONLY_BK-SCKO-9941",
    "date": "2026-07-16",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": true,
    "isStandby": false,
    "start": "12:00",
@@ -94331,7 +94334,10 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-1GA4-3125",
@@ -94418,9 +94424,9 @@
    "inst": null
   },
   {
-   "id": "BK-WDQT-9474",
+   "id": "ACTUAL_ONLY_BK-WDQT-9474",
    "date": "2026-07-16",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": true,
    "isStandby": false,
    "start": "12:00",
@@ -94442,7 +94448,10 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-MRINHIW0",
@@ -94619,9 +94628,9 @@
    }
   },
   {
-   "id": "BK-AP-126-PATT-D1QVK",
+   "id": "ACTUAL_ONLY_BK-AP-126-PATT-D1QVK",
    "date": "2026-07-16",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "11:30",
@@ -94643,7 +94652,10 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-126-PAKO-Y3GRV",
@@ -94817,9 +94829,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-127-AWIR-SGACL",
+   "id": "ACTUAL_ONLY_BK-AP-127-AWIR-SGACL",
    "date": "2026-07-16",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -94841,12 +94853,15 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
-   "id": "BK-AP-127-PICH-IRIZK",
+   "id": "ACTUAL_ONLY_BK-AP-127-PICH-IRIZK",
    "date": "2026-07-16",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "12:40",
@@ -94868,12 +94883,15 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
-   "id": "BK-AP-127-TEER-VFM09",
+   "id": "ACTUAL_ONLY_BK-AP-127-TEER-VFM09",
    "date": "2026-07-16",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "12:00",
@@ -94895,7 +94913,10 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-127-KORN-4NF8K",
@@ -95099,9 +95120,9 @@
    }
   },
   {
-   "id": "BK-AP-126-NAPA-16KI2",
+   "id": "ACTUAL_ONLY_BK-AP-126-NAPA-16KI2",
    "date": "2026-07-16",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "10:30",
@@ -95123,7 +95144,10 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-128-EKKA-6J4OM",
@@ -95273,9 +95297,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-127-WATC-W6XKR",
+   "id": "ACTUAL_ONLY_BK-AP-127-WATC-W6XKR",
    "date": "2026-07-16",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "11:50",
@@ -95297,12 +95321,15 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
-   "id": "BK-AP-127-SORN-2H03O",
+   "id": "ACTUAL_ONLY_BK-AP-127-SORN-2H03O",
    "date": "2026-07-16",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "07:00",
@@ -95324,7 +95351,10 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-127-PORN-STOME",
@@ -95354,9 +95384,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-127-WATC-IKG7Z",
+   "id": "ACTUAL_ONLY_BK-AP-127-WATC-IKG7Z",
    "date": "2026-07-16",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "10:15",
@@ -95378,12 +95408,15 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
-   "id": "BK-AP-126-WATT-P3CKE",
+   "id": "ACTUAL_ONLY_BK-AP-126-WATT-P3CKE",
    "date": "2026-07-16",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "11:00",
@@ -95405,12 +95438,15 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
-   "id": "BK-AP-127-NUTT-O9IGO",
+   "id": "ACTUAL_ONLY_BK-AP-127-NUTT-O9IGO",
    "date": "2026-07-16",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "10:10",
@@ -95432,7 +95468,10 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-129-MARC-W7L9V",
@@ -95489,9 +95528,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-129-TORN-ULRJS",
+   "id": "ACTUAL_ONLY_BK-AP-129-TORN-ULRJS",
    "date": "2026-07-16",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "10:30",
@@ -95513,7 +95552,10 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-127-BULA-PNR5R",
@@ -95741,9 +95783,9 @@
    "inst": null
   },
   {
-   "id": "BK-MRLRX6RT",
+   "id": "ACTUAL_ONLY_BK-MRLRX6RT",
    "date": "2026-07-16",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "12:30",
@@ -95765,7 +95807,10 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-MRLRX9HA",
@@ -95825,9 +95870,9 @@
    "inst": null
   },
   {
-   "id": "BK-MRLRXE4S",
+   "id": "ACTUAL_ONLY_BK-MRLRXE4S",
    "date": "2026-07-16",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "11:40",
@@ -95849,7 +95894,10 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-MRLRXGPT",
@@ -95879,9 +95927,9 @@
    "inst": null
   },
   {
-   "id": "BK-MRLRXIZ1",
+   "id": "ACTUAL_ONLY_BK-MRLRXIZ1",
    "date": "2026-07-16",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": true,
    "isStandby": false,
    "start": "14:00",
@@ -95903,12 +95951,15 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
-   "id": "BK-MRLUP1QA",
+   "id": "ACTUAL_ONLY_BK-MRLUP1QA",
    "date": "2026-07-16",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "12:30",
@@ -95930,7 +95981,10 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-MRM6MK3A",
@@ -95995,8 +96049,8 @@
    "status": "Pending",
    "isSim": true,
    "isStandby": false,
-   "start": "09:00",
-   "end": "11:00",
+   "start": "11:00",
+   "end": "13:00",
    "durMin": 120,
    "student": "PRITASNA M.",
    "studentKey": "PRITASNA M.",
@@ -96238,8 +96292,8 @@
    "status": "Pending",
    "isSim": true,
    "isStandby": false,
-   "start": "11:00",
-   "end": "13:00",
+   "start": "09:00",
+   "end": "11:00",
    "durMin": 120,
    "student": "RAKCHON K.",
    "studentKey": "RAKCHON K.",
@@ -96400,8 +96454,8 @@
    "status": "Pending",
    "isSim": false,
    "isStandby": false,
-   "start": "09:50",
-   "end": "11:50",
+   "start": "06:30",
+   "end": "08:30",
    "durMin": 120,
    "student": "SUBHAWICHAYA S.",
    "studentKey": "SUBHAWICHAYA S.",
@@ -96413,7 +96467,7 @@
    "lessonNorm": "CDXI 68",
    "cond": "IR/Nav",
    "type": "DA40CS",
-   "tail": "HS-TVD",
+   "tail": "HS-TVE",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,
@@ -96451,7 +96505,7 @@
   {
    "id": "BK-AP-126-CHAN-OZWUY",
    "date": "2026-07-17",
-   "status": "Pending",
+   "status": "Canceled",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -96478,7 +96532,7 @@
   {
    "id": "BK-AP-126-SIWA-YE2KQ",
    "date": "2026-07-17",
-   "status": "Pending",
+   "status": "Canceled",
    "isSim": false,
    "isStandby": false,
    "start": "10:00",
@@ -96508,8 +96562,8 @@
    "status": "Pending",
    "isSim": false,
    "isStandby": false,
-   "start": "12:00",
-   "end": "14:00",
+   "start": "11:50",
+   "end": "13:50",
    "durMin": 120,
    "student": "PREM P.",
    "studentKey": "PREM P.",
@@ -96532,7 +96586,7 @@
   {
    "id": "BK-AP-126-PONG-GY3WX",
    "date": "2026-07-17",
-   "status": "Pending",
+   "status": "Canceled",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -96602,7 +96656,7 @@
    "lessonNorm": "CDIL 21",
    "cond": null,
    "type": "C172",
-   "tail": "HS-TPH",
+   "tail": "HS-TPF",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,
@@ -96748,7 +96802,7 @@
   {
    "id": "BK-AP-127-NATP-HIGOE",
    "date": "2026-07-17",
-   "status": "Pending",
+   "status": "Canceled",
    "isSim": false,
    "isStandby": false,
    "start": "16:00",
@@ -96805,8 +96859,8 @@
    "status": "Pending",
    "isSim": false,
    "isStandby": false,
-   "start": "06:30",
-   "end": "07:45",
+   "start": "12:30",
+   "end": "13:45",
    "durMin": 75,
    "student": "KITTIPAT M.",
    "studentKey": "KITTIPAT M.",
@@ -96913,8 +96967,8 @@
    "status": "Pending",
    "isSim": false,
    "isStandby": false,
-   "start": "16:00",
-   "end": "17:30",
+   "start": "12:20",
+   "end": "13:50",
    "durMin": 90,
    "student": "VASAPHON S.",
    "studentKey": "VASAPHON S.",
@@ -96926,7 +96980,7 @@
    "lessonNorm": "CDIL 25",
    "cond": null,
    "type": "DA40CS",
-   "tail": "HS-TVE",
+   "tail": "HS-TVC",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,
@@ -96967,47 +97021,20 @@
    "status": "Pending",
    "isSim": false,
    "isStandby": false,
-   "start": "16:00",
-   "end": "17:20",
-   "durMin": 80,
-   "student": "BULASET C.",
-   "studentKey": "BULASET C.",
-   "nick": "B-SET",
+   "start": "10:00",
+   "end": "11:30",
+   "durMin": 90,
+   "student": "KORN S.",
+   "studentKey": "KORN S.",
+   "nick": "K-KORN",
    "instructor": "SANTI SUK.",
    "batch": "AP-127",
    "batchKey": "AP127",
-   "lesson": "CSGL 30",
-   "lessonNorm": "CSGL 30",
-   "cond": "Solo",
+   "lesson": "CDXV 29",
+   "lessonNorm": "CDXV 29",
+   "cond": null,
    "type": "DA40CS",
-   "tail": "HS-TVA",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
-  },
-  {
-   "id": "BK-AP-128-KITT-74PWY",
-   "date": "2026-07-17",
-   "status": "Pending",
-   "isSim": false,
-   "isStandby": false,
-   "start": "10:20",
-   "end": "11:35",
-   "durMin": 75,
-   "student": "KITTIPAT M.",
-   "studentKey": "KITTIPAT M.",
-   "nick": null,
-   "instructor": "SANTI PO.",
-   "batch": "AP-128",
-   "batchKey": "AP128",
-   "lesson": "CSGL 24",
-   "lessonNorm": "CSGL 24",
-   "cond": "Solo",
-   "type": "C172",
-   "tail": "HS-TPH",
+   "tail": "HS-TVD",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,
@@ -97116,6 +97143,249 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPR",
+   "tkoff": null,
+   "ldgTime": null,
+   "airborneMin": null,
+   "to": null,
+   "ldg": null,
+   "inst": null
+  },
+  {
+   "id": "BK-MRN6HDCJ",
+   "date": "2026-07-17",
+   "status": "Pending",
+   "isSim": false,
+   "isStandby": false,
+   "start": "08:30",
+   "end": "10:10",
+   "durMin": 100,
+   "student": "SIRAWIT K.",
+   "studentKey": "SIRAWIT K.",
+   "nick": null,
+   "instructor": "PORNSAK P.",
+   "batch": "HP-57",
+   "batchKey": "HP57",
+   "lesson": "LS 72",
+   "lessonNorm": "LS 72",
+   "cond": null,
+   "type": "R44",
+   "tail": "HS-TZT",
+   "tkoff": null,
+   "ldgTime": null,
+   "airborneMin": null,
+   "to": null,
+   "ldg": null,
+   "inst": null
+  },
+  {
+   "id": "BK-MRN6HGYH",
+   "date": "2026-07-17",
+   "status": "Pending",
+   "isSim": true,
+   "isStandby": false,
+   "start": "10:30",
+   "end": "11:30",
+   "durMin": 60,
+   "student": "POONARAT B.",
+   "studentKey": "POONARAT B.",
+   "nick": null,
+   "instructor": "PORNSAK P.",
+   "batch": "HP-57",
+   "batchKey": "HP57",
+   "lesson": "LS 78",
+   "lessonNorm": "LS 78",
+   "cond": "Sim R44",
+   "type": "R44 (SIM)",
+   "tail": "HS-TZQ (SIM)",
+   "tkoff": null,
+   "ldgTime": null,
+   "airborneMin": null,
+   "to": null,
+   "ldg": null,
+   "inst": null
+  },
+  {
+   "id": "BK-MRN6HKB1",
+   "date": "2026-07-17",
+   "status": "Pending",
+   "isSim": true,
+   "isStandby": false,
+   "start": "11:40",
+   "end": "12:40",
+   "durMin": 60,
+   "student": "WACHIRAWIT M.",
+   "studentKey": "WACHIRAWIT M.",
+   "nick": null,
+   "instructor": "PORNSAK P.",
+   "batch": "HP-57",
+   "batchKey": "HP57",
+   "lesson": "LS 78",
+   "lessonNorm": "LS 78",
+   "cond": "Sim R44",
+   "type": "R44 (SIM)",
+   "tail": "HS-TZQ (SIM)",
+   "tkoff": null,
+   "ldgTime": null,
+   "airborneMin": null,
+   "to": null,
+   "ldg": null,
+   "inst": null
+  },
+  {
+   "id": "BK-MRN6HN5U",
+   "date": "2026-07-17",
+   "status": "Pending",
+   "isSim": true,
+   "isStandby": false,
+   "start": "13:00",
+   "end": "14:00",
+   "durMin": 60,
+   "student": "THIPHOP P.",
+   "studentKey": "THIPHOP P.",
+   "nick": null,
+   "instructor": "PORNSAK P.",
+   "batch": "HP-57",
+   "batchKey": "HP57",
+   "lesson": "LS 78",
+   "lessonNorm": "LS 78",
+   "cond": "Sim R44",
+   "type": "R44 (SIM)",
+   "tail": "HS-TZQ (SIM)",
+   "tkoff": null,
+   "ldgTime": null,
+   "airborneMin": null,
+   "to": null,
+   "ldg": null,
+   "inst": null
+  },
+  {
+   "id": "BK-MRN6HQ2O",
+   "date": "2026-07-17",
+   "status": "Pending",
+   "isSim": true,
+   "isStandby": false,
+   "start": "14:10",
+   "end": "15:10",
+   "durMin": 60,
+   "student": "PRECHAWUT N.",
+   "studentKey": "PRECHAWUT N.",
+   "nick": null,
+   "instructor": "PORNSAK P.",
+   "batch": "HP-57",
+   "batchKey": "HP57",
+   "lesson": "LS 78",
+   "lessonNorm": "LS 78",
+   "cond": "Sim R44",
+   "type": "R44 (SIM)",
+   "tail": "HS-TZQ (SIM)",
+   "tkoff": null,
+   "ldgTime": null,
+   "airborneMin": null,
+   "to": null,
+   "ldg": null,
+   "inst": null
+  },
+  {
+   "id": "BK-MRN7AT1W",
+   "date": "2026-07-17",
+   "status": "Pending",
+   "isSim": false,
+   "isStandby": false,
+   "start": "06:30",
+   "end": "09:30",
+   "durMin": 180,
+   "student": "THANACHOTE A.",
+   "studentKey": "THANACHOTE A.",
+   "nick": null,
+   "instructor": "EKKAPHOP R.",
+   "batch": "AP-126",
+   "batchKey": "AP126",
+   "lesson": "CDXI 79",
+   "lessonNorm": "CDXI 79",
+   "cond": "IR/Nav",
+   "type": "DA40TDI",
+   "tail": "HS-TPT",
+   "tkoff": null,
+   "ldgTime": null,
+   "airborneMin": null,
+   "to": null,
+   "ldg": null,
+   "inst": null
+  },
+  {
+   "id": "BK-MRNANCVD",
+   "date": "2026-07-17",
+   "status": "Pending",
+   "isSim": false,
+   "isStandby": false,
+   "start": "10:10",
+   "end": "11:40",
+   "durMin": 90,
+   "student": "NUTTAPHAT K.",
+   "studentKey": "NUTTAPHAT K.",
+   "nick": "N-PHAT",
+   "instructor": "SANTI PO.",
+   "batch": "AP-127",
+   "batchKey": "AP127",
+   "lesson": "CDIL 27",
+   "lessonNorm": "CDIL 27",
+   "cond": null,
+   "type": "DA40CS",
+   "tail": "HS-TVC",
+   "tkoff": null,
+   "ldgTime": null,
+   "airborneMin": null,
+   "to": null,
+   "ldg": null,
+   "inst": null
+  },
+  {
+   "id": "BK-MRNARP0B",
+   "date": "2026-07-17",
+   "status": "Pending",
+   "isSim": false,
+   "isStandby": false,
+   "start": "08:20",
+   "end": "09:50",
+   "durMin": 90,
+   "student": "PORNSKUL D.",
+   "studentKey": "PORNSKUL D.",
+   "nick": "P-KUL",
+   "instructor": "SOWAN C.",
+   "batch": "AP-127",
+   "batchKey": "AP127",
+   "lesson": "CDIL 25",
+   "lessonNorm": "CDIL 25",
+   "cond": null,
+   "type": "DA40CS",
+   "tail": "HS-TVC",
+   "tkoff": null,
+   "ldgTime": null,
+   "airborneMin": null,
+   "to": null,
+   "ldg": null,
+   "inst": null
+  },
+  {
+   "id": "BK-MRNAUG3S",
+   "date": "2026-07-17",
+   "status": "Pending",
+   "isSim": false,
+   "isStandby": false,
+   "start": "09:00",
+   "end": "12:00",
+   "durMin": 180,
+   "student": "SIWAT C.",
+   "studentKey": "SIWAT C.",
+   "nick": null,
+   "instructor": "KITTICHAI C.",
+   "batch": "AP-126",
+   "batchKey": "AP126",
+   "lesson": "CDXI 73",
+   "lessonNorm": "CDXI 73",
+   "cond": "IR",
+   "type": "DA40CS",
+   "tail": "HS-TVE",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,
@@ -97386,6 +97656,33 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
+   "tkoff": null,
+   "ldgTime": null,
+   "airborneMin": null,
+   "to": null,
+   "ldg": null,
+   "inst": null
+  },
+  {
+   "id": "BK-MRN6A8CE",
+   "date": "2026-07-18",
+   "status": "Pending",
+   "isSim": false,
+   "isStandby": false,
+   "start": "06:30",
+   "end": "07:30",
+   "durMin": 60,
+   "student": "WANUT S.",
+   "studentKey": "WANUT S.",
+   "nick": null,
+   "instructor": "WISANU T.",
+   "batch": "AP-129",
+   "batchKey": "AP129",
+   "lesson": "CDGL 04",
+   "lessonNorm": "CDGL 04",
+   "cond": null,
+   "type": "DA40CS",
+   "tail": null,
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,

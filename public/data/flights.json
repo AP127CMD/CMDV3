@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-16T11:55:53.486Z",
+ "generatedAt": "2026-07-16T14:27:26.522Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-16T11:55:53.486Z",
-  "upstreamFetchedAt": "2026-07-16T11:53:58Z"
+  "fetchedAt": "2026-07-16T14:27:26.522Z",
+  "upstreamFetchedAt": "2026-07-16T14:25:06Z"
  },
  "flights": [
   {
@@ -93233,9 +93233,9 @@
    }
   },
   {
-   "id": "BK-MRK3QGQY",
+   "id": "ACTUAL_ONLY_BK-MRK3QGQY",
    "date": "2026-07-15",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "10:00",
@@ -93257,7 +93257,10 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-MRK3QJ05",
@@ -94460,9 +94463,9 @@
    }
   },
   {
-   "id": "BK-MRINHIW0",
+   "id": "ACTUAL_ONLY_BK-MRINHIW0",
    "date": "2026-07-16",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": true,
    "isStandby": false,
    "start": "15:00",
@@ -94484,7 +94487,10 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-MRIQPV09",
@@ -94754,9 +94760,9 @@
    }
   },
   {
-   "id": "BK-AP-127-TAKO-ZFY38",
+   "id": "ACTUAL_ONLY_BK-AP-127-TAKO-ZFY38",
    "date": "2026-07-16",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "10:40",
@@ -94778,7 +94784,10 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-127-BULA-3FIIA",
@@ -97430,6 +97439,33 @@
    "inst": null
   },
   {
+   "id": "BK-MRNL6MZ2",
+   "date": "2026-07-17",
+   "status": "Pending",
+   "isSim": false,
+   "isStandby": false,
+   "start": "06:30",
+   "end": "07:45",
+   "durMin": 75,
+   "student": "SORNSORAWITCH C.",
+   "studentKey": "SORNSORAWITCH C.",
+   "nick": "S-WITCH",
+   "instructor": "PHAHOLYUTH P.",
+   "batch": "AP-127",
+   "batchKey": "AP127",
+   "lesson": "CSPGL 37",
+   "lessonNorm": "CSPGL 37",
+   "cond": "Nav",
+   "type": "DA40CS",
+   "tail": "HS-TVC",
+   "tkoff": null,
+   "ldgTime": null,
+   "airborneMin": null,
+   "to": null,
+   "ldg": null,
+   "inst": null
+  },
+  {
    "id": "BK-MRKOTX75",
    "date": "2026-07-18",
    "status": "Pending",
@@ -98483,7 +98519,232 @@
    "inst": null
   }
  ],
- "instructors": [],
- "resources": [],
+ "instructors": [
+  {
+   "name": "ATHINAT H.",
+   "type": null
+  },
+  {
+   "name": "ATIDTAN P.",
+   "type": null
+  },
+  {
+   "name": "CHAROENCHAI U.",
+   "type": null
+  },
+  {
+   "name": "CHAWIN K.",
+   "type": null
+  },
+  {
+   "name": "EKKAPHOP R.",
+   "type": null
+  },
+  {
+   "name": "ITTIPOL P.",
+   "type": null
+  },
+  {
+   "name": "JIRAT R.",
+   "type": null
+  },
+  {
+   "name": "KAMONVICH O.",
+   "type": null
+  },
+  {
+   "name": "KITTICHAI C.",
+   "type": null
+  },
+  {
+   "name": "KOONPHOL U.",
+   "type": null
+  },
+  {
+   "name": "NAPATTORN S.",
+   "type": null
+  },
+  {
+   "name": "PARINYA B.",
+   "type": null
+  },
+  {
+   "name": "PHAHOLYUTH P.",
+   "type": null
+  },
+  {
+   "name": "PORNSAK P.",
+   "type": null
+  },
+  {
+   "name": "PORNTEP B.",
+   "type": null
+  },
+  {
+   "name": "SANTI PO.",
+   "type": null
+  },
+  {
+   "name": "SANTI SUK.",
+   "type": null
+  },
+  {
+   "name": "SORRAWUT P.",
+   "type": null
+  },
+  {
+   "name": "SOWAN C.",
+   "type": null
+  },
+  {
+   "name": "THAWATANAN P.",
+   "type": null
+  },
+  {
+   "name": "WISANU T.",
+   "type": null
+  },
+  {
+   "name": "WUTTHICHAI L.",
+   "type": null
+  }
+ ],
+ "resources": [
+  {
+   "tail": "HS - TPX",
+   "acType": "Solo",
+   "isMaint": true
+  },
+  {
+   "tail": "HS-TCP",
+   "acType": "DA42TDI",
+   "isMaint": false
+  },
+  {
+   "tail": "HS-TCP (SIM)",
+   "acType": "DA42 (SIM)",
+   "isMaint": false
+  },
+  {
+   "tail": "HS-TPF",
+   "acType": "C172",
+   "isMaint": false
+  },
+  {
+   "tail": "HS-TPH",
+   "acType": "C172",
+   "isMaint": false
+  },
+  {
+   "tail": "HS-TPL",
+   "acType": "DA42TDI",
+   "isMaint": false
+  },
+  {
+   "tail": "HS-TPN (SIM)",
+   "acType": "DA40_SIM",
+   "isMaint": false
+  },
+  {
+   "tail": "HS-TPO",
+   "acType": "DA40TDI",
+   "isMaint": false
+  },
+  {
+   "tail": "HS-TPO (SIM)",
+   "acType": "DA40_SIM",
+   "isMaint": false
+  },
+  {
+   "tail": "HS-TPQ",
+   "acType": "DA42TDI",
+   "isMaint": true
+  },
+  {
+   "tail": "HS-TPR",
+   "acType": "DA40TDI",
+   "isMaint": false
+  },
+  {
+   "tail": "HS-TPT",
+   "acType": "DA40TDI",
+   "isMaint": false
+  },
+  {
+   "tail": "HS-TPU",
+   "acType": "DA40TDI",
+   "isMaint": true
+  },
+  {
+   "tail": "HS-TPV",
+   "acType": "DA40TDI",
+   "isMaint": false
+  },
+  {
+   "tail": "HS-TPW",
+   "acType": "DA40TDI",
+   "isMaint": false
+  },
+  {
+   "tail": "HS-TPX",
+   "acType": "DA40TDI",
+   "isMaint": false
+  },
+  {
+   "tail": "HS-TVA",
+   "acType": "DA40CS",
+   "isMaint": false
+  },
+  {
+   "tail": "HS-TVC",
+   "acType": "DA40CS",
+   "isMaint": false
+  },
+  {
+   "tail": "HS-TVD",
+   "acType": "DA40CS",
+   "isMaint": false
+  },
+  {
+   "tail": "HS-TVE",
+   "acType": "DA40CS",
+   "isMaint": false
+  },
+  {
+   "tail": "HS-TVG",
+   "acType": "DA40CS",
+   "isMaint": false
+  },
+  {
+   "tail": "HS-TVH",
+   "acType": "DA40CS",
+   "isMaint": false
+  },
+  {
+   "tail": "HS-TZQ (SIM)",
+   "acType": "R44_SIM",
+   "isMaint": false
+  },
+  {
+   "tail": "HS-TZR",
+   "acType": "R44",
+   "isMaint": false
+  },
+  {
+   "tail": "HS-TZT",
+   "acType": "R44",
+   "isMaint": false
+  },
+  {
+   "tail": "HS-TZU",
+   "acType": "R44",
+   "isMaint": false
+  },
+  {
+   "tail": "HSTZU",
+   "acType": "Dual",
+   "isMaint": true
+  }
+ ],
  "leaves": []
 }

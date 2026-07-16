@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-16T14:27:26.522Z",
+ "generatedAt": "2026-07-16T16:44:46.557Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-16T14:27:26.522Z",
-  "upstreamFetchedAt": "2026-07-16T14:25:06Z"
+  "fetchedAt": "2026-07-16T16:44:46.557Z",
+  "upstreamFetchedAt": "2026-07-16T16:43:38Z"
  },
  "flights": [
   {
@@ -94289,9 +94289,9 @@
    }
   },
   {
-   "id": "BK-SWGM-6765",
+   "id": "ACTUAL_ONLY_BK-SWGM-6765",
    "date": "2026-07-16",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": true,
    "isStandby": false,
    "start": "18:00",
@@ -94313,7 +94313,10 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-SCKO-9941",
@@ -94376,9 +94379,9 @@
    }
   },
   {
-   "id": "BK-BQF9-5167",
+   "id": "ACTUAL_ONLY_BK-BQF9-5167",
    "date": "2026-07-16",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": true,
    "isStandby": false,
    "start": "20:00",
@@ -94400,7 +94403,10 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-2PN1-9764",
@@ -94493,9 +94499,9 @@
    }
   },
   {
-   "id": "BK-MRIQPV09",
+   "id": "ACTUAL_ONLY_BK-MRIQPV09",
    "date": "2026-07-16",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": true,
    "isStandby": false,
    "start": "20:00",
@@ -94517,7 +94523,10 @@
    "airborneMin": null,
    "to": null,
    "ldg": null,
-   "inst": null
+   "inst": null,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-MRIQV5Y0",
@@ -98521,230 +98530,1602 @@
  ],
  "instructors": [
   {
-   "name": "ATHINAT H.",
-   "type": null
-  },
-  {
-   "name": "ATIDTAN P.",
-   "type": null
-  },
-  {
    "name": "CHAROENCHAI U.",
-   "type": null
-  },
-  {
-   "name": "CHAWIN K.",
-   "type": null
+   "type": "Flight Instructor"
   },
   {
    "name": "EKKAPHOP R.",
-   "type": null
+   "type": "Flight Instructor"
   },
   {
    "name": "ITTIPOL P.",
-   "type": null
-  },
-  {
-   "name": "JIRAT R.",
-   "type": null
-  },
-  {
-   "name": "KAMONVICH O.",
-   "type": null
+   "type": "Flight Instructor"
   },
   {
    "name": "KITTICHAI C.",
-   "type": null
+   "type": "Flight Instructor"
   },
   {
    "name": "KOONPHOL U.",
-   "type": null
+   "type": "Flight Instructor"
   },
   {
    "name": "NAPATTORN S.",
-   "type": null
+   "type": "Flight Instructor"
   },
   {
    "name": "PARINYA B.",
-   "type": null
+   "type": "Flight Instructor"
   },
   {
    "name": "PHAHOLYUTH P.",
-   "type": null
-  },
-  {
-   "name": "PORNSAK P.",
-   "type": null
-  },
-  {
-   "name": "PORNTEP B.",
-   "type": null
+   "type": "Flight Instructor"
   },
   {
    "name": "SANTI PO.",
-   "type": null
+   "type": "Flight Instructor"
   },
   {
    "name": "SANTI SUK.",
-   "type": null
-  },
-  {
-   "name": "SORRAWUT P.",
-   "type": null
+   "type": "Flight Instructor"
   },
   {
    "name": "SOWAN C.",
-   "type": null
+   "type": "Flight Instructor"
   },
   {
    "name": "THAWATANAN P.",
-   "type": null
+   "type": "Flight Instructor"
   },
   {
    "name": "WISANU T.",
-   "type": null
+   "type": "Flight Instructor"
   },
   {
    "name": "WUTTHICHAI L.",
-   "type": null
+   "type": "Flight Instructor"
+  },
+  {
+   "name": "ATHINAT H.",
+   "type": "Simulator Instructor"
+  },
+  {
+   "name": "CHAWIN K.",
+   "type": "Simulator Instructor"
+  },
+  {
+   "name": "JIRAT R.",
+   "type": "Simulator Instructor"
+  },
+  {
+   "name": "KAMONVICH O.",
+   "type": "Flight Instructor"
+  },
+  {
+   "name": "PORNSAK P.",
+   "type": "Flight Instructor"
+  },
+  {
+   "name": "SORRAWUT P.",
+   "type": "Flight Instructor"
+  },
+  {
+   "name": "PORNTEP B.",
+   "type": "Flight Instructor"
+  },
+  {
+   "name": "ATIDTAN P.",
+   "type": "Simulator Instructor"
   }
  ],
  "resources": [
   {
-   "tail": "HS - TPX",
-   "acType": "Solo",
-   "isMaint": true
+   "tail": "HS-TCB",
+   "acType": "DA42TDI",
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TCP",
    "acType": "DA42TDI",
-   "isMaint": false
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TCP (SIM)",
    "acType": "DA42 (SIM)",
-   "isMaint": false
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPF",
    "acType": "C172",
-   "isMaint": false
+   "isMaint": false,
+   "maintReason": null
+  },
+  {
+   "tail": "HS-TPG",
+   "acType": "C172",
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPH",
    "acType": "C172",
-   "isMaint": false
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPL",
    "acType": "DA42TDI",
-   "isMaint": false
+   "isMaint": false,
+   "maintReason": null
+  },
+  {
+   "tail": "HS-TPM",
+   "acType": "DA42TDI",
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPN (SIM)",
-   "acType": "DA40_SIM",
-   "isMaint": false
+   "acType": "DA40 (SIM)",
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPO",
    "acType": "DA40TDI",
-   "isMaint": false
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPO (SIM)",
-   "acType": "DA40_SIM",
-   "isMaint": false
+   "acType": "DA40 (SIM)",
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPQ",
    "acType": "DA42TDI",
-   "isMaint": true
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPR",
    "acType": "DA40TDI",
-   "isMaint": false
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPT",
    "acType": "DA40TDI",
-   "isMaint": false
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPU",
    "acType": "DA40TDI",
-   "isMaint": true
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPV",
    "acType": "DA40TDI",
-   "isMaint": false
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPW",
    "acType": "DA40TDI",
-   "isMaint": false
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPX",
    "acType": "DA40TDI",
-   "isMaint": false
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TVA",
    "acType": "DA40CS",
-   "isMaint": false
+   "isMaint": false,
+   "maintReason": null
+  },
+  {
+   "tail": "HS-TVB",
+   "acType": "DA40CS",
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TVC",
    "acType": "DA40CS",
-   "isMaint": false
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TVD",
    "acType": "DA40CS",
-   "isMaint": false
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TVE",
    "acType": "DA40CS",
-   "isMaint": false
+   "isMaint": false,
+   "maintReason": null
+  },
+  {
+   "tail": "HS-TVF",
+   "acType": "DA42NG",
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TVG",
    "acType": "DA40CS",
-   "isMaint": false
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TVH",
    "acType": "DA40CS",
-   "isMaint": false
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TZQ (SIM)",
-   "acType": "R44_SIM",
-   "isMaint": false
+   "acType": "R44 (SIM)",
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TZR",
    "acType": "R44",
-   "isMaint": false
+   "isMaint": false,
+   "maintReason": null
+  },
+  {
+   "tail": "HS-TZS",
+   "acType": "R44",
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TZT",
    "acType": "R44",
-   "isMaint": false
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TZU",
    "acType": "R44",
-   "isMaint": false
-  },
-  {
-   "tail": "HSTZU",
-   "acType": "Dual",
-   "isMaint": true
+   "isMaint": false,
+   "maintReason": null
   }
  ],
- "leaves": []
+ "leaves": [
+  {
+   "name": "AWIRUT S.",
+   "start": "2026-06-19",
+   "end": "2026-06-22",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row270",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "กลับบ้านต่างจังหวัด",
+   "role": "Student"
+  },
+  {
+   "name": "KOONPHOL U.",
+   "start": "2026-06-19",
+   "end": "2026-06-21",
+   "reason": "Other",
+   "id": "Leave Record|row273",
+   "batch": "-",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
+   "name": "PATTHARADEJ S.",
+   "start": "2026-06-19",
+   "end": "2026-06-19",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row276",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "RAKCHON K.",
+   "start": "2026-06-19",
+   "end": "2026-06-21",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row281",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "ซ่อมรถ",
+   "role": "Student"
+  },
+  {
+   "name": "SANTI SUK.",
+   "start": "2026-06-19",
+   "end": "2026-06-22",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row274",
+   "batch": "-",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
+   "name": "THANATHIP W.",
+   "start": "2026-06-19",
+   "end": "2026-06-21",
+   "reason": "Other",
+   "id": "Leave Record|row271",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "บินติดต่อกันมา 2 อาทิตย์ ขอทบทวนอ่านหนังสือครับ",
+   "role": "Student"
+  },
+  {
+   "name": "KANTAPONG A.",
+   "start": "2026-06-20",
+   "end": "2026-06-21",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row284",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "ตรวจเชคสภาพรถและธุระกับครอบครัว",
+   "role": "Student"
+  },
+  {
+   "name": "KRAISEE L.",
+   "start": "2026-06-20",
+   "end": "2026-06-20",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row280",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "NAPATH T.",
+   "start": "2026-06-20",
+   "end": "2026-06-21",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row283",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PATTHARADEJ S.",
+   "start": "2026-06-20",
+   "end": "2026-06-21",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row285",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PONGSAKORN A.",
+   "start": "2026-06-20",
+   "end": "2026-06-21",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row279",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PORNTREETRA R.",
+   "start": "2026-06-20",
+   "end": "2026-06-21",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row275",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PREM P.",
+   "start": "2026-06-20",
+   "end": "2026-06-21",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row278",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SUBHAWICHAYA S.",
+   "start": "2026-06-20",
+   "end": "2026-06-21",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row292",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "TEERAWAJ C.",
+   "start": "2026-06-20",
+   "end": "2026-06-21",
+   "reason": "Other",
+   "id": "Leave Record|row272",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "THANACHOTE A.",
+   "start": "2026-06-20",
+   "end": "2026-06-21",
+   "reason": "Other",
+   "id": "Leave Record|row277",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "Weekend Break",
+   "role": "Student"
+  },
+  {
+   "name": "VASAPHON S.",
+   "start": "2026-06-20",
+   "end": "2026-06-21",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row287",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SETASIT P.",
+   "start": "2026-06-21",
+   "end": "2026-06-21",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row267",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "Po",
+   "start": "2026-06-22",
+   "end": "2026-06-22",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row269",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "BULASET C.",
+   "start": "2026-06-23",
+   "end": "2026-06-23",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row293",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "NANJITRA D.",
+   "start": "2026-06-23",
+   "end": "2026-06-23",
+   "reason": "Sick Leave",
+   "id": "Leave Record|row294",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "CHANOL T.",
+   "start": "2026-06-24",
+   "end": "2026-06-24",
+   "reason": "Sick Leave",
+   "id": "Leave Record|row298",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "ไอ เจ็บคอ ปวดหัวครับ\n",
+   "role": "Student"
+  },
+  {
+   "name": "PUWADET H.",
+   "start": "2026-06-25",
+   "end": "2026-06-25",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row310",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "เนื่องจากไม่มีตารางบินจึงขออนุญาตลาทบทวนบทเรียนถัดไปที่ กทม ครับ",
+   "role": "Student"
+  },
+  {
+   "name": "VASAPHON S.",
+   "start": "2026-06-25",
+   "end": "2026-06-25",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row304",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ไม่มีตารางบิน",
+   "role": "Student"
+  },
+  {
+   "name": "SOWAN C.",
+   "start": "2026-06-26",
+   "end": "2026-06-26",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row307",
+   "batch": "-",
+   "duration": "Half Day - Afternoon (PM)",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
+   "name": "SOWAN C.",
+   "start": "2026-06-26",
+   "end": "2026-06-26",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row306",
+   "batch": "-",
+   "duration": "Half Day - Afternoon (PM)",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
+   "name": "WATCHARAPONG C.",
+   "start": "2026-06-26",
+   "end": "2026-06-28",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row313",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "AKARAVIT K.",
+   "start": "2026-06-27",
+   "end": "2026-06-29",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row296",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "จัดการธุระเกี่ยวกับสมาชิกในครอบครัว",
+   "role": "Student"
+  },
+  {
+   "name": "KRIT L.",
+   "start": "2026-06-27",
+   "end": "2026-06-28",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row308",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "MAETHAPHAN R.",
+   "start": "2026-06-27",
+   "end": "2026-06-28",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row303",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "NABHADR P.",
+   "start": "2026-06-27",
+   "end": "2026-06-28",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row295",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "NUTTAWAT R.",
+   "start": "2026-06-27",
+   "end": "2026-06-28",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row305",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "พ่อแม่มาเยี่ยมจากต่างจังหวัด",
+   "role": "Student"
+  },
+  {
+   "name": "PRITASNA M.",
+   "start": "2026-06-27",
+   "end": "2026-06-27",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row282",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SARACH C.",
+   "start": "2026-06-27",
+   "end": "2026-06-28",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row286",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SIWAKORN P.",
+   "start": "2026-06-27",
+   "end": "2026-06-29",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row302",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SUPAWAN A.",
+   "start": "2026-06-27",
+   "end": "2026-06-28",
+   "reason": "Other",
+   "id": "Leave Record|row315",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "เลือกตั้ง",
+   "role": "Student"
+  },
+  {
+   "name": "WATTIKORN K.",
+   "start": "2026-06-27",
+   "end": "2026-06-28",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row300",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PRITASNA M.",
+   "start": "2026-06-28",
+   "end": "2026-06-28",
+   "reason": "Official Duty",
+   "id": "Leave Record|row301",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "เลือกตั้ง",
+   "role": "Student"
+  },
+  {
+   "name": "SETASIT P.",
+   "start": "2026-06-28",
+   "end": "2026-07-01",
+   "reason": "Sick Leave",
+   "id": "Leave Record|row268",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "Wisdom tooths surgical extraction",
+   "role": "Student"
+  },
+  {
+   "name": "WATCHARAPOL A.",
+   "start": "2026-06-28",
+   "end": "2026-06-28",
+   "reason": "Other",
+   "id": "Leave Record|row314",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "เลือกตั้งผู้ว่าฯ กทม. และ สก.",
+   "role": "Student"
+  },
+  {
+   "name": "ATHINAT H.",
+   "start": "2026-06-29",
+   "end": "2026-06-29",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row309",
+   "batch": "-",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
+   "name": "KITTIPAT M.",
+   "start": "2026-06-29",
+   "end": "2026-06-29",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row319",
+   "batch": "AP-128",
+   "duration": "Full Day",
+   "note": "เดินทางไปต่างจังหวัดเพื่อดูแลคนป่วย",
+   "role": "Student"
+  },
+  {
+   "name": "NATPAKALP K.",
+   "start": "2026-06-29",
+   "end": "2026-06-29",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row312",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ธุระทางบ้าน",
+   "role": "Student"
+  },
+  {
+   "name": "VASAPHON S.",
+   "start": "2026-06-29",
+   "end": "2026-06-29",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row324",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ไม่มีตารางบิน",
+   "role": "Student"
+  },
+  {
+   "name": "KITTICHAI C.",
+   "start": "2026-07-02",
+   "end": "2026-07-02",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row327",
+   "batch": "-",
+   "duration": "Full Day",
+   "note": "Medical Check",
+   "role": "Instructor"
+  },
+  {
+   "name": "KOONPHOL U.",
+   "start": "2026-07-02",
+   "end": "2026-07-02",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row328",
+   "batch": "-",
+   "duration": "Full Day",
+   "note": "Medical Check",
+   "role": "Instructor"
+  },
+  {
+   "name": "PANITHAN V.",
+   "start": "2026-07-02",
+   "end": "2026-07-02",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row329",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SETASIT P.",
+   "start": "2026-07-02",
+   "end": "2026-07-02",
+   "reason": "Sick Leave",
+   "id": "Leave Record|row330",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "พักฟื้นจากผ่าฟันคุด สภาพร่างกายยังไม่พร้อมบิน",
+   "role": "Student"
+  },
+  {
+   "name": "NANJITRA D.",
+   "start": "2026-07-03",
+   "end": "2026-07-05",
+   "reason": "Official Duty",
+   "id": "Leave Record|row317",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "NAPATH T.",
+   "start": "2026-07-03",
+   "end": "2026-07-03",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row331",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PATCHARANAN D.",
+   "start": "2026-07-03",
+   "end": "2026-07-05",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row325",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "RAKCHON K.",
+   "start": "2026-07-03",
+   "end": "2026-07-05",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row336",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "ทำธุระส่วนตัว",
+   "role": "Student"
+  },
+  {
+   "name": "SUBHAWICHAYA S.",
+   "start": "2026-07-03",
+   "end": "2026-07-03",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row316",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "TEERAWAJ C.",
+   "start": "2026-07-03",
+   "end": "2026-07-05",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row318",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "นัดซ่อมรถยนต์ที่กรุงเทพฯ",
+   "role": "Student"
+  },
+  {
+   "name": "ANUSORN T.",
+   "start": "2026-07-04",
+   "end": "2026-07-05",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row338",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "BULASET C.",
+   "start": "2026-07-04",
+   "end": "2026-07-06",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row335",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "NABHADR P.",
+   "start": "2026-07-04",
+   "end": "2026-07-05",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row333",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "ธุระกับครอบครัว",
+   "role": "Student"
+  },
+  {
+   "name": "NUTTAWAT R.",
+   "start": "2026-07-04",
+   "end": "2026-07-05",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row340",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "กลับบ้าน",
+   "role": "Student"
+  },
+  {
+   "name": "PATTHARADEJ S.",
+   "start": "2026-07-04",
+   "end": "2026-07-05",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row326",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "มีนัดซ่อมรถ",
+   "role": "Student"
+  },
+  {
+   "name": "WATTIKORN K.",
+   "start": "2026-07-04",
+   "end": "2026-07-05",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row334",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "ติดตั้ง air conditioning ",
+   "role": "Student"
+  },
+  {
+   "name": "KANTAPONG A.",
+   "start": "2026-07-05",
+   "end": "2026-07-06",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row344",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "ธุระกับครอบครัว",
+   "role": "Student"
+  },
+  {
+   "name": "KORN S.",
+   "start": "2026-07-05",
+   "end": "2026-07-06",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row299",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ลาไปสอบวิชา Multi Engine ครับ",
+   "role": "Student"
+  },
+  {
+   "name": "SUPAWAN A.",
+   "start": "2026-07-05",
+   "end": "2026-07-05",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row352",
+   "batch": "AP-127",
+   "duration": "Half Day - Morning (AM)",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PANITHAN V.",
+   "start": "2026-07-06",
+   "end": "2026-07-06",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row345",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PORNTREETRA R.",
+   "start": "2026-07-06",
+   "end": "2026-07-06",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row337",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PREM P.",
+   "start": "2026-07-06",
+   "end": "2026-07-07",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row321",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SUPAWAN A.",
+   "start": "2026-07-06",
+   "end": "2026-07-06",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row290",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "WATCHARAPHOL V.",
+   "start": "2026-07-06",
+   "end": "2026-07-06",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row332",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "WATCHARAPOL A.",
+   "start": "2026-07-06",
+   "end": "2026-07-06",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row343",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "สอบ ATPL ME",
+   "role": "Student"
+  },
+  {
+   "name": "Watcharaphol Vongnoi",
+   "start": "2026-07-06",
+   "end": "2026-07-06",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row288",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "AWIRUT S.",
+   "start": "2026-07-08",
+   "end": "2026-07-04",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row347",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "KRAISEE L.",
+   "start": "2026-07-08",
+   "end": "2026-07-08",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row346",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "KRIT L.",
+   "start": "2026-07-08",
+   "end": "2026-07-08",
+   "reason": "Other",
+   "id": "Leave Record|row359",
+   "batch": "AP-127",
+   "duration": "Half Day - Morning (AM)",
+   "note": "Unsafe to fly",
+   "role": "Student"
+  },
+  {
+   "name": "MAETHAPHAN R.",
+   "start": "2026-07-08",
+   "end": "2026-07-08",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row356",
+   "batch": "AP-127",
+   "duration": "Half Day - Morning (AM)",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PANITHAN V.",
+   "start": "2026-07-08",
+   "end": "2026-07-08",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row360",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SORNSORAWITCH C.",
+   "start": "2026-07-08",
+   "end": "2026-07-08",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row349",
+   "batch": "AP-127",
+   "duration": "Half Day - Morning (AM)",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SUPAWAN A.",
+   "start": "2026-07-08",
+   "end": "2026-07-08",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row353",
+   "batch": "AP-127",
+   "duration": "Half Day - Morning (AM)",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "TAKORN C.",
+   "start": "2026-07-08",
+   "end": "2026-07-08",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row348",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "WATCHARAPOL A.",
+   "start": "2026-07-08",
+   "end": "2026-07-08",
+   "reason": "Sick Leave",
+   "id": "Leave Record|row358",
+   "batch": "AP-127",
+   "duration": "Half Day - Morning (AM)",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "ATHINAT H.",
+   "start": "2026-07-09",
+   "end": "2026-07-09",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row323",
+   "batch": "-",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
+   "name": "KANTAPONG A.",
+   "start": "2026-07-09",
+   "end": "2026-07-09",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row362",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "นัดหมายทันตแพทย์ที่กรุงเทพฯ",
+   "role": "Student"
+  },
+  {
+   "name": "NAPON R.",
+   "start": "2026-07-09",
+   "end": "2026-07-10",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row341",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "RAKCHON K.",
+   "start": "2026-07-10",
+   "end": "2026-07-12",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row357",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "ร่วมงานแต่งงาน",
+   "role": "Student"
+  },
+  {
+   "name": "SORNSORAWITCH C.",
+   "start": "2026-07-10",
+   "end": "2026-07-12",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row350",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "AKARAVIT K.",
+   "start": "2026-07-11",
+   "end": "2026-07-12",
+   "reason": "Other",
+   "id": "Leave Record|row368",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "EKKASIT B.",
+   "start": "2026-07-11",
+   "end": "2026-07-13",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row370",
+   "batch": "AP-128",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "KRIT L.",
+   "start": "2026-07-11",
+   "end": "2026-07-12",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row369",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PRITASNA M.",
+   "start": "2026-07-11",
+   "end": "2026-07-12",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row367",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "ANUSORN T.",
+   "start": "2026-07-12",
+   "end": "2026-07-12",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row339",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "KRIT L.",
+   "start": "2026-07-12",
+   "end": "2026-07-12",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row372",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "Doctor appointment",
+   "role": "Student"
+  },
+  {
+   "name": "PREM P.",
+   "start": "2026-07-12",
+   "end": "2026-07-15",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row322",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SUPAWAN A.",
+   "start": "2026-07-12",
+   "end": "2026-07-12",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row291",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PREM P.",
+   "start": "2026-07-13",
+   "end": "2026-07-15",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row373",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SANTI SUK.",
+   "start": "2026-07-13",
+   "end": "2026-07-13",
+   "reason": "Other",
+   "id": "Leave Record|row371",
+   "batch": "N/A",
+   "duration": "Full Day",
+   "note": "ไปรับ License",
+   "role": "Instructor"
+  },
+  {
+   "name": "PRITASNA M.",
+   "start": "2026-07-14",
+   "end": "2026-07-16",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row342",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SORNSORAWITCH C.",
+   "start": "2026-07-15",
+   "end": "2026-07-15",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row351",
+   "batch": "AP-127",
+   "duration": "Half Day - Afternoon (PM)",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "CHAWIN K.",
+   "start": "2026-07-16",
+   "end": "2026-07-17",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row379",
+   "batch": "N/A",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
+   "name": "ITTIPOL P.",
+   "start": "2026-07-16",
+   "end": "2026-07-17",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row377",
+   "batch": "N/A",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
+   "name": "JIRAT R.",
+   "start": "2026-07-16",
+   "end": "2026-07-16",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row380",
+   "batch": "N/A",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
+   "name": "ITTIPOL P.",
+   "start": "2026-07-17",
+   "end": "2026-07-17",
+   "reason": "Other",
+   "id": "Leave Record|row385",
+   "batch": "N/A",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
+   "name": "KOONPHOL U.",
+   "start": "2026-07-17",
+   "end": "2026-07-17",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row384",
+   "batch": "N/A",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
+   "name": "SOWAN C.",
+   "start": "2026-07-17",
+   "end": "2026-07-17",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row366",
+   "batch": "-",
+   "duration": "Half Day - Afternoon (PM)",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
+   "name": "VIPHARATH C.",
+   "start": "2026-07-17",
+   "end": "2026-07-17",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row354",
+   "batch": "AP-129",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "WARITTHA B.",
+   "start": "2026-07-17",
+   "end": "2026-07-17",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row375",
+   "batch": "AP-129",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "KRIT L.",
+   "start": "2026-07-18",
+   "end": "2026-07-19",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row381",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "NAPON S.",
+   "start": "2026-07-18",
+   "end": "2026-07-20",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row378",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "TEERAWAJ C.",
+   "start": "2026-07-18",
+   "end": "2026-07-19",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row382",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "คุณพ่อป่วย",
+   "role": "Student"
+  },
+  {
+   "name": "WATTIKORN K.",
+   "start": "2026-07-18",
+   "end": "2026-07-18",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row374",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "ลองชุดเพื่อนเจ้าบ่าวที่กรุงเทพ",
+   "role": "Student"
+  },
+  {
+   "name": "KITTHANYA T.",
+   "start": "2026-07-20",
+   "end": "2026-07-20",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row376",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "033 FPM Exam",
+   "role": "Student"
+  },
+  {
+   "name": "THANACHOTE A.",
+   "start": "2026-07-24",
+   "end": "2026-07-27",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row311",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "AKARAVIT K.",
+   "start": "2026-07-25",
+   "end": "2026-07-27",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row297",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "เตรียมตัวและสอบวิชา Multi Engine Rating",
+   "role": "Student"
+  },
+  {
+   "name": "AKARAVIT K.",
+   "start": "2026-07-25",
+   "end": "2026-07-27",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row289",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "เตรียมตัวและสอบ Multi Engine Rating",
+   "role": "Student"
+  },
+  {
+   "name": "PICHAKORN J.",
+   "start": "2026-07-25",
+   "end": "2026-07-27",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row320",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SOWAN C.",
+   "start": "2026-07-27",
+   "end": "2026-07-27",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row363",
+   "batch": "-",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
+   "name": "VIPHARATH C.",
+   "start": "2026-07-27",
+   "end": "2026-07-27",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row355",
+   "batch": "AP-129",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "NABHADR P.",
+   "start": "2026-07-31",
+   "end": "2026-08-01",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row383",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "NUTTAWAT R.",
+   "start": "2026-07-31",
+   "end": "2026-07-31",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row361",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "กลับบ้าน",
+   "role": "Student"
+  },
+  {
+   "name": "SOWAN C.",
+   "start": "2026-07-31",
+   "end": "2026-07-31",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row364",
+   "batch": "-",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
+   "name": "PRITASNA M.",
+   "start": "2026-08-08",
+   "end": "2026-08-10",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row386",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SOWAN C.",
+   "start": "2026-09-28",
+   "end": "2026-09-28",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row365",
+   "batch": "-",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
+  }
+ ]
 }

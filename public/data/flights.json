@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-16T16:44:46.557Z",
+ "generatedAt": "2026-07-16T18:35:06.877Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-16T16:44:46.557Z",
-  "upstreamFetchedAt": "2026-07-16T16:43:38Z"
+  "fetchedAt": "2026-07-16T18:35:06.877Z",
+  "upstreamFetchedAt": "2026-07-16T18:31:48Z"
  },
  "flights": [
   {
@@ -84852,12 +84852,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:00",
+   "ldgTime": "08:00",
+   "airborneMin": 120,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -84882,12 +84882,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:10",
+   "ldgTime": "09:55",
+   "airborneMin": 105,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -84912,12 +84912,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "16:10",
+   "ldgTime": "17:55",
+   "airborneMin": 105,
+   "to": 3,
+   "ldg": 3,
+   "inst": 3,
    "flags": {
     "actualOnly": true
    }
@@ -84942,12 +84942,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "12:00",
+   "ldgTime": "14:00",
+   "airborneMin": 120,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -84972,12 +84972,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:00",
+   "ldgTime": "09:00",
+   "airborneMin": 180,
+   "to": 3,
+   "ldg": 3,
+   "inst": 3,
    "flags": {
     "actualOnly": true
    }
@@ -85002,12 +85002,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:00",
+   "ldgTime": "13:00",
+   "airborneMin": 180,
+   "to": 3,
+   "ldg": 3,
+   "inst": 3,
    "flags": {
     "actualOnly": true
    }
@@ -85059,12 +85059,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "14:05",
+   "ldgTime": "15:55",
+   "airborneMin": 110,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -85089,12 +85089,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "18:10",
+   "ldgTime": "19:55",
+   "airborneMin": 105,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -85119,12 +85119,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "20:00",
+   "ldgTime": "22:00",
+   "airborneMin": 120,
+   "to": 3,
+   "ldg": 3,
+   "inst": 3,
    "flags": {
     "actualOnly": true
    }
@@ -85149,12 +85149,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "20:05",
+   "ldgTime": "21:55",
+   "airborneMin": 110,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -85179,12 +85179,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "14:05",
+   "ldgTime": "15:55",
+   "airborneMin": 110,
+   "to": 4,
+   "ldg": 4,
+   "inst": 4,
    "flags": {
     "actualOnly": true
    }
@@ -85209,12 +85209,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "18:05",
+   "ldgTime": "19:55",
+   "airborneMin": 110,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -85239,11 +85239,11 @@
    "cond": null,
    "type": "DA42TDI",
    "tail": "HS-TPL",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
+   "tkoff": "07:32",
+   "ldgTime": "08:17",
+   "airborneMin": 45,
+   "to": 3,
+   "ldg": 3,
    "inst": null,
    "flags": {
     "actualOnly": true
@@ -86091,12 +86091,12 @@
    "cond": "Nav",
    "type": "DA40TDI",
    "tail": "HS-TPV",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:55",
+   "ldgTime": "13:28",
+   "airborneMin": 153,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -86121,12 +86121,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVG",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:55",
+   "ldgTime": "09:55",
+   "airborneMin": 60,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -86178,12 +86178,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "16:05",
+   "ldgTime": "17:55",
+   "airborneMin": 110,
+   "to": 3,
+   "ldg": 3,
+   "inst": 3,
    "flags": {
     "actualOnly": true
    }
@@ -86208,12 +86208,12 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPO",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:09",
+   "ldgTime": "10:51",
+   "airborneMin": 162,
+   "to": 4,
+   "ldg": 4,
+   "inst": 3,
    "flags": {
     "actualOnly": true
    }
@@ -86265,11 +86265,11 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPO",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
+   "tkoff": "06:42",
+   "ldgTime": "07:28",
+   "airborneMin": 46,
+   "to": 1,
+   "ldg": 1,
    "inst": null,
    "flags": {
     "actualOnly": true
@@ -86295,12 +86295,12 @@
    "cond": null,
    "type": "R44",
    "tail": "HS-TZT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:30",
+   "ldgTime": "10:10",
+   "airborneMin": 100,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -86325,12 +86325,12 @@
    "cond": null,
    "type": "R44",
    "tail": "HS-TZT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:35",
+   "ldgTime": "11:30",
+   "airborneMin": 55,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -86355,12 +86355,12 @@
    "cond": null,
    "type": "R44",
    "tail": "HS-TZT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "11:45",
+   "ldgTime": "12:40",
+   "airborneMin": 55,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -86385,12 +86385,12 @@
    "cond": null,
    "type": "R44",
    "tail": "HS-TZU",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:40",
+   "ldgTime": "10:10",
+   "airborneMin": 90,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -86415,12 +86415,12 @@
    "cond": null,
    "type": "R44",
    "tail": "HS-TZU",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:40",
+   "ldgTime": "12:00",
+   "airborneMin": 80,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -86445,12 +86445,12 @@
    "cond": null,
    "type": "R44",
    "tail": "HS-TZU",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "12:30",
+   "ldgTime": "14:00",
+   "airborneMin": 90,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -86475,11 +86475,11 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVA",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
+   "tkoff": "08:15",
+   "ldgTime": "09:15",
+   "airborneMin": 60,
+   "to": 1,
+   "ldg": 1,
    "inst": null,
    "flags": {
     "actualOnly": true
@@ -86505,11 +86505,11 @@
    "cond": "Solo/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
+   "tkoff": "09:05",
+   "ldgTime": "10:25",
+   "airborneMin": 80,
+   "to": 1,
+   "ldg": 1,
    "inst": null,
    "flags": {
     "actualOnly": true
@@ -86535,12 +86535,12 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPR",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:47",
+   "ldgTime": "10:47",
+   "airborneMin": 120,
+   "to": 3,
+   "ldg": 3,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -86565,12 +86565,12 @@
    "cond": "Test",
    "type": "DA40CS",
    "tail": "HS-TVC",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "09:40",
+   "ldgTime": "10:25",
+   "airborneMin": 45,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -86595,12 +86595,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVA",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "11:25",
+   "ldgTime": "12:25",
+   "airborneMin": 60,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -86625,12 +86625,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "09:10",
+   "ldgTime": "10:55",
+   "airborneMin": 105,
+   "to": 4,
+   "ldg": 4,
+   "inst": 4,
    "flags": {
     "actualOnly": true
    }
@@ -86655,12 +86655,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "15:00",
+   "ldgTime": "17:00",
+   "airborneMin": 120,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -86685,12 +86685,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:00",
+   "ldgTime": "11:00",
+   "airborneMin": 180,
+   "to": 3,
+   "ldg": 3,
+   "inst": 3,
    "flags": {
     "actualOnly": true
    }
@@ -86715,12 +86715,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "13:10",
+   "ldgTime": "14:55",
+   "airborneMin": 105,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -86745,12 +86745,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "18:00",
+   "ldgTime": "21:00",
+   "airborneMin": 180,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -86775,12 +86775,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "15:00",
+   "ldgTime": "18:00",
+   "airborneMin": 180,
+   "to": 5,
+   "ldg": 5,
+   "inst": 5,
    "flags": {
     "actualOnly": true
    }
@@ -86805,12 +86805,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "09:05",
+   "ldgTime": "10:55",
+   "airborneMin": 110,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -86835,12 +86835,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:00",
+   "ldgTime": "09:00",
+   "airborneMin": 180,
+   "to": 4,
+   "ldg": 4,
+   "inst": 4,
    "flags": {
     "actualOnly": true
    }
@@ -86865,12 +86865,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:10",
+   "ldgTime": "07:55",
+   "airborneMin": 105,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -86895,12 +86895,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "17:10",
+   "ldgTime": "18:50",
+   "airborneMin": 100,
+   "to": 3,
+   "ldg": 3,
+   "inst": 3,
    "flags": {
     "actualOnly": true
    }
@@ -86925,12 +86925,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "19:20",
+   "ldgTime": "21:00",
+   "airborneMin": 100,
+   "to": 3,
+   "ldg": 3,
+   "inst": 3,
    "flags": {
     "actualOnly": true
    }
@@ -86955,12 +86955,12 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPX",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:35",
+   "ldgTime": "07:30",
+   "airborneMin": 55,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -86985,12 +86985,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVE",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:30",
+   "ldgTime": "11:45",
+   "airborneMin": 75,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -87015,12 +87015,12 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPX",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "07:50",
+   "ldgTime": "08:45",
+   "airborneMin": 55,
+   "to": 4,
+   "ldg": 4,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -87045,12 +87045,12 @@
    "cond": "Solo",
    "type": "DA40CS",
    "tail": "HS-TVG",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:40",
+   "ldgTime": "07:40",
+   "airborneMin": 60,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -87075,12 +87075,12 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPR",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:50",
+   "ldgTime": "07:33",
+   "airborneMin": 43,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -87105,12 +87105,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVH",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:00",
+   "ldgTime": "09:00",
+   "airborneMin": 60,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -87135,12 +87135,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVH",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:08",
+   "ldgTime": "11:04",
+   "airborneMin": 56,
+   "to": 2,
+   "ldg": 2,
+   "inst": 1,
    "flags": {
     "actualOnly": true
    }
@@ -87165,12 +87165,12 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPW",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "07:02",
+   "ldgTime": "07:47",
+   "airborneMin": 45,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -87195,12 +87195,12 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPW",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:19",
+   "ldgTime": "09:37",
+   "airborneMin": 78,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -87225,12 +87225,12 @@
    "cond": "Nav",
    "type": "DA40TDI",
    "tail": "HS-TPR",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:05",
+   "ldgTime": "10:50",
+   "airborneMin": 165,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -87255,12 +87255,12 @@
    "cond": "Nav",
    "type": "DA40TDI",
    "tail": "HS-TPT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:40",
+   "ldgTime": "11:55",
+   "airborneMin": 75,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -87285,12 +87285,12 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPV",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:27",
+   "ldgTime": "08:16",
+   "airborneMin": 109,
+   "to": 3,
+   "ldg": 3,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -87345,12 +87345,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "11:10",
+   "ldgTime": "12:55",
+   "airborneMin": 105,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -87375,12 +87375,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVG",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:30",
+   "ldgTime": "09:45",
+   "airborneMin": 75,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -87405,12 +87405,12 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:46",
+   "ldgTime": "07:37",
+   "airborneMin": 51,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -87435,12 +87435,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVG",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:20",
+   "ldgTime": "11:30",
+   "airborneMin": 70,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -87465,12 +87465,12 @@
    "cond": "Solo",
    "type": "DA40CS",
    "tail": "HS-TVE",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "07:05",
+   "ldgTime": "08:02",
+   "airborneMin": 57,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -87495,12 +87495,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVE",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:52",
+   "ldgTime": "09:46",
+   "airborneMin": 54,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -87525,12 +87525,12 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVA",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:32",
+   "ldgTime": "08:27",
+   "airborneMin": 115,
+   "to": 3,
+   "ldg": 3,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -87555,12 +87555,12 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVA",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:57",
+   "ldgTime": "10:42",
+   "airborneMin": 105,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -87585,12 +87585,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "11:10",
+   "ldgTime": "12:55",
+   "airborneMin": 105,
+   "to": 3,
+   "ldg": 3,
+   "inst": 3,
    "flags": {
     "actualOnly": true
    }
@@ -87615,12 +87615,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "13:00",
+   "ldgTime": "14:00",
+   "airborneMin": 60,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -87645,12 +87645,12 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPW",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:15",
+   "ldgTime": "11:00",
+   "airborneMin": 45,
+   "to": 3,
+   "ldg": 3,
+   "inst": 1,
    "flags": {
     "actualOnly": true
    }
@@ -87675,12 +87675,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVH",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:45",
+   "ldgTime": "07:30",
+   "airborneMin": 45,
+   "to": 5,
+   "ldg": 5,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -87705,12 +87705,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:15",
+   "ldgTime": "09:55",
+   "airborneMin": 100,
+   "to": 3,
+   "ldg": 3,
+   "inst": 3,
    "flags": {
     "actualOnly": true
    }
@@ -87735,12 +87735,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "14:10",
+   "ldgTime": "16:55",
+   "airborneMin": 165,
+   "to": 3,
+   "ldg": 3,
+   "inst": 3,
    "flags": {
     "actualOnly": true
    }
@@ -87765,12 +87765,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "11:00",
+   "ldgTime": "14:00",
+   "airborneMin": 180,
+   "to": 4,
+   "ldg": 4,
+   "inst": 4,
    "flags": {
     "actualOnly": true
    }
@@ -87795,12 +87795,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:00",
+   "ldgTime": "13:00",
+   "airborneMin": 180,
+   "to": 5,
+   "ldg": 5,
+   "inst": 5,
    "flags": {
     "actualOnly": true
    }
@@ -87825,12 +87825,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "14:00",
+   "ldgTime": "16:00",
+   "airborneMin": 120,
+   "to": 2,
+   "ldg": 2,
+   "inst": 3,
    "flags": {
     "actualOnly": true
    }
@@ -87882,12 +87882,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:10",
+   "ldgTime": "07:55",
+   "airborneMin": 105,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -87912,12 +87912,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:10",
+   "ldgTime": "07:55",
+   "airborneMin": 105,
+   "to": 1,
+   "ldg": 1,
+   "inst": 1,
    "flags": {
     "actualOnly": true
    }
@@ -87942,12 +87942,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "19:15",
+   "ldgTime": "21:05",
+   "airborneMin": 110,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -87972,12 +87972,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "17:00",
+   "ldgTime": "19:00",
+   "airborneMin": 120,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -88002,12 +88002,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "18:10",
+   "ldgTime": "20:55",
+   "airborneMin": 165,
+   "to": 3,
+   "ldg": 3,
+   "inst": 3,
    "flags": {
     "actualOnly": true
    }
@@ -88032,12 +88032,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVA",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:57",
+   "ldgTime": "07:43",
+   "airborneMin": 46,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -88089,12 +88089,12 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPX",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:25",
+   "ldgTime": "07:10",
+   "airborneMin": 45,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -88119,12 +88119,12 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPX",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "07:45",
+   "ldgTime": "08:30",
+   "airborneMin": 45,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -88149,12 +88149,12 @@
    "cond": "Solo",
    "type": "DA40CS",
    "tail": "HS-TVG",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:45",
+   "ldgTime": "07:45",
+   "airborneMin": 60,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -88233,12 +88233,12 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPR",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:33",
+   "ldgTime": "08:21",
+   "airborneMin": 108,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -88290,12 +88290,12 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPO",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:34",
+   "ldgTime": "08:29",
+   "airborneMin": 115,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -88320,12 +88320,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "13:00",
+   "ldgTime": "14:00",
+   "airborneMin": 60,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -88350,12 +88350,12 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:42",
+   "ldgTime": "10:27",
+   "airborneMin": 105,
+   "to": 4,
+   "ldg": 4,
+   "inst": 3,
    "flags": {
     "actualOnly": true
    }
@@ -88380,12 +88380,12 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:48",
+   "ldgTime": "07:24",
+   "airborneMin": 36,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -88410,12 +88410,12 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVE",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:48",
+   "ldgTime": "10:32",
+   "airborneMin": 104,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -88440,12 +88440,12 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPV",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:54",
+   "ldgTime": "08:14",
+   "airborneMin": 80,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -88470,12 +88470,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:05",
+   "ldgTime": "09:55",
+   "airborneMin": 110,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -88500,12 +88500,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "16:05",
+   "ldgTime": "17:55",
+   "airborneMin": 110,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -88530,12 +88530,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:05",
+   "ldgTime": "07:55",
+   "airborneMin": 110,
+   "to": 3,
+   "ldg": 3,
+   "inst": 3,
    "flags": {
     "actualOnly": true
    }
@@ -88560,12 +88560,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:05",
+   "ldgTime": "09:55",
+   "airborneMin": 110,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -88590,12 +88590,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:05",
+   "ldgTime": "07:55",
+   "airborneMin": 110,
+   "to": 3,
+   "ldg": 3,
+   "inst": 3,
    "flags": {
     "actualOnly": true
    }
@@ -88620,12 +88620,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:05",
+   "ldgTime": "11:55",
+   "airborneMin": 110,
+   "to": 3,
+   "ldg": 3,
+   "inst": 3,
    "flags": {
     "actualOnly": true
    }
@@ -88650,12 +88650,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "11:05",
+   "ldgTime": "12:55",
+   "airborneMin": 110,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -88680,12 +88680,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "12:10",
+   "ldgTime": "13:55",
+   "airborneMin": 105,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -88710,12 +88710,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:05",
+   "ldgTime": "09:55",
+   "airborneMin": 110,
+   "to": 4,
+   "ldg": 2,
+   "inst": 4,
    "flags": {
     "actualOnly": true
    }
@@ -88740,12 +88740,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "15:00",
+   "ldgTime": "18:00",
+   "airborneMin": 180,
+   "to": 3,
+   "ldg": 3,
+   "inst": 3,
    "flags": {
     "actualOnly": true
    }
@@ -88770,12 +88770,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "18:10",
+   "ldgTime": "20:55",
+   "airborneMin": 165,
+   "to": 3,
+   "ldg": 3,
+   "inst": 3,
    "flags": {
     "actualOnly": true
    }
@@ -88800,12 +88800,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "18:00",
+   "ldgTime": "21:00",
+   "airborneMin": 180,
+   "to": 4,
+   "ldg": 4,
+   "inst": 4,
    "flags": {
     "actualOnly": true
    }
@@ -88857,12 +88857,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "16:10",
+   "ldgTime": "17:50",
+   "airborneMin": 100,
+   "to": 3,
+   "ldg": 3,
+   "inst": 3,
    "flags": {
     "actualOnly": true
    }
@@ -88887,12 +88887,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "13:10",
+   "ldgTime": "14:55",
+   "airborneMin": 105,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -88917,12 +88917,12 @@
    "cond": null,
    "type": "DA42TDI",
    "tail": "HS-TPL",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "09:25",
+   "ldgTime": "10:10",
+   "airborneMin": 45,
+   "to": 4,
+   "ldg": 4,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -88947,12 +88947,12 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVA",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:40",
+   "ldgTime": "08:25",
+   "airborneMin": 105,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -88977,12 +88977,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVA",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:40",
+   "ldgTime": "11:55",
+   "airborneMin": 75,
+   "to": 4,
+   "ldg": 4,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -89007,12 +89007,12 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVH",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "11:34",
+   "ldgTime": "13:24",
+   "airborneMin": 110,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -89037,12 +89037,12 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:20",
+   "ldgTime": "10:05",
+   "airborneMin": 105,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -89067,12 +89067,12 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVG",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "11:15",
+   "ldgTime": "12:59",
+   "airborneMin": 104,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -89097,12 +89097,12 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPV",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "12:25",
+   "ldgTime": "13:35",
+   "airborneMin": 70,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -89154,12 +89154,12 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPO",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:40",
+   "ldgTime": "12:20",
+   "airborneMin": 100,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -89184,12 +89184,12 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPV",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "11:37",
+   "ldgTime": "11:52",
+   "airborneMin": 15,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -89241,12 +89241,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVA",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "12:30",
+   "ldgTime": "12:40",
+   "airborneMin": 10,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -89325,12 +89325,12 @@
    "cond": "Solo",
    "type": "DA40CS",
    "tail": "HS-TVA",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "09:09",
+   "ldgTime": "10:19",
+   "airborneMin": 70,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -89409,12 +89409,12 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPR",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:43",
+   "ldgTime": "11:28",
+   "airborneMin": 165,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -89439,12 +89439,12 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPW",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:39",
+   "ldgTime": "09:15",
+   "airborneMin": 156,
+   "to": 2,
+   "ldg": 2,
+   "inst": 4,
    "flags": {
     "actualOnly": true
    }
@@ -89469,12 +89469,12 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPR",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "12:02",
+   "ldgTime": "13:45",
+   "airborneMin": 103,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -89499,12 +89499,12 @@
    "cond": null,
    "type": "C172",
    "tail": "HS-TPF",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:53",
+   "ldgTime": "08:08",
+   "airborneMin": 75,
+   "to": 3,
+   "ldg": 3,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -89529,12 +89529,12 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:30",
+   "ldgTime": "07:30",
+   "airborneMin": 60,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -89667,12 +89667,12 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "11:25",
+   "ldgTime": "13:15",
+   "airborneMin": 110,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -89697,12 +89697,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVH",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:05",
+   "ldgTime": "10:55",
+   "airborneMin": 50,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -89727,12 +89727,12 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPX",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:45",
+   "ldgTime": "07:33",
+   "airborneMin": 48,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -89757,12 +89757,12 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPX",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "11:45",
+   "ldgTime": "13:10",
+   "airborneMin": 85,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -89787,12 +89787,12 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPX",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:27",
+   "ldgTime": "09:20",
+   "airborneMin": 53,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -89844,12 +89844,12 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPO",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:30",
+   "ldgTime": "09:30",
+   "airborneMin": 60,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -89901,12 +89901,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVE",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "12:00",
+   "ldgTime": "12:35",
+   "airborneMin": 35,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -89958,12 +89958,12 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPW",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:19",
+   "ldgTime": "13:03",
+   "airborneMin": 164,
+   "to": 4,
+   "ldg": 4,
+   "inst": 4,
    "flags": {
     "actualOnly": true
    }
@@ -89988,12 +89988,12 @@
    "cond": null,
    "type": "R44",
    "tail": "HS-TZU",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:30",
+   "ldgTime": "10:10",
+   "airborneMin": 100,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -90018,12 +90018,12 @@
    "cond": null,
    "type": "R44",
    "tail": "HS-TZU",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:40",
+   "ldgTime": "12:10",
+   "airborneMin": 90,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -90075,12 +90075,12 @@
    "cond": null,
    "type": "R44 (SIM)",
    "tail": "HS-TZQ (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:30",
+   "ldgTime": "09:30",
+   "airborneMin": 60,
+   "to": 3,
+   "ldg": 3,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -90105,12 +90105,12 @@
    "cond": null,
    "type": "R44 (SIM)",
    "tail": "HS-TZQ (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "09:45",
+   "ldgTime": "10:40",
+   "airborneMin": 55,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -90135,12 +90135,12 @@
    "cond": null,
    "type": "R44 (SIM)",
    "tail": "HS-TZQ (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "11:05",
+   "ldgTime": "12:00",
+   "airborneMin": 55,
+   "to": 3,
+   "ldg": 3,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -90192,12 +90192,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVG",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:25",
+   "ldgTime": "09:40",
+   "airborneMin": 75,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -90249,12 +90249,12 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPV",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:40",
+   "ldgTime": "09:10",
+   "airborneMin": 30,
+   "to": 4,
+   "ldg": 4,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -90279,12 +90279,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVC",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:30",
+   "ldgTime": "12:15",
+   "airborneMin": 105,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -90309,12 +90309,12 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPX",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "09:40",
+   "ldgTime": "10:55",
+   "airborneMin": 75,
+   "to": 3,
+   "ldg": 3,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -90366,12 +90366,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:00",
+   "ldgTime": "11:00",
+   "airborneMin": 180,
+   "to": 3,
+   "ldg": 3,
+   "inst": 3,
    "flags": {
     "actualOnly": true
    }
@@ -90396,12 +90396,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "11:10",
+   "ldgTime": "13:55",
+   "airborneMin": 165,
+   "to": 3,
+   "ldg": 3,
+   "inst": 3,
    "flags": {
     "actualOnly": true
    }
@@ -90426,12 +90426,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "11:00",
+   "ldgTime": "14:00",
+   "airborneMin": 180,
+   "to": 3,
+   "ldg": 3,
+   "inst": 3,
    "flags": {
     "actualOnly": true
    }
@@ -90456,12 +90456,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:00",
+   "ldgTime": "08:00",
+   "airborneMin": 120,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -90486,12 +90486,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:15",
+   "ldgTime": "07:55",
+   "airborneMin": 100,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -90516,12 +90516,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "14:10",
+   "ldgTime": "15:55",
+   "airborneMin": 105,
+   "to": 1,
+   "ldg": 1,
+   "inst": 1,
    "flags": {
     "actualOnly": true
    }
@@ -90546,12 +90546,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "18:05",
+   "ldgTime": "19:55",
+   "airborneMin": 110,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -90576,12 +90576,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "16:05",
+   "ldgTime": "17:55",
+   "airborneMin": 110,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -90606,12 +90606,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "18:10",
+   "ldgTime": "19:50",
+   "airborneMin": 100,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -90636,12 +90636,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "20:10",
+   "ldgTime": "21:55",
+   "airborneMin": 105,
+   "to": 3,
+   "ldg": 3,
+   "inst": 3,
    "flags": {
     "actualOnly": true
    }
@@ -90666,12 +90666,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "20:05",
+   "ldgTime": "21:55",
+   "airborneMin": 110,
+   "to": 3,
+   "ldg": 3,
+   "inst": 3,
    "flags": {
     "actualOnly": true
    }
@@ -90696,12 +90696,12 @@
    "cond": null,
    "type": "DA42TDI",
    "tail": "HS-TPL",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "09:14",
+   "ldgTime": "10:55",
+   "airborneMin": 101,
+   "to": 3,
+   "ldg": 3,
+   "inst": 1,
    "flags": {
     "actualOnly": true
    }
@@ -90726,12 +90726,12 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVG",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "11:50",
+   "ldgTime": "12:35",
+   "airborneMin": 45,
+   "to": 1,
+   "ldg": 1,
+   "inst": 1,
    "flags": {
     "actualOnly": true
    }
@@ -90756,12 +90756,12 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPX",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:46",
+   "ldgTime": "11:34",
+   "airborneMin": 168,
+   "to": 4,
+   "ldg": 4,
+   "inst": 3,
    "flags": {
     "actualOnly": true
    }
@@ -90786,12 +90786,12 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPO",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:30",
+   "ldgTime": "13:29",
+   "airborneMin": 179,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -90816,12 +90816,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "15:05",
+   "ldgTime": "17:55",
+   "airborneMin": 170,
+   "to": 3,
+   "ldg": 3,
+   "inst": 3,
    "flags": {
     "actualOnly": true
    }
@@ -90846,12 +90846,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVG",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:44",
+   "ldgTime": "07:45",
+   "airborneMin": 61,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -90876,12 +90876,12 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "11:30",
+   "ldgTime": "13:06",
+   "airborneMin": 96,
+   "to": 3,
+   "ldg": 3,
+   "inst": 3,
    "flags": {
     "actualOnly": true
    }
@@ -90933,12 +90933,12 @@
    "cond": "Solo",
    "type": "C172",
    "tail": "HS-TPF",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:45",
+   "ldgTime": "07:45",
+   "airborneMin": 60,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -90963,12 +90963,12 @@
    "cond": "Solo",
    "type": "DA40CS",
    "tail": "HS-TVG",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:27",
+   "ldgTime": "09:37",
+   "airborneMin": 70,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -90993,12 +90993,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVH",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "12:05",
+   "ldgTime": "13:25",
+   "airborneMin": 80,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -91023,12 +91023,12 @@
    "cond": "Nav",
    "type": "R44",
    "tail": "HS-TZT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:35",
+   "ldgTime": "10:10",
+   "airborneMin": 95,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -91053,12 +91053,12 @@
    "cond": "Nav",
    "type": "R44",
    "tail": "HS-TZT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:30",
+   "ldgTime": "12:10",
+   "airborneMin": 100,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -91083,12 +91083,12 @@
    "cond": "Solo",
    "type": "R44",
    "tail": "HS-TZT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "12:35",
+   "ldgTime": "13:30",
+   "airborneMin": 55,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -91140,12 +91140,12 @@
    "cond": "Nav",
    "type": "R44",
    "tail": "HS-TZU",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:40",
+   "ldgTime": "12:00",
+   "airborneMin": 80,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -91170,12 +91170,12 @@
    "cond": "Nav",
    "type": "R44",
    "tail": "HS-TZU",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "12:30",
+   "ldgTime": "14:00",
+   "airborneMin": 90,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -91200,12 +91200,12 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPO",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:10",
+   "ldgTime": "08:30",
+   "airborneMin": 20,
+   "to": 3,
+   "ldg": 3,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -91230,12 +91230,12 @@
    "cond": "Solo",
    "type": "DA40TDI",
    "tail": "HS-TPO",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:50",
+   "ldgTime": "09:00",
+   "airborneMin": 10,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -91260,12 +91260,12 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:49",
+   "ldgTime": "08:36",
+   "airborneMin": 107,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -91317,12 +91317,12 @@
    "cond": "Solo",
    "type": "DA40TDI",
    "tail": "HS-TPX",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:57",
+   "ldgTime": "08:02",
+   "airborneMin": 65,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -91347,12 +91347,12 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPW",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "07:03",
+   "ldgTime": "08:10",
+   "airborneMin": 67,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -91377,12 +91377,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVH",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:45",
+   "ldgTime": "10:00",
+   "airborneMin": 75,
+   "to": 3,
+   "ldg": 3,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -91407,12 +91407,12 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPV",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "07:00",
+   "ldgTime": "08:48",
+   "airborneMin": 108,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -91464,12 +91464,12 @@
    "cond": "Solo",
    "type": "DA40CS",
    "tail": "HS-TVH",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:55",
+   "ldgTime": "07:55",
+   "airborneMin": 60,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -91494,12 +91494,12 @@
    "cond": "Solo",
    "type": "DA40CS",
    "tail": "HS-TVE",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:40",
+   "ldgTime": "07:40",
+   "airborneMin": 60,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -91524,12 +91524,12 @@
    "cond": "Solo",
    "type": "C172",
    "tail": "HS-TPF",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "11:34",
+   "ldgTime": "12:29",
+   "airborneMin": 55,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -91554,12 +91554,12 @@
    "cond": "Solo",
    "type": "DA40CS",
    "tail": "HS-TVA",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:51",
+   "ldgTime": "07:54",
+   "airborneMin": 63,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -91584,12 +91584,12 @@
    "cond": "Solo",
    "type": "DA40CS",
    "tail": "HS-TVE",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:25",
+   "ldgTime": "09:25",
+   "airborneMin": 60,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -91614,12 +91614,12 @@
    "cond": "Solo",
    "type": "DA40CS",
    "tail": "HS-TVA",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:38",
+   "ldgTime": "09:28",
+   "airborneMin": 50,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -91644,12 +91644,12 @@
    "cond": "Solo",
    "type": "DA40CS",
    "tail": "HS-TVE",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "11:05",
+   "ldgTime": "12:00",
+   "airborneMin": 55,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -91674,12 +91674,12 @@
    "cond": "Solo",
    "type": "DA40CS",
    "tail": "HS-TVA",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:30",
+   "ldgTime": "11:30",
+   "airborneMin": 60,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -91704,12 +91704,12 @@
    "cond": "Solo",
    "type": "DA40CS",
    "tail": "HS-TVH",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:30",
+   "ldgTime": "11:25",
+   "airborneMin": 55,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -91734,12 +91734,12 @@
    "cond": "Solo",
    "type": "DA40CS",
    "tail": "HS-TVE",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "12:30",
+   "ldgTime": "13:50",
+   "airborneMin": 80,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -91764,12 +91764,12 @@
    "cond": null,
    "type": "C172",
    "tail": "HS-TPF",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "09:00",
+   "ldgTime": "09:55",
+   "airborneMin": 55,
+   "to": 3,
+   "ldg": 3,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -91794,12 +91794,12 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPR",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:18",
+   "ldgTime": "11:03",
+   "airborneMin": 165,
+   "to": 3,
+   "ldg": 3,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -91824,12 +91824,12 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPX",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "11:58",
+   "ldgTime": "13:13",
+   "airborneMin": 75,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -91854,12 +91854,12 @@
    "cond": "Solo",
    "type": "DA40CS",
    "tail": "HS-TVA",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "12:10",
+   "ldgTime": "13:30",
+   "airborneMin": 80,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -91884,12 +91884,12 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPV",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "09:24",
+   "ldgTime": "10:39",
+   "airborneMin": 75,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -91941,12 +91941,12 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPO",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:29",
+   "ldgTime": "07:19",
+   "airborneMin": 50,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -91971,12 +91971,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVG",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:32",
+   "ldgTime": "11:17",
+   "airborneMin": 45,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -92001,12 +92001,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVE",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:13",
+   "ldgTime": "10:38",
+   "airborneMin": 25,
+   "to": 3,
+   "ldg": 3,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -92031,12 +92031,12 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "09:19",
+   "ldgTime": "10:18",
+   "airborneMin": 59,
+   "to": 4,
+   "ldg": 4,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -92061,12 +92061,12 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPR",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:53",
+   "ldgTime": "07:48",
+   "airborneMin": 55,
+   "to": 3,
+   "ldg": 3,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -92091,12 +92091,12 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPV",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "12:15",
+   "ldgTime": "13:10",
+   "airborneMin": 55,
+   "to": 1,
+   "ldg": 1,
+   "inst": 1,
    "flags": {
     "actualOnly": true
    }
@@ -92121,12 +92121,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVD",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:20",
+   "ldgTime": "11:05",
+   "airborneMin": 45,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -92151,12 +92151,12 @@
    "cond": "Solo",
    "type": "C172",
    "tail": "HS-TPH",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:10",
+   "ldgTime": "09:10",
+   "airborneMin": 60,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -92181,12 +92181,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVC",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "12:30",
+   "ldgTime": "13:15",
+   "airborneMin": 45,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -92211,12 +92211,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:35",
+   "ldgTime": "11:25",
+   "airborneMin": 170,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -92241,12 +92241,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:00",
+   "ldgTime": "13:00",
+   "airborneMin": 180,
+   "to": 4,
+   "ldg": 4,
+   "inst": 4,
    "flags": {
     "actualOnly": true
    }
@@ -92271,12 +92271,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:05",
+   "ldgTime": "07:55",
+   "airborneMin": 110,
+   "to": 3,
+   "ldg": 3,
+   "inst": 3,
    "flags": {
     "actualOnly": true
    }
@@ -92301,12 +92301,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "12:05",
+   "ldgTime": "13:55",
+   "airborneMin": 110,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -92358,12 +92358,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "16:00",
+   "ldgTime": "18:00",
+   "airborneMin": 120,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -92388,12 +92388,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:05",
+   "ldgTime": "07:55",
+   "airborneMin": 110,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -92418,12 +92418,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:10",
+   "ldgTime": "09:50",
+   "airborneMin": 100,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -92448,12 +92448,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "18:10",
+   "ldgTime": "19:55",
+   "airborneMin": 105,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -92505,12 +92505,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "18:10",
+   "ldgTime": "19:55",
+   "airborneMin": 105,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -92535,12 +92535,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "20:15",
+   "ldgTime": "21:55",
+   "airborneMin": 100,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -92565,12 +92565,12 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:45",
+   "ldgTime": "08:31",
+   "airborneMin": 106,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -92595,12 +92595,12 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPO",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "09:38",
+   "ldgTime": "11:13",
+   "airborneMin": 95,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -92625,12 +92625,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVD",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "11:55",
+   "ldgTime": "12:43",
+   "airborneMin": 48,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -92655,12 +92655,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVG",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:40",
+   "ldgTime": "07:55",
+   "airborneMin": 75,
+   "to": 3,
+   "ldg": 3,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -92685,12 +92685,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVC",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:30",
+   "ldgTime": "11:45",
+   "airborneMin": 75,
+   "to": 3,
+   "ldg": 3,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -92715,12 +92715,12 @@
    "cond": null,
    "type": "C172",
    "tail": "HS-TPF",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:30",
+   "ldgTime": "09:50",
+   "airborneMin": 80,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -92745,12 +92745,12 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVA",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "12:40",
+   "ldgTime": "13:42",
+   "airborneMin": 62,
+   "to": 1,
+   "ldg": 1,
+   "inst": 1,
    "flags": {
     "actualOnly": true
    }
@@ -92775,12 +92775,12 @@
    "cond": "Solo",
    "type": "DA40CS",
    "tail": "HS-TVA",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:35",
+   "ldgTime": "07:50",
+   "airborneMin": 75,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -92805,12 +92805,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVA",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:08",
+   "ldgTime": "11:16",
+   "airborneMin": 68,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -92835,12 +92835,12 @@
    "cond": null,
    "type": "C172",
    "tail": "HS-TPH",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "11:48",
+   "ldgTime": "13:00",
+   "airborneMin": 72,
+   "to": 3,
+   "ldg": 3,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -92865,12 +92865,12 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "09:07",
+   "ldgTime": "10:51",
+   "airborneMin": 104,
+   "to": 3,
+   "ldg": 3,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -92895,12 +92895,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVA",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:40",
+   "ldgTime": "09:33",
+   "airborneMin": 53,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -92925,12 +92925,12 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPO",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "07:40",
+   "ldgTime": "08:58",
+   "airborneMin": 78,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -92955,12 +92955,12 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPO",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "11:54",
+   "ldgTime": "12:11",
+   "airborneMin": 17,
+   "to": 3,
+   "ldg": 3,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -92985,12 +92985,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVG",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:44",
+   "ldgTime": "09:34",
+   "airborneMin": 50,
+   "to": 3,
+   "ldg": 3,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -93042,12 +93042,12 @@
    "cond": "Solo",
    "type": "DA40CS",
    "tail": "HS-TVH",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:32",
+   "ldgTime": "07:37",
+   "airborneMin": 65,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -93072,12 +93072,12 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVH",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "09:55",
+   "ldgTime": "11:40",
+   "airborneMin": 105,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -93102,12 +93102,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVH",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:05",
+   "ldgTime": "09:20",
+   "airborneMin": 75,
+   "to": 1,
+   "ldg": 1,
+   "inst": 1,
    "flags": {
     "actualOnly": true
    }
@@ -93132,12 +93132,12 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPV",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:10",
+   "ldgTime": "09:48",
+   "airborneMin": 98,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -93162,12 +93162,12 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPR",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:55",
+   "ldgTime": "12:10",
+   "airborneMin": 75,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -93192,12 +93192,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "13:00",
+   "ldgTime": "14:00",
+   "airborneMin": 60,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -93222,12 +93222,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVE",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:20",
+   "ldgTime": "09:42",
+   "airborneMin": 82,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -93252,12 +93252,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVE",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:33",
+   "ldgTime": "11:50",
+   "airborneMin": 77,
+   "to": 3,
+   "ldg": 3,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -93309,12 +93309,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVE",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:17",
+   "ldgTime": "11:35",
+   "airborneMin": 78,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -93339,12 +93339,12 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPV",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:20",
+   "ldgTime": "12:10",
+   "airborneMin": 110,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -93369,12 +93369,12 @@
    "cond": "Solo",
    "type": "DA40CS",
    "tail": "HS-TVD",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:50",
+   "ldgTime": "07:55",
+   "airborneMin": 65,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -93426,12 +93426,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVG",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "12:17",
+   "ldgTime": "13:20",
+   "airborneMin": 63,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -93456,12 +93456,12 @@
    "cond": "Solo",
    "type": "DA40CS",
    "tail": "HS-TVD",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:00",
+   "ldgTime": "11:00",
+   "airborneMin": 60,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -93486,12 +93486,12 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPR",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:53",
+   "ldgTime": "08:41",
+   "airborneMin": 108,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -93516,12 +93516,12 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPR",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "09:21",
+   "ldgTime": "10:23",
+   "airborneMin": 62,
+   "to": 4,
+   "ldg": 4,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -93546,12 +93546,12 @@
    "cond": "Nav",
    "type": "DA40TDI",
    "tail": "HS-TPX",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:30",
+   "ldgTime": "13:26",
+   "airborneMin": 176,
+   "to": 5,
+   "ldg": 5,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -93576,12 +93576,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVE",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:39",
+   "ldgTime": "07:27",
+   "airborneMin": 48,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -93606,12 +93606,12 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPX",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:23",
+   "ldgTime": "09:06",
+   "airborneMin": 163,
+   "to": 2,
+   "ldg": 2,
+   "inst": 1,
    "flags": {
     "actualOnly": true
    }
@@ -93663,12 +93663,12 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVH",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "12:10",
+   "ldgTime": "12:55",
+   "airborneMin": 45,
+   "to": 1,
+   "ldg": 1,
+   "inst": 1,
    "flags": {
     "actualOnly": true
    }
@@ -93693,12 +93693,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "20:05",
+   "ldgTime": "21:55",
+   "airborneMin": 110,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -93723,12 +93723,12 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPO",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "16:15",
+   "ldgTime": "17:25",
+   "airborneMin": 70,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -93780,12 +93780,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVH",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "16:15",
+   "ldgTime": "17:25",
+   "airborneMin": 70,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -93837,12 +93837,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVC",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "12:55",
+   "ldgTime": "13:45",
+   "airborneMin": 50,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -93894,12 +93894,12 @@
    "cond": null,
    "type": "R44",
    "tail": "HS-TZT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:40",
+   "ldgTime": "12:10",
+   "airborneMin": 90,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -93951,12 +93951,12 @@
    "cond": null,
    "type": "R44 (SIM)",
    "tail": "HS-TZQ (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "13:50",
+   "ldgTime": "14:30",
+   "airborneMin": 40,
+   "to": 6,
+   "ldg": 6,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -93981,12 +93981,12 @@
    "cond": null,
    "type": "R44 (SIM)",
    "tail": "HS-TZQ (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "14:55",
+   "ldgTime": "15:50",
+   "airborneMin": 55,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -94011,12 +94011,12 @@
    "cond": "Nav",
    "type": "DA40TDI",
    "tail": "HS-TPV",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:40",
+   "ldgTime": "07:40",
+   "airborneMin": 60,
+   "to": 3,
+   "ldg": 3,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -94041,12 +94041,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVC",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:30",
+   "ldgTime": "09:20",
+   "airborneMin": 50,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -94071,12 +94071,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVG",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "12:20",
+   "ldgTime": "13:30",
+   "airborneMin": 70,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -94101,12 +94101,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "14:05",
+   "ldgTime": "15:55",
+   "airborneMin": 110,
+   "to": 3,
+   "ldg": 3,
+   "inst": 3,
    "flags": {
     "actualOnly": true
    }
@@ -94158,12 +94158,12 @@
    "cond": null,
    "type": "C172",
    "tail": "HS-TPF",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "11:28",
+   "ldgTime": "12:28",
+   "airborneMin": 60,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -94188,12 +94188,12 @@
    "cond": "Solo",
    "type": "DA40TDI",
    "tail": "HS-TPR",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "16:13",
+   "ldgTime": "17:28",
+   "airborneMin": 75,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -94218,12 +94218,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:05",
+   "ldgTime": "08:55",
+   "airborneMin": 170,
+   "to": 3,
+   "ldg": 3,
+   "inst": 3,
    "flags": {
     "actualOnly": true
    }
@@ -94248,12 +94248,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "09:00",
+   "ldgTime": "12:00",
+   "airborneMin": 180,
+   "to": 3,
+   "ldg": 3,
+   "inst": 4,
    "flags": {
     "actualOnly": true
    }
@@ -94278,12 +94278,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "14:15",
+   "ldgTime": "15:45",
+   "airborneMin": 90,
+   "to": 1,
+   "ldg": 1,
+   "inst": 1,
    "flags": {
     "actualOnly": true
    }
@@ -94308,12 +94308,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "18:10",
+   "ldgTime": "19:55",
+   "airborneMin": 105,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -94338,12 +94338,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "12:05",
+   "ldgTime": "13:55",
+   "airborneMin": 110,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -94368,12 +94368,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:00",
+   "ldgTime": "09:00",
+   "airborneMin": 180,
+   "to": 3,
+   "ldg": 3,
+   "inst": 3,
    "flags": {
     "actualOnly": true
    }
@@ -94398,12 +94398,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "20:10",
+   "ldgTime": "21:50",
+   "airborneMin": 100,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -94428,12 +94428,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "16:15",
+   "ldgTime": "17:55",
+   "airborneMin": 100,
+   "to": 1,
+   "ldg": 1,
+   "inst": 1,
    "flags": {
     "actualOnly": true
    }
@@ -94458,12 +94458,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "12:10",
+   "ldgTime": "14:55",
+   "airborneMin": 165,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -94488,12 +94488,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "15:00",
+   "ldgTime": "18:00",
+   "airborneMin": 180,
+   "to": 4,
+   "ldg": 4,
+   "inst": 4,
    "flags": {
     "actualOnly": true
    }
@@ -94518,12 +94518,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "20:10",
+   "ldgTime": "21:55",
+   "airborneMin": 105,
+   "to": 1,
+   "ldg": 1,
+   "inst": 1,
    "flags": {
     "actualOnly": true
    }
@@ -94548,12 +94548,12 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "09:05",
+   "ldgTime": "11:55",
+   "airborneMin": 170,
+   "to": 3,
+   "ldg": 3,
+   "inst": 3,
    "flags": {
     "actualOnly": true
    }
@@ -94578,12 +94578,12 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVA",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:40",
+   "ldgTime": "08:25",
+   "airborneMin": 105,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -94608,12 +94608,12 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVA",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "09:00",
+   "ldgTime": "10:45",
+   "airborneMin": 105,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -94638,12 +94638,12 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVE",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "07:28",
+   "ldgTime": "08:15",
+   "airborneMin": 47,
+   "to": 1,
+   "ldg": 1,
+   "inst": 1,
    "flags": {
     "actualOnly": true
    }
@@ -94668,12 +94668,12 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVA",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "12:19",
+   "ldgTime": "13:12",
+   "airborneMin": 53,
+   "to": 1,
+   "ldg": 1,
+   "inst": 1,
    "flags": {
     "actualOnly": true
    }
@@ -94698,12 +94698,12 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPX",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:48",
+   "ldgTime": "08:29",
+   "airborneMin": 101,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -94728,12 +94728,12 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:33",
+   "ldgTime": "08:18",
+   "airborneMin": 105,
+   "to": 6,
+   "ldg": 6,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -94758,12 +94758,12 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPO",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "09:00",
+   "ldgTime": "10:15",
+   "airborneMin": 75,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -94788,12 +94788,12 @@
    "cond": "Solo",
    "type": "DA40CS",
    "tail": "HS-TVE",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "11:03",
+   "ldgTime": "12:06",
+   "airborneMin": 63,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -94872,12 +94872,12 @@
    "cond": "Solo",
    "type": "DA40CS",
    "tail": "HS-TVD",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "07:08",
+   "ldgTime": "08:05",
+   "airborneMin": 57,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -94902,12 +94902,12 @@
    "cond": "Solo",
    "type": "DA40CS",
    "tail": "HS-TVE",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "12:35",
+   "ldgTime": "13:35",
+   "airborneMin": 60,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -94932,12 +94932,12 @@
    "cond": "Solo",
    "type": "DA40CS",
    "tail": "HS-TVD",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "12:20",
+   "ldgTime": "13:22",
+   "airborneMin": 62,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -94989,12 +94989,12 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPX",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "09:05",
+   "ldgTime": "10:20",
+   "airborneMin": 75,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -95046,12 +95046,12 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPV",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:43",
+   "ldgTime": "10:25",
+   "airborneMin": 102,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -95103,12 +95103,12 @@
    "cond": "Solo",
    "type": "C172",
    "tail": "HS-TPF",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:30",
+   "ldgTime": "11:45",
+   "airborneMin": 75,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -95133,12 +95133,12 @@
    "cond": "Solo",
    "type": "C172",
    "tail": "HS-TPH",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:50",
+   "ldgTime": "07:50",
+   "airborneMin": 60,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -95163,12 +95163,12 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPR",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:56",
+   "ldgTime": "13:29",
+   "airborneMin": 153,
+   "to": 4,
+   "ldg": 4,
+   "inst": 4,
    "flags": {
     "actualOnly": true
    }
@@ -95193,12 +95193,12 @@
    "cond": "Solo",
    "type": "C172",
    "tail": "HS-TPF",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:56",
+   "ldgTime": "07:51",
+   "airborneMin": 55,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -95223,12 +95223,12 @@
    "cond": "Solo",
    "type": "DA40CS",
    "tail": "HS-TVH",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:45",
+   "ldgTime": "07:45",
+   "airborneMin": 60,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -95253,12 +95253,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVD",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:36",
+   "ldgTime": "10:00",
+   "airborneMin": 84,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -95283,12 +95283,12 @@
    "cond": "Solo",
    "type": "DA40CS",
    "tail": "HS-TVE",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "09:00",
+   "ldgTime": "10:05",
+   "airborneMin": 65,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -95340,12 +95340,12 @@
    "cond": "Nav",
    "type": "DA40TDI",
    "tail": "HS-TPT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "12:06",
+   "ldgTime": "13:54",
+   "airborneMin": 108,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -95370,12 +95370,12 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVC",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:19",
+   "ldgTime": "11:19",
+   "airborneMin": 60,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -95427,12 +95427,12 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPO",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:52",
+   "ldgTime": "13:39",
+   "airborneMin": 167,
+   "to": 3,
+   "ldg": 3,
+   "inst": 1,
    "flags": {
     "actualOnly": true
    }
@@ -95457,12 +95457,12 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPV",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "11:07",
+   "ldgTime": "13:49",
+   "airborneMin": 162,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -95487,12 +95487,12 @@
    "cond": "Solo",
    "type": "DA40CS",
    "tail": "HS-TVD",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:40",
+   "ldgTime": "11:40",
+   "airborneMin": 60,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -95571,12 +95571,12 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:42",
+   "ldgTime": "11:42",
+   "airborneMin": 60,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -95655,12 +95655,12 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPR",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:50",
+   "ldgTime": "09:43",
+   "airborneMin": 173,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
    "flags": {
     "actualOnly": true
    }
@@ -95685,12 +95685,12 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "09:14",
+   "ldgTime": "09:59",
+   "airborneMin": 45,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -95715,12 +95715,12 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPX",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "11:45",
+   "ldgTime": "13:15",
+   "airborneMin": 90,
+   "to": 3,
+   "ldg": 3,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -95772,20 +95772,20 @@
    "cond": "Solo",
    "type": "R44",
    "tail": "HS-TZR",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "10:00",
+   "ldgTime": "11:00",
+   "airborneMin": 60,
+   "to": 3,
+   "ldg": 3,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
   },
   {
-   "id": "BK-MRLRX2LL",
+   "id": "ACTUAL_ONLY_BK-MRLRX2LL",
    "date": "2026-07-16",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "11:10",
@@ -95802,12 +95802,15 @@
    "cond": null,
    "type": "R44",
    "tail": "HS-TZR",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "11:15",
+   "ldgTime": "12:10",
+   "airborneMin": 55,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-MRLRX6RT",
@@ -95829,12 +95832,12 @@
    "cond": null,
    "type": "R44",
    "tail": "HS-TZR",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "12:35",
+   "ldgTime": "13:30",
+   "airborneMin": 55,
+   "to": 6,
+   "ldg": 6,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -95859,12 +95862,12 @@
    "cond": null,
    "type": "R44",
    "tail": "HS-TZT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "08:40",
+   "ldgTime": "10:10",
+   "airborneMin": 90,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -95916,12 +95919,12 @@
    "cond": "Solo",
    "type": "R44",
    "tail": "HS-TZT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "11:45",
+   "ldgTime": "12:35",
+   "airborneMin": 50,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -95973,12 +95976,12 @@
    "cond": "Sim R44",
    "type": "R44 (SIM)",
    "tail": "HS-TZQ (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "14:05",
+   "ldgTime": "15:00",
+   "airborneMin": 55,
+   "to": 3,
+   "ldg": 3,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -96003,12 +96006,12 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPW",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "12:25",
+   "ldgTime": "13:10",
+   "airborneMin": 45,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -96033,12 +96036,12 @@
    "cond": "Solo",
    "type": "DA40TDI",
    "tail": "HS-TPV",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null,
+   "tkoff": "06:53",
+   "ldgTime": "08:02",
+   "airborneMin": 69,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
    "flags": {
     "actualOnly": true
    }
@@ -96964,7 +96967,7 @@
   {
    "id": "BK-AP-127-PANI-16BBR",
    "date": "2026-07-17",
-   "status": "Pending",
+   "status": "Canceled",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -98808,6 +98811,2635 @@
  ],
  "leaves": [
   {
+   "name": "SARACH C.",
+   "start": "2026-04-24",
+   "end": "2026-04-28",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row32",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SANTI SUK.",
+   "start": "2026-04-27",
+   "end": "2026-04-27",
+   "reason": "Sick",
+   "id": "Leave Record|row29",
+   "batch": "-",
+   "duration": "Full Day",
+   "note": "ไข้หวัดใหญ่",
+   "role": "Instructor"
+  },
+  {
+   "name": "SARACH C.",
+   "start": "2026-04-30",
+   "end": "2026-05-06",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row33",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "ANUSORN T.",
+   "start": "2026-05-05",
+   "end": "2026-05-06",
+   "reason": "Other",
+   "id": "Leave Record|row27",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ครูประจำสายลา",
+   "role": "Student"
+  },
+  {
+   "name": "NAPATTORN S.",
+   "start": "2026-05-05",
+   "end": "2026-05-05",
+   "reason": "Official Duty",
+   "id": "Leave Record|row8",
+   "batch": "-",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
+   "name": "NAPON R.",
+   "start": "2026-05-05",
+   "end": "2026-05-08",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row49",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "NATPAKALP K.",
+   "start": "2026-05-05",
+   "end": "2026-05-06",
+   "reason": "Other",
+   "id": "Leave Record|row26",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ครูประจำสายลา",
+   "role": "Student"
+  },
+  {
+   "name": "PARAMUTT C.",
+   "start": "2026-05-05",
+   "end": "2026-05-05",
+   "reason": "Other",
+   "id": "Leave Record|row10",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PHAHOLYUTH P.",
+   "start": "2026-05-05",
+   "end": "2026-05-17",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row9",
+   "batch": "-",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
+   "name": "PICHAKORN J.",
+   "start": "2026-05-05",
+   "end": "2026-05-05",
+   "reason": "Other",
+   "id": "Leave Record|row12",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PORNTREETRA R.",
+   "start": "2026-05-05",
+   "end": "2026-05-05",
+   "reason": "Other",
+   "id": "Leave Record|row14",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PREM P.",
+   "start": "2026-05-05",
+   "end": "2026-05-05",
+   "reason": "Other",
+   "id": "Leave Record|row13",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PRITASNA M.",
+   "start": "2026-05-05",
+   "end": "2026-05-05",
+   "reason": "Other",
+   "id": "Leave Record|row15",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PUWADET H.",
+   "start": "2026-05-05",
+   "end": "2026-05-05",
+   "reason": "Other",
+   "id": "Leave Record|row11",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SANGYAI P.",
+   "start": "2026-05-05",
+   "end": "2026-05-15",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row28",
+   "batch": "PPL-40",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PHUMNAPAT P.",
+   "start": "2026-05-06",
+   "end": "2026-05-06",
+   "reason": "Sick Leave",
+   "id": "Leave Record|row7",
+   "batch": "AP-124",
+   "duration": "Full Day",
+   "note": "เป็นไข้หวัดใหญ่",
+   "role": "Student"
+  },
+  {
+   "name": "PARINYA B.",
+   "start": "2026-05-07",
+   "end": "2026-05-07",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row39",
+   "batch": "-",
+   "duration": "Full Day",
+   "note": "แพทย์นัด",
+   "role": "Instructor"
+  },
+  {
+   "name": "RAKCHON K.",
+   "start": "2026-05-07",
+   "end": "2026-05-08",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row37",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "พบแพทย์",
+   "role": "Student"
+  },
+  {
+   "name": "ANUSORN T.",
+   "start": "2026-05-08",
+   "end": "2026-05-15",
+   "reason": "Other",
+   "id": "Leave Record|row41",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "My FI is on leave",
+   "role": "Student"
+  },
+  {
+   "name": "ANUSORN T.",
+   "start": "2026-05-08",
+   "end": "2026-05-16",
+   "reason": "Other",
+   "id": "Leave Record|row24",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ครูประจำสายลา",
+   "role": "Student"
+  },
+  {
+   "name": "NATPAKALP K.",
+   "start": "2026-05-08",
+   "end": "2026-05-17",
+   "reason": "Other",
+   "id": "Leave Record|row25",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ครูประจำสายลา",
+   "role": "Student"
+  },
+  {
+   "name": "NUTTAPHAT K.",
+   "start": "2026-05-08",
+   "end": "2026-05-11",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row38",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "VASAPHON S.",
+   "start": "2026-05-08",
+   "end": "2026-05-08",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row43",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ไม่มีตารางบิน",
+   "role": "Student"
+  },
+  {
+   "name": "DOLSAKUL S.",
+   "start": "2026-05-11",
+   "end": "2026-05-25",
+   "reason": "Official Duty",
+   "id": "Leave Record|row59",
+   "batch": "AP-128",
+   "duration": "Full Day",
+   "note": "เข้ารับพระราชทานกระบี่และปริญญาบัตร",
+   "role": "Student"
+  },
+  {
+   "name": "DOLSAKUL S.",
+   "start": "2026-05-11",
+   "end": "2026-05-24",
+   "reason": "Official Duty",
+   "id": "Leave Record|row44",
+   "batch": "AP-128",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "EKKASIT B.",
+   "start": "2026-05-11",
+   "end": "2026-05-25",
+   "reason": "Official Duty",
+   "id": "Leave Record|row63",
+   "batch": "AP-128",
+   "duration": "Full Day",
+   "note": "เข้ารับพระราชทานกระบี่และปริญญาบัตร",
+   "role": "Student"
+  },
+  {
+   "name": "EKKASIT B.",
+   "start": "2026-05-11",
+   "end": "2026-05-24",
+   "reason": "Official Duty",
+   "id": "Leave Record|row45",
+   "batch": "AP-128",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "KANTAPONG A.",
+   "start": "2026-05-11",
+   "end": "2026-05-11",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row2",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "ลาสอบ ATPL วิชา 033 Flight Planning",
+   "role": "Student"
+  },
+  {
+   "name": "KITTIPAT M.",
+   "start": "2026-05-11",
+   "end": "2026-05-25",
+   "reason": "Official Duty",
+   "id": "Leave Record|row64",
+   "batch": "AP-128",
+   "duration": "Full Day",
+   "note": "รับพระราชทานกระบี่",
+   "role": "Student"
+  },
+  {
+   "name": "KITTIPAT M.",
+   "start": "2026-05-11",
+   "end": "2026-05-24",
+   "reason": "Official Duty",
+   "id": "Leave Record|row47",
+   "batch": "AP-128",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "KRIDSADA K.",
+   "start": "2026-05-11",
+   "end": "2026-05-25",
+   "reason": "Official Duty",
+   "id": "Leave Record|row65",
+   "batch": "AP-128",
+   "duration": "Full Day",
+   "note": "เข้ารับพระราชทานกระบี่และปริญญาบัตร",
+   "role": "Student"
+  },
+  {
+   "name": "KRIDSADA K.",
+   "start": "2026-05-11",
+   "end": "2026-05-24",
+   "reason": "Official Duty",
+   "id": "Leave Record|row46",
+   "batch": "AP-128",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "MARUAY B.",
+   "start": "2026-05-11",
+   "end": "2026-05-11",
+   "reason": "Sick Leave",
+   "id": "Leave Record|row51",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "หมอนัดที่กรุงเทพ",
+   "role": "Student"
+  },
+  {
+   "name": "NATTARAT G.",
+   "start": "2026-05-11",
+   "end": "2026-05-11",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row50",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "ลาไปสอบ Multi Engine Rating (MER) license ที่ CAAT ครับ",
+   "role": "Student"
+  },
+  {
+   "name": "PAKORN W.",
+   "start": "2026-05-11",
+   "end": "2026-05-11",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row35",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PICHAKORN J.",
+   "start": "2026-05-11",
+   "end": "2026-05-11",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row68",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PREM P.",
+   "start": "2026-05-11",
+   "end": "2026-05-11",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row56",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "MER",
+   "role": "Student"
+  },
+  {
+   "name": "PRITASNA M.",
+   "start": "2026-05-11",
+   "end": "2026-05-11",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row53",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PRITASNA M.",
+   "start": "2026-05-11",
+   "end": "2026-05-11",
+   "reason": "Other",
+   "id": "Leave Record|row21",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SIWAKORN P.",
+   "start": "2026-05-11",
+   "end": "2026-05-12",
+   "reason": "Other",
+   "id": "Leave Record|row66",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ไม่มีตารางบิน, ศิษย์เตรียมตัวฝึกบินต่อเนื่อง",
+   "role": "Student"
+  },
+  {
+   "name": "VASAPHON S.",
+   "start": "2026-05-11",
+   "end": "2026-05-11",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row69",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ไม่มีตารางบิน",
+   "role": "Student"
+  },
+  {
+   "name": "KORN S.",
+   "start": "2026-05-12",
+   "end": "2026-05-12",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row78",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ขอลาทำธุระครับ",
+   "role": "Student"
+  },
+  {
+   "name": "NUTTAPHAT K.",
+   "start": "2026-05-12",
+   "end": "2026-05-12",
+   "reason": "Sick Leave",
+   "id": "Leave Record|row76",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "คัดจมูกเล็กน้อย",
+   "role": "Student"
+  },
+  {
+   "name": "PORNSKUL D.",
+   "start": "2026-05-12",
+   "end": "2026-05-12",
+   "reason": "Sick Leave",
+   "id": "Leave Record|row163",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "นัดพบแพทย์",
+   "role": "Student"
+  },
+  {
+   "name": "PORNTREETRA R.",
+   "start": "2026-05-12",
+   "end": "2026-05-12",
+   "reason": "Sick Leave",
+   "id": "Leave Record|row71",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "คออักเสบ จมูกตัน",
+   "role": "Student"
+  },
+  {
+   "name": "PUWADET H.",
+   "start": "2026-05-12",
+   "end": "2026-05-12",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row75",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "เนื่องจากไม่มีกำหนดการบิน จึงขออนุญาตลาเพื่อเตรียมตัวสำหรับการบินในบทเรียนถัดไปครับ",
+   "role": "Student"
+  },
+  {
+   "name": "AKARAVIT K.",
+   "start": "2026-05-14",
+   "end": "2026-05-17",
+   "reason": "Other",
+   "id": "Leave Record|row94",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "BULASET C.",
+   "start": "2026-05-14",
+   "end": "2026-05-17",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row77",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "JIRAYU A.",
+   "start": "2026-05-14",
+   "end": "2026-05-14",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row52",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "JIRAYU A.",
+   "start": "2026-05-14",
+   "end": "2026-05-14",
+   "reason": "Other",
+   "id": "Leave Record|row23",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "KHOBPONG W.",
+   "start": "2026-05-14",
+   "end": "2026-05-14",
+   "reason": "Other",
+   "id": "Leave Record|row99",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ไม่มีตารางบิน ศิษย์เตรียมตัวบินอย่างต่อเนื่อง",
+   "role": "Student"
+  },
+  {
+   "name": "KORN S.",
+   "start": "2026-05-14",
+   "end": "2026-05-15",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row79",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ขอลาทำธุระครับ",
+   "role": "Student"
+  },
+  {
+   "name": "PUWADET H.",
+   "start": "2026-05-14",
+   "end": "2026-05-15",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row96",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "เนื่องจากไม่มีตารางบินจึงขออนุญาตลาทำธุระและทบทวนบทเรียนสำหรับเที่ยวบินถัดไปครับ",
+   "role": "Student"
+  },
+  {
+   "name": "RAKCHON K.",
+   "start": "2026-05-14",
+   "end": "2026-05-15",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row58",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SANTI SUK.",
+   "start": "2026-05-14",
+   "end": "2026-05-15",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row95",
+   "batch": "-",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
+   "name": "SANTI SUK.",
+   "start": "2026-05-14",
+   "end": "2026-05-12",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row89",
+   "batch": "-",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
+   "name": "SIWAKORN P.",
+   "start": "2026-05-14",
+   "end": "2026-05-14",
+   "reason": "Other",
+   "id": "Leave Record|row98",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ไม่มีตารางบิน เตรียมตัวเพื่อฝึกบินต่อเนื่อง",
+   "role": "Student"
+  },
+  {
+   "name": "BULASET C.",
+   "start": "2026-05-15",
+   "end": "2026-05-15",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row57",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "CHANISA S.",
+   "start": "2026-05-15",
+   "end": "2026-05-15",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row104",
+   "batch": "AP-124",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "KANTAPONG A.",
+   "start": "2026-05-15",
+   "end": "2026-05-15",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row110",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "ธุระกับครอบครัว",
+   "role": "Student"
+  },
+  {
+   "name": "KITTHANYA T.",
+   "start": "2026-05-15",
+   "end": "2026-05-16",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row107",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ธุระส่วนตัว",
+   "role": "Student"
+  },
+  {
+   "name": "MAETHAPHAN R.",
+   "start": "2026-05-15",
+   "end": "2026-05-16",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row108",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ธุระส่วนตัว",
+   "role": "Student"
+  },
+  {
+   "name": "NUTTAWAT R.",
+   "start": "2026-05-15",
+   "end": "2026-05-15",
+   "reason": "Other",
+   "id": "Leave Record|row22",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "NUTTAWAT R.",
+   "start": "2026-05-15",
+   "end": "2026-05-15",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row6",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "สอบ ME Rating",
+   "role": "Student"
+  },
+  {
+   "name": "PARAMUTT C.",
+   "start": "2026-05-15",
+   "end": "2026-05-15",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row90",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PARINYA B.",
+   "start": "2026-05-15",
+   "end": "2026-05-15",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row82",
+   "batch": "-",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
+   "name": "PICHAKORN J.",
+   "start": "2026-05-15",
+   "end": "2026-05-15",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row105",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PORNTREETRA R.",
+   "start": "2026-05-15",
+   "end": "2026-05-15",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row91",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PRITASNA M.",
+   "start": "2026-05-15",
+   "end": "2026-05-15",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row54",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "WATCHARAPHOL V.",
+   "start": "2026-05-15",
+   "end": "2026-05-15",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row70",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "KRIT L.",
+   "start": "2026-05-16",
+   "end": "2026-05-17",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row93",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ธุระส่วนตัว",
+   "role": "Student"
+  },
+  {
+   "name": "MAETHAPHAN R.",
+   "start": "2026-05-16",
+   "end": "2026-05-16",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row102",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "NANJITRA D.",
+   "start": "2026-05-16",
+   "end": "2026-05-17",
+   "reason": "Other",
+   "id": "Leave Record|row116",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "ไม่มีบิน กลับบ้าน",
+   "role": "Student"
+  },
+  {
+   "name": "PARAMUTT C.",
+   "start": "2026-05-16",
+   "end": "2026-05-18",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row73",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "สอบ multi engine",
+   "role": "Student"
+  },
+  {
+   "name": "PICHAKORN J.",
+   "start": "2026-05-16",
+   "end": "2026-05-17",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row74",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PORNTREETRA R.",
+   "start": "2026-05-16",
+   "end": "2026-05-18",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row72",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "ลาสอบ MER",
+   "role": "Student"
+  },
+  {
+   "name": "PRITASNA M.",
+   "start": "2026-05-16",
+   "end": "2026-05-17",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row81",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SORNSORAWITCH C.",
+   "start": "2026-05-16",
+   "end": "2026-05-16",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row84",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ซ่อมบ้าน",
+   "role": "Student"
+  },
+  {
+   "name": "SUPAWAN A.",
+   "start": "2026-05-16",
+   "end": "2026-05-17",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row88",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "TEERAWAJ C.",
+   "start": "2026-05-16",
+   "end": "2026-05-17",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row92",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "WATCHARAPHOL V.",
+   "start": "2026-05-16",
+   "end": "2026-05-17",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row87",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "WATCHARAPOL A.",
+   "start": "2026-05-16",
+   "end": "2026-05-16",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row100",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ธุระส่วนตัว",
+   "role": "Student"
+  },
+  {
+   "name": "MARUAY B.",
+   "start": "2026-05-17",
+   "end": "2026-05-18",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row97",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SIWAKORN P.",
+   "start": "2026-05-17",
+   "end": "2026-05-17",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row111",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "AKARAVIT K.",
+   "start": "2026-05-18",
+   "end": "2026-05-20",
+   "reason": "Other",
+   "id": "Leave Record|row121",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "CHANATHIP T.",
+   "start": "2026-05-18",
+   "end": "2026-05-22",
+   "reason": "Sick Leave",
+   "id": "Leave Record|row118",
+   "batch": "AP-124",
+   "duration": "Full Day",
+   "note": "ถอนฟันมาครับหมอแจ้งให้งดบิน1สัปดาห์ครับ",
+   "role": "Student"
+  },
+  {
+   "name": "KHOBPONG W.",
+   "start": "2026-05-18",
+   "end": "2026-05-18",
+   "reason": "Other",
+   "id": "Leave Record|row123",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ไม่มีตารางบิน ศิษย์เตรียมตัวบิน",
+   "role": "Student"
+  },
+  {
+   "name": "KORN S.",
+   "start": "2026-05-18",
+   "end": "2026-05-18",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row117",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ขอลากิจครับ",
+   "role": "Student"
+  },
+  {
+   "name": "NABHADR P.",
+   "start": "2026-05-18",
+   "end": "2026-05-18",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row30",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PARAMUTT C.",
+   "start": "2026-05-18",
+   "end": "2026-05-18",
+   "reason": "Other",
+   "id": "Leave Record|row20",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PATTHARADEJ S.",
+   "start": "2026-05-18",
+   "end": "2026-05-18",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row119",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PORNTREETRA R.",
+   "start": "2026-05-18",
+   "end": "2026-05-18",
+   "reason": "Other",
+   "id": "Leave Record|row19",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PUWADET H.",
+   "start": "2026-05-18",
+   "end": "2026-05-20",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row144",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "เนื่องจากไม่มีตารางบิน จึงขออนุญาตเตรียมตัวสำหรับการบินในบทเรียนถัดไปที่กทมครับ",
+   "role": "Student"
+  },
+  {
+   "name": "SARACH C.",
+   "start": "2026-05-18",
+   "end": "2026-05-19",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row34",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SIWAKORN P.",
+   "start": "2026-05-18",
+   "end": "2026-05-18",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row62",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SUPAWAN A.",
+   "start": "2026-05-18",
+   "end": "2026-05-19",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row42",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SUPAWAN A.",
+   "start": "2026-05-18",
+   "end": "2026-05-19",
+   "reason": "Other",
+   "id": "Leave Record|row18",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "VASAPHON S.",
+   "start": "2026-05-18",
+   "end": "2026-05-19",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row115",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "KORN S.",
+   "start": "2026-05-19",
+   "end": "2026-05-19",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row127",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ขอลากิจครับ",
+   "role": "Student"
+  },
+  {
+   "name": "NAPON S.",
+   "start": "2026-05-19",
+   "end": "2026-05-24",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row125",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SIWAKORN P.",
+   "start": "2026-05-19",
+   "end": "2026-05-19",
+   "reason": "Other",
+   "id": "Leave Record|row134",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ไม่มีตารางบิน ศิษย์เตรียมตัวบินต่อเนื่อง",
+   "role": "Student"
+  },
+  {
+   "name": "NUTTAPHAT K.",
+   "start": "2026-05-20",
+   "end": "2026-05-24",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row141",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "VASAPHON S.",
+   "start": "2026-05-20",
+   "end": "2026-05-20",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row122",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "AKARAVIT K.",
+   "start": "2026-05-21",
+   "end": "2026-05-22",
+   "reason": "Other",
+   "id": "Leave Record|row145",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PORNTREETRA R.",
+   "start": "2026-05-21",
+   "end": "2026-05-22",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row131",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "VASAPHON S.",
+   "start": "2026-05-21",
+   "end": "2026-05-21",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row149",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ไม่มีตารางบิน",
+   "role": "Student"
+  },
+  {
+   "name": "AWIRUT S.",
+   "start": "2026-05-22",
+   "end": "2026-05-24",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row109",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PICHAKORN J.",
+   "start": "2026-05-22",
+   "end": "2026-05-22",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row151",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PONGSAKORN A.",
+   "start": "2026-05-22",
+   "end": "2026-05-22",
+   "reason": "Sick Leave",
+   "id": "Leave Record|row148",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "เป็นหวัด น้ำมูกไหล หูอื้อ เคลียร์หูลำบาก",
+   "role": "Student"
+  },
+  {
+   "name": "PORNSKUL D.",
+   "start": "2026-05-22",
+   "end": "2026-05-25",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row103",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PRAN P.",
+   "start": "2026-05-22",
+   "end": "2026-05-22",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row143",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PRITASNA M.",
+   "start": "2026-05-22",
+   "end": "2026-05-22",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row55",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SOWAN C.",
+   "start": "2026-05-22",
+   "end": "2026-05-22",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row60",
+   "batch": "-",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
+   "name": "TAKORN C.",
+   "start": "2026-05-22",
+   "end": "2026-05-22",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row106",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "TEERAWAJ C.",
+   "start": "2026-05-22",
+   "end": "2026-05-24",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row124",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "VASAPHON S.",
+   "start": "2026-05-22",
+   "end": "2026-05-22",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row156",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ไม่มีตารางบิน",
+   "role": "Student"
+  },
+  {
+   "name": "KRIT L.",
+   "start": "2026-05-23",
+   "end": "2026-05-24",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row136",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ธุระส่วนตัว",
+   "role": "Student"
+  },
+  {
+   "name": "NUTTAPHAT K.",
+   "start": "2026-05-23",
+   "end": "2026-05-24",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row113",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PICHAKORN J.",
+   "start": "2026-05-23",
+   "end": "2026-05-24",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row83",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "TAKORN C.",
+   "start": "2026-05-23",
+   "end": "2026-05-24",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row153",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "VASAPHON S.",
+   "start": "2026-05-23",
+   "end": "2026-05-24",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row162",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ไม่มีตารางบิน",
+   "role": "Student"
+  },
+  {
+   "name": "NATPAKALP K.",
+   "start": "2026-05-24",
+   "end": "2026-05-25",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row137",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ธุระทางบ้าน",
+   "role": "Student"
+  },
+  {
+   "name": "PRITASNA M.",
+   "start": "2026-05-24",
+   "end": "2026-05-24",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row146",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "WATCHARAPHOL V.",
+   "start": "2026-05-24",
+   "end": "2026-05-26",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row140",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "AWIRUT S.",
+   "start": "2026-05-25",
+   "end": "2026-05-25",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row31",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "CHANATHIP T.",
+   "start": "2026-05-25",
+   "end": "2026-05-25",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row40",
+   "batch": "AP-124",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "GRAVITAT C.",
+   "start": "2026-05-25",
+   "end": "2026-05-25",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row147",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "GRAVITAT C.",
+   "start": "2026-05-25",
+   "end": "2026-05-25",
+   "reason": "Other",
+   "id": "Leave Record|row17",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "KRAISEE L.",
+   "start": "2026-05-25",
+   "end": "2026-05-26",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row171",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "NAPON R.",
+   "start": "2026-05-25",
+   "end": "2026-05-25",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row48",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PONGSAKORN A.",
+   "start": "2026-05-25",
+   "end": "2026-05-25",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row133",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "TAKORN C.",
+   "start": "2026-05-25",
+   "end": "2026-05-25",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row67",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "สอบ CAAT ครับ",
+   "role": "Student"
+  },
+  {
+   "name": "VASAPHON S.",
+   "start": "2026-05-25",
+   "end": "2026-05-25",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row168",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ไม่มีตารางบิน",
+   "role": "Student"
+  },
+  {
+   "name": "WATCHARAPONG C.",
+   "start": "2026-05-25",
+   "end": "2026-05-25",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row160",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "สอบ MER",
+   "role": "Student"
+  },
+  {
+   "name": "SETASIT P.",
+   "start": "2026-05-26",
+   "end": "2026-05-26",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row161",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "WATCHARAPONG C.",
+   "start": "2026-05-26",
+   "end": "2026-05-26",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row169",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "MER",
+   "role": "Student"
+  },
+  {
+   "name": "KANTAPONG A.",
+   "start": "2026-05-27",
+   "end": "2026-05-28",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row132",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SIWAT C.",
+   "start": "2026-05-27",
+   "end": "2026-05-27",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row126",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "Multi Engine Rating (MER) Exam",
+   "role": "Student"
+  },
+  {
+   "name": "CHANOL T.",
+   "start": "2026-05-28",
+   "end": "2026-05-29",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row36",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "EKKASIT B.",
+   "start": "2026-05-28",
+   "end": "2026-05-28",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row186",
+   "batch": "AP-128",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PUWADET H.",
+   "start": "2026-05-28",
+   "end": "2026-06-02",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row180",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ขออนุญาตลาไปพักผ่อนกับครอบครัวครับ",
+   "role": "Student"
+  },
+  {
+   "name": "BULASET C.",
+   "start": "2026-05-29",
+   "end": "2026-05-29",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row185",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "NUTTAWAT R.",
+   "start": "2026-05-29",
+   "end": "2026-05-29",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row154",
+   "batch": "AP-126",
+   "duration": "Half Day - Afternoon (PM)",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "VASAPHON S.",
+   "start": "2026-05-29",
+   "end": "2026-05-29",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row191",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ไม่มีตารางบิน",
+   "role": "Student"
+  },
+  {
+   "name": "AKARAVIT K.",
+   "start": "2026-05-30",
+   "end": "2026-06-03",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row166",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ธุระส่วนตัว",
+   "role": "Student"
+  },
+  {
+   "name": "AKARAVIT K.",
+   "start": "2026-05-30",
+   "end": "2026-05-30",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row129",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ธุระส่วนตัว",
+   "role": "Student"
+  },
+  {
+   "name": "CHANOL T.",
+   "start": "2026-05-30",
+   "end": "2026-06-02",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row80",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "NATPAKALP K.",
+   "start": "2026-05-30",
+   "end": "2026-06-02",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row138",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ธุระทางบ้าน",
+   "role": "Student"
+  },
+  {
+   "name": "PICHAKORN J.",
+   "start": "2026-05-30",
+   "end": "2026-05-30",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row85",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SUPAWAN A.",
+   "start": "2026-05-30",
+   "end": "2026-05-31",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row101",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "TEERAWAJ C.",
+   "start": "2026-05-30",
+   "end": "2026-06-04",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row197",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "WATTIKORN K.",
+   "start": "2026-05-30",
+   "end": "2026-05-31",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row178",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "AKARAVIT K.",
+   "start": "2026-05-31",
+   "end": "2026-05-31",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row165",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ธุระส่วนตัว",
+   "role": "Student"
+  },
+  {
+   "name": "BULASET C.",
+   "start": "2026-05-31",
+   "end": "2026-06-03",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row174",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "ANUSORN T.",
+   "start": "2026-06-01",
+   "end": "2026-06-01",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row170",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "KRAISEE L.",
+   "start": "2026-06-01",
+   "end": "2026-06-01",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row172",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "NANJITRA D.",
+   "start": "2026-06-01",
+   "end": "2026-06-04",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row159",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "NUTTAPHAT K.",
+   "start": "2026-06-01",
+   "end": "2026-06-04",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row142",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "AKARAVIT K.",
+   "start": "2026-06-02",
+   "end": "2026-06-02",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row175",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ธุระส่วนตัว",
+   "role": "Student"
+  },
+  {
+   "name": "AKARAVIT K.",
+   "start": "2026-06-02",
+   "end": "2026-06-02",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row130",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ธุระส่วนตัว",
+   "role": "Student"
+  },
+  {
+   "name": "CHAROENCHAI U.",
+   "start": "2026-06-02",
+   "end": "2026-06-02",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row200",
+   "batch": "-",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
+   "name": "CHISANUPONG N.",
+   "start": "2026-06-02",
+   "end": "2026-06-02",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row173",
+   "batch": "HP-57",
+   "duration": "Full Day",
+   "note": "กลับภูมิลำเนา",
+   "role": "Student"
+  },
+  {
+   "name": "EKKAPHOP R.",
+   "start": "2026-06-02",
+   "end": "2026-06-02",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row189",
+   "batch": "-",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
+   "name": "EKKASIT B.",
+   "start": "2026-06-02",
+   "end": "2026-06-02",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row187",
+   "batch": "AP-128",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "JIRAYU A.",
+   "start": "2026-06-02",
+   "end": "2026-06-02",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row205",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "พักผ่อน\nผมเหนื่อยใจจะขาด",
+   "role": "Student"
+  },
+  {
+   "name": "KANTAPONG A.",
+   "start": "2026-06-02",
+   "end": "2026-06-02",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row150",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "KITTIPAT M.",
+   "start": "2026-06-02",
+   "end": "2026-06-02",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row190",
+   "batch": "AP-128",
+   "duration": "Full Day",
+   "note": "กลับภูมิลำเนา",
+   "role": "Student"
+  },
+  {
+   "name": "KORN S.",
+   "start": "2026-06-02",
+   "end": "2026-06-02",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row177",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ขอลากิจ 1 วันครับ",
+   "role": "Student"
+  },
+  {
+   "name": "KRAISEE L.",
+   "start": "2026-06-02",
+   "end": "2026-06-02",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row195",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "KRIDSADA K.",
+   "start": "2026-06-02",
+   "end": "2026-06-02",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row193",
+   "batch": "AP-128",
+   "duration": "Full Day",
+   "note": "กลับภูมิลำเนา",
+   "role": "Student"
+  },
+  {
+   "name": "NANJITRA D.",
+   "start": "2026-06-02",
+   "end": "2026-06-04",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row112",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "ลาไปสอบ ATPL",
+   "role": "Student"
+  },
+  {
+   "name": "NAPATTORN S.",
+   "start": "2026-06-02",
+   "end": "2026-06-02",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row188",
+   "batch": "-",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
+   "name": "NUTTAPHAT K.",
+   "start": "2026-06-02",
+   "end": "2026-06-04",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row114",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "สอบ MER",
+   "role": "Student"
+  },
+  {
+   "name": "NUTTAPONG S.",
+   "start": "2026-06-02",
+   "end": "2026-06-02",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row202",
+   "batch": "HP-57",
+   "duration": "Full Day",
+   "note": "กลับภูมิลำเนา",
+   "role": "Student"
+  },
+  {
+   "name": "PICHAKORN J.",
+   "start": "2026-06-02",
+   "end": "2026-06-02",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row86",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PRITASNA M.",
+   "start": "2026-06-02",
+   "end": "2026-06-02",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row184",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SANTI SUK.",
+   "start": "2026-06-02",
+   "end": "2026-06-02",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row199",
+   "batch": "-",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
+   "name": "SARACH C.",
+   "start": "2026-06-02",
+   "end": "2026-06-04",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row152",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SIWAKORN P.",
+   "start": "2026-06-02",
+   "end": "2026-06-02",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row192",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SIWAT C.",
+   "start": "2026-06-02",
+   "end": "2026-06-02",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row157",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SOWAN C.",
+   "start": "2026-06-02",
+   "end": "2026-06-02",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row61",
+   "batch": "-",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
+   "name": "THANATHIP W.",
+   "start": "2026-06-02",
+   "end": "2026-06-02",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row196",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "VASAPHON S.",
+   "start": "2026-06-02",
+   "end": "2026-06-02",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row176",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "-",
+   "role": "Student"
+  },
+  {
+   "name": "WATCHARAPONG C.",
+   "start": "2026-06-02",
+   "end": "2026-06-02",
+   "reason": "Other",
+   "id": "Leave Record|row198",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ลาพัก",
+   "role": "Student"
+  },
+  {
+   "name": "WATTIKORN K.",
+   "start": "2026-06-02",
+   "end": "2026-06-02",
+   "reason": "Other",
+   "id": "Leave Record|row16",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "WATTIKORN K.",
+   "start": "2026-06-02",
+   "end": "2026-06-02",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row5",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SORNSORAWITCH C.",
+   "start": "2026-06-03",
+   "end": "2026-06-05",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row212",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ซ่อมบ้าน",
+   "role": "Student"
+  },
+  {
+   "name": "KANTAPONG A.",
+   "start": "2026-06-04",
+   "end": "2026-06-05",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row204",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "NUTTAPONG S.",
+   "start": "2026-06-04",
+   "end": "2026-06-04",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row203",
+   "batch": "HP-57",
+   "duration": "Full Day",
+   "note": "กลับภูมิลำเนา",
+   "role": "Student"
+  },
+  {
+   "name": "NUTTAWAT R.",
+   "start": "2026-06-04",
+   "end": "2026-06-04",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row155",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SIWAT C.",
+   "start": "2026-06-04",
+   "end": "2026-06-05",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row211",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "Due to no night flights during 1-5 June 2026",
+   "role": "Student"
+  },
+  {
+   "name": "VASAPHON S.",
+   "start": "2026-06-04",
+   "end": "2026-06-04",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row210",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ไม่มีตารางบิน",
+   "role": "Student"
+  },
+  {
+   "name": "KRIT L.",
+   "start": "2026-06-05",
+   "end": "2026-06-07",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row208",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ธุระส่วนตัว",
+   "role": "Student"
+  },
+  {
+   "name": "NANJITRA D.",
+   "start": "2026-06-05",
+   "end": "2026-06-07",
+   "reason": "Other",
+   "id": "Leave Record|row207",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SARACH C.",
+   "start": "2026-06-05",
+   "end": "2026-06-05",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row128",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "TEERAWAJ C.",
+   "start": "2026-06-05",
+   "end": "2026-06-05",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row213",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PICHAKORN J.",
+   "start": "2026-06-06",
+   "end": "2026-06-07",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row120",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SIWAKORN P.",
+   "start": "2026-06-06",
+   "end": "2026-06-08",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row135",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SUPAWAN A.",
+   "start": "2026-06-06",
+   "end": "2026-06-06",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row214",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "WATTIKORN K.",
+   "start": "2026-06-06",
+   "end": "2026-06-07",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row209",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SUPAWAN A.",
+   "start": "2026-06-07",
+   "end": "2026-06-07",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row206",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "WATCHARAPOL A.",
+   "start": "2026-06-07",
+   "end": "2026-06-07",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row194",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ธุระส่วนตัว",
+   "role": "Student"
+  },
+  {
+   "name": "WATCHARAPONG C.",
+   "start": "2026-06-07",
+   "end": "2026-06-07",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row217",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "KHOBPONG W.",
+   "start": "2026-06-08",
+   "end": "2026-06-09",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row139",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "KRAISEE L.",
+   "start": "2026-06-08",
+   "end": "2026-06-08",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row218",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "MARUAY B.",
+   "start": "2026-06-08",
+   "end": "2026-06-08",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row201",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PATCHARANAN D.",
+   "start": "2026-06-08",
+   "end": "2026-06-08",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row215",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PORNSKUL D.",
+   "start": "2026-06-08",
+   "end": "2026-06-08",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row164",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "VASAPHON S.",
+   "start": "2026-06-08",
+   "end": "2026-06-09",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row220",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ไม่มีตารางบิน",
+   "role": "Student"
+  },
+  {
+   "name": "PAKORN W.",
+   "start": "2026-06-09",
+   "end": "2026-06-09",
+   "reason": "Sick Leave",
+   "id": "Leave Record|row227",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PATTHARADEJ S.",
+   "start": "2026-06-10",
+   "end": "2026-06-15",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row219",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "สอบสองวิชาครับ วันที่ 11 และ 15 ขออนุญาตลาต่อเนื่องกันทีเดียวครับ",
+   "role": "Student"
+  },
+  {
+   "name": "VASAPHON S.",
+   "start": "2026-06-10",
+   "end": "2026-06-10",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row226",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ไม่มีตารางบิน",
+   "role": "Student"
+  },
+  {
+   "name": "JIRAYU A.",
+   "start": "2026-06-12",
+   "end": "2026-06-12",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row231",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "NABHADR P.",
+   "start": "2026-06-12",
+   "end": "2026-06-13",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row181",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PRITASNA M.",
+   "start": "2026-06-12",
+   "end": "2026-06-12",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row158",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "RANGSIMAN S.",
+   "start": "2026-06-12",
+   "end": "2026-06-12",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row216",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "สอบ ME",
+   "role": "Student"
+  },
+  {
+   "name": "AKARAVIT K.",
+   "start": "2026-06-13",
+   "end": "2026-06-14",
+   "reason": "Other",
+   "id": "Leave Record|row233",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "ANUSORN T.",
+   "start": "2026-06-13",
+   "end": "2026-06-14",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row240",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "ANUSORN T.",
+   "start": "2026-06-13",
+   "end": "2026-06-16",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row237",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "CHANATHIP T.",
+   "start": "2026-06-13",
+   "end": "2026-06-14",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row224",
+   "batch": "AP-124",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "KORN S.",
+   "start": "2026-06-13",
+   "end": "2026-06-13",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row232",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "มีธุระที่บ้าน 1 วันครับ",
+   "role": "Student"
+  },
+  {
+   "name": "NATPAKALP K.",
+   "start": "2026-06-13",
+   "end": "2026-06-14",
+   "reason": "Other",
+   "id": "Leave Record|row234",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "Day off",
+   "role": "Student"
+  },
+  {
+   "name": "NUTTAPHAT K.",
+   "start": "2026-06-13",
+   "end": "2026-06-14",
+   "reason": "Sick Leave",
+   "id": "Leave Record|row238",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ไปหาหมอ",
+   "role": "Student"
+  },
+  {
+   "name": "PORNTREETRA R.",
+   "start": "2026-06-13",
+   "end": "2026-06-15",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row221",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SUBHAWICHAYA S.",
+   "start": "2026-06-13",
+   "end": "2026-06-15",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row223",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "KRIT L.",
+   "start": "2026-06-14",
+   "end": "2026-06-14",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row228",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ธุระส่วนตัว",
+   "role": "Student"
+  },
+  {
+   "name": "WATCHARAPHOL V.",
+   "start": "2026-06-14",
+   "end": "2026-06-14",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row183",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "WATCHARAPONG C.",
+   "start": "2026-06-14",
+   "end": "2026-06-14",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row242",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "GRAVITAT C.",
+   "start": "2026-06-15",
+   "end": "2026-06-15",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row230",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "NUTTAPHAT K.",
+   "start": "2026-06-15",
+   "end": "2026-06-15",
+   "reason": "Sick Leave",
+   "id": "Leave Record|row239",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "หาหมอ",
+   "role": "Student"
+  },
+  {
+   "name": "PANITHAN V.",
+   "start": "2026-06-15",
+   "end": "2026-06-15",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row245",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PATCHARANAN D.",
+   "start": "2026-06-15",
+   "end": "2026-06-15",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row236",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SETASIT P.",
+   "start": "2026-06-15",
+   "end": "2026-06-15",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row244",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ME Exam",
+   "role": "Student"
+  },
+  {
+   "name": "ANUSORN T.",
+   "start": "2026-06-16",
+   "end": "2026-06-16",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row225",
+   "batch": "AP-127",
+   "duration": "Half Day - Afternoon (PM)",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "KRAISEE L.",
+   "start": "2026-06-16",
+   "end": "2026-06-16",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row252",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PANITHAN V.",
+   "start": "2026-06-16",
+   "end": "2026-06-16",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row248",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "BULASET C.",
+   "start": "2026-06-17",
+   "end": "2026-06-18",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row262",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "TAKORN C.",
+   "start": "2026-06-17",
+   "end": "2026-06-17",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row261",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "ATHINAT H.",
+   "start": "2026-06-19",
+   "end": "2026-06-19",
+   "reason": "Other",
+   "id": "Leave Record|row258",
+   "batch": "-",
+   "duration": "Full Day",
+   "note": "หยุดเหลื่อมเวลา",
+   "role": "Instructor"
+  },
+  {
    "name": "AWIRUT S.",
    "start": "2026-06-19",
    "end": "2026-06-22",
@@ -98816,6 +101448,17 @@
    "batch": "AP-127",
    "duration": "Full Day",
    "note": "กลับบ้านต่างจังหวัด",
+   "role": "Student"
+  },
+  {
+   "name": "BULASET C.",
+   "start": "2026-06-19",
+   "end": "2026-06-22",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row249",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
    "role": "Student"
   },
   {
@@ -98896,6 +101539,28 @@
    "role": "Student"
   },
   {
+   "name": "KRIT L.",
+   "start": "2026-06-20",
+   "end": "2026-06-21",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row259",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ธุระส่วนตัว",
+   "role": "Student"
+  },
+  {
+   "name": "NANJITRA D.",
+   "start": "2026-06-20",
+   "end": "2026-06-21",
+   "reason": "Other",
+   "id": "Leave Record|row266",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
    "name": "NAPATH T.",
    "start": "2026-06-20",
    "end": "2026-06-21",
@@ -98934,6 +101599,17 @@
    "end": "2026-06-21",
    "reason": "Personal Leave",
    "id": "Leave Record|row275",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PORNTREETRA R.",
+   "start": "2026-06-20",
+   "end": "2026-06-21",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row222",
    "batch": "AP-126",
    "duration": "Full Day",
    "note": "",
@@ -98995,6 +101671,28 @@
    "role": "Student"
   },
   {
+   "name": "WATTIKORN K.",
+   "start": "2026-06-20",
+   "end": "2026-06-21",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row251",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PICHAKORN J.",
+   "start": "2026-06-21",
+   "end": "2026-06-21",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row260",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
    "name": "SETASIT P.",
    "start": "2026-06-21",
    "end": "2026-06-21",
@@ -99006,11 +101704,44 @@
    "role": "Student"
   },
   {
+   "name": "WATCHARAPOL A.",
+   "start": "2026-06-21",
+   "end": "2026-06-21",
+   "reason": "Other",
+   "id": "Leave Record|row265",
+   "batch": "AP-127",
+   "duration": "Half Day - Morning (AM)",
+   "note": "พักผ่อน",
+   "role": "Student"
+  },
+  {
+   "name": "DOLSAKUL S.",
+   "start": "2026-06-22",
+   "end": "2026-06-22",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row243",
+   "batch": "AP-128",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
    "name": "Po",
    "start": "2026-06-22",
    "end": "2026-06-22",
    "reason": "Personal Leave",
    "id": "Leave Record|row269",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "WATTIKORN K.",
+   "start": "2026-06-22",
+   "end": "2026-06-22",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row250",
    "batch": "AP-126",
    "duration": "Full Day",
    "note": "",
@@ -99050,6 +101781,17 @@
    "role": "Student"
   },
   {
+   "name": "KANTAPONG A.",
+   "start": "2026-06-25",
+   "end": "2026-06-28",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row182",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
    "name": "PUWADET H.",
    "start": "2026-06-25",
    "end": "2026-06-25",
@@ -99069,6 +101811,28 @@
    "batch": "AP-127",
    "duration": "Full Day",
    "note": "ไม่มีตารางบิน",
+   "role": "Student"
+  },
+  {
+   "name": "NATPAKALP K.",
+   "start": "2026-06-26",
+   "end": "2026-06-28",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row235",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ธุระทางบ้าน",
+   "role": "Student"
+  },
+  {
+   "name": "PICHAKORN J.",
+   "start": "2026-06-26",
+   "end": "2026-06-26",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row241",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
    "role": "Student"
   },
   {
@@ -99160,6 +101924,39 @@
    "role": "Student"
   },
   {
+   "name": "PANITHAN V.",
+   "start": "2026-06-27",
+   "end": "2026-06-29",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row247",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "สอบ ME ",
+   "role": "Student"
+  },
+  {
+   "name": "PANITHAN V.",
+   "start": "2026-06-27",
+   "end": "2026-06-29",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row246",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "สอบวิชา ME ",
+   "role": "Student"
+  },
+  {
+   "name": "PICHAKORN J.",
+   "start": "2026-06-27",
+   "end": "2026-06-27",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row229",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
    "name": "PRITASNA M.",
    "start": "2026-06-27",
    "end": "2026-06-27",
@@ -99210,6 +102007,17 @@
    "reason": "Personal Leave",
    "id": "Leave Record|row300",
    "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PICHAKORN J.",
+   "start": "2026-06-28",
+   "end": "2026-06-29",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row179",
+   "batch": "AP-127",
    "duration": "Full Day",
    "note": "",
    "role": "Student"
@@ -99421,6 +102229,17 @@
    "batch": "AP-127",
    "duration": "Full Day",
    "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "KRIT L.",
+   "start": "2026-07-04",
+   "end": "2026-07-06",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row253",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ลาสอบ CAAT",
    "role": "Student"
   },
   {
@@ -99765,6 +102584,17 @@
    "role": "Student"
   },
   {
+   "name": "PICHAKORN J.",
+   "start": "2026-07-11",
+   "end": "2026-07-12",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row263",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
    "name": "PRITASNA M.",
    "start": "2026-07-11",
    "end": "2026-07-12",
@@ -99817,6 +102647,39 @@
    "batch": "AP-127",
    "duration": "Full Day",
    "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "DOLSAKUL S.",
+   "start": "2026-07-13",
+   "end": "2026-07-13",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row254",
+   "batch": "AP-128",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "KITTHANYA T.",
+   "start": "2026-07-13",
+   "end": "2026-07-13",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row257",
+   "batch": "AP-127",
+   "duration": "Half Day - Morning (AM)",
+   "note": "สอบME",
+   "role": "Student"
+  },
+  {
+   "name": "MAETHAPHAN R.",
+   "start": "2026-07-13",
+   "end": "2026-07-13",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row256",
+   "batch": "AP-127",
+   "duration": "Half Day - Morning (AM)",
+   "note": "ME EXAM",
    "role": "Student"
   },
   {
@@ -99974,6 +102837,17 @@
    "role": "Student"
   },
   {
+   "name": "PICHAKORN J.",
+   "start": "2026-07-18",
+   "end": "2026-07-19",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row264",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
    "name": "TEERAWAJ C.",
    "start": "2026-07-18",
    "end": "2026-07-19",
@@ -100051,6 +102925,17 @@
    "role": "Student"
   },
   {
+   "name": "DOLSAKUL S.",
+   "start": "2026-07-27",
+   "end": "2026-07-27",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row255",
+   "batch": "AP-128",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
    "name": "SOWAN C.",
    "start": "2026-07-27",
    "end": "2026-07-27",
@@ -100068,6 +102953,17 @@
    "reason": "CAAT Exam",
    "id": "Leave Record|row355",
    "batch": "AP-129",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "WATTIKORN K.",
+   "start": "2026-07-27",
+   "end": "2026-07-27",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row3",
+   "batch": "AP-126",
    "duration": "Full Day",
    "note": "",
    "role": "Student"
@@ -100106,6 +103002,17 @@
    "role": "Instructor"
   },
   {
+   "name": "WATTIKORN K.",
+   "start": "2026-07-31",
+   "end": "2026-07-31",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row4",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
    "name": "PRITASNA M.",
    "start": "2026-08-08",
    "end": "2026-08-10",
@@ -100114,6 +103021,17 @@
    "batch": "AP-126",
    "duration": "Full Day",
    "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PORNSKUL D.",
+   "start": "2026-08-22",
+   "end": "2026-08-22",
+   "reason": "Personal Leave",
+   "id": "Leave Record|row167",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ลากิจ",
    "role": "Student"
   },
   {

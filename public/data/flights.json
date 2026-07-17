@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-17T09:23:35.829Z",
+ "generatedAt": "2026-07-17T10:59:35.120Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-17T09:23:35.829Z",
-  "upstreamFetchedAt": "2026-07-17T09:19:05Z"
+  "fetchedAt": "2026-07-17T10:59:35.120Z",
+  "upstreamFetchedAt": "2026-07-17T10:53:55Z"
  },
  "flights": [
   {
@@ -96197,9 +96197,9 @@
    "inst": null
   },
   {
-   "id": "BK-PWH8-4950",
+   "id": "ACTUAL_ONLY_BK-PWH8-4950",
    "date": "2026-07-17",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": true,
    "isStandby": false,
    "start": "09:00",
@@ -96216,12 +96216,15 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "09:10",
+   "ldgTime": "11:55",
+   "airborneMin": 165,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-8YFD-9104",
@@ -96395,9 +96398,9 @@
    }
   },
   {
-   "id": "BK-MRMV48XW",
+   "id": "ACTUAL_ONLY_BK-MRMV48XW",
    "date": "2026-07-17",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "10:10",
@@ -96414,12 +96417,15 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPX",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "10:41",
+   "ldgTime": "11:25",
+   "airborneMin": 44,
+   "to": 1,
+   "ldg": 1,
+   "inst": 1,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-MRMV4BEP",
@@ -98566,8 +98572,8 @@
    "status": "Pending",
    "isSim": true,
    "isStandby": false,
-   "start": "09:00",
-   "end": "12:00",
+   "start": "15:00",
+   "end": "18:00",
    "durMin": 180,
    "student": "MARUAY B.",
    "studentKey": "MARUAY B.",
@@ -98593,8 +98599,8 @@
    "status": "Pending",
    "isSim": true,
    "isStandby": false,
-   "start": "15:00",
-   "end": "18:00",
+   "start": "09:00",
+   "end": "12:00",
    "durMin": 180,
    "student": "PORNTREETRA R.",
    "studentKey": "PORNTREETRA R.",

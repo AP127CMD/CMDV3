@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-17T12:38:32.477Z",
+ "generatedAt": "2026-07-17T14:54:46.382Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-17T12:38:32.477Z",
-  "upstreamFetchedAt": "2026-07-17T12:36:17Z"
+  "fetchedAt": "2026-07-17T14:54:46.382Z",
+  "upstreamFetchedAt": "2026-07-17T14:52:13Z"
  },
  "flights": [
   {
@@ -96170,9 +96170,9 @@
    }
   },
   {
-   "id": "BK-4WTZ-3167",
+   "id": "ACTUAL_ONLY_BK-4WTZ-3167",
    "date": "2026-07-17",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": true,
    "isStandby": false,
    "start": "18:00",
@@ -96189,12 +96189,15 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "18:00",
+   "ldgTime": "21:00",
+   "airborneMin": 180,
+   "to": 3,
+   "ldg": 3,
+   "inst": 3,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-PWH8-4950",
@@ -98401,8 +98404,8 @@
    "instructor": "SANTI SUK.",
    "batch": "AP-126",
    "batchKey": "AP126",
-   "lesson": "CDXI 74",
-   "lessonNorm": "CDXI 74",
+   "lesson": "CDXI 75",
+   "lessonNorm": "CDXI 75",
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPO",
@@ -99743,6 +99746,26 @@
   },
   {
    "name": "ATIDTAN P.",
+   "type": "Simulator Instructor"
+  },
+  {
+   "name": "PREECHA K.",
+   "type": "Simulator Instructor"
+  },
+  {
+   "name": "APIRATKUNPAK K",
+   "type": "Simulator Instructor"
+  },
+  {
+   "name": "CHAMNONG S.",
+   "type": "Simulator Instructor"
+  },
+  {
+   "name": "TANAKRIT V.",
+   "type": "Simulator Instructor"
+  },
+  {
+   "name": "VASSAPON K.",
    "type": "Simulator Instructor"
   }
  ],

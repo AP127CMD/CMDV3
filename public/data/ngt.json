@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-18T08:13:25.286Z",
+ "generatedAt": "2026-07-18T09:49:40.187Z",
  "source": {
   "url": "https://ap127-db001.pages.dev/cache.json",
-  "fetchedAt": "2026-07-18T08:13:25.286Z",
-  "upstreamFetchedAt": "2026-07-18T08:10:27.721Z"
+  "fetchedAt": "2026-07-18T09:49:40.187Z",
+  "upstreamFetchedAt": "2026-07-18T09:45:29.135Z"
  },
  "batches": {
   "ap124": [
@@ -12797,11 +12797,11 @@
     "fiFull": "",
     "se": "",
     "batch": "AP126",
-    "done": 63,
+    "done": 64,
     "total": 96,
-    "remaining": 33,
-    "pct": 65.6,
-    "nextLesson": "CDIF(SIM) 64",
+    "remaining": 32,
+    "pct": 66.7,
+    "nextLesson": "CDIF(SIM) 65",
     "flown": [
      {
       "lesson": "CDGL 01",
@@ -13164,6 +13164,12 @@
       "date": "2026-07-14"
      },
      {
+      "lesson": "CDIF(SIM) 61",
+      "lessonNorm": "CDIF(SIM) 61",
+      "actualMins": 120,
+      "date": "2026-07-15"
+     },
+     {
       "lesson": "CDIF(SIM) 62",
       "lessonNorm": "CDIF(SIM) 62",
       "actualMins": 120,
@@ -13184,168 +13190,163 @@
     ],
     "planned": [
      {
-      "lesson": "CDIF(SIM) 64",
+      "lesson": "CDIF(SIM) 65",
       "date": "2026-07-21",
       "mins": 180
      },
      {
-      "lesson": "CDIF(SIM) 65",
+      "lesson": "CDIF(SIM) 66",
       "date": "2026-07-23",
       "mins": 180
      },
      {
-      "lesson": "CDIF(SIM) 66",
+      "lesson": "CDIF(SIM) 67",
       "date": "2026-07-27",
       "mins": 180
      },
      {
-      "lesson": "CDIF(SIM) 67",
-      "date": "2026-08-03",
-      "mins": 180
-     },
-     {
       "lesson": "CDXI 68",
-      "date": "2026-08-05",
+      "date": "2026-08-03",
       "mins": 120
      },
      {
       "lesson": "CDXI 69",
-      "date": "2026-08-07",
+      "date": "2026-08-05",
       "mins": 120
      },
      {
       "lesson": "CDXI 70",
-      "date": "2026-08-11",
+      "date": "2026-08-07",
       "mins": 120
      },
      {
       "lesson": "CDXI 71",
-      "date": "2026-08-14",
+      "date": "2026-08-11",
       "mins": 120
      },
      {
       "lesson": "CDXI 72",
-      "date": "2026-08-18",
+      "date": "2026-08-14",
       "mins": 120
      },
      {
       "lesson": "CDXI 73",
-      "date": "2026-08-20",
+      "date": "2026-08-18",
       "mins": 180
      },
      {
       "lesson": "CDXI 74",
-      "date": "2026-08-24",
+      "date": "2026-08-20",
       "mins": 180
      },
      {
       "lesson": "CDXI 75",
-      "date": "2026-08-26",
+      "date": "2026-08-24",
       "mins": 180
      },
      {
       "lesson": "CDXI 76",
-      "date": "2026-08-28",
+      "date": "2026-08-26",
       "mins": 180
      },
      {
       "lesson": "CDXI 77",
-      "date": "2026-09-01",
+      "date": "2026-08-28",
       "mins": 180
      },
      {
       "lesson": "CDXI 78",
-      "date": "2026-09-03",
+      "date": "2026-09-01",
       "mins": 180
      },
      {
       "lesson": "CDXI 79",
-      "date": "2026-09-07",
+      "date": "2026-09-03",
       "mins": 180
      },
      {
       "lesson": "CDXI 80",
-      "date": "2026-09-09",
+      "date": "2026-09-07",
       "mins": 180
      },
      {
       "lesson": "CDXI 81",
-      "date": "2026-09-11",
+      "date": "2026-09-09",
       "mins": 180
      },
      {
       "lesson": "CDXI 82",
-      "date": "2026-09-15",
+      "date": "2026-09-11",
       "mins": 180
      },
      {
       "lesson": "CDGL 83",
-      "date": "2026-09-17",
+      "date": "2026-09-15",
       "mins": 90
      },
      {
       "lesson": "CDGL 84",
-      "date": "2026-09-18",
+      "date": "2026-09-16",
       "mins": 90
      },
      {
       "lesson": "CSPXI 85",
-      "date": "2026-09-21",
+      "date": "2026-09-17",
       "mins": 120
      },
      {
       "lesson": "CSPXI 86",
-      "date": "2026-09-23",
+      "date": "2026-09-21",
       "mins": 120
      },
      {
       "lesson": "CSPXI 87",
-      "date": "2026-09-25",
+      "date": "2026-09-23",
       "mins": 180
      },
      {
       "lesson": "CSPXI 88",
-      "date": "2026-09-29",
+      "date": "2026-09-25",
       "mins": 180
      },
      {
       "lesson": "CSPXI 89",
-      "date": "2026-10-01",
+      "date": "2026-09-29",
       "mins": 180
      },
      {
       "lesson": "CSPXIC 90",
-      "date": "2026-10-05",
+      "date": "2026-10-01",
       "mins": 180
      },
      {
       "lesson": "CMDIF(SIM) 91",
-      "date": "2026-10-07",
+      "date": "2026-10-05",
       "mins": 60
      },
      {
       "lesson": "CMDIF(SIM) 92",
-      "date": "2026-10-08",
+      "date": "2026-10-06",
       "mins": 60
      },
      {
       "lesson": "CMDGL 93",
-      "date": "2026-10-09",
+      "date": "2026-10-07",
       "mins": 90
      },
      {
       "lesson": "CMDXV 94",
-      "date": "2026-10-12",
+      "date": "2026-10-08",
       "mins": 90
      },
      {
       "lesson": "CMSPXI 95",
-      "date": "2026-10-14",
+      "date": "2026-10-09",
       "mins": 120
      },
      {
       "lesson": "CMSPXIC 96",
-      "date": "2026-10-16",
+      "date": "2026-10-14",
       "mins": 120
      }
     ]
@@ -22111,7 +22112,7 @@
      },
      {
       "lesson": "CDNL 46",
-      "date": "2026-09-17",
+      "date": "2026-09-18",
       "mins": 60
      },
      {
@@ -22146,7 +22147,7 @@
      },
      {
       "lesson": "CSPGL 53",
-      "date": "2026-10-06",
+      "date": "2026-10-07",
       "mins": 80
      },
      {
@@ -23199,7 +23200,7 @@
      },
      {
       "lesson": "CSPGLC 54",
-      "date": "2026-10-08",
+      "date": "2026-10-09",
       "mins": 90
      },
      {
@@ -29548,7 +29549,7 @@
      },
      {
       "lesson": "CSPGL 53",
-      "date": "2026-10-07",
+      "date": "2026-10-08",
       "mins": 80
      },
      {
@@ -31139,7 +31140,7 @@
      },
      {
       "lesson": "CSPGLC 54",
-      "date": "2026-10-09",
+      "date": "2026-10-12",
       "mins": 90
      },
      {
@@ -33738,7 +33739,7 @@
      },
      {
       "lesson": "CSXV 45",
-      "date": "2026-09-16",
+      "date": "2026-09-17",
       "mins": 300
      },
      {

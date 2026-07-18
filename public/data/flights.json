@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-18T06:23:43.943Z",
+ "generatedAt": "2026-07-18T08:13:25.286Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-18T06:23:43.943Z",
-  "upstreamFetchedAt": "2026-07-18T06:20:24Z"
+  "fetchedAt": "2026-07-18T08:13:25.286Z",
+  "upstreamFetchedAt": "2026-07-18T08:09:06Z"
  },
  "flights": [
   {
@@ -96461,33 +96461,6 @@
    "inst": null
   },
   {
-   "id": "BK-MRO8T27H",
-   "date": "2026-07-18",
-   "status": "Pending",
-   "isSim": false,
-   "isStandby": false,
-   "start": "10:40",
-   "end": "11:40",
-   "durMin": 60,
-   "student": "SUTACH R.",
-   "studentKey": "SUTACH R.",
-   "nick": null,
-   "instructor": "CHAROENCHAI U.",
-   "batch": "Recurrent",
-   "batchKey": "RECURRENT",
-   "lesson": "RCA A",
-   "lessonNorm": "RCA A",
-   "cond": null,
-   "type": "DA40CS",
-   "tail": "HS-TVC",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
-  },
-  {
    "id": "ACTUAL_ONLY_BK-MRO8Z7BF",
    "date": "2026-07-18",
    "status": "Completed",
@@ -96638,9 +96611,9 @@
    }
   },
   {
-   "id": "BK-MROA4CIZ",
+   "id": "ACTUAL_ONLY_BK-MROA4CIZ",
    "date": "2026-07-18",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "10:00",
@@ -96657,12 +96630,15 @@
    "cond": "Solo",
    "type": "DA40CS",
    "tail": "HS-TVE",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "10:23",
+   "ldgTime": "11:28",
+   "airborneMin": 65,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-MROA4FQK",
@@ -97339,8 +97315,8 @@
    "instructor": "SANTI SUK.",
    "batch": "AP-126",
    "batchKey": "AP126",
-   "lesson": "CDXI 75",
-   "lessonNorm": "CDXI 75",
+   "lesson": "CDXI 76",
+   "lessonNorm": "CDXI 76",
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPX",

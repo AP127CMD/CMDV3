@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-18T11:26:36.522Z",
+ "generatedAt": "2026-07-18T13:53:22.222Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-18T11:26:36.522Z",
-  "upstreamFetchedAt": "2026-07-18T11:25:49Z"
+  "fetchedAt": "2026-07-18T13:53:22.222Z",
+  "upstreamFetchedAt": "2026-07-18T13:48:52Z"
  },
  "flights": [
   {
@@ -96440,9 +96440,9 @@
    "inst": null
   },
   {
-   "id": "BK-MRKOUMO5",
+   "id": "ACTUAL_ONLY_BK-MRKOUMO5",
    "date": "2026-07-18",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": true,
    "isStandby": false,
    "start": "15:00",
@@ -96459,12 +96459,15 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "15:10",
+   "ldgTime": "17:55",
+   "airborneMin": 165,
+   "to": 2,
+   "ldg": 2,
+   "inst": 4,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-MRO8Z7BF",
@@ -107983,6 +107986,17 @@
    "batch": "AP-127",
    "duration": "Full Day",
    "note": "เตรียมตัวและสอบ Multi Engine Rating",
+   "role": "Student"
+  },
+  {
+   "name": "PANITHAN V.",
+   "start": "2026-07-25",
+   "end": "2026-07-27",
+   "reason": "Other",
+   "id": "Leave Record|row395",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "Instructor Leave ",
    "role": "Student"
   },
   {

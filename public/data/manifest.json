@@ -1,14 +1,14 @@
 {
  "schemaVersion": 1,
  "pipelineVersion": "3.0.0",
- "generatedAt": "2026-07-18T13:53:22.222Z",
+ "generatedAt": "2026-07-18T15:18:00.185Z",
  "sources": {
   "flights": {
    "sourceUrl": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-   "fetchedAt": "2026-07-18T13:53:22.222Z",
-   "upstreamFetchedAt": "2026-07-18T13:48:52Z",
-   "contentHash": "sha256:8cda920bdbe0dbef8147d3f324b2898779134c3fe90b731a82317f5f360cb304",
-   "lastChangedAt": "2026-07-18T13:53:22.222Z",
+   "fetchedAt": "2026-07-18T15:18:00.185Z",
+   "upstreamFetchedAt": "2026-07-18T15:15:28Z",
+   "contentHash": "sha256:3cac385e449ef184bee07a0574328258e6bc78f573920e55c0f9aa2703799d8c",
+   "lastChangedAt": "2026-07-18T15:18:00.185Z",
    "records": {
     "flights": 4585,
     "instructors": 27,
@@ -58,10 +58,10 @@
   },
   "progress": {
    "sourceUrl": "https://ap127-data-api.anusorn-tanmetha.workers.dev",
-   "fetchedAt": "2026-07-18T13:53:22.222Z",
-   "upstreamFetchedAt": "2026-07-18T13:50:21.458Z",
-   "contentHash": "sha256:f26419408f91a97c2b92bd90bdefe38f13642913f2556543b47ab8d7f1e5238f",
-   "lastChangedAt": "2026-07-18T13:53:22.222Z",
+   "fetchedAt": "2026-07-18T15:18:00.185Z",
+   "upstreamFetchedAt": "2026-07-18T15:15:40.322Z",
+   "contentHash": "sha256:3b3f721246ee60674b2a2d551a06a21893012466a6300de2d062173f88199b6d",
+   "lastChangedAt": "2026-07-18T15:18:00.185Z",
    "records": {
     "students": 28,
     "curriculum": 96
@@ -78,10 +78,10 @@
   },
   "ngt": {
    "sourceUrl": "https://ap127-db001.pages.dev/cache.json",
-   "fetchedAt": "2026-07-18T13:53:22.222Z",
-   "upstreamFetchedAt": "2026-07-18T13:50:21.458Z",
-   "contentHash": "sha256:a188e256d2e2f0cf572e6dfc80d46055a57638e3dc013bd7023a8cfa72046c8a",
-   "lastChangedAt": "2026-07-18T13:53:22.222Z",
+   "fetchedAt": "2026-07-18T15:18:00.185Z",
+   "upstreamFetchedAt": "2026-07-18T15:15:40.322Z",
+   "contentHash": "sha256:a44ecbd2e641bdf231deb674f313eb62caed83ad5e8e51451172d073a50833b5",
+   "lastChangedAt": "2026-07-18T15:18:00.185Z",
    "records": {
     "ap124": 9,
     "ap126": 28,

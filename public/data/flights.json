@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-19T15:26:25.783Z",
+ "generatedAt": "2026-07-19T17:27:20.443Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-19T15:26:25.783Z",
-  "upstreamFetchedAt": "2026-07-19T15:24:17Z"
+  "fetchedAt": "2026-07-19T17:27:20.443Z",
+  "upstreamFetchedAt": "2026-07-19T17:26:23Z"
  },
  "flights": [
   {
@@ -97286,9 +97286,9 @@
    }
   },
   {
-   "id": "BK-MRKQ1EHY",
+   "id": "ACTUAL_ONLY_BK-MRKQ1EHY",
    "date": "2026-07-19",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": true,
    "isStandby": false,
    "start": "18:00",
@@ -97305,12 +97305,15 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "18:00",
+   "ldgTime": "21:00",
+   "airborneMin": 180,
+   "to": 4,
+   "ldg": 4,
+   "inst": 4,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-MRKQ1HA5",

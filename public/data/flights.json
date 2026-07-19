@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-19T13:57:12.454Z",
+ "generatedAt": "2026-07-19T15:26:25.783Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-19T13:57:12.454Z",
-  "upstreamFetchedAt": "2026-07-19T13:55:52Z"
+  "fetchedAt": "2026-07-19T15:26:25.783Z",
+  "upstreamFetchedAt": "2026-07-19T15:24:17Z"
  },
  "flights": [
   {
@@ -97079,9 +97079,9 @@
    }
   },
   {
-   "id": "BK-MRKQ0MK6",
+   "id": "ACTUAL_ONLY_BK-MRKQ0MK6",
    "date": "2026-07-19",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": true,
    "isStandby": false,
    "start": "18:00",
@@ -97098,12 +97098,15 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "18:15",
+   "ldgTime": "20:55",
+   "airborneMin": 160,
+   "to": 3,
+   "ldg": 2,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-MRKQ0P99",
@@ -98325,33 +98328,6 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPR",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
-  },
-  {
-   "id": "BK-AP-128-DOLS-RU3U0",
-   "date": "2026-07-20",
-   "status": "Pending",
-   "isSim": false,
-   "isStandby": false,
-   "start": "10:30",
-   "end": "11:45",
-   "durMin": 75,
-   "student": "DOLSAKUL S.",
-   "studentKey": "DOLSAKUL S.",
-   "nick": null,
-   "instructor": "PARINYA B.",
-   "batch": "AP-128",
-   "batchKey": "AP128",
-   "lesson": "CSGL 22",
-   "lessonNorm": "CSGL 22",
-   "cond": "Solo",
-   "type": "C172",
-   "tail": "HS-TPF",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,
@@ -112374,6 +112350,17 @@
    "role": "Instructor"
   },
   {
+   "name": "TANAKRIT V.",
+   "start": "2026-07-20",
+   "end": "2026-07-24",
+   "reason": "Other",
+   "id": "Leave Record|key|19/07/2026 21:35:30",
+   "batch": "N/A",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
    "name": "VASAPHON S.",
    "start": "2026-07-20",
    "end": "2026-07-20",
@@ -112460,6 +112447,17 @@
    "duration": "Full Day",
    "note": "",
    "role": "Student"
+  },
+  {
+   "name": "APIRATKUNPAK K",
+   "start": "2026-07-22",
+   "end": "2026-07-24",
+   "reason": "Other",
+   "id": "Leave Record|key|19/07/2026 21:30:58",
+   "batch": "N/A",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
   },
   {
    "name": "SOWAN C.",

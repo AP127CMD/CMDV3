@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-19T00:12:58.920Z",
+ "generatedAt": "2026-07-19T04:00:06.244Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-19T00:12:58.920Z",
-  "upstreamFetchedAt": "2026-07-19T00:08:26Z"
+  "fetchedAt": "2026-07-19T04:00:06.244Z",
+  "upstreamFetchedAt": "2026-07-19T03:56:13Z"
  },
  "flights": [
   {
@@ -97043,9 +97043,9 @@
    }
   },
   {
-   "id": "BK-MRKQ0IRF",
+   "id": "ACTUAL_ONLY_BK-MRKQ0IRF",
    "date": "2026-07-19",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": true,
    "isStandby": false,
    "start": "06:00",
@@ -97062,12 +97062,15 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:05",
+   "ldgTime": "08:55",
+   "airborneMin": 170,
+   "to": 3,
+   "ldg": 3,
+   "inst": 3,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-MRKQ0MK6",
@@ -97178,9 +97181,9 @@
    "inst": null
   },
   {
-   "id": "BK-MRKQ11MH",
+   "id": "ACTUAL_ONLY_BK-MRKQ11MH",
    "date": "2026-07-19",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": true,
    "isStandby": false,
    "start": "06:00",
@@ -97197,12 +97200,15 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:05",
+   "ldgTime": "08:55",
+   "airborneMin": 170,
+   "to": 3,
+   "ldg": 3,
+   "inst": 3,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-MRKQ15PO",
@@ -97367,9 +97373,9 @@
    "inst": null
   },
   {
-   "id": "BK-MROFJIO3",
+   "id": "ACTUAL_ONLY_BK-MROFJIO3",
    "date": "2026-07-19",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -97386,12 +97392,15 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVE",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:42",
+   "ldgTime": "08:05",
+   "airborneMin": 83,
+   "to": 3,
+   "ldg": 3,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-MROJKEOU",
@@ -97421,9 +97430,9 @@
    "inst": null
   },
   {
-   "id": "BK-MROJKIZ0",
+   "id": "ACTUAL_ONLY_BK-MROJKIZ0",
    "date": "2026-07-19",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -97440,12 +97449,15 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVA",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "07:38",
+   "ldgTime": "08:29",
+   "airborneMin": 51,
+   "to": 1,
+   "ldg": 1,
+   "inst": 1,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-MROJKP94",
@@ -97583,9 +97595,9 @@
    "inst": null
   },
   {
-   "id": "BK-MROKI1VB",
+   "id": "ACTUAL_ONLY_BK-MROKI1VB",
    "date": "2026-07-19",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -97602,12 +97614,15 @@
    "cond": "Solo",
    "type": "DA40TDI",
    "tail": "HS-TPO",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "07:21",
+   "ldgTime": "08:20",
+   "airborneMin": 59,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-MROKRX3W",
@@ -97637,9 +97652,9 @@
    "inst": null
   },
   {
-   "id": "BK-MROKWRCE",
+   "id": "ACTUAL_ONLY_BK-MROKWRCE",
    "date": "2026-07-19",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -97656,17 +97671,20 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPW",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:41",
+   "ldgTime": "07:50",
+   "airborneMin": 69,
+   "to": 6,
+   "ldg": 6,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
-   "id": "BK-MROKWUCB",
+   "id": "ACTUAL_ONLY_BK-MROKWUCB",
    "date": "2026-07-19",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "08:10",
@@ -97683,12 +97701,15 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPW",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "08:32",
+   "ldgTime": "09:16",
+   "airborneMin": 44,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-MRPLE834",
@@ -98074,8 +98095,8 @@
    "status": "Pending",
    "isSim": false,
    "isStandby": false,
-   "start": "09:40",
-   "end": "11:40",
+   "start": "13:45",
+   "end": "16:00",
    "durMin": 120,
    "student": "KANANON V.",
    "studentKey": "KANANON V.",
@@ -98087,7 +98108,7 @@
    "lessonNorm": "CDXI 68",
    "cond": "IR/Nav",
    "type": "DA40CS",
-   "tail": "HS-TVD",
+   "tail": "HS-TPT",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,
@@ -98263,8 +98284,8 @@
    "status": "Pending",
    "isSim": false,
    "isStandby": false,
-   "start": "09:50",
-   "end": "10:50",
+   "start": "08:00",
+   "end": "09:00",
    "durMin": 60,
    "student": "AKARAVIT K.",
    "studentKey": "AKARAVIT K.",
@@ -98276,7 +98297,7 @@
    "lessonNorm": "CDGL 35",
    "cond": null,
    "type": "DA40TDI",
-   "tail": "HS-TPX",
+   "tail": "HS-TPR",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,
@@ -98399,16 +98420,16 @@
    "isSim": false,
    "isStandby": false,
    "start": "12:00",
-   "end": "14:00",
-   "durMin": 120,
-   "student": "PUWADET H.",
-   "studentKey": "PUWADET H.",
-   "nick": "P-DET",
+   "end": "13:00",
+   "durMin": 60,
+   "student": "JIRAYU A.",
+   "studentKey": "JIRAYU A.",
+   "nick": "J-YU",
    "instructor": "NAPATTORN S.",
    "batch": "AP-127",
    "batchKey": "AP127",
-   "lesson": "CDXV 32",
-   "lessonNorm": "CDXV 32",
+   "lesson": "CDGL 34",
+   "lessonNorm": "CDGL 34",
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPT",
@@ -98425,8 +98446,8 @@
    "status": "Pending",
    "isSim": false,
    "isStandby": false,
-   "start": "08:10",
-   "end": "09:10",
+   "start": "09:40",
+   "end": "10:40",
    "durMin": 60,
    "student": "WATCHARAPOL A.",
    "studentKey": "WATCHARAPOL A.",
@@ -98506,8 +98527,8 @@
    "status": "Pending",
    "isSim": false,
    "isStandby": false,
-   "start": "12:30",
-   "end": "14:00",
+   "start": "10:00",
+   "end": "11:30",
    "durMin": 90,
    "student": "TAKORN C.",
    "studentKey": "TAKORN C.",
@@ -98519,7 +98540,7 @@
    "lessonNorm": "CDIL 25",
    "cond": null,
    "type": "DA40CS",
-   "tail": "HS-TVC",
+   "tail": "HS-TVD",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,
@@ -98911,8 +98932,8 @@
    "status": "Pending",
    "isSim": false,
    "isStandby": false,
-   "start": "08:30",
-   "end": "11:30",
+   "start": "08:10",
+   "end": "11:10",
    "durMin": 180,
    "student": "THANACHOTE A.",
    "studentKey": "THANACHOTE A.",
@@ -99086,7 +99107,34 @@
    "lessonNorm": "PDGH 17",
    "cond": null,
    "type": "DA40TDI",
-   "tail": "HS-TPR",
+   "tail": "HS-TPX",
+   "tkoff": null,
+   "ldgTime": null,
+   "airborneMin": null,
+   "to": null,
+   "ldg": null,
+   "inst": null
+  },
+  {
+   "id": "BK-MRR83XTN",
+   "date": "2026-07-20",
+   "status": "Pending",
+   "isSim": false,
+   "isStandby": false,
+   "start": "16:00",
+   "end": "17:20",
+   "durMin": 80,
+   "student": "NUTTAPHAT K.",
+   "studentKey": "NUTTAPHAT K.",
+   "nick": "N-PHAT",
+   "instructor": "SANTI PO.",
+   "batch": "AP-127",
+   "batchKey": "AP127",
+   "lesson": "CSGL 30",
+   "lessonNorm": "CSGL 30",
+   "cond": "Solo",
+   "type": "DA40CS",
+   "tail": "HS-TVD",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,
@@ -108019,6 +108067,17 @@
    "end": "2026-07-27",
    "reason": "CAAT Exam",
    "id": "Leave Record|row255",
+   "batch": "AP-128",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "KITTIPAT M.",
+   "start": "2026-07-27",
+   "end": "2026-07-27",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|row396",
    "batch": "AP-128",
    "duration": "Full Day",
    "note": "",

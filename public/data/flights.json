@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-18T23:13:53.357Z",
+ "generatedAt": "2026-07-19T00:12:58.920Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-18T23:13:53.357Z",
-  "upstreamFetchedAt": "2026-07-18T23:09:08Z"
+  "fetchedAt": "2026-07-19T00:12:58.920Z",
+  "upstreamFetchedAt": "2026-07-19T00:08:26Z"
  },
  "flights": [
   {
@@ -97466,7 +97466,7 @@
    "lessonNorm": "CDXI 74",
    "cond": "IR/Nav",
    "type": "DA40TDI",
-   "tail": "HS-TPR",
+   "tail": "HS-TPT",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,
@@ -97601,7 +97601,7 @@
    "lessonNorm": "CSGL 30",
    "cond": "Solo",
    "type": "DA40TDI",
-   "tail": "HS-TPR",
+   "tail": "HS-TPO",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,
@@ -97615,8 +97615,8 @@
    "status": "Pending",
    "isSim": false,
    "isStandby": false,
-   "start": "09:30",
-   "end": "11:30",
+   "start": "10:00",
+   "end": "12:00",
    "durMin": 120,
    "student": "NUTTAWAT R.",
    "studentKey": "NUTTAWAT R.",
@@ -97628,7 +97628,7 @@
    "lessonNorm": "CDXI 70",
    "cond": "IR/Nav",
    "type": "DA40TDI",
-   "tail": "HS-TPT",
+   "tail": "HS-TPW",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,
@@ -97669,8 +97669,8 @@
    "status": "Pending",
    "isSim": false,
    "isStandby": false,
-   "start": "08:30",
-   "end": "09:30",
+   "start": "08:10",
+   "end": "09:10",
    "durMin": 60,
    "student": "KHOBPONG W.",
    "studentKey": "KHOBPONG W.",

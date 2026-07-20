@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-20T15:23:02.522Z",
+ "generatedAt": "2026-07-20T16:48:41.373Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-20T15:23:02.522Z",
-  "upstreamFetchedAt": "2026-07-20T13:52:40Z"
+  "fetchedAt": "2026-07-20T16:48:41.373Z",
+  "upstreamFetchedAt": "2026-07-20T15:50:11Z"
  },
  "flights": [
   {
@@ -97916,9 +97916,9 @@
    }
   },
   {
-   "id": "BK-MRKRX5SK",
+   "id": "ACTUAL_ONLY_BK-MRKRX5SK",
    "date": "2026-07-20",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": true,
    "isStandby": false,
    "start": "18:00",
@@ -97935,12 +97935,15 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPN (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "18:00",
+   "ldgTime": "21:00",
+   "airborneMin": 180,
+   "to": 4,
+   "ldg": 4,
+   "inst": 4,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-MRKRXG0S",
@@ -98684,9 +98687,9 @@
    }
   },
   {
-   "id": "BK-AP-126-PAKO-0UGUE",
+   "id": "ACTUAL_ONLY_BK-AP-126-PAKO-0UGUE",
    "date": "2026-07-20",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "13:50",
@@ -98703,12 +98706,15 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPW",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "13:55",
+   "ldgTime": "16:47",
+   "airborneMin": 172,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-126-CHAN-RMYFY",

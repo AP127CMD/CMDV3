@@ -1,20 +1,20 @@
 {
  "schemaVersion": 1,
  "pipelineVersion": "3.0.0",
- "generatedAt": "2026-07-19T23:14:54.957Z",
+ "generatedAt": "2026-07-20T00:15:46.477Z",
  "sources": {
   "flights": {
    "sourceUrl": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-   "fetchedAt": "2026-07-19T23:14:54.957Z",
-   "upstreamFetchedAt": "2026-07-19T23:14:01Z",
-   "contentHash": "sha256:132a9e1d7eaec98674ac4c6a5841b1f528ba284da2077a25273b1405b1c0f3aa",
-   "lastChangedAt": "2026-07-19T23:14:54.957Z",
+   "fetchedAt": "2026-07-20T00:15:46.477Z",
+   "upstreamFetchedAt": "2026-07-20T00:10:35Z",
+   "contentHash": "sha256:97b9cb5a173441e9fdbd9049926162f3b85712d836785ca825d6ba23ab8ccb67",
+   "lastChangedAt": "2026-07-20T00:15:46.477Z",
    "records": {
-    "flights": 4594,
+    "flights": 4590,
     "instructors": 27,
     "resources": 31,
     "leaves": 796,
-    "flightsAfterDedup": 3536
+    "flightsAfterDedup": 3532
    },
    "validation": {
     "errors": [],
@@ -52,50 +52,36 @@
    },
    "diff": {
     "added": 0,
-    "removed": 0,
-    "changed": 5,
-    "changedFields": {
-     "tail": 5,
-     "start": 4,
-     "end": 4
-    }
+    "removed": 4,
+    "changed": 0
    }
   },
   "progress": {
    "sourceUrl": "https://ap127-data-api.anusorn-tanmetha.workers.dev",
-   "fetchedAt": "2026-07-19T23:14:54.957Z",
-   "upstreamFetchedAt": "2026-07-19T23:11:12.961Z",
-   "contentHash": "sha256:a0cf950b3020d88da0ae79e40a5eaef5bafa4ed294f4f8247df50662fca87f88",
-   "lastChangedAt": "2026-07-19T23:14:54.957Z",
+   "fetchedAt": "2026-07-20T00:15:46.477Z",
+   "upstreamFetchedAt": "2026-07-20T00:06:25.680Z",
+   "contentHash": "sha256:7ae05e9fdc93894abdf2d186ecef7d101201d4149f6936ec15f3761005020fec",
+   "lastChangedAt": "2026-07-20T00:15:46.477Z",
    "records": {
-    "students": 27,
+    "students": 28,
     "curriculum": 96
    },
    "validation": {
     "errors": [],
-    "warnings": [
-     {
-      "code": "ROSTER_MISSING",
-      "message": "roster students absent from the progress feed (upstream usually self-heals; do NOT fabricate)",
-      "count": 1,
-      "samples": [
-       "Kitthanya Thiaphairat"
-      ]
-     }
-    ]
+    "warnings": []
    },
    "diff": {
-    "added": 0,
-    "removed": 1,
+    "added": 1,
+    "removed": 0,
     "changed": 0
    }
   },
   "ngt": {
    "sourceUrl": "https://ap127-db001.pages.dev/cache.json",
-   "fetchedAt": "2026-07-19T23:14:54.957Z",
-   "upstreamFetchedAt": "2026-07-19T23:11:12.961Z",
+   "fetchedAt": "2026-07-20T00:15:46.477Z",
+   "upstreamFetchedAt": "2026-07-20T00:01:21.410Z",
    "contentHash": "sha256:aa546ca6e54730c531566e4e37529ee5f7c3273018861c153aa1811191d21db3",
-   "lastChangedAt": "2026-07-19T23:14:54.957Z",
+   "lastChangedAt": "2026-07-20T00:15:46.477Z",
    "records": {
     "ap124": 9,
     "ap126": 28,

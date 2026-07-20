@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-20T20:44:13.953Z",
+ "generatedAt": "2026-07-20T22:16:18.521Z",
  "source": {
   "url": "https://ap127-data-api.anusorn-tanmetha.workers.dev",
-  "fetchedAt": "2026-07-20T20:44:13.953Z",
-  "upstreamFetchedAt": "2026-07-20T19:48:52.482Z"
+  "fetchedAt": "2026-07-20T22:16:18.521Z",
+  "upstreamFetchedAt": "2026-07-20T21:10:34.839Z"
  },
  "students": [
   {
@@ -91,7 +91,7 @@
     {
      "lesson": "CDGL 12",
      "lessonNorm": "CDGL 12",
-     "actualMins": 30,
+     "actualMins": 60,
      "date": "2026-06-05"
     },
     {
@@ -139,7 +139,7 @@
     {
      "lesson": "CSGL 20",
      "lessonNorm": "CSGL 20",
-     "actualMins": 50,
+     "actualMins": 75,
      "date": "2026-06-18"
     },
     {
@@ -211,7 +211,7 @@
     {
      "lesson": "CDXV 32",
      "lessonNorm": "CDXV 32",
-     "actualMins": 60,
+     "actualMins": 120,
      "date": "2026-07-15"
     },
     {
@@ -607,7 +607,7 @@
     {
      "lesson": "CDGL 09",
      "lessonNorm": "CDGL 09",
-     "actualMins": 50,
+     "actualMins": 80,
      "date": "2026-06-06"
     },
     {
@@ -1155,7 +1155,7 @@
     {
      "lesson": "CDGL 12",
      "lessonNorm": "CDGL 12",
-     "actualMins": 35,
+     "actualMins": 65,
      "date": "2026-06-29"
     },
     {
@@ -1665,7 +1665,7 @@
     {
      "lesson": "CDGL 10",
      "lessonNorm": "CDGL 10",
-     "actualMins": 30,
+     "actualMins": 65,
      "date": "2026-06-06"
     },
     {
@@ -2204,7 +2204,7 @@
     {
      "lesson": "CDGL 12",
      "lessonNorm": "CDGL 12",
-     "actualMins": 30,
+     "actualMins": 60,
      "date": "2026-06-18"
     },
     {
@@ -2851,13 +2851,13 @@
     {
      "lesson": "CDXV 31",
      "lessonNorm": "CDXV 31",
-     "actualMins": 30,
+     "actualMins": 121,
      "date": "2026-07-09"
     },
     {
      "lesson": "CDXV 32",
      "lessonNorm": "CDXV 32",
-     "actualMins": 40,
+     "actualMins": 128,
      "date": "2026-07-15"
     },
     {
@@ -3258,7 +3258,7 @@
     {
      "lesson": "CDGL 10",
      "lessonNorm": "CDGL 10",
-     "actualMins": 35,
+     "actualMins": 70,
      "date": "2026-05-29"
     },
     {
@@ -3270,7 +3270,7 @@
     {
      "lesson": "CDGL 12",
      "lessonNorm": "CDGL 12",
-     "actualMins": 35,
+     "actualMins": 60,
      "date": "2026-06-07"
     },
     {
@@ -3793,7 +3793,7 @@
     {
      "lesson": "CDGL 11",
      "lessonNorm": "CDGL 11",
-     "actualMins": 40,
+     "actualMins": 80,
      "date": "2026-06-10"
     },
     {
@@ -4446,7 +4446,7 @@
     {
      "lesson": "CDXV 32",
      "lessonNorm": "CDXV 32",
-     "actualMins": 77,
+     "actualMins": 138,
      "date": "2026-07-01"
     },
     {
@@ -4482,19 +4482,19 @@
     {
      "lesson": "CSPXV 38",
      "lessonNorm": "CSPXV 38",
-     "actualMins": 64,
+     "actualMins": 120,
      "date": "2026-07-09"
     },
     {
      "lesson": "CSPXV 39",
      "lessonNorm": "CSPXV 39",
-     "actualMins": 92,
+     "actualMins": 180,
      "date": "2026-07-11"
     },
     {
      "lesson": "CSPXV 40",
      "lessonNorm": "CSPXV 40",
-     "actualMins": 90,
+     "actualMins": 181,
      "date": "2026-07-17"
     }
    ],
@@ -6005,7 +6005,7 @@
     {
      "lesson": "CDIL 25",
      "lessonNorm": "CDIL 25",
-     "actualMins": 25,
+     "actualMins": 105,
      "date": "2026-07-13"
     },
     {
@@ -6970,13 +6970,13 @@
     {
      "lesson": "CDGL 10",
      "lessonNorm": "CDGL 10",
-     "actualMins": 35,
+     "actualMins": 70,
      "date": "2026-05-29"
     },
     {
      "lesson": "CDGL 11",
      "lessonNorm": "CDGL 11",
-     "actualMins": 30,
+     "actualMins": 65,
      "date": "2026-06-06"
     },
     {
@@ -10689,7 +10689,7 @@
     {
      "lesson": "CDGL 13",
      "lessonNorm": "CDGL 13",
-     "actualMins": 30,
+     "actualMins": 75,
      "date": "2026-05-28"
     },
     {
@@ -11749,7 +11749,7 @@
     {
      "lesson": "CDGL 12",
      "lessonNorm": "CDGL 12",
-     "actualMins": 34,
+     "actualMins": 64,
      "date": "2026-06-29"
     },
     {
@@ -12225,7 +12225,7 @@
     {
      "lesson": "CDGL 04",
      "lessonNorm": "CDGL 04",
-     "actualMins": 30,
+     "actualMins": 60,
      "date": "2026-05-18"
     },
     {
@@ -12255,7 +12255,7 @@
     {
      "lesson": "CDGL 09",
      "lessonNorm": "CDGL 09",
-     "actualMins": 15,
+     "actualMins": 90,
      "date": "2026-06-17"
     },
     {
@@ -12769,7 +12769,7 @@
     {
      "lesson": "CDGL 07",
      "lessonNorm": "CDGL 07",
-     "actualMins": 24,
+     "actualMins": 79,
      "date": "2026-06-11"
     },
     {
@@ -13486,7 +13486,7 @@
     {
      "lesson": "CSPXV 39",
      "lessonNorm": "CSPXV 39",
-     "actualMins": 90,
+     "actualMins": 180,
      "date": "2026-07-09"
     },
     {
@@ -13498,7 +13498,7 @@
     {
      "lesson": "CSPXV 41",
      "lessonNorm": "CSPXV 41",
-     "actualMins": 90,
+     "actualMins": 180,
      "date": "2026-07-11"
     },
     {
@@ -13812,7 +13812,7 @@
     {
      "lesson": "CDGL 03",
      "lessonNorm": "CDGL 03",
-     "actualMins": 20,
+     "actualMins": 90,
      "date": "2026-05-05"
     },
     {
@@ -14517,7 +14517,7 @@
     {
      "lesson": "CDXV 32",
      "lessonNorm": "CDXV 32",
-     "actualMins": 62,
+     "actualMins": 133,
      "date": "2026-07-01"
     },
     {
@@ -14553,13 +14553,13 @@
     {
      "lesson": "CSPXV 38",
      "lessonNorm": "CSPXV 38",
-     "actualMins": 64,
+     "actualMins": 124,
      "date": "2026-07-07"
     },
     {
      "lesson": "CSPXV 39",
      "lessonNorm": "CSPXV 39",
-     "actualMins": 109,
+     "actualMins": 186,
      "date": "2026-07-10"
     },
     {

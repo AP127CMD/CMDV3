@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-20T19:10:42.469Z",
+ "generatedAt": "2026-07-20T20:44:13.953Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-20T19:10:42.469Z",
-  "upstreamFetchedAt": "2026-07-20T17:28:50Z"
+  "fetchedAt": "2026-07-20T20:44:13.953Z",
+  "upstreamFetchedAt": "2026-07-20T19:29:03Z"
  },
  "flights": [
   {
@@ -99729,33 +99729,6 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVE",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
-  },
-  {
-   "id": "BK-AP-126-PORN-0WJB4",
-   "date": "2026-07-21",
-   "status": "Pending",
-   "isSim": false,
-   "isStandby": false,
-   "start": "06:30",
-   "end": "08:30",
-   "durMin": 120,
-   "student": "PORNTREETRA R.",
-   "studentKey": "PORNTREETRA R.",
-   "nick": null,
-   "instructor": "SANTI PO.",
-   "batch": "AP-126",
-   "batchKey": "AP126",
-   "lesson": "CDXI 68",
-   "lessonNorm": "CDXI 68",
-   "cond": "IR/Nav",
-   "type": "DA40TDI",
-   "tail": "HS-TPO",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,

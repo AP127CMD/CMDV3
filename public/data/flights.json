@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-20T16:48:41.373Z",
+ "generatedAt": "2026-07-20T19:10:42.469Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-20T16:48:41.373Z",
-  "upstreamFetchedAt": "2026-07-20T15:50:11Z"
+  "fetchedAt": "2026-07-20T19:10:42.469Z",
+  "upstreamFetchedAt": "2026-07-20T17:28:50Z"
  },
  "flights": [
   {
@@ -92672,9 +92672,9 @@
    }
   },
   {
-   "id": "BK-MRK6HWDJ",
+   "id": "ACTUAL_ONLY_BK-MRK6HWDJ",
    "date": "2026-07-15",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "11:30",
@@ -92691,12 +92691,15 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "12:10",
+   "ldgTime": "12:55",
+   "airborneMin": 45,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-MRKB8967",
@@ -97859,9 +97862,9 @@
    }
   },
   {
-   "id": "BK-MRKRX09B",
+   "id": "ACTUAL_ONLY_BK-MRKRX09B",
    "date": "2026-07-20",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": true,
    "isStandby": false,
    "start": "18:00",
@@ -97878,12 +97881,15 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "18:00",
+   "ldgTime": "21:00",
+   "airborneMin": 180,
+   "to": 3,
+   "ldg": 3,
+   "inst": 3,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-MRKRX2R9",
@@ -98600,9 +98606,9 @@
    }
   },
   {
-   "id": "BK-AP-129-RAVE-91IDF",
+   "id": "ACTUAL_ONLY_BK-AP-129-RAVE-91IDF",
    "date": "2026-07-20",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -98619,12 +98625,15 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPW",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:34",
+   "ldgTime": "07:39",
+   "airborneMin": 65,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-129-TUPP-IAI68",
@@ -104141,8 +104150,8 @@
   {
    "tail": "HS-TVB",
    "acType": "DA40CS",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": true,
+   "maintReason": "Maintenance"
   },
   {
    "tail": "HS-TVC",

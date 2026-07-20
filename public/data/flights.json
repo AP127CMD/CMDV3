@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-20T13:19:59.426Z",
+ "generatedAt": "2026-07-20T15:23:02.522Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-20T13:19:59.426Z",
-  "upstreamFetchedAt": "2026-07-20T11:39:16Z"
+  "fetchedAt": "2026-07-20T15:23:02.522Z",
+  "upstreamFetchedAt": "2026-07-20T13:52:40Z"
  },
  "flights": [
   {
@@ -98117,9 +98117,9 @@
    }
   },
   {
-   "id": "BK-MRLK1C27",
+   "id": "ACTUAL_ONLY_BK-MRLK1C27",
    "date": "2026-07-20",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": true,
    "isStandby": false,
    "start": "15:00",
@@ -98136,12 +98136,15 @@
    "cond": "Sim DA40",
    "type": "DA40 (SIM)",
    "tail": "HS-TPO (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "15:00",
+   "ldgTime": "18:00",
+   "airborneMin": 180,
+   "to": 4,
+   "ldg": 4,
+   "inst": 4,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-126-KANA-BPKRE",
@@ -98825,9 +98828,9 @@
    }
   },
   {
-   "id": "BK-MRPTOPVO",
+   "id": "ACTUAL_ONLY_BK-MRPTOPVO",
    "date": "2026-07-20",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "16:00",
@@ -98844,12 +98847,15 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPO",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "16:20",
+   "ldgTime": "17:20",
+   "airborneMin": 60,
+   "to": 3,
+   "ldg": 3,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-MRPTORRL",
@@ -99221,9 +99227,9 @@
    "inst": null
   },
   {
-   "id": "BK-MRRJUDGV",
+   "id": "ACTUAL_ONLY_BK-MRRJUDGV",
    "date": "2026-07-20",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "16:00",
@@ -99240,12 +99246,15 @@
    "cond": "Solo",
    "type": "DA40CS",
    "tail": "HS-TVE",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "16:20",
+   "ldgTime": "17:20",
+   "airborneMin": 60,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-MRRJUFPB",
@@ -99859,7 +99868,7 @@
    "student": "NUTTAWAT R.",
    "studentKey": "NUTTAWAT R.",
    "nick": null,
-   "instructor": "SOWAN C.",
+   "instructor": "THAWATANAN P.",
    "batch": "AP-126",
    "batchKey": "AP126",
    "lesson": "CDXI 72",
@@ -99886,7 +99895,7 @@
    "student": "SUBHAWICHAYA S.",
    "studentKey": "SUBHAWICHAYA S.",
    "nick": null,
-   "instructor": "THAWATANAN P.",
+   "instructor": "SOWAN C.",
    "batch": "AP-126",
    "batchKey": "AP126",
    "lesson": "CDXI 72",

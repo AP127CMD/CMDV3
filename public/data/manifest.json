@@ -1,14 +1,14 @@
 {
  "schemaVersion": 1,
  "pipelineVersion": "3.0.0",
- "generatedAt": "2026-07-20T22:16:18.521Z",
+ "generatedAt": "2026-07-20T23:27:01.573Z",
  "sources": {
   "flights": {
    "sourceUrl": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-   "fetchedAt": "2026-07-20T22:16:18.521Z",
-   "upstreamFetchedAt": "2026-07-20T21:03:59Z",
+   "fetchedAt": "2026-07-20T23:27:01.573Z",
+   "upstreamFetchedAt": "2026-07-20T22:50:57Z",
    "contentHash": "sha256:07ef1bf95cfe265574c1fe7c5d47ad6fba3ce66ea3c497c862fbbacece49be68",
-   "lastChangedAt": "2026-07-20T22:16:18.521Z",
+   "lastChangedAt": "2026-07-20T23:27:01.573Z",
    "records": {
     "flights": 4591,
     "instructors": 27,
@@ -58,10 +58,10 @@
   },
   "progress": {
    "sourceUrl": "https://ap127-data-api.anusorn-tanmetha.workers.dev",
-   "fetchedAt": "2026-07-20T22:16:18.521Z",
-   "upstreamFetchedAt": "2026-07-20T21:10:34.839Z",
-   "contentHash": "sha256:b7ba3ca1139595a85fe97b1b8c9fe08b9241ca030e866ba0fa21d4e0789c402a",
-   "lastChangedAt": "2026-07-20T22:16:18.521Z",
+   "fetchedAt": "2026-07-20T23:27:01.573Z",
+   "upstreamFetchedAt": "2026-07-20T22:56:49.126Z",
+   "contentHash": "sha256:f3f65da548a109ec7e9c64aa7faf6e611054505de7de76c2e987a239bb814c44",
+   "lastChangedAt": "2026-07-20T23:27:01.573Z",
    "records": {
     "students": 28,
     "curriculum": 96
@@ -78,14 +78,14 @@
   },
   "ngt": {
    "sourceUrl": "https://ap127-db001.pages.dev/cache.json",
-   "fetchedAt": "2026-07-20T22:16:18.521Z",
-   "upstreamFetchedAt": "2026-07-20T21:10:34.839Z",
-   "contentHash": "sha256:a354f3979161f7c98d92593561e30a65f372f9bf40ff26e3766a77333553f070",
-   "lastChangedAt": "2026-07-20T22:16:18.521Z",
+   "fetchedAt": "2026-07-20T23:27:01.573Z",
+   "upstreamFetchedAt": "2026-07-20T22:55:07.426Z",
+   "contentHash": "sha256:de954cebbf4bb856b5b814943ac2ff3fc7f6866896919bf0a46b52bcd4e5d47e",
+   "lastChangedAt": "2026-07-20T23:27:01.573Z",
    "records": {
-    "ap124": 0,
+    "ap124": 9,
     "ap126": 28,
-    "ap127": 28,
+    "ap127": 26,
     "ap129": 13
    },
    "validation": {

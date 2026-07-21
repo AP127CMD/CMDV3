@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-21T09:44:08.028Z",
+ "generatedAt": "2026-07-21T12:03:08.029Z",
  "source": {
   "url": "https://ap127-data-api.anusorn-tanmetha.workers.dev",
-  "fetchedAt": "2026-07-21T09:44:08.028Z",
-  "upstreamFetchedAt": "2026-07-21T09:40:36.650Z"
+  "fetchedAt": "2026-07-21T12:03:08.029Z",
+  "upstreamFetchedAt": "2026-07-21T12:00:55.631Z"
  },
  "students": [
   {
@@ -234,6 +234,536 @@
     }
    ],
    "planned": [
+    {
+     "lesson": "CSPGL 36",
+     "date": "2026-08-11",
+     "mins": 75
+    },
+    {
+     "lesson": "CSPGL 37",
+     "date": "2026-08-14",
+     "mins": 75
+    },
+    {
+     "lesson": "CSPXV 38",
+     "date": "2026-08-19",
+     "mins": 120
+    },
+    {
+     "lesson": "CSPXV 39",
+     "date": "2026-08-21",
+     "mins": 180
+    },
+    {
+     "lesson": "CSPXV 40",
+     "date": "2026-08-25",
+     "mins": 180
+    },
+    {
+     "lesson": "CSPXV 41",
+     "date": "2026-08-28",
+     "mins": 180
+    },
+    {
+     "lesson": "CSPXV 42",
+     "date": "2026-09-02",
+     "mins": 180
+    },
+    {
+     "lesson": "CSPXV 43",
+     "date": "2026-09-07",
+     "mins": 180
+    },
+    {
+     "lesson": "CSPXV 44",
+     "date": "2026-09-11",
+     "mins": 300
+    },
+    {
+     "lesson": "CSXV 45",
+     "date": "2026-09-16",
+     "mins": 300
+    },
+    {
+     "lesson": "CDNL 46",
+     "date": "2026-09-18",
+     "mins": 60
+    },
+    {
+     "lesson": "CDNL 47",
+     "date": "2026-09-22",
+     "mins": 60
+    },
+    {
+     "lesson": "CDNXC 48",
+     "date": "2026-09-24",
+     "mins": 60
+    },
+    {
+     "lesson": "CSNL 49",
+     "date": "2026-09-25",
+     "mins": 60
+    },
+    {
+     "lesson": "CSNL 50",
+     "date": "2026-09-29",
+     "mins": 60
+    },
+    {
+     "lesson": "CSPGL 51",
+     "date": "2026-10-01",
+     "mins": 80
+    },
+    {
+     "lesson": "CSPGL 52",
+     "date": "2026-10-05",
+     "mins": 80
+    },
+    {
+     "lesson": "CSPGL 53",
+     "date": "2026-10-07",
+     "mins": 80
+    },
+    {
+     "lesson": "CSPGLC 54",
+     "date": "2026-10-08",
+     "mins": 90
+    },
+    {
+     "lesson": "CSPXVC 55",
+     "date": "2026-10-09",
+     "mins": 90
+    },
+    {
+     "lesson": "CDIF(SIM) 56",
+     "date": "2026-10-12",
+     "mins": 120
+    },
+    {
+     "lesson": "CDIF(SIM) 57",
+     "date": "2026-10-15",
+     "mins": 120
+    },
+    {
+     "lesson": "CDIF(SIM) 58",
+     "date": "2026-10-19",
+     "mins": 120
+    },
+    {
+     "lesson": "CDIF(SIM) 59",
+     "date": "2026-10-21",
+     "mins": 120
+    },
+    {
+     "lesson": "CDIF(SIM) 60",
+     "date": "2026-10-26",
+     "mins": 120
+    },
+    {
+     "lesson": "CDIF(SIM) 61",
+     "date": "2026-10-28",
+     "mins": 120
+    },
+    {
+     "lesson": "CDIF(SIM) 62",
+     "date": "2026-10-30",
+     "mins": 120
+    },
+    {
+     "lesson": "CDIF(SIM) 63",
+     "date": "2026-11-03",
+     "mins": 120
+    },
+    {
+     "lesson": "CDIF(SIM) 64",
+     "date": "2026-11-05",
+     "mins": 180
+    },
+    {
+     "lesson": "CDIF(SIM) 65",
+     "date": "2026-11-09",
+     "mins": 180
+    },
+    {
+     "lesson": "CDIF(SIM) 66",
+     "date": "2026-11-11",
+     "mins": 180
+    },
+    {
+     "lesson": "CDIF(SIM) 67",
+     "date": "2026-11-13",
+     "mins": 180
+    },
+    {
+     "lesson": "CDXI 68",
+     "date": "2026-11-17",
+     "mins": 120
+    },
+    {
+     "lesson": "CDXI 69",
+     "date": "2026-11-19",
+     "mins": 120
+    },
+    {
+     "lesson": "CDXI 70",
+     "date": "2026-11-23",
+     "mins": 120
+    },
+    {
+     "lesson": "CDXI 71",
+     "date": "2026-11-25",
+     "mins": 120
+    },
+    {
+     "lesson": "CDXI 72",
+     "date": "2026-11-27",
+     "mins": 120
+    },
+    {
+     "lesson": "CDXI 73",
+     "date": "2026-12-01",
+     "mins": 180
+    },
+    {
+     "lesson": "CDXI 74",
+     "date": "2026-12-03",
+     "mins": 180
+    },
+    {
+     "lesson": "CDXI 75",
+     "date": "2026-12-08",
+     "mins": 180
+    },
+    {
+     "lesson": "CDXI 76",
+     "date": "2026-12-11",
+     "mins": 180
+    },
+    {
+     "lesson": "CDXI 77",
+     "date": "2026-12-15",
+     "mins": 180
+    },
+    {
+     "lesson": "CDXI 78",
+     "date": "2026-12-17",
+     "mins": 180
+    },
+    {
+     "lesson": "CDXI 79",
+     "date": "2026-12-21",
+     "mins": 180
+    },
+    {
+     "lesson": "CDXI 80",
+     "date": "2026-12-23",
+     "mins": 180
+    },
+    {
+     "lesson": "CDXI 81",
+     "date": "2026-12-25",
+     "mins": 180
+    },
+    {
+     "lesson": "CDXI 82",
+     "date": "2026-12-29",
+     "mins": 180
+    },
+    {
+     "lesson": "CDGL 83",
+     "date": "2027-01-01",
+     "mins": 90
+    },
+    {
+     "lesson": "CDGL 84",
+     "date": "2027-01-04",
+     "mins": 90
+    },
+    {
+     "lesson": "CSPXI 85",
+     "date": "2027-01-05",
+     "mins": 120
+    },
+    {
+     "lesson": "CSPXI 86",
+     "date": "2027-01-07",
+     "mins": 120
+    },
+    {
+     "lesson": "CSPXI 87",
+     "date": "2027-01-11",
+     "mins": 180
+    },
+    {
+     "lesson": "CSPXI 88",
+     "date": "2027-01-13",
+     "mins": 180
+    },
+    {
+     "lesson": "CSPXI 89",
+     "date": "2027-01-15",
+     "mins": 180
+    },
+    {
+     "lesson": "CSPXIC 90",
+     "date": "2027-01-19",
+     "mins": 180
+    },
+    {
+     "lesson": "CMDIF(SIM) 91",
+     "date": "2027-01-21",
+     "mins": 60
+    },
+    {
+     "lesson": "CMDIF(SIM) 92",
+     "date": "2027-01-25",
+     "mins": 60
+    },
+    {
+     "lesson": "CMDGL 93",
+     "date": "2027-01-26",
+     "mins": 90
+    },
+    {
+     "lesson": "CMDXV 94",
+     "date": "2027-01-27",
+     "mins": 90
+    },
+    {
+     "lesson": "CMSPXI 95",
+     "date": "2027-01-28",
+     "mins": 120
+    },
+    {
+     "lesson": "CMSPXIC 96",
+     "date": "2027-02-01",
+     "mins": 120
+    }
+   ]
+  },
+  {
+   "catcId": "68117700043",
+   "name": "Anusorn Tanmetha",
+   "key": "ANUSORN T.",
+   "nick": "A-SORN",
+   "fi": "P-YUTH",
+   "fiFull": "PHAHOLYUTH P.",
+   "se": "DA40-CS",
+   "batch": "AP127",
+   "done": 31,
+   "total": 96,
+   "remaining": 65,
+   "pct": 32.3,
+   "nextLesson": "CDXV 32",
+   "flown": [
+    {
+     "lesson": "CDGL 01",
+     "lessonNorm": "CDGL 01",
+     "actualMins": 75,
+     "date": "2026-04-23"
+    },
+    {
+     "lesson": "CDGL 02",
+     "lessonNorm": "CDGL 02",
+     "actualMins": 75,
+     "date": "2026-04-24"
+    },
+    {
+     "lesson": "CDGL 03",
+     "lessonNorm": "CDGL 03",
+     "actualMins": 70,
+     "date": "2026-04-27"
+    },
+    {
+     "lesson": "CDGL 04",
+     "lessonNorm": "CDGL 04",
+     "actualMins": 60,
+     "date": "2026-04-29"
+    },
+    {
+     "lesson": "CDGL 05",
+     "lessonNorm": "CDGL 05",
+     "actualMins": 75,
+     "date": "2026-05-25"
+    },
+    {
+     "lesson": "CDGL 06",
+     "lessonNorm": "CDGL 06",
+     "actualMins": 95,
+     "date": "2026-05-29"
+    },
+    {
+     "lesson": "CDGL 07",
+     "lessonNorm": "CDGL 07",
+     "actualMins": 80,
+     "date": "2026-05-30"
+    },
+    {
+     "lesson": "CDGL 08",
+     "lessonNorm": "CDGL 08",
+     "actualMins": 75,
+     "date": "2026-05-30"
+    },
+    {
+     "lesson": "CDGL 09",
+     "lessonNorm": "CDGL 09",
+     "actualMins": 80,
+     "date": "2026-06-06"
+    },
+    {
+     "lesson": "CDGL 10",
+     "lessonNorm": "CDGL 10",
+     "actualMins": 60,
+     "date": "2026-06-07"
+    },
+    {
+     "lesson": "CDGL 11",
+     "lessonNorm": "CDGL 11",
+     "actualMins": 60,
+     "date": "2026-06-07"
+    },
+    {
+     "lesson": "CDGL 12",
+     "lessonNorm": "CDGL 12",
+     "actualMins": 70,
+     "date": "2026-06-10"
+    },
+    {
+     "lesson": "CDGL 13",
+     "lessonNorm": "CDGL 13",
+     "actualMins": 45,
+     "date": "2026-06-12"
+    },
+    {
+     "lesson": "CSGL 14",
+     "lessonNorm": "CSGL 14",
+     "actualMins": 20,
+     "date": "2026-06-12"
+    },
+    {
+     "lesson": "CDIL 15",
+     "lessonNorm": "CDIL 15",
+     "actualMins": 85,
+     "date": "2026-06-17"
+    },
+    {
+     "lesson": "CSGL 16",
+     "lessonNorm": "CSGL 16",
+     "actualMins": 45,
+     "date": "2026-06-18"
+    },
+    {
+     "lesson": "CDIL 17",
+     "lessonNorm": "CDIL 17",
+     "actualMins": 95,
+     "date": "2026-06-19"
+    },
+    {
+     "lesson": "CSGL 18",
+     "lessonNorm": "CSGL 18",
+     "actualMins": 85,
+     "date": "2026-06-24"
+    },
+    {
+     "lesson": "CDIL 19",
+     "lessonNorm": "CDIL 19",
+     "actualMins": 95,
+     "date": "2026-06-27"
+    },
+    {
+     "lesson": "CSGL 20",
+     "lessonNorm": "CSGL 20",
+     "actualMins": 75,
+     "date": "2026-06-28"
+    },
+    {
+     "lesson": "CDIL 21",
+     "lessonNorm": "CDIL 21",
+     "actualMins": 95,
+     "date": "2026-06-30"
+    },
+    {
+     "lesson": "CSGL 22",
+     "lessonNorm": "CSGL 22",
+     "actualMins": 75,
+     "date": "2026-07-01"
+    },
+    {
+     "lesson": "CDIL 23",
+     "lessonNorm": "CDIL 23",
+     "actualMins": 105,
+     "date": "2026-07-02"
+    },
+    {
+     "lesson": "CSGL 24",
+     "lessonNorm": "CSGL 24",
+     "actualMins": 80,
+     "date": "2026-07-03"
+    },
+    {
+     "lesson": "CDIL 25",
+     "lessonNorm": "CDIL 25",
+     "actualMins": 90,
+     "date": "2026-07-06"
+    },
+    {
+     "lesson": "CSGL 26",
+     "lessonNorm": "CSGL 26",
+     "actualMins": 75,
+     "date": "2026-07-06"
+    },
+    {
+     "lesson": "CDIL 27",
+     "lessonNorm": "CDIL 27",
+     "actualMins": 90,
+     "date": "2026-07-08"
+    },
+    {
+     "lesson": "CSGL 28",
+     "lessonNorm": "CSGL 28",
+     "actualMins": 85,
+     "date": "2026-07-09"
+    },
+    {
+     "lesson": "CDXV 29",
+     "lessonNorm": "CDXV 29",
+     "actualMins": 93,
+     "date": "2026-07-15"
+    },
+    {
+     "lesson": "CSGL 30",
+     "lessonNorm": "CSGL 30",
+     "actualMins": 80,
+     "date": "2026-07-17"
+    },
+    {
+     "lesson": "CDXV 31",
+     "lessonNorm": "CDXV 31",
+     "actualMins": 93,
+     "date": "2026-07-20"
+    }
+   ],
+   "planned": [
+    {
+     "lesson": "CDXV 32",
+     "date": "2026-07-27",
+     "mins": 120
+    },
+    {
+     "lesson": "CSXV 33",
+     "date": "2026-08-03",
+     "mins": 90
+    },
+    {
+     "lesson": "CDGL 34",
+     "date": "2026-08-04",
+     "mins": 60
+    },
+    {
+     "lesson": "CDGL 35",
+     "date": "2026-08-07",
+     "mins": 60
+    },
     {
      "lesson": "CSPGL 36",
      "date": "2026-08-11",
@@ -542,536 +1072,6 @@
    ]
   },
   {
-   "catcId": "68117700043",
-   "name": "Anusorn Tanmetha",
-   "key": "ANUSORN T.",
-   "nick": "A-SORN",
-   "fi": "P-YUTH",
-   "fiFull": "PHAHOLYUTH P.",
-   "se": "DA40-CS",
-   "batch": "AP127",
-   "done": 31,
-   "total": 96,
-   "remaining": 65,
-   "pct": 32.3,
-   "nextLesson": "CDXV 32",
-   "flown": [
-    {
-     "lesson": "CDGL 01",
-     "lessonNorm": "CDGL 01",
-     "actualMins": 75,
-     "date": "2026-04-23"
-    },
-    {
-     "lesson": "CDGL 02",
-     "lessonNorm": "CDGL 02",
-     "actualMins": 75,
-     "date": "2026-04-24"
-    },
-    {
-     "lesson": "CDGL 03",
-     "lessonNorm": "CDGL 03",
-     "actualMins": 70,
-     "date": "2026-04-27"
-    },
-    {
-     "lesson": "CDGL 04",
-     "lessonNorm": "CDGL 04",
-     "actualMins": 60,
-     "date": "2026-04-29"
-    },
-    {
-     "lesson": "CDGL 05",
-     "lessonNorm": "CDGL 05",
-     "actualMins": 75,
-     "date": "2026-05-25"
-    },
-    {
-     "lesson": "CDGL 06",
-     "lessonNorm": "CDGL 06",
-     "actualMins": 95,
-     "date": "2026-05-29"
-    },
-    {
-     "lesson": "CDGL 07",
-     "lessonNorm": "CDGL 07",
-     "actualMins": 80,
-     "date": "2026-05-30"
-    },
-    {
-     "lesson": "CDGL 08",
-     "lessonNorm": "CDGL 08",
-     "actualMins": 75,
-     "date": "2026-05-30"
-    },
-    {
-     "lesson": "CDGL 09",
-     "lessonNorm": "CDGL 09",
-     "actualMins": 80,
-     "date": "2026-06-06"
-    },
-    {
-     "lesson": "CDGL 10",
-     "lessonNorm": "CDGL 10",
-     "actualMins": 60,
-     "date": "2026-06-07"
-    },
-    {
-     "lesson": "CDGL 11",
-     "lessonNorm": "CDGL 11",
-     "actualMins": 60,
-     "date": "2026-06-07"
-    },
-    {
-     "lesson": "CDGL 12",
-     "lessonNorm": "CDGL 12",
-     "actualMins": 70,
-     "date": "2026-06-10"
-    },
-    {
-     "lesson": "CDGL 13",
-     "lessonNorm": "CDGL 13",
-     "actualMins": 45,
-     "date": "2026-06-12"
-    },
-    {
-     "lesson": "CSGL 14",
-     "lessonNorm": "CSGL 14",
-     "actualMins": 20,
-     "date": "2026-06-12"
-    },
-    {
-     "lesson": "CDIL 15",
-     "lessonNorm": "CDIL 15",
-     "actualMins": 85,
-     "date": "2026-06-17"
-    },
-    {
-     "lesson": "CSGL 16",
-     "lessonNorm": "CSGL 16",
-     "actualMins": 45,
-     "date": "2026-06-18"
-    },
-    {
-     "lesson": "CDIL 17",
-     "lessonNorm": "CDIL 17",
-     "actualMins": 95,
-     "date": "2026-06-19"
-    },
-    {
-     "lesson": "CSGL 18",
-     "lessonNorm": "CSGL 18",
-     "actualMins": 85,
-     "date": "2026-06-24"
-    },
-    {
-     "lesson": "CDIL 19",
-     "lessonNorm": "CDIL 19",
-     "actualMins": 95,
-     "date": "2026-06-27"
-    },
-    {
-     "lesson": "CSGL 20",
-     "lessonNorm": "CSGL 20",
-     "actualMins": 75,
-     "date": "2026-06-28"
-    },
-    {
-     "lesson": "CDIL 21",
-     "lessonNorm": "CDIL 21",
-     "actualMins": 95,
-     "date": "2026-06-30"
-    },
-    {
-     "lesson": "CSGL 22",
-     "lessonNorm": "CSGL 22",
-     "actualMins": 75,
-     "date": "2026-07-01"
-    },
-    {
-     "lesson": "CDIL 23",
-     "lessonNorm": "CDIL 23",
-     "actualMins": 105,
-     "date": "2026-07-02"
-    },
-    {
-     "lesson": "CSGL 24",
-     "lessonNorm": "CSGL 24",
-     "actualMins": 80,
-     "date": "2026-07-03"
-    },
-    {
-     "lesson": "CDIL 25",
-     "lessonNorm": "CDIL 25",
-     "actualMins": 90,
-     "date": "2026-07-06"
-    },
-    {
-     "lesson": "CSGL 26",
-     "lessonNorm": "CSGL 26",
-     "actualMins": 75,
-     "date": "2026-07-06"
-    },
-    {
-     "lesson": "CDIL 27",
-     "lessonNorm": "CDIL 27",
-     "actualMins": 90,
-     "date": "2026-07-08"
-    },
-    {
-     "lesson": "CSGL 28",
-     "lessonNorm": "CSGL 28",
-     "actualMins": 85,
-     "date": "2026-07-09"
-    },
-    {
-     "lesson": "CDXV 29",
-     "lessonNorm": "CDXV 29",
-     "actualMins": 93,
-     "date": "2026-07-15"
-    },
-    {
-     "lesson": "CSGL 30",
-     "lessonNorm": "CSGL 30",
-     "actualMins": 80,
-     "date": "2026-07-17"
-    },
-    {
-     "lesson": "CDXV 31",
-     "lessonNorm": "CDXV 31",
-     "actualMins": 93,
-     "date": "2026-07-20"
-    }
-   ],
-   "planned": [
-    {
-     "lesson": "CDXV 32",
-     "date": "2026-07-27",
-     "mins": 120
-    },
-    {
-     "lesson": "CSXV 33",
-     "date": "2026-08-03",
-     "mins": 90
-    },
-    {
-     "lesson": "CDGL 34",
-     "date": "2026-08-04",
-     "mins": 60
-    },
-    {
-     "lesson": "CDGL 35",
-     "date": "2026-08-07",
-     "mins": 60
-    },
-    {
-     "lesson": "CSPGL 36",
-     "date": "2026-08-11",
-     "mins": 75
-    },
-    {
-     "lesson": "CSPGL 37",
-     "date": "2026-08-14",
-     "mins": 75
-    },
-    {
-     "lesson": "CSPXV 38",
-     "date": "2026-08-19",
-     "mins": 120
-    },
-    {
-     "lesson": "CSPXV 39",
-     "date": "2026-08-24",
-     "mins": 180
-    },
-    {
-     "lesson": "CSPXV 40",
-     "date": "2026-08-26",
-     "mins": 180
-    },
-    {
-     "lesson": "CSPXV 41",
-     "date": "2026-08-28",
-     "mins": 180
-    },
-    {
-     "lesson": "CSPXV 42",
-     "date": "2026-09-02",
-     "mins": 180
-    },
-    {
-     "lesson": "CSPXV 43",
-     "date": "2026-09-07",
-     "mins": 180
-    },
-    {
-     "lesson": "CSPXV 44",
-     "date": "2026-09-11",
-     "mins": 300
-    },
-    {
-     "lesson": "CSXV 45",
-     "date": "2026-09-16",
-     "mins": 300
-    },
-    {
-     "lesson": "CDNL 46",
-     "date": "2026-09-18",
-     "mins": 60
-    },
-    {
-     "lesson": "CDNL 47",
-     "date": "2026-09-22",
-     "mins": 60
-    },
-    {
-     "lesson": "CDNXC 48",
-     "date": "2026-09-24",
-     "mins": 60
-    },
-    {
-     "lesson": "CSNL 49",
-     "date": "2026-09-25",
-     "mins": 60
-    },
-    {
-     "lesson": "CSNL 50",
-     "date": "2026-09-29",
-     "mins": 60
-    },
-    {
-     "lesson": "CSPGL 51",
-     "date": "2026-10-01",
-     "mins": 80
-    },
-    {
-     "lesson": "CSPGL 52",
-     "date": "2026-10-05",
-     "mins": 80
-    },
-    {
-     "lesson": "CSPGL 53",
-     "date": "2026-10-07",
-     "mins": 80
-    },
-    {
-     "lesson": "CSPGLC 54",
-     "date": "2026-10-08",
-     "mins": 90
-    },
-    {
-     "lesson": "CSPXVC 55",
-     "date": "2026-10-09",
-     "mins": 90
-    },
-    {
-     "lesson": "CDIF(SIM) 56",
-     "date": "2026-10-12",
-     "mins": 120
-    },
-    {
-     "lesson": "CDIF(SIM) 57",
-     "date": "2026-10-15",
-     "mins": 120
-    },
-    {
-     "lesson": "CDIF(SIM) 58",
-     "date": "2026-10-19",
-     "mins": 120
-    },
-    {
-     "lesson": "CDIF(SIM) 59",
-     "date": "2026-10-21",
-     "mins": 120
-    },
-    {
-     "lesson": "CDIF(SIM) 60",
-     "date": "2026-10-26",
-     "mins": 120
-    },
-    {
-     "lesson": "CDIF(SIM) 61",
-     "date": "2026-10-28",
-     "mins": 120
-    },
-    {
-     "lesson": "CDIF(SIM) 62",
-     "date": "2026-10-30",
-     "mins": 120
-    },
-    {
-     "lesson": "CDIF(SIM) 63",
-     "date": "2026-11-03",
-     "mins": 120
-    },
-    {
-     "lesson": "CDIF(SIM) 64",
-     "date": "2026-11-05",
-     "mins": 180
-    },
-    {
-     "lesson": "CDIF(SIM) 65",
-     "date": "2026-11-09",
-     "mins": 180
-    },
-    {
-     "lesson": "CDIF(SIM) 66",
-     "date": "2026-11-11",
-     "mins": 180
-    },
-    {
-     "lesson": "CDIF(SIM) 67",
-     "date": "2026-11-13",
-     "mins": 180
-    },
-    {
-     "lesson": "CDXI 68",
-     "date": "2026-11-17",
-     "mins": 120
-    },
-    {
-     "lesson": "CDXI 69",
-     "date": "2026-11-19",
-     "mins": 120
-    },
-    {
-     "lesson": "CDXI 70",
-     "date": "2026-11-23",
-     "mins": 120
-    },
-    {
-     "lesson": "CDXI 71",
-     "date": "2026-11-25",
-     "mins": 120
-    },
-    {
-     "lesson": "CDXI 72",
-     "date": "2026-11-27",
-     "mins": 120
-    },
-    {
-     "lesson": "CDXI 73",
-     "date": "2026-12-01",
-     "mins": 180
-    },
-    {
-     "lesson": "CDXI 74",
-     "date": "2026-12-03",
-     "mins": 180
-    },
-    {
-     "lesson": "CDXI 75",
-     "date": "2026-12-08",
-     "mins": 180
-    },
-    {
-     "lesson": "CDXI 76",
-     "date": "2026-12-11",
-     "mins": 180
-    },
-    {
-     "lesson": "CDXI 77",
-     "date": "2026-12-15",
-     "mins": 180
-    },
-    {
-     "lesson": "CDXI 78",
-     "date": "2026-12-17",
-     "mins": 180
-    },
-    {
-     "lesson": "CDXI 79",
-     "date": "2026-12-21",
-     "mins": 180
-    },
-    {
-     "lesson": "CDXI 80",
-     "date": "2026-12-23",
-     "mins": 180
-    },
-    {
-     "lesson": "CDXI 81",
-     "date": "2026-12-25",
-     "mins": 180
-    },
-    {
-     "lesson": "CDXI 82",
-     "date": "2026-12-29",
-     "mins": 180
-    },
-    {
-     "lesson": "CDGL 83",
-     "date": "2027-01-01",
-     "mins": 90
-    },
-    {
-     "lesson": "CDGL 84",
-     "date": "2027-01-05",
-     "mins": 90
-    },
-    {
-     "lesson": "CSPXI 85",
-     "date": "2027-01-06",
-     "mins": 120
-    },
-    {
-     "lesson": "CSPXI 86",
-     "date": "2027-01-08",
-     "mins": 120
-    },
-    {
-     "lesson": "CSPXI 87",
-     "date": "2027-01-12",
-     "mins": 180
-    },
-    {
-     "lesson": "CSPXI 88",
-     "date": "2027-01-14",
-     "mins": 180
-    },
-    {
-     "lesson": "CSPXI 89",
-     "date": "2027-01-18",
-     "mins": 180
-    },
-    {
-     "lesson": "CSPXIC 90",
-     "date": "2027-01-20",
-     "mins": 180
-    },
-    {
-     "lesson": "CMDIF(SIM) 91",
-     "date": "2027-01-22",
-     "mins": 60
-    },
-    {
-     "lesson": "CMDIF(SIM) 92",
-     "date": "2027-01-25",
-     "mins": 60
-    },
-    {
-     "lesson": "CMDGL 93",
-     "date": "2027-01-26",
-     "mins": 90
-    },
-    {
-     "lesson": "CMDXV 94",
-     "date": "2027-01-27",
-     "mins": 90
-    },
-    {
-     "lesson": "CMSPXI 95",
-     "date": "2027-01-28",
-     "mins": 120
-    },
-    {
-     "lesson": "CMSPXIC 96",
-     "date": "2027-02-01",
-     "mins": 120
-    }
-   ]
-  },
-  {
    "catcId": "68117700044",
    "name": "Awirut Sakcharoen",
    "key": "AWIRUT S.",
@@ -1304,7 +1304,7 @@
     },
     {
      "lesson": "CSPXV 39",
-     "date": "2026-08-24",
+     "date": "2026-08-21",
      "mins": 180
     },
     {
@@ -1529,7 +1529,7 @@
     },
     {
      "lesson": "CDGL 84",
-     "date": "2027-01-05",
+     "date": "2027-01-04",
      "mins": 90
     },
     {
@@ -1831,7 +1831,7 @@
     },
     {
      "lesson": "CSPXV 39",
-     "date": "2026-08-24",
+     "date": "2026-08-21",
      "mins": 180
     },
     {
@@ -2056,7 +2056,7 @@
     },
     {
      "lesson": "CDGL 84",
-     "date": "2027-01-05",
+     "date": "2027-01-04",
      "mins": 90
     },
     {
@@ -2379,7 +2379,7 @@
     },
     {
      "lesson": "CSPXV 42",
-     "date": "2026-09-03",
+     "date": "2026-09-02",
      "mins": 180
     },
     {
@@ -2449,142 +2449,142 @@
     },
     {
      "lesson": "CDIF(SIM) 56",
-     "date": "2026-10-14",
+     "date": "2026-10-12",
      "mins": 120
     },
     {
      "lesson": "CDIF(SIM) 57",
-     "date": "2026-10-16",
+     "date": "2026-10-15",
      "mins": 120
     },
     {
      "lesson": "CDIF(SIM) 58",
-     "date": "2026-10-20",
+     "date": "2026-10-19",
      "mins": 120
     },
     {
      "lesson": "CDIF(SIM) 59",
-     "date": "2026-10-22",
+     "date": "2026-10-21",
      "mins": 120
     },
     {
      "lesson": "CDIF(SIM) 60",
-     "date": "2026-10-27",
+     "date": "2026-10-26",
      "mins": 120
     },
     {
      "lesson": "CDIF(SIM) 61",
-     "date": "2026-10-29",
+     "date": "2026-10-28",
      "mins": 120
     },
     {
      "lesson": "CDIF(SIM) 62",
-     "date": "2026-11-02",
+     "date": "2026-10-30",
      "mins": 120
     },
     {
      "lesson": "CDIF(SIM) 63",
-     "date": "2026-11-04",
+     "date": "2026-11-03",
      "mins": 120
     },
     {
      "lesson": "CDIF(SIM) 64",
-     "date": "2026-11-06",
+     "date": "2026-11-05",
      "mins": 180
     },
     {
      "lesson": "CDIF(SIM) 65",
-     "date": "2026-11-10",
+     "date": "2026-11-09",
      "mins": 180
     },
     {
      "lesson": "CDIF(SIM) 66",
-     "date": "2026-11-12",
+     "date": "2026-11-11",
      "mins": 180
     },
     {
      "lesson": "CDIF(SIM) 67",
-     "date": "2026-11-16",
+     "date": "2026-11-13",
      "mins": 180
     },
     {
      "lesson": "CDXI 68",
-     "date": "2026-11-18",
+     "date": "2026-11-17",
      "mins": 120
     },
     {
      "lesson": "CDXI 69",
-     "date": "2026-11-20",
+     "date": "2026-11-19",
      "mins": 120
     },
     {
      "lesson": "CDXI 70",
-     "date": "2026-11-24",
+     "date": "2026-11-23",
      "mins": 120
     },
     {
      "lesson": "CDXI 71",
-     "date": "2026-11-26",
+     "date": "2026-11-25",
      "mins": 120
     },
     {
      "lesson": "CDXI 72",
-     "date": "2026-11-30",
+     "date": "2026-11-27",
      "mins": 120
     },
     {
      "lesson": "CDXI 73",
-     "date": "2026-12-02",
+     "date": "2026-12-01",
      "mins": 180
     },
     {
      "lesson": "CDXI 74",
-     "date": "2026-12-04",
+     "date": "2026-12-03",
      "mins": 180
     },
     {
      "lesson": "CDXI 75",
-     "date": "2026-12-09",
+     "date": "2026-12-08",
      "mins": 180
     },
     {
      "lesson": "CDXI 76",
-     "date": "2026-12-14",
+     "date": "2026-12-11",
      "mins": 180
     },
     {
      "lesson": "CDXI 77",
-     "date": "2026-12-16",
+     "date": "2026-12-15",
      "mins": 180
     },
     {
      "lesson": "CDXI 78",
-     "date": "2026-12-18",
+     "date": "2026-12-17",
      "mins": 180
     },
     {
      "lesson": "CDXI 79",
-     "date": "2026-12-22",
+     "date": "2026-12-21",
      "mins": 180
     },
     {
      "lesson": "CDXI 80",
-     "date": "2026-12-24",
+     "date": "2026-12-23",
      "mins": 180
     },
     {
      "lesson": "CDXI 81",
-     "date": "2026-12-28",
+     "date": "2026-12-25",
      "mins": 180
     },
     {
      "lesson": "CDXI 82",
-     "date": "2026-12-30",
+     "date": "2026-12-29",
      "mins": 180
     },
     {
      "lesson": "CDGL 83",
-     "date": "2027-01-04",
+     "date": "2027-01-01",
      "mins": 90
     },
     {
@@ -2912,7 +2912,7 @@
     },
     {
      "lesson": "CSPXV 42",
-     "date": "2026-09-03",
+     "date": "2026-09-02",
      "mins": 180
     },
     {
@@ -2982,142 +2982,142 @@
     },
     {
      "lesson": "CDIF(SIM) 56",
-     "date": "2026-10-14",
+     "date": "2026-10-12",
      "mins": 120
     },
     {
      "lesson": "CDIF(SIM) 57",
-     "date": "2026-10-16",
+     "date": "2026-10-15",
      "mins": 120
     },
     {
      "lesson": "CDIF(SIM) 58",
-     "date": "2026-10-20",
+     "date": "2026-10-19",
      "mins": 120
     },
     {
      "lesson": "CDIF(SIM) 59",
-     "date": "2026-10-22",
+     "date": "2026-10-21",
      "mins": 120
     },
     {
      "lesson": "CDIF(SIM) 60",
-     "date": "2026-10-27",
+     "date": "2026-10-26",
      "mins": 120
     },
     {
      "lesson": "CDIF(SIM) 61",
-     "date": "2026-10-29",
+     "date": "2026-10-28",
      "mins": 120
     },
     {
      "lesson": "CDIF(SIM) 62",
-     "date": "2026-11-02",
+     "date": "2026-10-30",
      "mins": 120
     },
     {
      "lesson": "CDIF(SIM) 63",
-     "date": "2026-11-04",
+     "date": "2026-11-03",
      "mins": 120
     },
     {
      "lesson": "CDIF(SIM) 64",
-     "date": "2026-11-06",
+     "date": "2026-11-05",
      "mins": 180
     },
     {
      "lesson": "CDIF(SIM) 65",
-     "date": "2026-11-10",
+     "date": "2026-11-09",
      "mins": 180
     },
     {
      "lesson": "CDIF(SIM) 66",
-     "date": "2026-11-12",
+     "date": "2026-11-11",
      "mins": 180
     },
     {
      "lesson": "CDIF(SIM) 67",
-     "date": "2026-11-16",
+     "date": "2026-11-13",
      "mins": 180
     },
     {
      "lesson": "CDXI 68",
-     "date": "2026-11-18",
+     "date": "2026-11-17",
      "mins": 120
     },
     {
      "lesson": "CDXI 69",
-     "date": "2026-11-20",
+     "date": "2026-11-19",
      "mins": 120
     },
     {
      "lesson": "CDXI 70",
-     "date": "2026-11-24",
+     "date": "2026-11-23",
      "mins": 120
     },
     {
      "lesson": "CDXI 71",
-     "date": "2026-11-26",
+     "date": "2026-11-25",
      "mins": 120
     },
     {
      "lesson": "CDXI 72",
-     "date": "2026-11-30",
+     "date": "2026-11-27",
      "mins": 120
     },
     {
      "lesson": "CDXI 73",
-     "date": "2026-12-02",
+     "date": "2026-12-01",
      "mins": 180
     },
     {
      "lesson": "CDXI 74",
-     "date": "2026-12-04",
+     "date": "2026-12-03",
      "mins": 180
     },
     {
      "lesson": "CDXI 75",
-     "date": "2026-12-09",
+     "date": "2026-12-08",
      "mins": 180
     },
     {
      "lesson": "CDXI 76",
-     "date": "2026-12-14",
+     "date": "2026-12-11",
      "mins": 180
     },
     {
      "lesson": "CDXI 77",
-     "date": "2026-12-16",
+     "date": "2026-12-15",
      "mins": 180
     },
     {
      "lesson": "CDXI 78",
-     "date": "2026-12-18",
+     "date": "2026-12-17",
      "mins": 180
     },
     {
      "lesson": "CDXI 79",
-     "date": "2026-12-22",
+     "date": "2026-12-21",
      "mins": 180
     },
     {
      "lesson": "CDXI 80",
-     "date": "2026-12-24",
+     "date": "2026-12-23",
      "mins": 180
     },
     {
      "lesson": "CDXI 81",
-     "date": "2026-12-28",
+     "date": "2026-12-25",
      "mins": 180
     },
     {
      "lesson": "CDXI 82",
-     "date": "2026-12-30",
+     "date": "2026-12-29",
      "mins": 180
     },
     {
      "lesson": "CDGL 83",
-     "date": "2027-01-04",
+     "date": "2027-01-01",
      "mins": 90
     },
     {
@@ -3386,7 +3386,7 @@
    "planned": [
     {
      "lesson": "CDXV 31",
-     "date": "2026-07-23",
+     "date": "2026-07-24",
      "mins": 90
     },
     {
@@ -3421,7 +3421,7 @@
     },
     {
      "lesson": "CSPXV 38",
-     "date": "2026-08-20",
+     "date": "2026-08-19",
      "mins": 120
     },
     {
@@ -3441,7 +3441,7 @@
     },
     {
      "lesson": "CSPXV 42",
-     "date": "2026-09-03",
+     "date": "2026-09-02",
      "mins": 180
     },
     {
@@ -3511,142 +3511,142 @@
     },
     {
      "lesson": "CDIF(SIM) 56",
-     "date": "2026-10-14",
+     "date": "2026-10-12",
      "mins": 120
     },
     {
      "lesson": "CDIF(SIM) 57",
-     "date": "2026-10-16",
+     "date": "2026-10-15",
      "mins": 120
     },
     {
      "lesson": "CDIF(SIM) 58",
-     "date": "2026-10-20",
+     "date": "2026-10-19",
      "mins": 120
     },
     {
      "lesson": "CDIF(SIM) 59",
-     "date": "2026-10-22",
+     "date": "2026-10-21",
      "mins": 120
     },
     {
      "lesson": "CDIF(SIM) 60",
-     "date": "2026-10-27",
+     "date": "2026-10-26",
      "mins": 120
     },
     {
      "lesson": "CDIF(SIM) 61",
-     "date": "2026-10-29",
+     "date": "2026-10-28",
      "mins": 120
     },
     {
      "lesson": "CDIF(SIM) 62",
-     "date": "2026-11-02",
+     "date": "2026-10-30",
      "mins": 120
     },
     {
      "lesson": "CDIF(SIM) 63",
-     "date": "2026-11-04",
+     "date": "2026-11-03",
      "mins": 120
     },
     {
      "lesson": "CDIF(SIM) 64",
-     "date": "2026-11-06",
+     "date": "2026-11-05",
      "mins": 180
     },
     {
      "lesson": "CDIF(SIM) 65",
-     "date": "2026-11-10",
+     "date": "2026-11-09",
      "mins": 180
     },
     {
      "lesson": "CDIF(SIM) 66",
-     "date": "2026-11-12",
+     "date": "2026-11-11",
      "mins": 180
     },
     {
      "lesson": "CDIF(SIM) 67",
-     "date": "2026-11-16",
+     "date": "2026-11-13",
      "mins": 180
     },
     {
      "lesson": "CDXI 68",
-     "date": "2026-11-18",
+     "date": "2026-11-17",
      "mins": 120
     },
     {
      "lesson": "CDXI 69",
-     "date": "2026-11-20",
+     "date": "2026-11-19",
      "mins": 120
     },
     {
      "lesson": "CDXI 70",
-     "date": "2026-11-24",
+     "date": "2026-11-23",
      "mins": 120
     },
     {
      "lesson": "CDXI 71",
-     "date": "2026-11-26",
+     "date": "2026-11-25",
      "mins": 120
     },
     {
      "lesson": "CDXI 72",
-     "date": "2026-11-30",
+     "date": "2026-11-27",
      "mins": 120
     },
     {
      "lesson": "CDXI 73",
-     "date": "2026-12-02",
+     "date": "2026-12-01",
      "mins": 180
     },
     {
      "lesson": "CDXI 74",
-     "date": "2026-12-04",
+     "date": "2026-12-03",
      "mins": 180
     },
     {
      "lesson": "CDXI 75",
-     "date": "2026-12-09",
+     "date": "2026-12-08",
      "mins": 180
     },
     {
      "lesson": "CDXI 76",
-     "date": "2026-12-14",
+     "date": "2026-12-11",
      "mins": 180
     },
     {
      "lesson": "CDXI 77",
-     "date": "2026-12-16",
+     "date": "2026-12-15",
      "mins": 180
     },
     {
      "lesson": "CDXI 78",
-     "date": "2026-12-18",
+     "date": "2026-12-17",
      "mins": 180
     },
     {
      "lesson": "CDXI 79",
-     "date": "2026-12-22",
+     "date": "2026-12-21",
      "mins": 180
     },
     {
      "lesson": "CDXI 80",
-     "date": "2026-12-24",
+     "date": "2026-12-23",
      "mins": 180
     },
     {
      "lesson": "CDXI 81",
-     "date": "2026-12-28",
+     "date": "2026-12-25",
      "mins": 180
     },
     {
      "lesson": "CDXI 82",
-     "date": "2026-12-30",
+     "date": "2026-12-29",
      "mins": 180
     },
     {
      "lesson": "CDGL 83",
-     "date": "2027-01-04",
+     "date": "2027-01-01",
      "mins": 90
     },
     {
@@ -3913,7 +3913,7 @@
     },
     {
      "lesson": "CDXV 31",
-     "date": "2026-07-27",
+     "date": "2026-07-24",
      "mins": 90
     },
     {
@@ -3948,7 +3948,7 @@
     },
     {
      "lesson": "CSPXV 38",
-     "date": "2026-08-20",
+     "date": "2026-08-19",
      "mins": 120
     },
     {
@@ -4018,7 +4018,7 @@
     },
     {
      "lesson": "CSPGL 52",
-     "date": "2026-10-06",
+     "date": "2026-10-05",
      "mins": 80
     },
     {
@@ -4033,7 +4033,7 @@
     },
     {
      "lesson": "CSPXVC 55",
-     "date": "2026-10-12",
+     "date": "2026-10-09",
      "mins": 90
     },
     {
@@ -4572,7 +4572,7 @@
     },
     {
      "lesson": "CSPXVC 55",
-     "date": "2026-10-12",
+     "date": "2026-10-09",
      "mins": 90
     },
     {
@@ -5109,7 +5109,7 @@
     },
     {
      "lesson": "CSPXVC 55",
-     "date": "2026-10-12",
+     "date": "2026-10-09",
      "mins": 90
     },
     {
@@ -5550,7 +5550,7 @@
     },
     {
      "lesson": "CSPXV 38",
-     "date": "2026-08-20",
+     "date": "2026-08-19",
      "mins": 120
     },
     {
@@ -6032,12 +6032,1597 @@
    "planned": [
     {
      "lesson": "CDXV 29",
-     "date": "2026-07-23",
+     "date": "2026-07-22",
      "mins": 90
     },
     {
      "lesson": "CSGL 30",
+     "date": "2026-07-23",
+     "mins": 80
+    },
+    {
+     "lesson": "CDXV 31",
      "date": "2026-07-24",
+     "mins": 90
+    },
+    {
+     "lesson": "CDXV 32",
+     "date": "2026-07-31",
+     "mins": 120
+    },
+    {
+     "lesson": "CSXV 33",
+     "date": "2026-08-04",
+     "mins": 90
+    },
+    {
+     "lesson": "CDGL 34",
+     "date": "2026-08-06",
+     "mins": 60
+    },
+    {
+     "lesson": "CDGL 35",
+     "date": "2026-08-10",
+     "mins": 60
+    },
+    {
+     "lesson": "CSPGL 36",
+     "date": "2026-08-13",
+     "mins": 75
+    },
+    {
+     "lesson": "CSPGL 37",
+     "date": "2026-08-17",
+     "mins": 75
+    },
+    {
+     "lesson": "CSPXV 38",
+     "date": "2026-08-20",
+     "mins": 120
+    },
+    {
+     "lesson": "CSPXV 39",
+     "date": "2026-08-24",
+     "mins": 180
+    },
+    {
+     "lesson": "CSPXV 40",
+     "date": "2026-08-27",
+     "mins": 180
+    },
+    {
+     "lesson": "CSPXV 41",
+     "date": "2026-08-31",
+     "mins": 180
+    },
+    {
+     "lesson": "CSPXV 42",
+     "date": "2026-09-03",
+     "mins": 180
+    },
+    {
+     "lesson": "CSPXV 43",
+     "date": "2026-09-08",
+     "mins": 180
+    },
+    {
+     "lesson": "CSPXV 44",
+     "date": "2026-09-14",
+     "mins": 300
+    },
+    {
+     "lesson": "CSXV 45",
+     "date": "2026-09-16",
+     "mins": 300
+    },
+    {
+     "lesson": "CDNL 46",
+     "date": "2026-09-18",
+     "mins": 60
+    },
+    {
+     "lesson": "CDNL 47",
+     "date": "2026-09-22",
+     "mins": 60
+    },
+    {
+     "lesson": "CDNXC 48",
+     "date": "2026-09-24",
+     "mins": 60
+    },
+    {
+     "lesson": "CSNL 49",
+     "date": "2026-09-28",
+     "mins": 60
+    },
+    {
+     "lesson": "CSNL 50",
+     "date": "2026-09-30",
+     "mins": 60
+    },
+    {
+     "lesson": "CSPGL 51",
+     "date": "2026-10-02",
+     "mins": 80
+    },
+    {
+     "lesson": "CSPGL 52",
+     "date": "2026-10-06",
+     "mins": 80
+    },
+    {
+     "lesson": "CSPGL 53",
+     "date": "2026-10-07",
+     "mins": 80
+    },
+    {
+     "lesson": "CSPGLC 54",
+     "date": "2026-10-08",
+     "mins": 90
+    },
+    {
+     "lesson": "CSPXVC 55",
+     "date": "2026-10-12",
+     "mins": 90
+    },
+    {
+     "lesson": "CDIF(SIM) 56",
+     "date": "2026-10-14",
+     "mins": 120
+    },
+    {
+     "lesson": "CDIF(SIM) 57",
+     "date": "2026-10-16",
+     "mins": 120
+    },
+    {
+     "lesson": "CDIF(SIM) 58",
+     "date": "2026-10-20",
+     "mins": 120
+    },
+    {
+     "lesson": "CDIF(SIM) 59",
+     "date": "2026-10-22",
+     "mins": 120
+    },
+    {
+     "lesson": "CDIF(SIM) 60",
+     "date": "2026-10-27",
+     "mins": 120
+    },
+    {
+     "lesson": "CDIF(SIM) 61",
+     "date": "2026-10-29",
+     "mins": 120
+    },
+    {
+     "lesson": "CDIF(SIM) 62",
+     "date": "2026-11-02",
+     "mins": 120
+    },
+    {
+     "lesson": "CDIF(SIM) 63",
+     "date": "2026-11-04",
+     "mins": 120
+    },
+    {
+     "lesson": "CDIF(SIM) 64",
+     "date": "2026-11-06",
+     "mins": 180
+    },
+    {
+     "lesson": "CDIF(SIM) 65",
+     "date": "2026-11-10",
+     "mins": 180
+    },
+    {
+     "lesson": "CDIF(SIM) 66",
+     "date": "2026-11-12",
+     "mins": 180
+    },
+    {
+     "lesson": "CDIF(SIM) 67",
+     "date": "2026-11-16",
+     "mins": 180
+    },
+    {
+     "lesson": "CDXI 68",
+     "date": "2026-11-18",
+     "mins": 120
+    },
+    {
+     "lesson": "CDXI 69",
+     "date": "2026-11-20",
+     "mins": 120
+    },
+    {
+     "lesson": "CDXI 70",
+     "date": "2026-11-24",
+     "mins": 120
+    },
+    {
+     "lesson": "CDXI 71",
+     "date": "2026-11-26",
+     "mins": 120
+    },
+    {
+     "lesson": "CDXI 72",
+     "date": "2026-11-30",
+     "mins": 120
+    },
+    {
+     "lesson": "CDXI 73",
+     "date": "2026-12-02",
+     "mins": 180
+    },
+    {
+     "lesson": "CDXI 74",
+     "date": "2026-12-04",
+     "mins": 180
+    },
+    {
+     "lesson": "CDXI 75",
+     "date": "2026-12-09",
+     "mins": 180
+    },
+    {
+     "lesson": "CDXI 76",
+     "date": "2026-12-14",
+     "mins": 180
+    },
+    {
+     "lesson": "CDXI 77",
+     "date": "2026-12-16",
+     "mins": 180
+    },
+    {
+     "lesson": "CDXI 78",
+     "date": "2026-12-18",
+     "mins": 180
+    },
+    {
+     "lesson": "CDXI 79",
+     "date": "2026-12-22",
+     "mins": 180
+    },
+    {
+     "lesson": "CDXI 80",
+     "date": "2026-12-24",
+     "mins": 180
+    },
+    {
+     "lesson": "CDXI 81",
+     "date": "2026-12-28",
+     "mins": 180
+    },
+    {
+     "lesson": "CDXI 82",
+     "date": "2026-12-30",
+     "mins": 180
+    },
+    {
+     "lesson": "CDGL 83",
+     "date": "2027-01-04",
+     "mins": 90
+    },
+    {
+     "lesson": "CDGL 84",
+     "date": "2027-01-05",
+     "mins": 90
+    },
+    {
+     "lesson": "CSPXI 85",
+     "date": "2027-01-06",
+     "mins": 120
+    },
+    {
+     "lesson": "CSPXI 86",
+     "date": "2027-01-08",
+     "mins": 120
+    },
+    {
+     "lesson": "CSPXI 87",
+     "date": "2027-01-12",
+     "mins": 180
+    },
+    {
+     "lesson": "CSPXI 88",
+     "date": "2027-01-14",
+     "mins": 180
+    },
+    {
+     "lesson": "CSPXI 89",
+     "date": "2027-01-18",
+     "mins": 180
+    },
+    {
+     "lesson": "CSPXIC 90",
+     "date": "2027-01-20",
+     "mins": 180
+    },
+    {
+     "lesson": "CMDIF(SIM) 91",
+     "date": "2027-01-22",
+     "mins": 60
+    },
+    {
+     "lesson": "CMDIF(SIM) 92",
+     "date": "2027-01-25",
+     "mins": 60
+    },
+    {
+     "lesson": "CMDGL 93",
+     "date": "2027-01-26",
+     "mins": 90
+    },
+    {
+     "lesson": "CMDXV 94",
+     "date": "2027-01-27",
+     "mins": 90
+    },
+    {
+     "lesson": "CMSPXI 95",
+     "date": "2027-01-28",
+     "mins": 120
+    },
+    {
+     "lesson": "CMSPXIC 96",
+     "date": "2027-02-01",
+     "mins": 120
+    }
+   ]
+  },
+  {
+   "catcId": "68117700054",
+   "name": "Natpakalp Kongvanichsakul",
+   "key": "NATPAKALP K.",
+   "nick": "N-KALP",
+   "fi": "P-YUTH",
+   "fiFull": "PHAHOLYUTH P.",
+   "se": "DA40-CS",
+   "batch": "AP127",
+   "done": 30,
+   "total": 96,
+   "remaining": 66,
+   "pct": 31.3,
+   "nextLesson": "CDXV 31",
+   "flown": [
+    {
+     "lesson": "CDGL 01",
+     "lessonNorm": "CDGL 01",
+     "actualMins": 60,
+     "date": "2026-04-23"
+    },
+    {
+     "lesson": "CDGL 02",
+     "lessonNorm": "CDGL 02",
+     "actualMins": 70,
+     "date": "2026-04-24"
+    },
+    {
+     "lesson": "CDGL 03",
+     "lessonNorm": "CDGL 03",
+     "actualMins": 70,
+     "date": "2026-04-27"
+    },
+    {
+     "lesson": "CDGL 04",
+     "lessonNorm": "CDGL 04",
+     "actualMins": 70,
+     "date": "2026-05-22"
+    },
+    {
+     "lesson": "CDGL 05",
+     "lessonNorm": "CDGL 05",
+     "actualMins": 80,
+     "date": "2026-05-29"
+    },
+    {
+     "lesson": "CDGL 06",
+     "lessonNorm": "CDGL 06",
+     "actualMins": 80,
+     "date": "2026-06-06"
+    },
+    {
+     "lesson": "CDGL 07",
+     "lessonNorm": "CDGL 07",
+     "actualMins": 75,
+     "date": "2026-06-07"
+    },
+    {
+     "lesson": "CDGL 08",
+     "lessonNorm": "CDGL 08",
+     "actualMins": 85,
+     "date": "2026-06-11"
+    },
+    {
+     "lesson": "CDGL 09",
+     "lessonNorm": "CDGL 09",
+     "actualMins": 90,
+     "date": "2026-06-12"
+    },
+    {
+     "lesson": "CDGL 10",
+     "lessonNorm": "CDGL 10",
+     "actualMins": 75,
+     "date": "2026-06-16"
+    },
+    {
+     "lesson": "CDGL 11",
+     "lessonNorm": "CDGL 11",
+     "actualMins": 80,
+     "date": "2026-06-17"
+    },
+    {
+     "lesson": "CDGL 12",
+     "lessonNorm": "CDGL 12",
+     "actualMins": 65,
+     "date": "2026-06-22"
+    },
+    {
+     "lesson": "CDGL 13",
+     "lessonNorm": "CDGL 13",
+     "actualMins": 45,
+     "date": "2026-06-23"
+    },
+    {
+     "lesson": "CSGL 14",
+     "lessonNorm": "CSGL 14",
+     "actualMins": 20,
+     "date": "2026-06-23"
+    },
+    {
+     "lesson": "CDIL 15",
+     "lessonNorm": "CDIL 15",
+     "actualMins": 110,
+     "date": "2026-06-24"
+    },
+    {
+     "lesson": "CSGL 16",
+     "lessonNorm": "CSGL 16",
+     "actualMins": 50,
+     "date": "2026-06-30"
+    },
+    {
+     "lesson": "CDIL 17",
+     "lessonNorm": "CDIL 17",
+     "actualMins": 90,
+     "date": "2026-07-01"
+    },
+    {
+     "lesson": "CSGL 18",
+     "lessonNorm": "CSGL 18",
+     "actualMins": 80,
+     "date": "2026-07-02"
+    },
+    {
+     "lesson": "CDIL 19",
+     "lessonNorm": "CDIL 19",
+     "actualMins": 100,
+     "date": "2026-07-03"
+    },
+    {
+     "lesson": "CSGL 20",
+     "lessonNorm": "CSGL 20",
+     "actualMins": 85,
+     "date": "2026-07-06"
+    },
+    {
+     "lesson": "CDIL 21",
+     "lessonNorm": "CDIL 21",
+     "actualMins": 95,
+     "date": "2026-07-08"
+    },
+    {
+     "lesson": "CSGL 22",
+     "lessonNorm": "CSGL 22",
+     "actualMins": 85,
+     "date": "2026-07-09"
+    },
+    {
+     "lesson": "CDIL 23",
+     "lessonNorm": "CDIL 23",
+     "actualMins": 80,
+     "date": "2026-07-10"
+    },
+    {
+     "lesson": "CSGL 24",
+     "lessonNorm": "CSGL 24",
+     "actualMins": 75,
+     "date": "2026-07-10"
+    },
+    {
+     "lesson": "CDIL 25",
+     "lessonNorm": "CDIL 25",
+     "actualMins": 90,
+     "date": "2026-07-11"
+    },
+    {
+     "lesson": "CSGL 26",
+     "lessonNorm": "CSGL 26",
+     "actualMins": 80,
+     "date": "2026-07-12"
+    },
+    {
+     "lesson": "CDIL 27",
+     "lessonNorm": "CDIL 27",
+     "actualMins": 95,
+     "date": "2026-07-13"
+    },
+    {
+     "lesson": "CSGL 28",
+     "lessonNorm": "CSGL 28",
+     "actualMins": 90,
+     "date": "2026-07-14"
+    },
+    {
+     "lesson": "CDXV 29",
+     "lessonNorm": "CDXV 29",
+     "actualMins": 90,
+     "date": "2026-07-15"
+    },
+    {
+     "lesson": "CSGL 30",
+     "lessonNorm": "CSGL 30",
+     "actualMins": 80,
+     "date": "2026-07-21"
+    }
+   ],
+   "planned": [
+    {
+     "lesson": "CDXV 31",
+     "date": "2026-07-24",
+     "mins": 90
+    },
+    {
+     "lesson": "CDXV 32",
+     "date": "2026-07-31",
+     "mins": 120
+    },
+    {
+     "lesson": "CSXV 33",
+     "date": "2026-08-04",
+     "mins": 90
+    },
+    {
+     "lesson": "CDGL 34",
+     "date": "2026-08-06",
+     "mins": 60
+    },
+    {
+     "lesson": "CDGL 35",
+     "date": "2026-08-10",
+     "mins": 60
+    },
+    {
+     "lesson": "CSPGL 36",
+     "date": "2026-08-13",
+     "mins": 75
+    },
+    {
+     "lesson": "CSPGL 37",
+     "date": "2026-08-17",
+     "mins": 75
+    },
+    {
+     "lesson": "CSPXV 38",
+     "date": "2026-08-20",
+     "mins": 120
+    },
+    {
+     "lesson": "CSPXV 39",
+     "date": "2026-08-24",
+     "mins": 180
+    },
+    {
+     "lesson": "CSPXV 40",
+     "date": "2026-08-27",
+     "mins": 180
+    },
+    {
+     "lesson": "CSPXV 41",
+     "date": "2026-08-31",
+     "mins": 180
+    },
+    {
+     "lesson": "CSPXV 42",
+     "date": "2026-09-03",
+     "mins": 180
+    },
+    {
+     "lesson": "CSPXV 43",
+     "date": "2026-09-08",
+     "mins": 180
+    },
+    {
+     "lesson": "CSPXV 44",
+     "date": "2026-09-14",
+     "mins": 300
+    },
+    {
+     "lesson": "CSXV 45",
+     "date": "2026-09-16",
+     "mins": 300
+    },
+    {
+     "lesson": "CDNL 46",
+     "date": "2026-09-18",
+     "mins": 60
+    },
+    {
+     "lesson": "CDNL 47",
+     "date": "2026-09-22",
+     "mins": 60
+    },
+    {
+     "lesson": "CDNXC 48",
+     "date": "2026-09-24",
+     "mins": 60
+    },
+    {
+     "lesson": "CSNL 49",
+     "date": "2026-09-28",
+     "mins": 60
+    },
+    {
+     "lesson": "CSNL 50",
+     "date": "2026-09-30",
+     "mins": 60
+    },
+    {
+     "lesson": "CSPGL 51",
+     "date": "2026-10-02",
+     "mins": 80
+    },
+    {
+     "lesson": "CSPGL 52",
+     "date": "2026-10-06",
+     "mins": 80
+    },
+    {
+     "lesson": "CSPGL 53",
+     "date": "2026-10-07",
+     "mins": 80
+    },
+    {
+     "lesson": "CSPGLC 54",
+     "date": "2026-10-08",
+     "mins": 90
+    },
+    {
+     "lesson": "CSPXVC 55",
+     "date": "2026-10-12",
+     "mins": 90
+    },
+    {
+     "lesson": "CDIF(SIM) 56",
+     "date": "2026-10-14",
+     "mins": 120
+    },
+    {
+     "lesson": "CDIF(SIM) 57",
+     "date": "2026-10-16",
+     "mins": 120
+    },
+    {
+     "lesson": "CDIF(SIM) 58",
+     "date": "2026-10-20",
+     "mins": 120
+    },
+    {
+     "lesson": "CDIF(SIM) 59",
+     "date": "2026-10-22",
+     "mins": 120
+    },
+    {
+     "lesson": "CDIF(SIM) 60",
+     "date": "2026-10-27",
+     "mins": 120
+    },
+    {
+     "lesson": "CDIF(SIM) 61",
+     "date": "2026-10-29",
+     "mins": 120
+    },
+    {
+     "lesson": "CDIF(SIM) 62",
+     "date": "2026-11-02",
+     "mins": 120
+    },
+    {
+     "lesson": "CDIF(SIM) 63",
+     "date": "2026-11-04",
+     "mins": 120
+    },
+    {
+     "lesson": "CDIF(SIM) 64",
+     "date": "2026-11-06",
+     "mins": 180
+    },
+    {
+     "lesson": "CDIF(SIM) 65",
+     "date": "2026-11-10",
+     "mins": 180
+    },
+    {
+     "lesson": "CDIF(SIM) 66",
+     "date": "2026-11-12",
+     "mins": 180
+    },
+    {
+     "lesson": "CDIF(SIM) 67",
+     "date": "2026-11-16",
+     "mins": 180
+    },
+    {
+     "lesson": "CDXI 68",
+     "date": "2026-11-18",
+     "mins": 120
+    },
+    {
+     "lesson": "CDXI 69",
+     "date": "2026-11-20",
+     "mins": 120
+    },
+    {
+     "lesson": "CDXI 70",
+     "date": "2026-11-24",
+     "mins": 120
+    },
+    {
+     "lesson": "CDXI 71",
+     "date": "2026-11-26",
+     "mins": 120
+    },
+    {
+     "lesson": "CDXI 72",
+     "date": "2026-11-30",
+     "mins": 120
+    },
+    {
+     "lesson": "CDXI 73",
+     "date": "2026-12-02",
+     "mins": 180
+    },
+    {
+     "lesson": "CDXI 74",
+     "date": "2026-12-04",
+     "mins": 180
+    },
+    {
+     "lesson": "CDXI 75",
+     "date": "2026-12-09",
+     "mins": 180
+    },
+    {
+     "lesson": "CDXI 76",
+     "date": "2026-12-14",
+     "mins": 180
+    },
+    {
+     "lesson": "CDXI 77",
+     "date": "2026-12-16",
+     "mins": 180
+    },
+    {
+     "lesson": "CDXI 78",
+     "date": "2026-12-18",
+     "mins": 180
+    },
+    {
+     "lesson": "CDXI 79",
+     "date": "2026-12-22",
+     "mins": 180
+    },
+    {
+     "lesson": "CDXI 80",
+     "date": "2026-12-24",
+     "mins": 180
+    },
+    {
+     "lesson": "CDXI 81",
+     "date": "2026-12-28",
+     "mins": 180
+    },
+    {
+     "lesson": "CDXI 82",
+     "date": "2026-12-30",
+     "mins": 180
+    },
+    {
+     "lesson": "CDGL 83",
+     "date": "2027-01-04",
+     "mins": 90
+    },
+    {
+     "lesson": "CDGL 84",
+     "date": "2027-01-05",
+     "mins": 90
+    },
+    {
+     "lesson": "CSPXI 85",
+     "date": "2027-01-06",
+     "mins": 120
+    },
+    {
+     "lesson": "CSPXI 86",
+     "date": "2027-01-08",
+     "mins": 120
+    },
+    {
+     "lesson": "CSPXI 87",
+     "date": "2027-01-12",
+     "mins": 180
+    },
+    {
+     "lesson": "CSPXI 88",
+     "date": "2027-01-14",
+     "mins": 180
+    },
+    {
+     "lesson": "CSPXI 89",
+     "date": "2027-01-18",
+     "mins": 180
+    },
+    {
+     "lesson": "CSPXIC 90",
+     "date": "2027-01-20",
+     "mins": 180
+    },
+    {
+     "lesson": "CMDIF(SIM) 91",
+     "date": "2027-01-22",
+     "mins": 60
+    },
+    {
+     "lesson": "CMDIF(SIM) 92",
+     "date": "2027-01-25",
+     "mins": 60
+    },
+    {
+     "lesson": "CMDGL 93",
+     "date": "2027-01-26",
+     "mins": 90
+    },
+    {
+     "lesson": "CMDXV 94",
+     "date": "2027-01-27",
+     "mins": 90
+    },
+    {
+     "lesson": "CMSPXI 95",
+     "date": "2027-01-28",
+     "mins": 120
+    },
+    {
+     "lesson": "CMSPXIC 96",
+     "date": "2027-02-01",
+     "mins": 120
+    }
+   ]
+  },
+  {
+   "catcId": "68117700055",
+   "name": "Nuttaphat Kianmatee",
+   "key": "NUTTAPHAT K.",
+   "nick": "N-PHAT",
+   "fi": "SN-TI",
+   "fiFull": "SANTI PO.",
+   "se": "DA40-CS",
+   "batch": "AP127",
+   "done": 29,
+   "total": 96,
+   "remaining": 67,
+   "pct": 30.2,
+   "nextLesson": "CSGL 30",
+   "flown": [
+    {
+     "lesson": "CDGL 01",
+     "lessonNorm": "CDGL 01",
+     "actualMins": 60,
+     "date": "2026-04-24"
+    },
+    {
+     "lesson": "CDGL 02",
+     "lessonNorm": "CDGL 02",
+     "actualMins": 70,
+     "date": "2026-04-27"
+    },
+    {
+     "lesson": "CDGL 03",
+     "lessonNorm": "CDGL 03",
+     "actualMins": 73,
+     "date": "2026-04-28"
+    },
+    {
+     "lesson": "CDGL 04",
+     "lessonNorm": "CDGL 04",
+     "actualMins": 65,
+     "date": "2026-04-29"
+    },
+    {
+     "lesson": "CDGL 05",
+     "lessonNorm": "CDGL 05",
+     "actualMins": 78,
+     "date": "2026-05-05"
+    },
+    {
+     "lesson": "CDGL 06",
+     "lessonNorm": "CDGL 06",
+     "actualMins": 80,
+     "date": "2026-05-06"
+    },
+    {
+     "lesson": "CDGL 07",
+     "lessonNorm": "CDGL 07",
+     "actualMins": 75,
+     "date": "2026-05-14"
+    },
+    {
+     "lesson": "CDGL 08",
+     "lessonNorm": "CDGL 08",
+     "actualMins": 80,
+     "date": "2026-05-17"
+    },
+    {
+     "lesson": "CDGL 09",
+     "lessonNorm": "CDGL 09",
+     "actualMins": 75,
+     "date": "2026-05-18"
+    },
+    {
+     "lesson": "CDGL 10",
+     "lessonNorm": "CDGL 10",
+     "actualMins": 70,
+     "date": "2026-05-29"
+    },
+    {
+     "lesson": "CDGL 11",
+     "lessonNorm": "CDGL 11",
+     "actualMins": 65,
+     "date": "2026-06-06"
+    },
+    {
+     "lesson": "CDGL 12",
+     "lessonNorm": "CDGL 12",
+     "actualMins": 65,
+     "date": "2026-06-09"
+    },
+    {
+     "lesson": "CDGL 13",
+     "lessonNorm": "CDGL 13",
+     "actualMins": 45,
+     "date": "2026-06-11"
+    },
+    {
+     "lesson": "CSGL 14",
+     "lessonNorm": "CSGL 14",
+     "actualMins": 20,
+     "date": "2026-06-11"
+    },
+    {
+     "lesson": "CDIL 15",
+     "lessonNorm": "CDIL 15",
+     "actualMins": 75,
+     "date": "2026-06-11"
+    },
+    {
+     "lesson": "CSGL 16",
+     "lessonNorm": "CSGL 16",
+     "actualMins": 80,
+     "date": "2026-06-16"
+    },
+    {
+     "lesson": "CDIL 17",
+     "lessonNorm": "CDIL 17",
+     "actualMins": 92,
+     "date": "2026-06-19"
+    },
+    {
+     "lesson": "CSGL 18",
+     "lessonNorm": "CSGL 18",
+     "actualMins": 75,
+     "date": "2026-06-20"
+    },
+    {
+     "lesson": "CDIL 19",
+     "lessonNorm": "CDIL 19",
+     "actualMins": 90,
+     "date": "2026-06-21"
+    },
+    {
+     "lesson": "CSGL 20",
+     "lessonNorm": "CSGL 20",
+     "actualMins": 75,
+     "date": "2026-06-22"
+    },
+    {
+     "lesson": "CDIL 21",
+     "lessonNorm": "CDIL 21",
+     "actualMins": 93,
+     "date": "2026-07-06"
+    },
+    {
+     "lesson": "CSGL 22",
+     "lessonNorm": "CSGL 22",
+     "actualMins": 75,
+     "date": "2026-07-10"
+    },
+    {
+     "lesson": "CDIL 23",
+     "lessonNorm": "CDIL 23",
+     "actualMins": 85,
+     "date": "2026-07-11"
+    },
+    {
+     "lesson": "CSGL 24",
+     "lessonNorm": "CSGL 24",
+     "actualMins": 75,
+     "date": "2026-07-14"
+    },
+    {
+     "lesson": "CDIL 25",
+     "lessonNorm": "CDIL 25",
+     "actualMins": 90,
+     "date": "2026-07-15"
+    },
+    {
+     "lesson": "CSGL 26",
+     "lessonNorm": "CSGL 26",
+     "actualMins": 75,
+     "date": "2026-07-16"
+    },
+    {
+     "lesson": "CDIL 27",
+     "lessonNorm": "CDIL 27",
+     "actualMins": 90,
+     "date": "2026-07-17"
+    },
+    {
+     "lesson": "CSGL 28",
+     "lessonNorm": "CSGL 28",
+     "actualMins": 80,
+     "date": "2026-07-18"
+    },
+    {
+     "lesson": "CDXV 29",
+     "lessonNorm": "CDXV 29",
+     "actualMins": 98,
+     "date": "2026-07-19"
+    }
+   ],
+   "planned": [
+    {
+     "lesson": "CSGL 30",
+     "date": "2026-07-22",
+     "mins": 80
+    },
+    {
+     "lesson": "CDXV 31",
+     "date": "2026-07-27",
+     "mins": 90
+    },
+    {
+     "lesson": "CDXV 32",
+     "date": "2026-07-31",
+     "mins": 120
+    },
+    {
+     "lesson": "CSXV 33",
+     "date": "2026-08-04",
+     "mins": 90
+    },
+    {
+     "lesson": "CDGL 34",
+     "date": "2026-08-06",
+     "mins": 60
+    },
+    {
+     "lesson": "CDGL 35",
+     "date": "2026-08-10",
+     "mins": 60
+    },
+    {
+     "lesson": "CSPGL 36",
+     "date": "2026-08-13",
+     "mins": 75
+    },
+    {
+     "lesson": "CSPGL 37",
+     "date": "2026-08-17",
+     "mins": 75
+    },
+    {
+     "lesson": "CSPXV 38",
+     "date": "2026-08-20",
+     "mins": 120
+    },
+    {
+     "lesson": "CSPXV 39",
+     "date": "2026-08-24",
+     "mins": 180
+    },
+    {
+     "lesson": "CSPXV 40",
+     "date": "2026-08-27",
+     "mins": 180
+    },
+    {
+     "lesson": "CSPXV 41",
+     "date": "2026-08-31",
+     "mins": 180
+    },
+    {
+     "lesson": "CSPXV 42",
+     "date": "2026-09-03",
+     "mins": 180
+    },
+    {
+     "lesson": "CSPXV 43",
+     "date": "2026-09-08",
+     "mins": 180
+    },
+    {
+     "lesson": "CSPXV 44",
+     "date": "2026-09-14",
+     "mins": 300
+    },
+    {
+     "lesson": "CSXV 45",
+     "date": "2026-09-16",
+     "mins": 300
+    },
+    {
+     "lesson": "CDNL 46",
+     "date": "2026-09-18",
+     "mins": 60
+    },
+    {
+     "lesson": "CDNL 47",
+     "date": "2026-09-22",
+     "mins": 60
+    },
+    {
+     "lesson": "CDNXC 48",
+     "date": "2026-09-24",
+     "mins": 60
+    },
+    {
+     "lesson": "CSNL 49",
+     "date": "2026-09-28",
+     "mins": 60
+    },
+    {
+     "lesson": "CSNL 50",
+     "date": "2026-09-30",
+     "mins": 60
+    },
+    {
+     "lesson": "CSPGL 51",
+     "date": "2026-10-02",
+     "mins": 80
+    },
+    {
+     "lesson": "CSPGL 52",
+     "date": "2026-10-06",
+     "mins": 80
+    },
+    {
+     "lesson": "CSPGL 53",
+     "date": "2026-10-07",
+     "mins": 80
+    },
+    {
+     "lesson": "CSPGLC 54",
+     "date": "2026-10-08",
+     "mins": 90
+    },
+    {
+     "lesson": "CSPXVC 55",
+     "date": "2026-10-12",
+     "mins": 90
+    },
+    {
+     "lesson": "CDIF(SIM) 56",
+     "date": "2026-10-14",
+     "mins": 120
+    },
+    {
+     "lesson": "CDIF(SIM) 57",
+     "date": "2026-10-16",
+     "mins": 120
+    },
+    {
+     "lesson": "CDIF(SIM) 58",
+     "date": "2026-10-20",
+     "mins": 120
+    },
+    {
+     "lesson": "CDIF(SIM) 59",
+     "date": "2026-10-22",
+     "mins": 120
+    },
+    {
+     "lesson": "CDIF(SIM) 60",
+     "date": "2026-10-27",
+     "mins": 120
+    },
+    {
+     "lesson": "CDIF(SIM) 61",
+     "date": "2026-10-29",
+     "mins": 120
+    },
+    {
+     "lesson": "CDIF(SIM) 62",
+     "date": "2026-11-02",
+     "mins": 120
+    },
+    {
+     "lesson": "CDIF(SIM) 63",
+     "date": "2026-11-04",
+     "mins": 120
+    },
+    {
+     "lesson": "CDIF(SIM) 64",
+     "date": "2026-11-06",
+     "mins": 180
+    },
+    {
+     "lesson": "CDIF(SIM) 65",
+     "date": "2026-11-10",
+     "mins": 180
+    },
+    {
+     "lesson": "CDIF(SIM) 66",
+     "date": "2026-11-12",
+     "mins": 180
+    },
+    {
+     "lesson": "CDIF(SIM) 67",
+     "date": "2026-11-16",
+     "mins": 180
+    },
+    {
+     "lesson": "CDXI 68",
+     "date": "2026-11-18",
+     "mins": 120
+    },
+    {
+     "lesson": "CDXI 69",
+     "date": "2026-11-20",
+     "mins": 120
+    },
+    {
+     "lesson": "CDXI 70",
+     "date": "2026-11-24",
+     "mins": 120
+    },
+    {
+     "lesson": "CDXI 71",
+     "date": "2026-11-26",
+     "mins": 120
+    },
+    {
+     "lesson": "CDXI 72",
+     "date": "2026-11-30",
+     "mins": 120
+    },
+    {
+     "lesson": "CDXI 73",
+     "date": "2026-12-02",
+     "mins": 180
+    },
+    {
+     "lesson": "CDXI 74",
+     "date": "2026-12-04",
+     "mins": 180
+    },
+    {
+     "lesson": "CDXI 75",
+     "date": "2026-12-09",
+     "mins": 180
+    },
+    {
+     "lesson": "CDXI 76",
+     "date": "2026-12-14",
+     "mins": 180
+    },
+    {
+     "lesson": "CDXI 77",
+     "date": "2026-12-16",
+     "mins": 180
+    },
+    {
+     "lesson": "CDXI 78",
+     "date": "2026-12-18",
+     "mins": 180
+    },
+    {
+     "lesson": "CDXI 79",
+     "date": "2026-12-22",
+     "mins": 180
+    },
+    {
+     "lesson": "CDXI 80",
+     "date": "2026-12-24",
+     "mins": 180
+    },
+    {
+     "lesson": "CDXI 81",
+     "date": "2026-12-28",
+     "mins": 180
+    },
+    {
+     "lesson": "CDXI 82",
+     "date": "2026-12-30",
+     "mins": 180
+    },
+    {
+     "lesson": "CDGL 83",
+     "date": "2027-01-04",
+     "mins": 90
+    },
+    {
+     "lesson": "CDGL 84",
+     "date": "2027-01-05",
+     "mins": 90
+    },
+    {
+     "lesson": "CSPXI 85",
+     "date": "2027-01-06",
+     "mins": 120
+    },
+    {
+     "lesson": "CSPXI 86",
+     "date": "2027-01-08",
+     "mins": 120
+    },
+    {
+     "lesson": "CSPXI 87",
+     "date": "2027-01-12",
+     "mins": 180
+    },
+    {
+     "lesson": "CSPXI 88",
+     "date": "2027-01-14",
+     "mins": 180
+    },
+    {
+     "lesson": "CSPXI 89",
+     "date": "2027-01-18",
+     "mins": 180
+    },
+    {
+     "lesson": "CSPXIC 90",
+     "date": "2027-01-20",
+     "mins": 180
+    },
+    {
+     "lesson": "CMDIF(SIM) 91",
+     "date": "2027-01-22",
+     "mins": 60
+    },
+    {
+     "lesson": "CMDIF(SIM) 92",
+     "date": "2027-01-25",
+     "mins": 60
+    },
+    {
+     "lesson": "CMDGL 93",
+     "date": "2027-01-26",
+     "mins": 90
+    },
+    {
+     "lesson": "CMDXV 94",
+     "date": "2027-01-27",
+     "mins": 90
+    },
+    {
+     "lesson": "CMSPXI 95",
+     "date": "2027-01-28",
+     "mins": 120
+    },
+    {
+     "lesson": "CMSPXIC 96",
+     "date": "2027-02-01",
+     "mins": 120
+    }
+   ]
+  },
+  {
+   "catcId": "68117700056",
+   "name": "Panithan Veeratanaporn",
+   "key": "PANITHAN V.",
+   "nick": "P-THAN",
+   "fi": "E-PHOB",
+   "fiFull": "EKKAPHOP R.",
+   "se": "DA40-TDI",
+   "batch": "AP127",
+   "done": 29,
+   "total": 96,
+   "remaining": 67,
+   "pct": 30.2,
+   "nextLesson": "CSGL 30",
+   "flown": [
+    {
+     "lesson": "CDGL 01",
+     "lessonNorm": "CDGL 01",
+     "actualMins": 60,
+     "date": "2026-04-22"
+    },
+    {
+     "lesson": "CDGL 02",
+     "lessonNorm": "CDGL 02",
+     "actualMins": 60,
+     "date": "2026-05-15"
+    },
+    {
+     "lesson": "CDGL 03",
+     "lessonNorm": "CDGL 03",
+     "actualMins": 64,
+     "date": "2026-05-16"
+    },
+    {
+     "lesson": "CDGL 04",
+     "lessonNorm": "CDGL 04",
+     "actualMins": 65,
+     "date": "2026-05-17"
+    },
+    {
+     "lesson": "CDGL 05",
+     "lessonNorm": "CDGL 05",
+     "actualMins": 75,
+     "date": "2026-05-22"
+    },
+    {
+     "lesson": "CDGL 06",
+     "lessonNorm": "CDGL 06",
+     "actualMins": 75,
+     "date": "2026-05-25"
+    },
+    {
+     "lesson": "CDGL 07",
+     "lessonNorm": "CDGL 07",
+     "actualMins": 75,
+     "date": "2026-05-29"
+    },
+    {
+     "lesson": "CDGL 08",
+     "lessonNorm": "CDGL 08",
+     "actualMins": 80,
+     "date": "2026-06-07"
+    },
+    {
+     "lesson": "CDGL 09",
+     "lessonNorm": "CDGL 09",
+     "actualMins": 75,
+     "date": "2026-06-10"
+    },
+    {
+     "lesson": "CDGL 10",
+     "lessonNorm": "CDGL 10",
+     "actualMins": 63,
+     "date": "2026-06-11"
+    },
+    {
+     "lesson": "CDGL 11",
+     "lessonNorm": "CDGL 11",
+     "actualMins": 60,
+     "date": "2026-06-12"
+    },
+    {
+     "lesson": "CDGL 12",
+     "lessonNorm": "CDGL 12",
+     "actualMins": 67,
+     "date": "2026-06-13"
+    },
+    {
+     "lesson": "CDGL 13",
+     "lessonNorm": "CDGL 13",
+     "actualMins": 45,
+     "date": "2026-06-14"
+    },
+    {
+     "lesson": "CSGL 14",
+     "lessonNorm": "CSGL 14",
+     "actualMins": 20,
+     "date": "2026-06-15"
+    },
+    {
+     "lesson": "CDIL 15",
+     "lessonNorm": "CDIL 15",
+     "actualMins": 76,
+     "date": "2026-06-17"
+    },
+    {
+     "lesson": "CSGL 16",
+     "lessonNorm": "CSGL 16",
+     "actualMins": 45,
+     "date": "2026-06-18"
+    },
+    {
+     "lesson": "CDIL 17",
+     "lessonNorm": "CDIL 17",
+     "actualMins": 93,
+     "date": "2026-06-19"
+    },
+    {
+     "lesson": "CSGL 18",
+     "lessonNorm": "CSGL 18",
+     "actualMins": 75,
+     "date": "2026-06-20"
+    },
+    {
+     "lesson": "CDIL 19",
+     "lessonNorm": "CDIL 19",
+     "actualMins": 90,
+     "date": "2026-06-21"
+    },
+    {
+     "lesson": "CSGL 20",
+     "lessonNorm": "CSGL 20",
+     "actualMins": 75,
+     "date": "2026-06-22"
+    },
+    {
+     "lesson": "CDIL 21",
+     "lessonNorm": "CDIL 21",
+     "actualMins": 90,
+     "date": "2026-06-24"
+    },
+    {
+     "lesson": "CSGL 22",
+     "lessonNorm": "CSGL 22",
+     "actualMins": 75,
+     "date": "2026-06-25"
+    },
+    {
+     "lesson": "CDIL 23",
+     "lessonNorm": "CDIL 23",
+     "actualMins": 75,
+     "date": "2026-06-26"
+    },
+    {
+     "lesson": "CSGL 24",
+     "lessonNorm": "CSGL 24",
+     "actualMins": 75,
+     "date": "2026-06-30"
+    },
+    {
+     "lesson": "CDIL 25",
+     "lessonNorm": "CDIL 25",
+     "actualMins": 100,
+     "date": "2026-06-30"
+    },
+    {
+     "lesson": "CSGL 26",
+     "lessonNorm": "CSGL 26",
+     "actualMins": 75,
+     "date": "2026-07-01"
+    },
+    {
+     "lesson": "CDIL 27",
+     "lessonNorm": "CDIL 27",
+     "actualMins": 90,
+     "date": "2026-07-01"
+    },
+    {
+     "lesson": "CSGL 28",
+     "lessonNorm": "CSGL 28",
+     "actualMins": 85,
+     "date": "2026-07-03"
+    },
+    {
+     "lesson": "CDXV 29",
+     "lessonNorm": "CDXV 29",
+     "actualMins": 100,
+     "date": "2026-07-16"
+    }
+   ],
+   "planned": [
+    {
+     "lesson": "CSGL 30",
+     "date": "2026-07-22",
      "mins": 80
     },
     {
@@ -6373,91 +7958,91 @@
    ]
   },
   {
-   "catcId": "68117700054",
-   "name": "Natpakalp Kongvanichsakul",
-   "key": "NATPAKALP K.",
-   "nick": "N-KALP",
-   "fi": "P-YUTH",
-   "fiFull": "PHAHOLYUTH P.",
+   "catcId": "68117700057",
+   "name": "Pichakorn Jirapinyo",
+   "key": "PICHAKORN J.",
+   "nick": "P-KORN",
+   "fi": "K-POL",
+   "fiFull": "KOONPHOL U.",
    "se": "DA40-CS",
    "batch": "AP127",
-   "done": 30,
+   "done": 27,
    "total": 96,
-   "remaining": 66,
-   "pct": 31.3,
-   "nextLesson": "CDXV 31",
+   "remaining": 69,
+   "pct": 28.1,
+   "nextLesson": "CSGL 28",
    "flown": [
     {
      "lesson": "CDGL 01",
      "lessonNorm": "CDGL 01",
      "actualMins": 60,
-     "date": "2026-04-23"
+     "date": "2026-04-22"
     },
     {
      "lesson": "CDGL 02",
      "lessonNorm": "CDGL 02",
-     "actualMins": 70,
-     "date": "2026-04-24"
+     "actualMins": 60,
+     "date": "2026-04-23"
     },
     {
      "lesson": "CDGL 03",
      "lessonNorm": "CDGL 03",
-     "actualMins": 70,
-     "date": "2026-04-27"
+     "actualMins": 60,
+     "date": "2026-05-18"
     },
     {
      "lesson": "CDGL 04",
      "lessonNorm": "CDGL 04",
-     "actualMins": 70,
-     "date": "2026-05-22"
+     "actualMins": 60,
+     "date": "2026-05-20"
     },
     {
      "lesson": "CDGL 05",
      "lessonNorm": "CDGL 05",
-     "actualMins": 80,
-     "date": "2026-05-29"
+     "actualMins": 75,
+     "date": "2026-06-08"
     },
     {
      "lesson": "CDGL 06",
      "lessonNorm": "CDGL 06",
-     "actualMins": 80,
-     "date": "2026-06-06"
+     "actualMins": 75,
+     "date": "2026-06-10"
     },
     {
      "lesson": "CDGL 07",
      "lessonNorm": "CDGL 07",
      "actualMins": 75,
-     "date": "2026-06-07"
+     "date": "2026-06-12"
     },
     {
      "lesson": "CDGL 08",
      "lessonNorm": "CDGL 08",
-     "actualMins": 85,
-     "date": "2026-06-11"
+     "actualMins": 75,
+     "date": "2026-06-15"
     },
     {
      "lesson": "CDGL 09",
      "lessonNorm": "CDGL 09",
-     "actualMins": 90,
-     "date": "2026-06-12"
-    },
-    {
-     "lesson": "CDGL 10",
-     "lessonNorm": "CDGL 10",
      "actualMins": 75,
      "date": "2026-06-16"
     },
     {
+     "lesson": "CDGL 10",
+     "lessonNorm": "CDGL 10",
+     "actualMins": 60,
+     "date": "2026-06-17"
+    },
+    {
      "lesson": "CDGL 11",
      "lessonNorm": "CDGL 11",
-     "actualMins": 80,
-     "date": "2026-06-17"
+     "actualMins": 60,
+     "date": "2026-06-22"
     },
     {
      "lesson": "CDGL 12",
      "lessonNorm": "CDGL 12",
-     "actualMins": 65,
-     "date": "2026-06-22"
+     "actualMins": 60,
+     "date": "2026-06-23"
     },
     {
      "lesson": "CDGL 13",
@@ -6474,101 +8059,98 @@
     {
      "lesson": "CDIL 15",
      "lessonNorm": "CDIL 15",
-     "actualMins": 110,
-     "date": "2026-06-24"
+     "actualMins": 75,
+     "date": "2026-06-25"
     },
     {
      "lesson": "CSGL 16",
      "lessonNorm": "CSGL 16",
-     "actualMins": 50,
+     "actualMins": 45,
      "date": "2026-06-30"
     },
     {
      "lesson": "CDIL 17",
      "lessonNorm": "CDIL 17",
      "actualMins": 90,
-     "date": "2026-07-01"
+     "date": "2026-06-30"
     },
     {
      "lesson": "CSGL 18",
      "lessonNorm": "CSGL 18",
-     "actualMins": 80,
-     "date": "2026-07-02"
+     "actualMins": 75,
+     "date": "2026-07-01"
     },
     {
      "lesson": "CDIL 19",
      "lessonNorm": "CDIL 19",
-     "actualMins": 100,
+     "actualMins": 90,
      "date": "2026-07-03"
     },
     {
      "lesson": "CSGL 20",
      "lessonNorm": "CSGL 20",
-     "actualMins": 85,
-     "date": "2026-07-06"
+     "actualMins": 75,
+     "date": "2026-07-03"
     },
     {
      "lesson": "CDIL 21",
      "lessonNorm": "CDIL 21",
-     "actualMins": 95,
-     "date": "2026-07-08"
+     "actualMins": 90,
+     "date": "2026-07-06"
     },
     {
      "lesson": "CSGL 22",
      "lessonNorm": "CSGL 22",
-     "actualMins": 85,
-     "date": "2026-07-09"
+     "actualMins": 75,
+     "date": "2026-07-08"
     },
     {
      "lesson": "CDIL 23",
      "lessonNorm": "CDIL 23",
-     "actualMins": 80,
+     "actualMins": 75,
      "date": "2026-07-10"
     },
     {
      "lesson": "CSGL 24",
      "lessonNorm": "CSGL 24",
      "actualMins": 75,
-     "date": "2026-07-10"
+     "date": "2026-07-14"
     },
     {
      "lesson": "CDIL 25",
      "lessonNorm": "CDIL 25",
      "actualMins": 90,
-     "date": "2026-07-11"
+     "date": "2026-07-15"
     },
     {
      "lesson": "CSGL 26",
      "lessonNorm": "CSGL 26",
-     "actualMins": 80,
-     "date": "2026-07-12"
+     "actualMins": 75,
+     "date": "2026-07-16"
     },
     {
      "lesson": "CDIL 27",
      "lessonNorm": "CDIL 27",
-     "actualMins": 95,
-     "date": "2026-07-13"
-    },
-    {
-     "lesson": "CSGL 28",
-     "lessonNorm": "CSGL 28",
      "actualMins": 90,
-     "date": "2026-07-14"
-    },
-    {
-     "lesson": "CDXV 29",
-     "lessonNorm": "CDXV 29",
-     "actualMins": 90,
-     "date": "2026-07-15"
-    },
-    {
-     "lesson": "CSGL 30",
-     "lessonNorm": "CSGL 30",
-     "actualMins": 80,
-     "date": "2026-07-21"
+     "date": "2026-07-20"
     }
    ],
    "planned": [
+    {
+     "lesson": "CSGL 28",
+     "date": "2026-07-22",
+     "mins": 80
+    },
+    {
+     "lesson": "CDXV 29",
+     "date": "2026-07-23",
+     "mins": 90
+    },
+    {
+     "lesson": "CSGL 30",
+     "date": "2026-07-24",
+     "mins": 80
+    },
     {
      "lesson": "CDXV 31",
      "date": "2026-07-27",
@@ -6611,7 +8193,7 @@
     },
     {
      "lesson": "CSPXV 39",
-     "date": "2026-08-24",
+     "date": "2026-08-25",
      "mins": 180
     },
     {
@@ -6626,7 +8208,7 @@
     },
     {
      "lesson": "CSPXV 42",
-     "date": "2026-09-03",
+     "date": "2026-09-04",
      "mins": 180
     },
     {
@@ -6902,204 +8484,201 @@
    ]
   },
   {
-   "catcId": "68117700055",
-   "name": "Nuttaphat Kianmatee",
-   "key": "NUTTAPHAT K.",
-   "nick": "N-PHAT",
-   "fi": "SN-TI",
-   "fiFull": "SANTI PO.",
+   "catcId": "68117700058",
+   "name": "Pornskul Dulya",
+   "key": "PORNSKUL D.",
+   "nick": "P-KUL",
+   "fi": "S-WAN",
+   "fiFull": "SOWAN C.",
    "se": "DA40-CS",
    "batch": "AP127",
-   "done": 29,
+   "done": 26,
    "total": 96,
-   "remaining": 67,
-   "pct": 30.2,
-   "nextLesson": "CSGL 30",
+   "remaining": 70,
+   "pct": 27.1,
+   "nextLesson": "CDIL 27",
    "flown": [
     {
      "lesson": "CDGL 01",
      "lessonNorm": "CDGL 01",
      "actualMins": 60,
-     "date": "2026-04-24"
+     "date": "2026-04-27"
     },
     {
      "lesson": "CDGL 02",
      "lessonNorm": "CDGL 02",
-     "actualMins": 70,
-     "date": "2026-04-27"
+     "actualMins": 80,
+     "date": "2026-05-05"
     },
     {
      "lesson": "CDGL 03",
      "lessonNorm": "CDGL 03",
-     "actualMins": 73,
-     "date": "2026-04-28"
+     "actualMins": 80,
+     "date": "2026-05-15"
     },
     {
      "lesson": "CDGL 04",
      "lessonNorm": "CDGL 04",
-     "actualMins": 65,
-     "date": "2026-04-29"
+     "actualMins": 70,
+     "date": "2026-05-18"
     },
     {
      "lesson": "CDGL 05",
      "lessonNorm": "CDGL 05",
-     "actualMins": 78,
-     "date": "2026-05-05"
+     "actualMins": 75,
+     "date": "2026-06-07"
     },
     {
      "lesson": "CDGL 06",
      "lessonNorm": "CDGL 06",
-     "actualMins": 80,
-     "date": "2026-05-06"
+     "actualMins": 94,
+     "date": "2026-06-10"
     },
     {
      "lesson": "CDGL 07",
      "lessonNorm": "CDGL 07",
-     "actualMins": 75,
-     "date": "2026-05-14"
+     "actualMins": 79,
+     "date": "2026-06-11"
     },
     {
      "lesson": "CDGL 08",
      "lessonNorm": "CDGL 08",
-     "actualMins": 80,
-     "date": "2026-05-17"
+     "actualMins": 75,
+     "date": "2026-06-12"
     },
     {
      "lesson": "CDGL 09",
      "lessonNorm": "CDGL 09",
-     "actualMins": 75,
-     "date": "2026-05-18"
+     "actualMins": 81,
+     "date": "2026-06-16"
     },
     {
      "lesson": "CDGL 10",
      "lessonNorm": "CDGL 10",
-     "actualMins": 70,
-     "date": "2026-05-29"
+     "actualMins": 60,
+     "date": "2026-06-17"
     },
     {
      "lesson": "CDGL 11",
      "lessonNorm": "CDGL 11",
-     "actualMins": 65,
-     "date": "2026-06-06"
+     "actualMins": 66,
+     "date": "2026-06-19"
     },
     {
      "lesson": "CDGL 12",
      "lessonNorm": "CDGL 12",
-     "actualMins": 65,
-     "date": "2026-06-09"
+     "actualMins": 66,
+     "date": "2026-06-22"
     },
     {
      "lesson": "CDGL 13",
      "lessonNorm": "CDGL 13",
      "actualMins": 45,
-     "date": "2026-06-11"
+     "date": "2026-06-23"
     },
     {
      "lesson": "CSGL 14",
      "lessonNorm": "CSGL 14",
      "actualMins": 20,
-     "date": "2026-06-11"
+     "date": "2026-06-23"
     },
     {
      "lesson": "CDIL 15",
      "lessonNorm": "CDIL 15",
-     "actualMins": 75,
-     "date": "2026-06-11"
+     "actualMins": 86,
+     "date": "2026-06-29"
     },
     {
      "lesson": "CSGL 16",
      "lessonNorm": "CSGL 16",
-     "actualMins": 80,
-     "date": "2026-06-16"
+     "actualMins": 64,
+     "date": "2026-06-30"
     },
     {
      "lesson": "CDIL 17",
      "lessonNorm": "CDIL 17",
-     "actualMins": 92,
-     "date": "2026-06-19"
+     "actualMins": 93,
+     "date": "2026-07-01"
     },
     {
      "lesson": "CSGL 18",
      "lessonNorm": "CSGL 18",
      "actualMins": 75,
-     "date": "2026-06-20"
+     "date": "2026-07-02"
     },
     {
      "lesson": "CDIL 19",
      "lessonNorm": "CDIL 19",
      "actualMins": 90,
-     "date": "2026-06-21"
+     "date": "2026-07-06"
     },
     {
      "lesson": "CSGL 20",
      "lessonNorm": "CSGL 20",
      "actualMins": 75,
-     "date": "2026-06-22"
+     "date": "2026-07-08"
     },
     {
      "lesson": "CDIL 21",
      "lessonNorm": "CDIL 21",
-     "actualMins": 93,
-     "date": "2026-07-06"
+     "actualMins": 90,
+     "date": "2026-07-09"
     },
     {
      "lesson": "CSGL 22",
      "lessonNorm": "CSGL 22",
      "actualMins": 75,
-     "date": "2026-07-10"
+     "date": "2026-07-11"
     },
     {
      "lesson": "CDIL 23",
      "lessonNorm": "CDIL 23",
-     "actualMins": 85,
-     "date": "2026-07-11"
+     "actualMins": 75,
+     "date": "2026-07-12"
     },
     {
      "lesson": "CSGL 24",
      "lessonNorm": "CSGL 24",
      "actualMins": 75,
-     "date": "2026-07-14"
+     "date": "2026-07-15"
     },
     {
      "lesson": "CDIL 25",
      "lessonNorm": "CDIL 25",
      "actualMins": 90,
-     "date": "2026-07-15"
+     "date": "2026-07-17"
     },
     {
      "lesson": "CSGL 26",
      "lessonNorm": "CSGL 26",
      "actualMins": 75,
-     "date": "2026-07-16"
-    },
-    {
-     "lesson": "CDIL 27",
-     "lessonNorm": "CDIL 27",
-     "actualMins": 90,
-     "date": "2026-07-17"
-    },
-    {
-     "lesson": "CSGL 28",
-     "lessonNorm": "CSGL 28",
-     "actualMins": 80,
-     "date": "2026-07-18"
-    },
-    {
-     "lesson": "CDXV 29",
-     "lessonNorm": "CDXV 29",
-     "actualMins": 98,
-     "date": "2026-07-19"
+     "date": "2026-07-20"
     }
    ],
    "planned": [
     {
-     "lesson": "CSGL 30",
+     "lesson": "CDIL 27",
+     "date": "2026-07-22",
+     "mins": 90
+    },
+    {
+     "lesson": "CSGL 28",
      "date": "2026-07-23",
      "mins": 80
     },
     {
-     "lesson": "CDXV 31",
+     "lesson": "CDXV 29",
+     "date": "2026-07-24",
+     "mins": 90
+    },
+    {
+     "lesson": "CSGL 30",
      "date": "2026-07-27",
+     "mins": 80
+    },
+    {
+     "lesson": "CDXV 31",
+     "date": "2026-07-31",
      "mins": 90
     },
     {
@@ -7139,7 +8718,7 @@
     },
     {
      "lesson": "CSPXV 39",
-     "date": "2026-08-24",
+     "date": "2026-08-25",
      "mins": 180
     },
     {
@@ -7154,12 +8733,12 @@
     },
     {
      "lesson": "CSPXV 42",
-     "date": "2026-09-03",
+     "date": "2026-09-04",
      "mins": 180
     },
     {
      "lesson": "CSPXV 43",
-     "date": "2026-09-08",
+     "date": "2026-09-09",
      "mins": 180
     },
     {
@@ -7415,1585 +8994,6 @@
     {
      "lesson": "CMDXV 94",
      "date": "2027-01-27",
-     "mins": 90
-    },
-    {
-     "lesson": "CMSPXI 95",
-     "date": "2027-01-29",
-     "mins": 120
-    },
-    {
-     "lesson": "CMSPXIC 96",
-     "date": "2027-02-02",
-     "mins": 120
-    }
-   ]
-  },
-  {
-   "catcId": "68117700056",
-   "name": "Panithan Veeratanaporn",
-   "key": "PANITHAN V.",
-   "nick": "P-THAN",
-   "fi": "E-PHOB",
-   "fiFull": "EKKAPHOP R.",
-   "se": "DA40-TDI",
-   "batch": "AP127",
-   "done": 29,
-   "total": 96,
-   "remaining": 67,
-   "pct": 30.2,
-   "nextLesson": "CSGL 30",
-   "flown": [
-    {
-     "lesson": "CDGL 01",
-     "lessonNorm": "CDGL 01",
-     "actualMins": 60,
-     "date": "2026-04-22"
-    },
-    {
-     "lesson": "CDGL 02",
-     "lessonNorm": "CDGL 02",
-     "actualMins": 60,
-     "date": "2026-05-15"
-    },
-    {
-     "lesson": "CDGL 03",
-     "lessonNorm": "CDGL 03",
-     "actualMins": 64,
-     "date": "2026-05-16"
-    },
-    {
-     "lesson": "CDGL 04",
-     "lessonNorm": "CDGL 04",
-     "actualMins": 65,
-     "date": "2026-05-17"
-    },
-    {
-     "lesson": "CDGL 05",
-     "lessonNorm": "CDGL 05",
-     "actualMins": 75,
-     "date": "2026-05-22"
-    },
-    {
-     "lesson": "CDGL 06",
-     "lessonNorm": "CDGL 06",
-     "actualMins": 75,
-     "date": "2026-05-25"
-    },
-    {
-     "lesson": "CDGL 07",
-     "lessonNorm": "CDGL 07",
-     "actualMins": 75,
-     "date": "2026-05-29"
-    },
-    {
-     "lesson": "CDGL 08",
-     "lessonNorm": "CDGL 08",
-     "actualMins": 80,
-     "date": "2026-06-07"
-    },
-    {
-     "lesson": "CDGL 09",
-     "lessonNorm": "CDGL 09",
-     "actualMins": 75,
-     "date": "2026-06-10"
-    },
-    {
-     "lesson": "CDGL 10",
-     "lessonNorm": "CDGL 10",
-     "actualMins": 63,
-     "date": "2026-06-11"
-    },
-    {
-     "lesson": "CDGL 11",
-     "lessonNorm": "CDGL 11",
-     "actualMins": 60,
-     "date": "2026-06-12"
-    },
-    {
-     "lesson": "CDGL 12",
-     "lessonNorm": "CDGL 12",
-     "actualMins": 67,
-     "date": "2026-06-13"
-    },
-    {
-     "lesson": "CDGL 13",
-     "lessonNorm": "CDGL 13",
-     "actualMins": 45,
-     "date": "2026-06-14"
-    },
-    {
-     "lesson": "CSGL 14",
-     "lessonNorm": "CSGL 14",
-     "actualMins": 20,
-     "date": "2026-06-15"
-    },
-    {
-     "lesson": "CDIL 15",
-     "lessonNorm": "CDIL 15",
-     "actualMins": 76,
-     "date": "2026-06-17"
-    },
-    {
-     "lesson": "CSGL 16",
-     "lessonNorm": "CSGL 16",
-     "actualMins": 45,
-     "date": "2026-06-18"
-    },
-    {
-     "lesson": "CDIL 17",
-     "lessonNorm": "CDIL 17",
-     "actualMins": 93,
-     "date": "2026-06-19"
-    },
-    {
-     "lesson": "CSGL 18",
-     "lessonNorm": "CSGL 18",
-     "actualMins": 75,
-     "date": "2026-06-20"
-    },
-    {
-     "lesson": "CDIL 19",
-     "lessonNorm": "CDIL 19",
-     "actualMins": 90,
-     "date": "2026-06-21"
-    },
-    {
-     "lesson": "CSGL 20",
-     "lessonNorm": "CSGL 20",
-     "actualMins": 75,
-     "date": "2026-06-22"
-    },
-    {
-     "lesson": "CDIL 21",
-     "lessonNorm": "CDIL 21",
-     "actualMins": 90,
-     "date": "2026-06-24"
-    },
-    {
-     "lesson": "CSGL 22",
-     "lessonNorm": "CSGL 22",
-     "actualMins": 75,
-     "date": "2026-06-25"
-    },
-    {
-     "lesson": "CDIL 23",
-     "lessonNorm": "CDIL 23",
-     "actualMins": 75,
-     "date": "2026-06-26"
-    },
-    {
-     "lesson": "CSGL 24",
-     "lessonNorm": "CSGL 24",
-     "actualMins": 75,
-     "date": "2026-06-30"
-    },
-    {
-     "lesson": "CDIL 25",
-     "lessonNorm": "CDIL 25",
-     "actualMins": 100,
-     "date": "2026-06-30"
-    },
-    {
-     "lesson": "CSGL 26",
-     "lessonNorm": "CSGL 26",
-     "actualMins": 75,
-     "date": "2026-07-01"
-    },
-    {
-     "lesson": "CDIL 27",
-     "lessonNorm": "CDIL 27",
-     "actualMins": 90,
-     "date": "2026-07-01"
-    },
-    {
-     "lesson": "CSGL 28",
-     "lessonNorm": "CSGL 28",
-     "actualMins": 85,
-     "date": "2026-07-03"
-    },
-    {
-     "lesson": "CDXV 29",
-     "lessonNorm": "CDXV 29",
-     "actualMins": 100,
-     "date": "2026-07-16"
-    }
-   ],
-   "planned": [
-    {
-     "lesson": "CSGL 30",
-     "date": "2026-07-23",
-     "mins": 80
-    },
-    {
-     "lesson": "CDXV 31",
-     "date": "2026-07-27",
-     "mins": 90
-    },
-    {
-     "lesson": "CDXV 32",
-     "date": "2026-08-03",
-     "mins": 120
-    },
-    {
-     "lesson": "CSXV 33",
-     "date": "2026-08-05",
-     "mins": 90
-    },
-    {
-     "lesson": "CDGL 34",
-     "date": "2026-08-06",
-     "mins": 60
-    },
-    {
-     "lesson": "CDGL 35",
-     "date": "2026-08-10",
-     "mins": 60
-    },
-    {
-     "lesson": "CSPGL 36",
-     "date": "2026-08-13",
-     "mins": 75
-    },
-    {
-     "lesson": "CSPGL 37",
-     "date": "2026-08-18",
-     "mins": 75
-    },
-    {
-     "lesson": "CSPXV 38",
-     "date": "2026-08-20",
-     "mins": 120
-    },
-    {
-     "lesson": "CSPXV 39",
-     "date": "2026-08-24",
-     "mins": 180
-    },
-    {
-     "lesson": "CSPXV 40",
-     "date": "2026-08-27",
-     "mins": 180
-    },
-    {
-     "lesson": "CSPXV 41",
-     "date": "2026-09-01",
-     "mins": 180
-    },
-    {
-     "lesson": "CSPXV 42",
-     "date": "2026-09-03",
-     "mins": 180
-    },
-    {
-     "lesson": "CSPXV 43",
-     "date": "2026-09-09",
-     "mins": 180
-    },
-    {
-     "lesson": "CSPXV 44",
-     "date": "2026-09-14",
-     "mins": 300
-    },
-    {
-     "lesson": "CSXV 45",
-     "date": "2026-09-17",
-     "mins": 300
-    },
-    {
-     "lesson": "CDNL 46",
-     "date": "2026-09-21",
-     "mins": 60
-    },
-    {
-     "lesson": "CDNL 47",
-     "date": "2026-09-23",
-     "mins": 60
-    },
-    {
-     "lesson": "CDNXC 48",
-     "date": "2026-09-24",
-     "mins": 60
-    },
-    {
-     "lesson": "CSNL 49",
-     "date": "2026-09-28",
-     "mins": 60
-    },
-    {
-     "lesson": "CSNL 50",
-     "date": "2026-09-30",
-     "mins": 60
-    },
-    {
-     "lesson": "CSPGL 51",
-     "date": "2026-10-02",
-     "mins": 80
-    },
-    {
-     "lesson": "CSPGL 52",
-     "date": "2026-10-06",
-     "mins": 80
-    },
-    {
-     "lesson": "CSPGL 53",
-     "date": "2026-10-07",
-     "mins": 80
-    },
-    {
-     "lesson": "CSPGLC 54",
-     "date": "2026-10-09",
-     "mins": 90
-    },
-    {
-     "lesson": "CSPXVC 55",
-     "date": "2026-10-12",
-     "mins": 90
-    },
-    {
-     "lesson": "CDIF(SIM) 56",
-     "date": "2026-10-14",
-     "mins": 120
-    },
-    {
-     "lesson": "CDIF(SIM) 57",
-     "date": "2026-10-16",
-     "mins": 120
-    },
-    {
-     "lesson": "CDIF(SIM) 58",
-     "date": "2026-10-20",
-     "mins": 120
-    },
-    {
-     "lesson": "CDIF(SIM) 59",
-     "date": "2026-10-22",
-     "mins": 120
-    },
-    {
-     "lesson": "CDIF(SIM) 60",
-     "date": "2026-10-27",
-     "mins": 120
-    },
-    {
-     "lesson": "CDIF(SIM) 61",
-     "date": "2026-10-29",
-     "mins": 120
-    },
-    {
-     "lesson": "CDIF(SIM) 62",
-     "date": "2026-11-02",
-     "mins": 120
-    },
-    {
-     "lesson": "CDIF(SIM) 63",
-     "date": "2026-11-04",
-     "mins": 120
-    },
-    {
-     "lesson": "CDIF(SIM) 64",
-     "date": "2026-11-06",
-     "mins": 180
-    },
-    {
-     "lesson": "CDIF(SIM) 65",
-     "date": "2026-11-10",
-     "mins": 180
-    },
-    {
-     "lesson": "CDIF(SIM) 66",
-     "date": "2026-11-12",
-     "mins": 180
-    },
-    {
-     "lesson": "CDIF(SIM) 67",
-     "date": "2026-11-16",
-     "mins": 180
-    },
-    {
-     "lesson": "CDXI 68",
-     "date": "2026-11-18",
-     "mins": 120
-    },
-    {
-     "lesson": "CDXI 69",
-     "date": "2026-11-20",
-     "mins": 120
-    },
-    {
-     "lesson": "CDXI 70",
-     "date": "2026-11-24",
-     "mins": 120
-    },
-    {
-     "lesson": "CDXI 71",
-     "date": "2026-11-26",
-     "mins": 120
-    },
-    {
-     "lesson": "CDXI 72",
-     "date": "2026-11-30",
-     "mins": 120
-    },
-    {
-     "lesson": "CDXI 73",
-     "date": "2026-12-02",
-     "mins": 180
-    },
-    {
-     "lesson": "CDXI 74",
-     "date": "2026-12-04",
-     "mins": 180
-    },
-    {
-     "lesson": "CDXI 75",
-     "date": "2026-12-09",
-     "mins": 180
-    },
-    {
-     "lesson": "CDXI 76",
-     "date": "2026-12-14",
-     "mins": 180
-    },
-    {
-     "lesson": "CDXI 77",
-     "date": "2026-12-16",
-     "mins": 180
-    },
-    {
-     "lesson": "CDXI 78",
-     "date": "2026-12-18",
-     "mins": 180
-    },
-    {
-     "lesson": "CDXI 79",
-     "date": "2026-12-22",
-     "mins": 180
-    },
-    {
-     "lesson": "CDXI 80",
-     "date": "2026-12-24",
-     "mins": 180
-    },
-    {
-     "lesson": "CDXI 81",
-     "date": "2026-12-28",
-     "mins": 180
-    },
-    {
-     "lesson": "CDXI 82",
-     "date": "2026-12-30",
-     "mins": 180
-    },
-    {
-     "lesson": "CDGL 83",
-     "date": "2027-01-04",
-     "mins": 90
-    },
-    {
-     "lesson": "CDGL 84",
-     "date": "2027-01-05",
-     "mins": 90
-    },
-    {
-     "lesson": "CSPXI 85",
-     "date": "2027-01-06",
-     "mins": 120
-    },
-    {
-     "lesson": "CSPXI 86",
-     "date": "2027-01-08",
-     "mins": 120
-    },
-    {
-     "lesson": "CSPXI 87",
-     "date": "2027-01-12",
-     "mins": 180
-    },
-    {
-     "lesson": "CSPXI 88",
-     "date": "2027-01-14",
-     "mins": 180
-    },
-    {
-     "lesson": "CSPXI 89",
-     "date": "2027-01-18",
-     "mins": 180
-    },
-    {
-     "lesson": "CSPXIC 90",
-     "date": "2027-01-20",
-     "mins": 180
-    },
-    {
-     "lesson": "CMDIF(SIM) 91",
-     "date": "2027-01-22",
-     "mins": 60
-    },
-    {
-     "lesson": "CMDIF(SIM) 92",
-     "date": "2027-01-25",
-     "mins": 60
-    },
-    {
-     "lesson": "CMDGL 93",
-     "date": "2027-01-26",
-     "mins": 90
-    },
-    {
-     "lesson": "CMDXV 94",
-     "date": "2027-01-28",
-     "mins": 90
-    },
-    {
-     "lesson": "CMSPXI 95",
-     "date": "2027-01-29",
-     "mins": 120
-    },
-    {
-     "lesson": "CMSPXIC 96",
-     "date": "2027-02-02",
-     "mins": 120
-    }
-   ]
-  },
-  {
-   "catcId": "68117700057",
-   "name": "Pichakorn Jirapinyo",
-   "key": "PICHAKORN J.",
-   "nick": "P-KORN",
-   "fi": "K-POL",
-   "fiFull": "KOONPHOL U.",
-   "se": "DA40-CS",
-   "batch": "AP127",
-   "done": 27,
-   "total": 96,
-   "remaining": 69,
-   "pct": 28.1,
-   "nextLesson": "CSGL 28",
-   "flown": [
-    {
-     "lesson": "CDGL 01",
-     "lessonNorm": "CDGL 01",
-     "actualMins": 60,
-     "date": "2026-04-22"
-    },
-    {
-     "lesson": "CDGL 02",
-     "lessonNorm": "CDGL 02",
-     "actualMins": 60,
-     "date": "2026-04-23"
-    },
-    {
-     "lesson": "CDGL 03",
-     "lessonNorm": "CDGL 03",
-     "actualMins": 60,
-     "date": "2026-05-18"
-    },
-    {
-     "lesson": "CDGL 04",
-     "lessonNorm": "CDGL 04",
-     "actualMins": 60,
-     "date": "2026-05-20"
-    },
-    {
-     "lesson": "CDGL 05",
-     "lessonNorm": "CDGL 05",
-     "actualMins": 75,
-     "date": "2026-06-08"
-    },
-    {
-     "lesson": "CDGL 06",
-     "lessonNorm": "CDGL 06",
-     "actualMins": 75,
-     "date": "2026-06-10"
-    },
-    {
-     "lesson": "CDGL 07",
-     "lessonNorm": "CDGL 07",
-     "actualMins": 75,
-     "date": "2026-06-12"
-    },
-    {
-     "lesson": "CDGL 08",
-     "lessonNorm": "CDGL 08",
-     "actualMins": 75,
-     "date": "2026-06-15"
-    },
-    {
-     "lesson": "CDGL 09",
-     "lessonNorm": "CDGL 09",
-     "actualMins": 75,
-     "date": "2026-06-16"
-    },
-    {
-     "lesson": "CDGL 10",
-     "lessonNorm": "CDGL 10",
-     "actualMins": 60,
-     "date": "2026-06-17"
-    },
-    {
-     "lesson": "CDGL 11",
-     "lessonNorm": "CDGL 11",
-     "actualMins": 60,
-     "date": "2026-06-22"
-    },
-    {
-     "lesson": "CDGL 12",
-     "lessonNorm": "CDGL 12",
-     "actualMins": 60,
-     "date": "2026-06-23"
-    },
-    {
-     "lesson": "CDGL 13",
-     "lessonNorm": "CDGL 13",
-     "actualMins": 45,
-     "date": "2026-06-23"
-    },
-    {
-     "lesson": "CSGL 14",
-     "lessonNorm": "CSGL 14",
-     "actualMins": 20,
-     "date": "2026-06-23"
-    },
-    {
-     "lesson": "CDIL 15",
-     "lessonNorm": "CDIL 15",
-     "actualMins": 75,
-     "date": "2026-06-25"
-    },
-    {
-     "lesson": "CSGL 16",
-     "lessonNorm": "CSGL 16",
-     "actualMins": 45,
-     "date": "2026-06-30"
-    },
-    {
-     "lesson": "CDIL 17",
-     "lessonNorm": "CDIL 17",
-     "actualMins": 90,
-     "date": "2026-06-30"
-    },
-    {
-     "lesson": "CSGL 18",
-     "lessonNorm": "CSGL 18",
-     "actualMins": 75,
-     "date": "2026-07-01"
-    },
-    {
-     "lesson": "CDIL 19",
-     "lessonNorm": "CDIL 19",
-     "actualMins": 90,
-     "date": "2026-07-03"
-    },
-    {
-     "lesson": "CSGL 20",
-     "lessonNorm": "CSGL 20",
-     "actualMins": 75,
-     "date": "2026-07-03"
-    },
-    {
-     "lesson": "CDIL 21",
-     "lessonNorm": "CDIL 21",
-     "actualMins": 90,
-     "date": "2026-07-06"
-    },
-    {
-     "lesson": "CSGL 22",
-     "lessonNorm": "CSGL 22",
-     "actualMins": 75,
-     "date": "2026-07-08"
-    },
-    {
-     "lesson": "CDIL 23",
-     "lessonNorm": "CDIL 23",
-     "actualMins": 75,
-     "date": "2026-07-10"
-    },
-    {
-     "lesson": "CSGL 24",
-     "lessonNorm": "CSGL 24",
-     "actualMins": 75,
-     "date": "2026-07-14"
-    },
-    {
-     "lesson": "CDIL 25",
-     "lessonNorm": "CDIL 25",
-     "actualMins": 90,
-     "date": "2026-07-15"
-    },
-    {
-     "lesson": "CSGL 26",
-     "lessonNorm": "CSGL 26",
-     "actualMins": 75,
-     "date": "2026-07-16"
-    },
-    {
-     "lesson": "CDIL 27",
-     "lessonNorm": "CDIL 27",
-     "actualMins": 90,
-     "date": "2026-07-20"
-    }
-   ],
-   "planned": [
-    {
-     "lesson": "CSGL 28",
-     "date": "2026-07-22",
-     "mins": 80
-    },
-    {
-     "lesson": "CDXV 29",
-     "date": "2026-07-23",
-     "mins": 90
-    },
-    {
-     "lesson": "CSGL 30",
-     "date": "2026-07-24",
-     "mins": 80
-    },
-    {
-     "lesson": "CDXV 31",
-     "date": "2026-07-27",
-     "mins": 90
-    },
-    {
-     "lesson": "CDXV 32",
-     "date": "2026-08-03",
-     "mins": 120
-    },
-    {
-     "lesson": "CSXV 33",
-     "date": "2026-08-05",
-     "mins": 90
-    },
-    {
-     "lesson": "CDGL 34",
-     "date": "2026-08-06",
-     "mins": 60
-    },
-    {
-     "lesson": "CDGL 35",
-     "date": "2026-08-10",
-     "mins": 60
-    },
-    {
-     "lesson": "CSPGL 36",
-     "date": "2026-08-14",
-     "mins": 75
-    },
-    {
-     "lesson": "CSPGL 37",
-     "date": "2026-08-18",
-     "mins": 75
-    },
-    {
-     "lesson": "CSPXV 38",
-     "date": "2026-08-20",
-     "mins": 120
-    },
-    {
-     "lesson": "CSPXV 39",
-     "date": "2026-08-25",
-     "mins": 180
-    },
-    {
-     "lesson": "CSPXV 40",
-     "date": "2026-08-27",
-     "mins": 180
-    },
-    {
-     "lesson": "CSPXV 41",
-     "date": "2026-09-01",
-     "mins": 180
-    },
-    {
-     "lesson": "CSPXV 42",
-     "date": "2026-09-04",
-     "mins": 180
-    },
-    {
-     "lesson": "CSPXV 43",
-     "date": "2026-09-09",
-     "mins": 180
-    },
-    {
-     "lesson": "CSPXV 44",
-     "date": "2026-09-15",
-     "mins": 300
-    },
-    {
-     "lesson": "CSXV 45",
-     "date": "2026-09-17",
-     "mins": 300
-    },
-    {
-     "lesson": "CDNL 46",
-     "date": "2026-09-21",
-     "mins": 60
-    },
-    {
-     "lesson": "CDNL 47",
-     "date": "2026-09-23",
-     "mins": 60
-    },
-    {
-     "lesson": "CDNXC 48",
-     "date": "2026-09-24",
-     "mins": 60
-    },
-    {
-     "lesson": "CSNL 49",
-     "date": "2026-09-28",
-     "mins": 60
-    },
-    {
-     "lesson": "CSNL 50",
-     "date": "2026-09-30",
-     "mins": 60
-    },
-    {
-     "lesson": "CSPGL 51",
-     "date": "2026-10-02",
-     "mins": 80
-    },
-    {
-     "lesson": "CSPGL 52",
-     "date": "2026-10-06",
-     "mins": 80
-    },
-    {
-     "lesson": "CSPGL 53",
-     "date": "2026-10-07",
-     "mins": 80
-    },
-    {
-     "lesson": "CSPGLC 54",
-     "date": "2026-10-09",
-     "mins": 90
-    },
-    {
-     "lesson": "CSPXVC 55",
-     "date": "2026-10-12",
-     "mins": 90
-    },
-    {
-     "lesson": "CDIF(SIM) 56",
-     "date": "2026-10-14",
-     "mins": 120
-    },
-    {
-     "lesson": "CDIF(SIM) 57",
-     "date": "2026-10-16",
-     "mins": 120
-    },
-    {
-     "lesson": "CDIF(SIM) 58",
-     "date": "2026-10-20",
-     "mins": 120
-    },
-    {
-     "lesson": "CDIF(SIM) 59",
-     "date": "2026-10-22",
-     "mins": 120
-    },
-    {
-     "lesson": "CDIF(SIM) 60",
-     "date": "2026-10-27",
-     "mins": 120
-    },
-    {
-     "lesson": "CDIF(SIM) 61",
-     "date": "2026-10-29",
-     "mins": 120
-    },
-    {
-     "lesson": "CDIF(SIM) 62",
-     "date": "2026-11-02",
-     "mins": 120
-    },
-    {
-     "lesson": "CDIF(SIM) 63",
-     "date": "2026-11-04",
-     "mins": 120
-    },
-    {
-     "lesson": "CDIF(SIM) 64",
-     "date": "2026-11-06",
-     "mins": 180
-    },
-    {
-     "lesson": "CDIF(SIM) 65",
-     "date": "2026-11-10",
-     "mins": 180
-    },
-    {
-     "lesson": "CDIF(SIM) 66",
-     "date": "2026-11-12",
-     "mins": 180
-    },
-    {
-     "lesson": "CDIF(SIM) 67",
-     "date": "2026-11-16",
-     "mins": 180
-    },
-    {
-     "lesson": "CDXI 68",
-     "date": "2026-11-18",
-     "mins": 120
-    },
-    {
-     "lesson": "CDXI 69",
-     "date": "2026-11-20",
-     "mins": 120
-    },
-    {
-     "lesson": "CDXI 70",
-     "date": "2026-11-24",
-     "mins": 120
-    },
-    {
-     "lesson": "CDXI 71",
-     "date": "2026-11-26",
-     "mins": 120
-    },
-    {
-     "lesson": "CDXI 72",
-     "date": "2026-11-30",
-     "mins": 120
-    },
-    {
-     "lesson": "CDXI 73",
-     "date": "2026-12-02",
-     "mins": 180
-    },
-    {
-     "lesson": "CDXI 74",
-     "date": "2026-12-04",
-     "mins": 180
-    },
-    {
-     "lesson": "CDXI 75",
-     "date": "2026-12-09",
-     "mins": 180
-    },
-    {
-     "lesson": "CDXI 76",
-     "date": "2026-12-14",
-     "mins": 180
-    },
-    {
-     "lesson": "CDXI 77",
-     "date": "2026-12-16",
-     "mins": 180
-    },
-    {
-     "lesson": "CDXI 78",
-     "date": "2026-12-18",
-     "mins": 180
-    },
-    {
-     "lesson": "CDXI 79",
-     "date": "2026-12-22",
-     "mins": 180
-    },
-    {
-     "lesson": "CDXI 80",
-     "date": "2026-12-24",
-     "mins": 180
-    },
-    {
-     "lesson": "CDXI 81",
-     "date": "2026-12-28",
-     "mins": 180
-    },
-    {
-     "lesson": "CDXI 82",
-     "date": "2026-12-30",
-     "mins": 180
-    },
-    {
-     "lesson": "CDGL 83",
-     "date": "2027-01-04",
-     "mins": 90
-    },
-    {
-     "lesson": "CDGL 84",
-     "date": "2027-01-05",
-     "mins": 90
-    },
-    {
-     "lesson": "CSPXI 85",
-     "date": "2027-01-06",
-     "mins": 120
-    },
-    {
-     "lesson": "CSPXI 86",
-     "date": "2027-01-08",
-     "mins": 120
-    },
-    {
-     "lesson": "CSPXI 87",
-     "date": "2027-01-12",
-     "mins": 180
-    },
-    {
-     "lesson": "CSPXI 88",
-     "date": "2027-01-14",
-     "mins": 180
-    },
-    {
-     "lesson": "CSPXI 89",
-     "date": "2027-01-18",
-     "mins": 180
-    },
-    {
-     "lesson": "CSPXIC 90",
-     "date": "2027-01-20",
-     "mins": 180
-    },
-    {
-     "lesson": "CMDIF(SIM) 91",
-     "date": "2027-01-22",
-     "mins": 60
-    },
-    {
-     "lesson": "CMDIF(SIM) 92",
-     "date": "2027-01-25",
-     "mins": 60
-    },
-    {
-     "lesson": "CMDGL 93",
-     "date": "2027-01-26",
-     "mins": 90
-    },
-    {
-     "lesson": "CMDXV 94",
-     "date": "2027-01-28",
-     "mins": 90
-    },
-    {
-     "lesson": "CMSPXI 95",
-     "date": "2027-01-29",
-     "mins": 120
-    },
-    {
-     "lesson": "CMSPXIC 96",
-     "date": "2027-02-02",
-     "mins": 120
-    }
-   ]
-  },
-  {
-   "catcId": "68117700058",
-   "name": "Pornskul Dulya",
-   "key": "PORNSKUL D.",
-   "nick": "P-KUL",
-   "fi": "S-WAN",
-   "fiFull": "SOWAN C.",
-   "se": "DA40-CS",
-   "batch": "AP127",
-   "done": 26,
-   "total": 96,
-   "remaining": 70,
-   "pct": 27.1,
-   "nextLesson": "CDIL 27",
-   "flown": [
-    {
-     "lesson": "CDGL 01",
-     "lessonNorm": "CDGL 01",
-     "actualMins": 60,
-     "date": "2026-04-27"
-    },
-    {
-     "lesson": "CDGL 02",
-     "lessonNorm": "CDGL 02",
-     "actualMins": 80,
-     "date": "2026-05-05"
-    },
-    {
-     "lesson": "CDGL 03",
-     "lessonNorm": "CDGL 03",
-     "actualMins": 80,
-     "date": "2026-05-15"
-    },
-    {
-     "lesson": "CDGL 04",
-     "lessonNorm": "CDGL 04",
-     "actualMins": 70,
-     "date": "2026-05-18"
-    },
-    {
-     "lesson": "CDGL 05",
-     "lessonNorm": "CDGL 05",
-     "actualMins": 75,
-     "date": "2026-06-07"
-    },
-    {
-     "lesson": "CDGL 06",
-     "lessonNorm": "CDGL 06",
-     "actualMins": 94,
-     "date": "2026-06-10"
-    },
-    {
-     "lesson": "CDGL 07",
-     "lessonNorm": "CDGL 07",
-     "actualMins": 79,
-     "date": "2026-06-11"
-    },
-    {
-     "lesson": "CDGL 08",
-     "lessonNorm": "CDGL 08",
-     "actualMins": 75,
-     "date": "2026-06-12"
-    },
-    {
-     "lesson": "CDGL 09",
-     "lessonNorm": "CDGL 09",
-     "actualMins": 81,
-     "date": "2026-06-16"
-    },
-    {
-     "lesson": "CDGL 10",
-     "lessonNorm": "CDGL 10",
-     "actualMins": 60,
-     "date": "2026-06-17"
-    },
-    {
-     "lesson": "CDGL 11",
-     "lessonNorm": "CDGL 11",
-     "actualMins": 66,
-     "date": "2026-06-19"
-    },
-    {
-     "lesson": "CDGL 12",
-     "lessonNorm": "CDGL 12",
-     "actualMins": 66,
-     "date": "2026-06-22"
-    },
-    {
-     "lesson": "CDGL 13",
-     "lessonNorm": "CDGL 13",
-     "actualMins": 45,
-     "date": "2026-06-23"
-    },
-    {
-     "lesson": "CSGL 14",
-     "lessonNorm": "CSGL 14",
-     "actualMins": 20,
-     "date": "2026-06-23"
-    },
-    {
-     "lesson": "CDIL 15",
-     "lessonNorm": "CDIL 15",
-     "actualMins": 86,
-     "date": "2026-06-29"
-    },
-    {
-     "lesson": "CSGL 16",
-     "lessonNorm": "CSGL 16",
-     "actualMins": 64,
-     "date": "2026-06-30"
-    },
-    {
-     "lesson": "CDIL 17",
-     "lessonNorm": "CDIL 17",
-     "actualMins": 93,
-     "date": "2026-07-01"
-    },
-    {
-     "lesson": "CSGL 18",
-     "lessonNorm": "CSGL 18",
-     "actualMins": 75,
-     "date": "2026-07-02"
-    },
-    {
-     "lesson": "CDIL 19",
-     "lessonNorm": "CDIL 19",
-     "actualMins": 90,
-     "date": "2026-07-06"
-    },
-    {
-     "lesson": "CSGL 20",
-     "lessonNorm": "CSGL 20",
-     "actualMins": 75,
-     "date": "2026-07-08"
-    },
-    {
-     "lesson": "CDIL 21",
-     "lessonNorm": "CDIL 21",
-     "actualMins": 90,
-     "date": "2026-07-09"
-    },
-    {
-     "lesson": "CSGL 22",
-     "lessonNorm": "CSGL 22",
-     "actualMins": 75,
-     "date": "2026-07-11"
-    },
-    {
-     "lesson": "CDIL 23",
-     "lessonNorm": "CDIL 23",
-     "actualMins": 75,
-     "date": "2026-07-12"
-    },
-    {
-     "lesson": "CSGL 24",
-     "lessonNorm": "CSGL 24",
-     "actualMins": 75,
-     "date": "2026-07-15"
-    },
-    {
-     "lesson": "CDIL 25",
-     "lessonNorm": "CDIL 25",
-     "actualMins": 90,
-     "date": "2026-07-17"
-    },
-    {
-     "lesson": "CSGL 26",
-     "lessonNorm": "CSGL 26",
-     "actualMins": 75,
-     "date": "2026-07-20"
-    }
-   ],
-   "planned": [
-    {
-     "lesson": "CDIL 27",
-     "date": "2026-07-22",
-     "mins": 90
-    },
-    {
-     "lesson": "CSGL 28",
-     "date": "2026-07-23",
-     "mins": 80
-    },
-    {
-     "lesson": "CDXV 29",
-     "date": "2026-07-24",
-     "mins": 90
-    },
-    {
-     "lesson": "CSGL 30",
-     "date": "2026-07-27",
-     "mins": 80
-    },
-    {
-     "lesson": "CDXV 31",
-     "date": "2026-07-31",
-     "mins": 90
-    },
-    {
-     "lesson": "CDXV 32",
-     "date": "2026-08-03",
-     "mins": 120
-    },
-    {
-     "lesson": "CSXV 33",
-     "date": "2026-08-05",
-     "mins": 90
-    },
-    {
-     "lesson": "CDGL 34",
-     "date": "2026-08-06",
-     "mins": 60
-    },
-    {
-     "lesson": "CDGL 35",
-     "date": "2026-08-10",
-     "mins": 60
-    },
-    {
-     "lesson": "CSPGL 36",
-     "date": "2026-08-14",
-     "mins": 75
-    },
-    {
-     "lesson": "CSPGL 37",
-     "date": "2026-08-18",
-     "mins": 75
-    },
-    {
-     "lesson": "CSPXV 38",
-     "date": "2026-08-20",
-     "mins": 120
-    },
-    {
-     "lesson": "CSPXV 39",
-     "date": "2026-08-25",
-     "mins": 180
-    },
-    {
-     "lesson": "CSPXV 40",
-     "date": "2026-08-27",
-     "mins": 180
-    },
-    {
-     "lesson": "CSPXV 41",
-     "date": "2026-09-01",
-     "mins": 180
-    },
-    {
-     "lesson": "CSPXV 42",
-     "date": "2026-09-04",
-     "mins": 180
-    },
-    {
-     "lesson": "CSPXV 43",
-     "date": "2026-09-09",
-     "mins": 180
-    },
-    {
-     "lesson": "CSPXV 44",
-     "date": "2026-09-15",
-     "mins": 300
-    },
-    {
-     "lesson": "CSXV 45",
-     "date": "2026-09-17",
-     "mins": 300
-    },
-    {
-     "lesson": "CDNL 46",
-     "date": "2026-09-21",
-     "mins": 60
-    },
-    {
-     "lesson": "CDNL 47",
-     "date": "2026-09-23",
-     "mins": 60
-    },
-    {
-     "lesson": "CDNXC 48",
-     "date": "2026-09-25",
-     "mins": 60
-    },
-    {
-     "lesson": "CSNL 49",
-     "date": "2026-09-28",
-     "mins": 60
-    },
-    {
-     "lesson": "CSNL 50",
-     "date": "2026-09-30",
-     "mins": 60
-    },
-    {
-     "lesson": "CSPGL 51",
-     "date": "2026-10-02",
-     "mins": 80
-    },
-    {
-     "lesson": "CSPGL 52",
-     "date": "2026-10-06",
-     "mins": 80
-    },
-    {
-     "lesson": "CSPGL 53",
-     "date": "2026-10-08",
-     "mins": 80
-    },
-    {
-     "lesson": "CSPGLC 54",
-     "date": "2026-10-09",
-     "mins": 90
-    },
-    {
-     "lesson": "CSPXVC 55",
-     "date": "2026-10-12",
-     "mins": 90
-    },
-    {
-     "lesson": "CDIF(SIM) 56",
-     "date": "2026-10-14",
-     "mins": 120
-    },
-    {
-     "lesson": "CDIF(SIM) 57",
-     "date": "2026-10-16",
-     "mins": 120
-    },
-    {
-     "lesson": "CDIF(SIM) 58",
-     "date": "2026-10-20",
-     "mins": 120
-    },
-    {
-     "lesson": "CDIF(SIM) 59",
-     "date": "2026-10-22",
-     "mins": 120
-    },
-    {
-     "lesson": "CDIF(SIM) 60",
-     "date": "2026-10-27",
-     "mins": 120
-    },
-    {
-     "lesson": "CDIF(SIM) 61",
-     "date": "2026-10-29",
-     "mins": 120
-    },
-    {
-     "lesson": "CDIF(SIM) 62",
-     "date": "2026-11-02",
-     "mins": 120
-    },
-    {
-     "lesson": "CDIF(SIM) 63",
-     "date": "2026-11-04",
-     "mins": 120
-    },
-    {
-     "lesson": "CDIF(SIM) 64",
-     "date": "2026-11-06",
-     "mins": 180
-    },
-    {
-     "lesson": "CDIF(SIM) 65",
-     "date": "2026-11-10",
-     "mins": 180
-    },
-    {
-     "lesson": "CDIF(SIM) 66",
-     "date": "2026-11-12",
-     "mins": 180
-    },
-    {
-     "lesson": "CDIF(SIM) 67",
-     "date": "2026-11-16",
-     "mins": 180
-    },
-    {
-     "lesson": "CDXI 68",
-     "date": "2026-11-18",
-     "mins": 120
-    },
-    {
-     "lesson": "CDXI 69",
-     "date": "2026-11-20",
-     "mins": 120
-    },
-    {
-     "lesson": "CDXI 70",
-     "date": "2026-11-24",
-     "mins": 120
-    },
-    {
-     "lesson": "CDXI 71",
-     "date": "2026-11-26",
-     "mins": 120
-    },
-    {
-     "lesson": "CDXI 72",
-     "date": "2026-11-30",
-     "mins": 120
-    },
-    {
-     "lesson": "CDXI 73",
-     "date": "2026-12-02",
-     "mins": 180
-    },
-    {
-     "lesson": "CDXI 74",
-     "date": "2026-12-04",
-     "mins": 180
-    },
-    {
-     "lesson": "CDXI 75",
-     "date": "2026-12-09",
-     "mins": 180
-    },
-    {
-     "lesson": "CDXI 76",
-     "date": "2026-12-14",
-     "mins": 180
-    },
-    {
-     "lesson": "CDXI 77",
-     "date": "2026-12-16",
-     "mins": 180
-    },
-    {
-     "lesson": "CDXI 78",
-     "date": "2026-12-18",
-     "mins": 180
-    },
-    {
-     "lesson": "CDXI 79",
-     "date": "2026-12-22",
-     "mins": 180
-    },
-    {
-     "lesson": "CDXI 80",
-     "date": "2026-12-24",
-     "mins": 180
-    },
-    {
-     "lesson": "CDXI 81",
-     "date": "2026-12-28",
-     "mins": 180
-    },
-    {
-     "lesson": "CDXI 82",
-     "date": "2026-12-30",
-     "mins": 180
-    },
-    {
-     "lesson": "CDGL 83",
-     "date": "2027-01-04",
-     "mins": 90
-    },
-    {
-     "lesson": "CDGL 84",
-     "date": "2027-01-05",
-     "mins": 90
-    },
-    {
-     "lesson": "CSPXI 85",
-     "date": "2027-01-06",
-     "mins": 120
-    },
-    {
-     "lesson": "CSPXI 86",
-     "date": "2027-01-08",
-     "mins": 120
-    },
-    {
-     "lesson": "CSPXI 87",
-     "date": "2027-01-12",
-     "mins": 180
-    },
-    {
-     "lesson": "CSPXI 88",
-     "date": "2027-01-14",
-     "mins": 180
-    },
-    {
-     "lesson": "CSPXI 89",
-     "date": "2027-01-18",
-     "mins": 180
-    },
-    {
-     "lesson": "CSPXIC 90",
-     "date": "2027-01-20",
-     "mins": 180
-    },
-    {
-     "lesson": "CMDIF(SIM) 91",
-     "date": "2027-01-22",
-     "mins": 60
-    },
-    {
-     "lesson": "CMDIF(SIM) 92",
-     "date": "2027-01-25",
-     "mins": 60
-    },
-    {
-     "lesson": "CMDGL 93",
-     "date": "2027-01-26",
-     "mins": 90
-    },
-    {
-     "lesson": "CMDXV 94",
-     "date": "2027-01-28",
      "mins": 90
     },
     {
@@ -9223,7 +9223,7 @@
     },
     {
      "lesson": "CDGL 34",
-     "date": "2026-08-07",
+     "date": "2026-08-06",
      "mins": 60
     },
     {
@@ -9233,7 +9233,7 @@
     },
     {
      "lesson": "CSPGL 36",
-     "date": "2026-08-14",
+     "date": "2026-08-13",
      "mins": 75
     },
     {
@@ -9273,7 +9273,7 @@
     },
     {
      "lesson": "CSPXV 44",
-     "date": "2026-09-15",
+     "date": "2026-09-14",
      "mins": 300
     },
     {
@@ -9293,7 +9293,7 @@
     },
     {
      "lesson": "CDNXC 48",
-     "date": "2026-09-25",
+     "date": "2026-09-24",
      "mins": 60
     },
     {
@@ -9318,7 +9318,7 @@
     },
     {
      "lesson": "CSPGL 53",
-     "date": "2026-10-08",
+     "date": "2026-10-07",
      "mins": 80
     },
     {
@@ -9518,7 +9518,7 @@
     },
     {
      "lesson": "CMDGL 93",
-     "date": "2027-01-27",
+     "date": "2027-01-26",
      "mins": 90
     },
     {
@@ -9761,7 +9761,7 @@
    "planned": [
     {
      "lesson": "CDGL 35",
-     "date": "2026-08-11",
+     "date": "2026-08-10",
      "mins": 60
     },
     {
@@ -9786,7 +9786,7 @@
     },
     {
      "lesson": "CSPXV 40",
-     "date": "2026-08-28",
+     "date": "2026-08-27",
      "mins": 180
     },
     {
@@ -9841,7 +9841,7 @@
     },
     {
      "lesson": "CSPGL 51",
-     "date": "2026-10-05",
+     "date": "2026-10-02",
      "mins": 80
     },
     {
@@ -10051,7 +10051,7 @@
     },
     {
      "lesson": "CMDGL 93",
-     "date": "2027-01-27",
+     "date": "2027-01-26",
      "mins": 90
     },
     {
@@ -10292,7 +10292,7 @@
     },
     {
      "lesson": "CDGL 35",
-     "date": "2026-08-11",
+     "date": "2026-08-10",
      "mins": 60
     },
     {
@@ -10317,7 +10317,7 @@
     },
     {
      "lesson": "CSPXV 40",
-     "date": "2026-08-28",
+     "date": "2026-08-27",
      "mins": 180
     },
     {
@@ -10372,7 +10372,7 @@
     },
     {
      "lesson": "CSPGL 51",
-     "date": "2026-10-05",
+     "date": "2026-10-02",
      "mins": 80
     },
     {
@@ -10582,7 +10582,7 @@
     },
     {
      "lesson": "CMDGL 93",
-     "date": "2027-01-27",
+     "date": "2027-01-26",
      "mins": 90
     },
     {
@@ -10853,7 +10853,7 @@
     },
     {
      "lesson": "CSPXV 40",
-     "date": "2026-08-28",
+     "date": "2026-08-27",
      "mins": 180
     },
     {
@@ -10903,7 +10903,7 @@
     },
     {
      "lesson": "CSNL 50",
-     "date": "2026-10-01",
+     "date": "2026-09-30",
      "mins": 60
     },
     {
@@ -11113,7 +11113,7 @@
     },
     {
      "lesson": "CMDIF(SIM) 92",
-     "date": "2027-01-26",
+     "date": "2027-01-25",
      "mins": 60
     },
     {
@@ -11353,12 +11353,12 @@
     },
     {
      "lesson": "CDGL 34",
-     "date": "2026-08-07",
+     "date": "2026-08-06",
      "mins": 60
     },
     {
      "lesson": "CDGL 35",
-     "date": "2026-08-11",
+     "date": "2026-08-10",
      "mins": 60
     },
     {
@@ -11643,7 +11643,7 @@
     },
     {
      "lesson": "CMDIF(SIM) 92",
-     "date": "2027-01-26",
+     "date": "2027-01-25",
      "mins": 60
     },
     {
@@ -11952,7 +11952,7 @@
     },
     {
      "lesson": "CSNL 49",
-     "date": "2026-09-29",
+     "date": "2026-09-28",
      "mins": 60
     },
     {
@@ -12167,7 +12167,7 @@
     },
     {
      "lesson": "CMDIF(SIM) 92",
-     "date": "2027-01-26",
+     "date": "2027-01-25",
      "mins": 60
     },
     {
@@ -12403,7 +12403,7 @@
     },
     {
      "lesson": "CDGL 34",
-     "date": "2026-08-07",
+     "date": "2026-08-06",
      "mins": 60
     },
     {
@@ -12448,7 +12448,7 @@
     },
     {
      "lesson": "CSPXV 43",
-     "date": "2026-09-11",
+     "date": "2026-09-10",
      "mins": 180
     },
     {
@@ -12658,37 +12658,37 @@
     },
     {
      "lesson": "CSPXI 85",
-     "date": "2027-01-07",
+     "date": "2027-01-06",
      "mins": 120
     },
     {
      "lesson": "CSPXI 86",
-     "date": "2027-01-11",
+     "date": "2027-01-08",
      "mins": 120
     },
     {
      "lesson": "CSPXI 87",
-     "date": "2027-01-13",
+     "date": "2027-01-12",
      "mins": 180
     },
     {
      "lesson": "CSPXI 88",
-     "date": "2027-01-15",
+     "date": "2027-01-14",
      "mins": 180
     },
     {
      "lesson": "CSPXI 89",
-     "date": "2027-01-19",
+     "date": "2027-01-18",
      "mins": 180
     },
     {
      "lesson": "CSPXIC 90",
-     "date": "2027-01-21",
+     "date": "2027-01-20",
      "mins": 180
     },
     {
      "lesson": "CMDIF(SIM) 91",
-     "date": "2027-01-25",
+     "date": "2027-01-22",
      "mins": 60
     },
     {
@@ -12953,7 +12953,7 @@
     },
     {
      "lesson": "CSPXV 39",
-     "date": "2026-08-26",
+     "date": "2026-08-25",
      "mins": 180
     },
     {
@@ -12973,7 +12973,7 @@
     },
     {
      "lesson": "CSPXV 43",
-     "date": "2026-09-11",
+     "date": "2026-09-10",
      "mins": 180
     },
     {
@@ -13183,37 +13183,37 @@
     },
     {
      "lesson": "CSPXI 85",
-     "date": "2027-01-07",
+     "date": "2027-01-06",
      "mins": 120
     },
     {
      "lesson": "CSPXI 86",
-     "date": "2027-01-11",
+     "date": "2027-01-08",
      "mins": 120
     },
     {
      "lesson": "CSPXI 87",
-     "date": "2027-01-13",
+     "date": "2027-01-12",
      "mins": 180
     },
     {
      "lesson": "CSPXI 88",
-     "date": "2027-01-15",
+     "date": "2027-01-14",
      "mins": 180
     },
     {
      "lesson": "CSPXI 89",
-     "date": "2027-01-19",
+     "date": "2027-01-18",
      "mins": 180
     },
     {
      "lesson": "CSPXIC 90",
-     "date": "2027-01-21",
+     "date": "2027-01-20",
      "mins": 180
     },
     {
      "lesson": "CMDIF(SIM) 91",
-     "date": "2027-01-25",
+     "date": "2027-01-22",
      "mins": 60
     },
     {
@@ -13560,7 +13560,7 @@
     },
     {
      "lesson": "CSPGL 52",
-     "date": "2026-10-07",
+     "date": "2026-10-06",
      "mins": 80
     },
     {
@@ -13725,37 +13725,37 @@
     },
     {
      "lesson": "CSPXI 85",
-     "date": "2027-01-07",
+     "date": "2027-01-06",
      "mins": 120
     },
     {
      "lesson": "CSPXI 86",
-     "date": "2027-01-11",
+     "date": "2027-01-08",
      "mins": 120
     },
     {
      "lesson": "CSPXI 87",
-     "date": "2027-01-13",
+     "date": "2027-01-12",
      "mins": 180
     },
     {
      "lesson": "CSPXI 88",
-     "date": "2027-01-15",
+     "date": "2027-01-14",
      "mins": 180
     },
     {
      "lesson": "CSPXI 89",
-     "date": "2027-01-19",
+     "date": "2027-01-18",
      "mins": 180
     },
     {
      "lesson": "CSPXIC 90",
-     "date": "2027-01-21",
+     "date": "2027-01-20",
      "mins": 180
     },
     {
      "lesson": "CMDIF(SIM) 91",
-     "date": "2027-01-25",
+     "date": "2027-01-22",
      "mins": 60
     },
     {
@@ -14027,7 +14027,7 @@
     },
     {
      "lesson": "CSPXV 39",
-     "date": "2026-08-26",
+     "date": "2026-08-25",
      "mins": 180
     },
     {
@@ -14042,7 +14042,7 @@
     },
     {
      "lesson": "CSPXV 42",
-     "date": "2026-09-07",
+     "date": "2026-09-04",
      "mins": 180
     },
     {
@@ -14092,7 +14092,7 @@
     },
     {
      "lesson": "CSPGL 52",
-     "date": "2026-10-07",
+     "date": "2026-10-06",
      "mins": 80
     },
     {
@@ -14252,7 +14252,7 @@
     },
     {
      "lesson": "CDGL 84",
-     "date": "2027-01-06",
+     "date": "2027-01-05",
      "mins": 90
     },
     {
@@ -14581,7 +14581,7 @@
     },
     {
      "lesson": "CSPXV 42",
-     "date": "2026-09-07",
+     "date": "2026-09-04",
      "mins": 180
     },
     {
@@ -14631,7 +14631,7 @@
     },
     {
      "lesson": "CSPGL 52",
-     "date": "2026-10-07",
+     "date": "2026-10-06",
      "mins": 80
     },
     {
@@ -14791,7 +14791,7 @@
     },
     {
      "lesson": "CDGL 84",
-     "date": "2027-01-06",
+     "date": "2027-01-05",
      "mins": 90
     },
     {

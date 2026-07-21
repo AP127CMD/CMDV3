@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-21T14:28:04.860Z",
+ "generatedAt": "2026-07-21T16:48:39.546Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-21T14:28:04.860Z",
-  "upstreamFetchedAt": "2026-07-21T14:26:14Z"
+  "fetchedAt": "2026-07-21T16:48:39.546Z",
+  "upstreamFetchedAt": "2026-07-21T16:46:08Z"
  },
  "flights": [
   {
@@ -100052,9 +100052,9 @@
    }
   },
   {
-   "id": "BK-AP-127-TAKO-8HMNK",
+   "id": "ACTUAL_ONLY_BK-AP-127-TAKO-8HMNK",
    "date": "2026-07-21",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "09:00",
@@ -100071,12 +100071,15 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVE",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "09:16",
+   "ldgTime": "10:35",
+   "airborneMin": 79,
+   "to": 3,
+   "ldg": 3,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-127-WATC-9O90A",
@@ -100607,9 +100610,9 @@
    }
   },
   {
-   "id": "BK-MRT0IPO5",
+   "id": "ACTUAL_ONLY_BK-MRT0IPO5",
    "date": "2026-07-21",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "12:30",
@@ -100626,12 +100629,15 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPR",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "12:35",
+   "ldgTime": "13:35",
+   "airborneMin": 60,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-MRT0P44R",

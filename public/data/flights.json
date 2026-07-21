@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-21T16:48:39.546Z",
+ "generatedAt": "2026-07-21T18:43:51.355Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-21T16:48:39.546Z",
-  "upstreamFetchedAt": "2026-07-21T16:46:08Z"
+  "fetchedAt": "2026-07-21T18:43:51.355Z",
+  "upstreamFetchedAt": "2026-07-21T18:40:57Z"
  },
  "flights": [
   {
@@ -100727,9 +100727,9 @@
    }
   },
   {
-   "id": "BK-MRU5JWZ2",
+   "id": "ACTUAL_ONLY_BK-MRU5JWZ2",
    "date": "2026-07-21",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "12:30",
@@ -100746,12 +100746,15 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVH",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "12:10",
+   "ldgTime": "12:55",
+   "airborneMin": 45,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-126-KANT-5B04D",
@@ -100773,33 +100776,6 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVH",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
-  },
-  {
-   "id": "BK-AP-126-NATT-EO03M",
-   "date": "2026-07-22",
-   "status": "Pending",
-   "isSim": false,
-   "isStandby": false,
-   "start": "11:00",
-   "end": "13:00",
-   "durMin": 120,
-   "student": "NATTARAT G.",
-   "studentKey": "NATTARAT G.",
-   "nick": null,
-   "instructor": "PHAHOLYUTH P.",
-   "batch": "AP-126",
-   "batchKey": "AP126",
-   "lesson": "CDXI 68",
-   "lessonNorm": "CDXI 68",
-   "cond": "IR/Nav",
-   "type": "DA40TDI",
-   "tail": "HS-TPW",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,
@@ -103214,8 +103190,8 @@
   {
    "tail": "HS-TPT",
    "acType": "DA40TDI",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPU",
@@ -103238,8 +103214,8 @@
   {
    "tail": "HS-TPX",
    "acType": "DA40TDI",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": true,
+   "maintReason": "Maintenance"
   },
   {
    "tail": "HS-TVA",
@@ -103256,8 +103232,8 @@
   {
    "tail": "HS-TVC",
    "acType": "DA40CS",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": true,
+   "maintReason": "Maintenance"
   },
   {
    "tail": "HS-TVD",

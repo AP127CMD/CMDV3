@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-22T03:51:45.874Z",
+ "generatedAt": "2026-07-22T06:45:33.183Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-22T03:51:45.874Z",
-  "upstreamFetchedAt": "2026-07-22T03:43:49Z"
+  "fetchedAt": "2026-07-22T06:45:33.183Z",
+  "upstreamFetchedAt": "2026-07-22T06:41:00Z"
  },
  "flights": [
   {
@@ -100757,9 +100757,9 @@
    }
   },
   {
-   "id": "BK-AP-126-KANT-5B04D",
+   "id": "ACTUAL_ONLY_BK-AP-126-KANT-5B04D",
    "date": "2026-07-22",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "09:00",
@@ -100776,12 +100776,15 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVH",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "09:16",
+   "ldgTime": "10:55",
+   "airborneMin": 99,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-126-PARA-X5NVL",
@@ -100811,9 +100814,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-PRAN-L9GCC",
+   "id": "ACTUAL_ONLY_BK-AP-126-PRAN-L9GCC",
    "date": "2026-07-22",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "09:00",
@@ -100830,12 +100833,15 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVA",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "09:25",
+   "ldgTime": "11:08",
+   "airborneMin": 103,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-126-PRIT-IN7SS",
@@ -100922,9 +100928,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-MARU-VMYNU",
+   "id": "ACTUAL_ONLY_BK-AP-126-MARU-VMYNU",
    "date": "2026-07-22",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -100941,12 +100947,15 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVD",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:30",
+   "ldgTime": "08:15",
+   "airborneMin": 105,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-126-RAKC-JMPL4",
@@ -101093,36 +101102,9 @@
    }
   },
   {
-   "id": "BK-AP-126-GRAV-Z783F",
+   "id": "ACTUAL_ONLY_BK-AP-126-PATT-N26YH",
    "date": "2026-07-22",
-   "status": "Pending",
-   "isSim": false,
-   "isStandby": false,
-   "start": "12:00",
-   "end": "14:00",
-   "durMin": 120,
-   "student": "GRAVITAT C.",
-   "studentKey": "GRAVITAT C.",
-   "nick": null,
-   "instructor": "SANTI SUK.",
-   "batch": "AP-126",
-   "batchKey": "AP126",
-   "lesson": "CDXI 71",
-   "lessonNorm": "CDXI 71",
-   "cond": "IR/Nav",
-   "type": "DA40CS",
-   "tail": "HS-TVG",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
-  },
-  {
-   "id": "BK-AP-126-PATT-N26YH",
-   "date": "2026-07-22",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "09:00",
@@ -101139,12 +101121,15 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVG",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "10:21",
+   "ldgTime": "11:17",
+   "airborneMin": 56,
+   "to": 1,
+   "ldg": 1,
+   "inst": 1,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-128-DOLS-7EH7A",
@@ -101339,9 +101324,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-127-BULA-ECXOX",
+   "id": "ACTUAL_ONLY_BK-AP-127-BULA-ECXOX",
    "date": "2026-07-22",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "09:30",
@@ -101358,12 +101343,15 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVD",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "09:50",
+   "ldgTime": "11:05",
+   "airborneMin": 75,
+   "to": 3,
+   "ldg": 3,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-127-JIRA-M961Z",
@@ -101615,9 +101603,9 @@
    "inst": null
   },
   {
-   "id": "BK-MRUFU1KZ",
+   "id": "ACTUAL_ONLY_BK-MRUFU1KZ",
    "date": "2026-07-22",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "09:00",
@@ -101634,12 +101622,15 @@
    "cond": null,
    "type": "DA42TDI",
    "tail": "HS-TPQ",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "09:25",
+   "ldgTime": "09:55",
+   "airborneMin": 30,
+   "to": 1,
+   "ldg": 1,
+   "inst": 1,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-MRUH1L55",
@@ -111827,6 +111818,17 @@
    "batch": "AP-127",
    "duration": "Full Day",
    "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "NUTTAWAT R.",
+   "start": "2026-07-26",
+   "end": "2026-07-26",
+   "reason": "Personal Leave",
+   "id": "Leave Record|key|22/07/2026 12:13:58",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "กลับบ้าน",
    "role": "Student"
   },
   {

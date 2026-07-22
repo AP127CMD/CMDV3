@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-22T12:08:02.300Z",
+ "generatedAt": "2026-07-22T14:29:21.728Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-22T12:08:02.300Z",
-  "upstreamFetchedAt": "2026-07-22T12:06:07Z"
+  "fetchedAt": "2026-07-22T14:29:21.728Z",
+  "upstreamFetchedAt": "2026-07-22T14:26:19Z"
  },
  "flights": [
   {
@@ -101324,9 +101324,9 @@
    }
   },
   {
-   "id": "BK-AP-126-THAN-WVW1Y",
+   "id": "ACTUAL_ONLY_BK-AP-126-THAN-WVW1Y",
    "date": "2026-07-22",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "13:40",
@@ -101343,17 +101343,20 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPW",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "13:53",
+   "ldgTime": "16:40",
+   "airborneMin": 167,
+   "to": 4,
+   "ldg": 4,
+   "inst": 3,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
-   "id": "BK-AP-126-NABH-PKCI5",
+   "id": "ACTUAL_ONLY_BK-AP-126-NABH-PKCI5",
    "date": "2026-07-22",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "14:00",
@@ -101370,12 +101373,15 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPV",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "14:50",
+   "ldgTime": "17:32",
+   "airborneMin": 162,
+   "to": 1,
+   "ldg": 1,
+   "inst": 1,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-FAM FI-PREE-W9Q51",
@@ -101696,9 +101702,9 @@
    }
   },
   {
-   "id": "BK-MRUH22CL",
+   "id": "ACTUAL_ONLY_BK-MRUH22CL",
    "date": "2026-07-22",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": true,
    "isStandby": false,
    "start": "09:40",
@@ -101715,12 +101721,15 @@
    "cond": "Sim R44",
    "type": "R44 (SIM)",
    "tail": "HS-TZQ (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "09:45",
+   "ldgTime": "10:40",
+   "airborneMin": 55,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-MRUH24QH",

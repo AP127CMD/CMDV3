@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-22T14:29:21.728Z",
+ "generatedAt": "2026-07-22T16:52:23.183Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-22T14:29:21.728Z",
-  "upstreamFetchedAt": "2026-07-22T14:26:19Z"
+  "fetchedAt": "2026-07-22T16:52:23.183Z",
+  "upstreamFetchedAt": "2026-07-22T16:51:06Z"
  },
  "flights": [
   {
@@ -101207,9 +101207,9 @@
    }
   },
   {
-   "id": "BK-AP-126-PAKO-27YT2",
+   "id": "ACTUAL_ONLY_BK-AP-126-PAKO-27YT2",
    "date": "2026-07-22",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "10:00",
@@ -101226,12 +101226,15 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPV",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "10:11",
+   "ldgTime": "12:54",
+   "airborneMin": 163,
+   "to": 1,
+   "ldg": 1,
+   "inst": 1,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-126-WATT-RWHHW",
@@ -101501,9 +101504,9 @@
    }
   },
   {
-   "id": "BK-MRUFHMCO",
+   "id": "ACTUAL_ONLY_BK-MRUFHMCO",
    "date": "2026-07-22",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "11:30",
@@ -101520,12 +101523,15 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVH",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "11:36",
+   "ldgTime": "12:40",
+   "airborneMin": 64,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-MRUFU1KZ",

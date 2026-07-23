@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-23T09:41:14.830Z",
+ "generatedAt": "2026-07-23T12:05:27.967Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-23T09:41:14.830Z",
-  "upstreamFetchedAt": "2026-07-23T09:35:26Z"
+  "fetchedAt": "2026-07-23T12:05:27.967Z",
+  "upstreamFetchedAt": "2026-07-23T12:01:28Z"
  },
  "flights": [
   {
@@ -102068,9 +102068,9 @@
    }
   },
   {
-   "id": "BK-AP-126-PORN-O1TLD",
+   "id": "ACTUAL_ONLY_BK-AP-126-PORN-O1TLD",
    "date": "2026-07-23",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "11:30",
@@ -102087,12 +102087,15 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPV",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "11:20",
+   "ldgTime": "13:10",
+   "airborneMin": 110,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-126-MARU-UVDJM",
@@ -103240,7 +103243,7 @@
    "student": "PREM P.",
    "studentKey": "PREM P.",
    "nick": null,
-   "instructor": "THAWATANAN P.",
+   "instructor": "PHAHOLYUTH P.",
    "batch": "AP-126",
    "batchKey": "AP126",
    "lesson": "CDXI 73",
@@ -103321,7 +103324,7 @@
    "student": "RAKCHON K.",
    "studentKey": "RAKCHON K.",
    "nick": null,
-   "instructor": "PHAHOLYUTH P.",
+   "instructor": "KOONPHOL U.",
    "batch": "AP-126",
    "batchKey": "AP126",
    "lesson": "CDXI 70",
@@ -112927,6 +112930,17 @@
    "role": "Student"
   },
   {
+   "name": "CHAMNONG S.",
+   "start": "2026-07-25",
+   "end": "2026-07-26",
+   "reason": "Personal Leave",
+   "id": "Leave Record|key|23/07/2026 16:52:42",
+   "batch": "N/A",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
    "name": "PANITHAN V.",
    "start": "2026-07-25",
    "end": "2026-07-27",
@@ -113004,6 +113018,17 @@
    "role": "Student"
   },
   {
+   "name": "SIWAKORN P.",
+   "start": "2026-07-26",
+   "end": "2026-07-26",
+   "reason": "Personal Leave",
+   "id": "Leave Record|key|23/07/2026 16:37:42",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
    "name": "SUBHAWICHAYA S.",
    "start": "2026-07-26",
    "end": "2026-07-27",
@@ -113011,6 +113036,17 @@
    "id": "Leave Record|key|23/07/2026 11:38:41",
    "batch": "AP-126",
    "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "WATCHARAPHOL V.",
+   "start": "2026-07-26",
+   "end": "2026-07-26",
+   "reason": "Personal Leave",
+   "id": "Leave Record|key|23/07/2026 16:42:32",
+   "batch": "AP-127",
+   "duration": "Half Day (AM)",
    "note": "",
    "role": "Student"
   },
@@ -113089,6 +113125,17 @@
    "batch": "AP-127",
    "duration": "Full Day",
    "note": "Personal Leave",
+   "role": "Student"
+  },
+  {
+   "name": "PRITASNA M.",
+   "start": "2026-07-27",
+   "end": "2026-07-27",
+   "reason": "Personal Leave",
+   "id": "Leave Record|key|23/07/2026 16:54:36",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
    "role": "Student"
   },
   {

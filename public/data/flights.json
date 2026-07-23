@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-22T22:28:08.466Z",
+ "generatedAt": "2026-07-23T00:16:11.025Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-22T22:28:08.466Z",
-  "upstreamFetchedAt": "2026-07-22T22:23:43Z"
+  "fetchedAt": "2026-07-23T00:16:11.025Z",
+  "upstreamFetchedAt": "2026-07-23T00:15:10Z"
  },
  "flights": [
   {
@@ -102462,33 +102462,6 @@
    "batchKey": "AP126",
    "lesson": "CDXI 71",
    "lessonNorm": "CDXI 71",
-   "cond": "IR/Nav",
-   "type": "DA40CS",
-   "tail": "HS-TVA",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
-  },
-  {
-   "id": "BK-AP-126-PATT-BD9ZC",
-   "date": "2026-07-23",
-   "status": "Pending",
-   "isSim": false,
-   "isStandby": false,
-   "start": "06:30",
-   "end": "09:30",
-   "durMin": 180,
-   "student": "PATTHARADEJ S.",
-   "studentKey": "PATTHARADEJ S.",
-   "nick": null,
-   "instructor": "THAWATANAN P.",
-   "batch": "AP-126",
-   "batchKey": "AP126",
-   "lesson": "CDXI 73",
-   "lessonNorm": "CDXI 73",
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVA",

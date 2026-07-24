@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-24T11:57:30.736Z",
+ "generatedAt": "2026-07-24T14:16:45.580Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-24T11:57:30.736Z",
-  "upstreamFetchedAt": "2026-07-24T11:55:06Z"
+  "fetchedAt": "2026-07-24T14:16:45.580Z",
+  "upstreamFetchedAt": "2026-07-24T14:16:03Z"
  },
  "flights": [
   {
@@ -103109,9 +103109,9 @@
    }
   },
   {
-   "id": "BK-MRX5J45I",
+   "id": "ACTUAL_ONLY_BK-MRX5J45I",
    "date": "2026-07-24",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "09:40",
@@ -103128,12 +103128,15 @@
    "cond": "Solo",
    "type": "R44",
    "tail": "HS-TZU",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "09:45",
+   "ldgTime": "10:40",
+   "airborneMin": 55,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-MRX5KTS6",

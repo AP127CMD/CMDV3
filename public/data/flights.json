@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-25T09:14:24.177Z",
+ "generatedAt": "2026-07-25T10:47:24.976Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-25T09:14:24.177Z",
-  "upstreamFetchedAt": "2026-07-25T09:10:50Z"
+  "fetchedAt": "2026-07-25T10:47:24.976Z",
+  "upstreamFetchedAt": "2026-07-25T10:44:55Z"
  },
  "flights": [
   {
@@ -104900,9 +104900,9 @@
    }
   },
   {
-   "id": "BK-MRZNL39Q",
+   "id": "ACTUAL_ONLY_BK-MRZNL39Q",
    "date": "2026-07-25",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "10:30",
@@ -104919,12 +104919,15 @@
    "cond": "Nav",
    "type": "DA40TDI",
    "tail": "HS-TPT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "10:18",
+   "ldgTime": "11:21",
+   "airborneMin": 63,
+   "to": 2,
+   "ldg": 2,
+   "inst": 1,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-MRYRA5BJ",

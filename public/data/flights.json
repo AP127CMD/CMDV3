@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-25T10:47:24.976Z",
+ "generatedAt": "2026-07-25T12:12:16.600Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-25T10:47:24.976Z",
-  "upstreamFetchedAt": "2026-07-25T10:44:55Z"
+  "fetchedAt": "2026-07-25T12:12:16.600Z",
+  "upstreamFetchedAt": "2026-07-25T12:08:53Z"
  },
  "flights": [
   {
@@ -104843,9 +104843,9 @@
    }
   },
   {
-   "id": "BK-MRYNGLZ3",
+   "id": "ACTUAL_ONLY_BK-MRYNGLZ3",
    "date": "2026-07-25",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -104862,12 +104862,15 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVA",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:36",
+   "ldgTime": "08:21",
+   "airborneMin": 105,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-MRYO0CPU",

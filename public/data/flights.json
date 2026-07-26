@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-26T04:01:52.485Z",
+ "generatedAt": "2026-07-26T07:10:50.400Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-26T04:01:52.485Z",
-  "upstreamFetchedAt": "2026-07-26T04:00:41Z"
+  "fetchedAt": "2026-07-26T07:10:50.400Z",
+  "upstreamFetchedAt": "2026-07-26T07:10:30Z"
  },
  "flights": [
   {
@@ -103679,33 +103679,6 @@
    }
   },
   {
-   "id": "BK-AP-127-TAKO-T2LNY",
-   "date": "2026-07-24",
-   "status": "Pending",
-   "isSim": false,
-   "isStandby": false,
-   "start": "12:00",
-   "end": "13:15",
-   "durMin": 75,
-   "student": "TAKORN C.",
-   "studentKey": "TAKORN C.",
-   "nick": "T-KORN",
-   "instructor": "PARINYA B.",
-   "batch": "AP-127",
-   "batchKey": "AP127",
-   "lesson": "CSGL 26",
-   "lessonNorm": "CSGL 26",
-   "cond": "Solo",
-   "type": "DA40CS",
-   "tail": "HS-TVC",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
-  },
-  {
    "id": "ACTUAL_ONLY_BK-AP-127-VASA-HD47Y",
    "date": "2026-07-24",
    "status": "Completed",
@@ -105227,9 +105200,9 @@
    }
   },
   {
-   "id": "BK-MRZLAW6I",
+   "id": "ACTUAL_ONLY_BK-MRZLAW6I",
    "date": "2026-07-26",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "09:10",
@@ -105246,12 +105219,15 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVG",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "08:55",
+   "ldgTime": "10:45",
+   "airborneMin": 110,
+   "to": 4,
+   "ldg": 4,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-MRZNSDRW",
@@ -105284,9 +105260,9 @@
    }
   },
   {
-   "id": "BK-MRZO7YTL",
+   "id": "ACTUAL_ONLY_BK-MRZO7YTL",
    "date": "2026-07-26",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "09:00",
@@ -105303,17 +105279,20 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "09:04",
+   "ldgTime": "10:45",
+   "airborneMin": 101,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
-   "id": "BK-MRZTN747",
+   "id": "ACTUAL_ONLY_BK-MRZTN747",
    "date": "2026-07-26",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:40",
@@ -105330,12 +105309,15 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:21",
+   "ldgTime": "08:08",
+   "airborneMin": 107,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-MRZLJ827",
@@ -105721,8 +105703,8 @@
    "status": "Pending",
    "isSim": false,
    "isStandby": false,
-   "start": "10:00",
-   "end": "11:00",
+   "start": "12:30",
+   "end": "13:30",
    "durMin": 60,
    "student": "WATCHARAPOL A.",
    "studentKey": "WATCHARAPOL A.",
@@ -105734,7 +105716,7 @@
    "lessonNorm": "CDGL 35",
    "cond": null,
    "type": "DA40TDI",
-   "tail": "HS-TPO",
+   "tail": "HS-TPX",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,
@@ -106067,25 +106049,52 @@
    "inst": null
   },
   {
-   "id": "BK-MS19IQ58",
+   "id": "BK-MS1CBUF6",
    "date": "2026-07-27",
    "status": "Pending",
    "isSim": false,
    "isStandby": false,
-   "start": "06:30",
-   "end": "07:45",
-   "durMin": 75,
-   "student": "AKARAVIT K.",
-   "studentKey": "AKARAVIT K.",
-   "nick": "A-VIT",
+   "start": "10:30",
+   "end": "12:00",
+   "durMin": 90,
+   "student": null,
+   "studentKey": null,
+   "nick": null,
    "instructor": "WUTTHICHAI L.",
-   "batch": "AP-127",
-   "batchKey": "AP127",
-   "lesson": "CSPGL 37",
-   "lessonNorm": "CSPGL 37",
-   "cond": "Nav",
-   "type": "DA40TDI",
-   "tail": "HS-TPX",
+   "batch": "",
+   "batchKey": null,
+   "lesson": "Meeting",
+   "lessonNorm": "MEETING",
+   "cond": null,
+   "type": null,
+   "tail": null,
+   "tkoff": null,
+   "ldgTime": null,
+   "airborneMin": null,
+   "to": null,
+   "ldg": null,
+   "inst": null
+  },
+  {
+   "id": "BK-MS1F596C",
+   "date": "2026-07-27",
+   "status": "Pending",
+   "isSim": false,
+   "isStandby": false,
+   "start": "11:00",
+   "end": "12:15",
+   "durMin": 75,
+   "student": "NATTHAWARA L.",
+   "studentKey": "NATTHAWARA L.",
+   "nick": null,
+   "instructor": "CHAROENCHAI U.",
+   "batch": "AP-129",
+   "batchKey": "AP129",
+   "lesson": "CDGL 09",
+   "lessonNorm": "CDGL 09",
+   "cond": null,
+   "type": "DA40CS",
+   "tail": "HS-TVG",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,
@@ -115265,6 +115274,17 @@
    "role": "Student"
   },
   {
+   "name": "CHAROENCHAI U.",
+   "start": "2026-07-31",
+   "end": "2026-07-31",
+   "reason": "Personal Leave",
+   "id": "Leave Record|key|26/07/2026 11:51:10",
+   "batch": "N/A",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
    "name": "JIRAYU A.",
    "start": "2026-07-31",
    "end": "2026-07-31",
@@ -115353,6 +115373,28 @@
    "role": "Student"
   },
   {
+   "name": "PATCHARANAN D.",
+   "start": "2026-07-31",
+   "end": "2026-07-31",
+   "reason": "Personal Leave",
+   "id": "Leave Record|key|26/07/2026 11:58:08",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PHAHOLYUTH P.",
+   "start": "2026-07-31",
+   "end": "2026-07-31",
+   "reason": "Personal Leave",
+   "id": "Leave Record|key|26/07/2026 11:51:26",
+   "batch": "N/A",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
    "name": "PORNSKUL D.",
    "start": "2026-07-31",
    "end": "2026-07-31",
@@ -115403,6 +115445,17 @@
    "reason": "Personal Leave",
    "id": "Leave Record|key|05/05/2026 15:44:08",
    "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "KRIT L.",
+   "start": "2026-08-01",
+   "end": "2026-08-03",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|key|26/07/2026 12:24:42",
+   "batch": "AP-127",
    "duration": "Full Day",
    "note": "",
    "role": "Student"

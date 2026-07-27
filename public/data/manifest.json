@@ -1,20 +1,20 @@
 {
  "schemaVersion": 1,
  "pipelineVersion": "3.0.0",
- "generatedAt": "2026-07-27T20:47:06.357Z",
+ "generatedAt": "2026-07-27T22:30:00.842Z",
  "sources": {
   "flights": {
    "sourceUrl": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-   "fetchedAt": "2026-07-27T20:47:06.357Z",
-   "upstreamFetchedAt": "2026-07-27T20:42:35Z",
-   "contentHash": "sha256:7fb7221262094ed4c3ba23f298cd13145ac7607dd6f95483184f885cd4795bbf",
-   "lastChangedAt": "2026-07-27T20:47:06.357Z",
+   "fetchedAt": "2026-07-27T22:30:00.842Z",
+   "upstreamFetchedAt": "2026-07-27T22:23:58Z",
+   "contentHash": "sha256:41d340236baf6f89791c9a302cfad8076f485bf0540748f073fb94ee39aa3515",
+   "lastChangedAt": "2026-07-27T22:30:00.842Z",
    "records": {
-    "flights": 4653,
+    "flights": 4650,
     "instructors": 27,
     "resources": 31,
     "leaves": 841,
-    "flightsAfterDedup": 3595
+    "flightsAfterDedup": 3592
    },
    "validation": {
     "errors": [],
@@ -51,17 +51,17 @@
     "nickBridged": 3
    },
    "diff": {
-    "added": 3,
-    "removed": 32,
+    "added": 0,
+    "removed": 3,
     "changed": 0
    }
   },
   "progress": {
    "sourceUrl": "https://ap127-data-api.anusorn-tanmetha.workers.dev",
-   "fetchedAt": "2026-07-27T20:47:06.357Z",
-   "upstreamFetchedAt": "2026-07-27T20:46:21.386Z",
+   "fetchedAt": "2026-07-27T22:30:00.842Z",
+   "upstreamFetchedAt": "2026-07-27T22:26:18.485Z",
    "contentHash": "sha256:8fa52008e5eabf6611b7076bfe90c5e72ea39aa8d8f2ddf41bf92e6e1da736be",
-   "lastChangedAt": "2026-07-27T20:47:06.357Z",
+   "lastChangedAt": "2026-07-27T22:30:00.842Z",
    "records": {
     "students": 28,
     "curriculum": 96
@@ -78,10 +78,10 @@
   },
   "ngt": {
    "sourceUrl": "https://ap127-db001.pages.dev/cache.json",
-   "fetchedAt": "2026-07-27T20:47:06.357Z",
-   "upstreamFetchedAt": "2026-07-27T20:46:21.386Z",
+   "fetchedAt": "2026-07-27T22:30:00.842Z",
+   "upstreamFetchedAt": "2026-07-27T22:26:18.485Z",
    "contentHash": "sha256:cf0ceff007473d8e9f2a90f95ac4c0b81511f06870e5d7270f10d8f23b4d8475",
-   "lastChangedAt": "2026-07-27T20:47:06.357Z",
+   "lastChangedAt": "2026-07-27T22:30:00.842Z",
    "records": {
     "ap124": 9,
     "ap126": 28,

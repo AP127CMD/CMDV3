@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-28T09:59:06.731Z",
+ "generatedAt": "2026-07-28T12:16:33.825Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-28T09:59:06.731Z",
-  "upstreamFetchedAt": "2026-07-28T09:50:09Z"
+  "fetchedAt": "2026-07-28T12:16:33.825Z",
+  "upstreamFetchedAt": "2026-07-28T12:12:36Z"
  },
  "flights": [
   {
@@ -116930,6 +116930,28 @@
    "duration": "Full Day",
    "note": "",
    "role": "Student"
+  },
+  {
+   "name": "CHAMNONG S.",
+   "start": "2026-08-01",
+   "end": "2026-08-02",
+   "reason": "Other",
+   "id": "Leave Record|key|28/07/2026 17:29:31",
+   "batch": "N/A",
+   "duration": "Full Day",
+   "note": "Church\n",
+   "role": "Instructor"
+  },
+  {
+   "name": "CHAMNONG S.",
+   "start": "2026-08-01",
+   "end": "2026-08-02",
+   "reason": "Other",
+   "id": "Leave Record|key|28/07/2026 17:27:34",
+   "batch": "N/A",
+   "duration": "Full Day",
+   "note": "Church\n",
+   "role": "Instructor"
   },
   {
    "name": "KRIT L.",

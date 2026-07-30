@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-30T12:07:50.707Z",
+ "generatedAt": "2026-07-30T14:37:18.316Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-30T12:07:50.707Z",
-  "upstreamFetchedAt": "2026-07-30T12:01:15Z"
+  "fetchedAt": "2026-07-30T14:37:18.316Z",
+  "upstreamFetchedAt": "2026-07-30T14:37:00Z"
  },
  "flights": [
   {
@@ -106997,7 +106997,7 @@
    "lessonNorm": "CDXI 74",
    "cond": "IR/Nav",
    "type": "DA40TDI",
-   "tail": "HS-TPW",
+   "tail": "HS-TPT",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,
@@ -107023,8 +107023,8 @@
    "lesson": "CDXI 74",
    "lessonNorm": "CDXI 74",
    "cond": "IR/Nav",
-   "type": "DA40CS",
-   "tail": "HS-TVH",
+   "type": "DA40TDI",
+   "tail": "HS-TPT",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,
@@ -107240,7 +107240,7 @@
    "lessonNorm": "CDXI 77",
    "cond": "IR/Nav",
    "type": "DA40TDI",
-   "tail": "HS-TPT",
+   "tail": "HS-TPR",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,
@@ -107348,7 +107348,7 @@
    "lessonNorm": "LESSON 4 CHK (B)",
    "cond": null,
    "type": "DA40TDI",
-   "tail": "HS-TPW",
+   "tail": "HS-TPR",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,
@@ -116856,6 +116856,17 @@
    "role": "Instructor"
   },
   {
+   "name": "TEERAWAJ C.",
+   "start": "2026-07-31",
+   "end": "2026-08-02",
+   "reason": "Personal Leave",
+   "id": "Leave Record|key|30/07/2026 19:00:34",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
    "name": "WATTIKORN K.",
    "start": "2026-07-31",
    "end": "2026-07-31",
@@ -116994,6 +117005,28 @@
    "reason": "Personal Leave",
    "id": "Leave Record|key|16/07/2026 15:03:34",
    "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "WATTIKORN K.",
+   "start": "2026-08-08",
+   "end": "2026-08-08",
+   "reason": "Personal Leave",
+   "id": "Leave Record|key|30/07/2026 19:18:47",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "ไปงานแต่ง",
+   "role": "Student"
+  },
+  {
+   "name": "TEERAWAJ C.",
+   "start": "2026-08-14",
+   "end": "2026-08-16",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|key|30/07/2026 19:01:12",
+   "batch": "AP-127",
    "duration": "Full Day",
    "note": "",
    "role": "Student"

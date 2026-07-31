@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-31T14:41:16.195Z",
+ "generatedAt": "2026-07-31T16:59:22.811Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-31T14:41:16.195Z",
-  "upstreamFetchedAt": "2026-07-31T14:33:10Z"
+  "fetchedAt": "2026-07-31T16:59:22.811Z",
+  "upstreamFetchedAt": "2026-07-31T16:48:57Z"
  },
  "flights": [
   {
@@ -6711,8 +6711,8 @@
    "durMin": 60,
    "student": "T-WAJ",
    "studentRaw": "T-WAJ (Unplanned)",
-   "studentKey": "T-WAJ",
-   "nick": null,
+   "studentKey": "TEERAWAJ C.",
+   "nick": "T-WAJ",
    "instructor": "SOWAN C.",
    "batch": "AP-127",
    "batchKey": "AP127",
@@ -107671,8 +107671,8 @@
    "instructor": "APIRATKUNPAK K.",
    "batch": "AP-126",
    "batchKey": "AP126",
-   "lesson": "CDXI 73",
-   "lessonNorm": "CDXI 73",
+   "lesson": "CDXI 74",
+   "lessonNorm": "CDXI 74",
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPX",

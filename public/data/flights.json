@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-31T12:21:22.984Z",
+ "generatedAt": "2026-07-31T14:41:16.195Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-31T12:21:22.984Z",
-  "upstreamFetchedAt": "2026-07-31T12:12:41Z"
+  "fetchedAt": "2026-07-31T14:41:16.195Z",
+  "upstreamFetchedAt": "2026-07-31T14:33:10Z"
  },
  "flights": [
   {
@@ -6711,8 +6711,8 @@
    "durMin": 60,
    "student": "T-WAJ",
    "studentRaw": "T-WAJ (Unplanned)",
-   "studentKey": "TEERAWAJ C.",
-   "nick": "T-WAJ",
+   "studentKey": "T-WAJ",
+   "nick": null,
    "instructor": "SOWAN C.",
    "batch": "AP-127",
    "batchKey": "AP127",
@@ -107486,9 +107486,9 @@
    }
   },
   {
-   "id": "BK-AP-126-CHAN-S9BPO",
+   "id": "ACTUAL_ONLY_BK-AP-126-CHAN-S9BPO",
    "date": "2026-07-31",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "13:30",
@@ -107505,12 +107505,15 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVD",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "13:50",
+   "ldgTime": "16:35",
+   "airborneMin": 165,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_MANUAL-HP-57-THIP-2JBX8",
@@ -107830,8 +107833,8 @@
    "instructor": "PREECHA K.",
    "batch": "AP-127",
    "batchKey": "AP127",
-   "lesson": "CSPXV 39",
-   "lessonNorm": "CSPXV 39",
+   "lesson": "CSPXV 40",
+   "lessonNorm": "CSPXV 40",
    "cond": "Nav",
    "type": "DA40TDI",
    "tail": "HS-TPT",

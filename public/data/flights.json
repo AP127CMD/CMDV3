@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-01T11:36:32.959Z",
+ "generatedAt": "2026-08-01T14:02:20.026Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-01T11:36:32.959Z",
-  "upstreamFetchedAt": "2026-08-01T11:30:09Z"
+  "fetchedAt": "2026-08-01T14:02:20.026Z",
+  "upstreamFetchedAt": "2026-08-01T14:02:00Z"
  },
  "flights": [
   {
@@ -108580,8 +108580,8 @@
    "instructor": "WISANU T.",
    "batch": "AP-126",
    "batchKey": "AP126",
-   "lesson": "CDXI 73",
-   "lessonNorm": "CDXI 73",
+   "lesson": "CDXI 76",
+   "lessonNorm": "CDXI 76",
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPT",
@@ -108634,8 +108634,8 @@
    "instructor": "SANTI PO.",
    "batch": "AP-126",
    "batchKey": "AP126",
-   "lesson": "CDXI 74",
-   "lessonNorm": "CDXI 74",
+   "lesson": "CDXI 75",
+   "lessonNorm": "CDXI 75",
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVH",
@@ -109087,14 +109087,14 @@
    "start": "10:00",
    "end": "13:00",
    "durMin": 180,
-   "student": "SIWAT C.",
-   "studentKey": "SIWAT C.",
+   "student": "CHANOL T.",
+   "studentKey": "CHANOL T.",
    "nick": null,
    "instructor": "SOWAN C.",
    "batch": "AP-126",
    "batchKey": "AP126",
-   "lesson": "CDXI 76",
-   "lessonNorm": "CDXI 76",
+   "lesson": "CDXI 77",
+   "lessonNorm": "CDXI 77",
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVE",
@@ -109405,112 +109405,139 @@
  ],
  "instructors": [
   {
-   "name": "APIRATKUNPAK K.",
-   "type": null
-  },
-  {
-   "name": "ATHINAT H.",
-   "type": null
-  },
-  {
-   "name": "ATIDTAN P.",
-   "type": null
-  },
-  {
-   "name": "CHAMNONG S.",
-   "type": null
-  },
-  {
    "name": "CHAROENCHAI U.",
-   "type": null
-  },
-  {
-   "name": "CHAWIN K.",
-   "type": null
+   "isPartTime": false,
+   "type": "Flight Instructor"
   },
   {
    "name": "EKKAPHOP R.",
-   "type": null
+   "isPartTime": false,
+   "type": "Flight Instructor"
   },
   {
    "name": "ITTIPOL P.",
-   "type": null
-  },
-  {
-   "name": "JIRAT R.",
-   "type": null
-  },
-  {
-   "name": "KAMONVICH O.",
-   "type": null
+   "isPartTime": false,
+   "type": "Flight Instructor"
   },
   {
    "name": "KITTICHAI C.",
-   "type": null
+   "isPartTime": false,
+   "type": "Flight Instructor"
   },
   {
    "name": "KOONPHOL U.",
-   "type": null
+   "isPartTime": false,
+   "type": "Flight Instructor"
   },
   {
    "name": "NAPATTORN S.",
-   "type": null
+   "isPartTime": false,
+   "type": "Flight Instructor"
   },
   {
    "name": "PARINYA B.",
-   "type": null
+   "isPartTime": false,
+   "type": "Flight Instructor"
   },
   {
    "name": "PHAHOLYUTH P.",
-   "type": null
-  },
-  {
-   "name": "PORNSAK P.",
-   "type": null
-  },
-  {
-   "name": "PORNTEP B.",
-   "type": null
-  },
-  {
-   "name": "PREECHA K.",
-   "type": null
+   "isPartTime": false,
+   "type": "Flight Instructor"
   },
   {
    "name": "SANTI PO.",
-   "type": null
+   "isPartTime": false,
+   "type": "Flight Instructor"
   },
   {
    "name": "SANTI SUK.",
-   "type": null
-  },
-  {
-   "name": "SORRAWUT P.",
-   "type": null
+   "isPartTime": false,
+   "type": "Flight Instructor"
   },
   {
    "name": "SOWAN C.",
-   "type": null
-  },
-  {
-   "name": "TANAKRIT V.",
-   "type": null
+   "isPartTime": false,
+   "type": "Flight Instructor"
   },
   {
    "name": "THAWATANAN P.",
-   "type": null
-  },
-  {
-   "name": "VASSAPON K.",
-   "type": null
+   "isPartTime": false,
+   "type": "Flight Instructor"
   },
   {
    "name": "WISANU T.",
-   "type": null
+   "isPartTime": false,
+   "type": "Flight Instructor"
   },
   {
    "name": "WUTTHICHAI L.",
-   "type": null
+   "isPartTime": false,
+   "type": "Flight Instructor"
+  },
+  {
+   "name": "ATHINAT H.",
+   "isPartTime": false,
+   "type": "Simulator Instructor"
+  },
+  {
+   "name": "CHAWIN K.",
+   "isPartTime": false,
+   "type": "Simulator Instructor"
+  },
+  {
+   "name": "JIRAT R.",
+   "isPartTime": false,
+   "type": "Simulator Instructor"
+  },
+  {
+   "name": "KAMONVICH O.",
+   "isPartTime": false,
+   "type": "Flight Instructor"
+  },
+  {
+   "name": "PORNSAK P.",
+   "isPartTime": false,
+   "type": "Flight Instructor"
+  },
+  {
+   "name": "SORRAWUT P.",
+   "isPartTime": false,
+   "type": "Flight Instructor"
+  },
+  {
+   "name": "PORNTEP B.",
+   "isPartTime": false,
+   "type": "Flight Instructor"
+  },
+  {
+   "name": "ATIDTAN P.",
+   "isPartTime": false,
+   "type": "Simulator Instructor"
+  },
+  {
+   "name": "PREECHA K.",
+   "isPartTime": true,
+   "type": "Flight Instructor"
+  },
+  {
+   "name": "APIRATKUNPAK K.",
+   "isPartTime": true,
+   "type": "Flight Instructor"
+  },
+  {
+   "name": "CHAMNONG S.",
+   "isPartTime": true,
+   "type": "Flight Instructor"
+  },
+  {
+   "name": "TANAKRIT V.",
+   "isPartTime": true,
+   "type": "Flight Instructor"
+  },
+  {
+   "name": "VASSAPON K.",
+   "isPartTime": true,
+   "type": "Flight Instructor"
   }
  ],
  "resources": [

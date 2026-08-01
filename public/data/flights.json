@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-07-31T23:26:10.437Z",
+ "generatedAt": "2026-08-01T03:55:36.227Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-07-31T23:26:10.437Z",
-  "upstreamFetchedAt": "2026-07-31T23:25:02Z"
+  "fetchedAt": "2026-08-01T03:55:36.227Z",
+  "upstreamFetchedAt": "2026-08-01T03:54:42Z"
  },
  "flights": [
   {
@@ -107576,9 +107576,9 @@
    }
   },
   {
-   "id": "BK-PPL-41-PARO-ML6I9",
+   "id": "ACTUAL_ONLY_BK-PPL-41-PARO-ML6I9",
    "date": "2026-08-01",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "08:30",
@@ -107595,17 +107595,20 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVC",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "08:58",
+   "ldgTime": "09:43",
+   "airborneMin": 45,
+   "to": 3,
+   "ldg": 3,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
-   "id": "BK-AP-126-PATC-FUFVT",
+   "id": "ACTUAL_ONLY_BK-AP-126-PATC-FUFVT",
    "date": "2026-08-01",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -107622,12 +107625,15 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPX",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "07:05",
+   "ldgTime": "08:42",
+   "airborneMin": 97,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-126-SARA-OT3NN",
@@ -107765,9 +107771,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-127-PICH-J758V",
+   "id": "ACTUAL_ONLY_BK-AP-127-PICH-J758V",
    "date": "2026-08-01",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -107784,17 +107790,20 @@
    "cond": "Solo",
    "type": "DA40CS",
    "tail": "HS-TVH",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:50",
+   "ldgTime": "07:55",
+   "airborneMin": 65,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
-   "id": "BK-AP-127-PANI-4017J",
+   "id": "ACTUAL_ONLY_BK-AP-127-PANI-4017J",
    "date": "2026-08-01",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -107811,12 +107820,15 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPV",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:59",
+   "ldgTime": "08:08",
+   "airborneMin": 69,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-127-KHOB-KAYJ3",
@@ -107873,9 +107885,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-129-MATH-LAQVJ",
+   "id": "ACTUAL_ONLY_BK-AP-129-MATH-LAQVJ",
    "date": "2026-08-01",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -107892,17 +107904,20 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPO",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:52",
+   "ldgTime": "07:52",
+   "airborneMin": 60,
+   "to": 3,
+   "ldg": 3,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
-   "id": "BK-MS86VL0I",
+   "id": "ACTUAL_ONLY_BK-MS86VL0I",
    "date": "2026-08-01",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -107919,17 +107934,20 @@
    "cond": "Solo",
    "type": "DA40CS",
    "tail": "HS-TVG",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:40",
+   "ldgTime": "07:45",
+   "airborneMin": 65,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
-   "id": "BK-MS89A9BH",
+   "id": "ACTUAL_ONLY_BK-MS89A9BH",
    "date": "2026-08-01",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "07:00",
@@ -107946,12 +107964,15 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPW",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "07:00",
+   "ldgTime": "09:50",
+   "airborneMin": 170,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-MS89J3XD",
@@ -118049,6 +118070,17 @@
    "batch": "AP-128",
    "duration": "Full Day",
    "note": "Exam, 24 Aug",
+   "role": "Student"
+  },
+  {
+   "name": "PICHAKORN J.",
+   "start": "2026-09-05",
+   "end": "2026-09-06",
+   "reason": "Personal Leave",
+   "id": "Leave Record|key|01/08/2026 10:31:10",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "Attending a wedding in Bangkok",
    "role": "Student"
   },
   {

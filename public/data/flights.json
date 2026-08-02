@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-02T07:03:35.615Z",
+ "generatedAt": "2026-08-02T09:25:16.266Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-02T07:03:35.615Z",
-  "upstreamFetchedAt": "2026-08-02T07:02:01Z"
+  "fetchedAt": "2026-08-02T09:25:16.266Z",
+  "upstreamFetchedAt": "2026-08-02T09:21:17Z"
  },
  "flights": [
   {
@@ -108110,9 +108110,9 @@
    }
   },
   {
-   "id": "BK-AP-126-MARU-2CTV9",
+   "id": "ACTUAL_ONLY_BK-AP-126-MARU-2CTV9",
    "date": "2026-08-02",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "08:00",
@@ -108129,12 +108129,15 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVH",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "08:00",
+   "ldgTime": "10:45",
+   "airborneMin": 165,
+   "to": 2,
+   "ldg": 2,
+   "inst": 4,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-126-PRAN-1ZJNR",
@@ -108532,8 +108535,8 @@
    "instructor": "SANTI SUK.",
    "batch": "AP-126",
    "batchKey": "AP126",
-   "lesson": "CDXI 73",
-   "lessonNorm": "CDXI 73",
+   "lesson": "CDXI 74",
+   "lessonNorm": "CDXI 74",
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVG",
@@ -108610,7 +108613,7 @@
    "student": "NATTARAT G.",
    "studentKey": "NATTARAT G.",
    "nick": null,
-   "instructor": "WISANU T.",
+   "instructor": "CHAMNONG S.",
    "batch": "AP-126",
    "batchKey": "AP126",
    "lesson": "CDXI 76",
@@ -108799,7 +108802,7 @@
    "student": "RANGSIMAN S.",
    "studentKey": "RANGSIMAN S.",
    "nick": null,
-   "instructor": "PREECHA K.",
+   "instructor": "WISANU T.",
    "batch": "AP-126",
    "batchKey": "AP126",
    "lesson": "CDXI 75",
@@ -108880,7 +108883,7 @@
    "student": "PREM P.",
    "studentKey": "PREM P.",
    "nick": null,
-   "instructor": "KITTICHAI C.",
+   "instructor": "PHAHOLYUTH P.",
    "batch": "AP-126",
    "batchKey": "AP126",
    "lesson": "CDXI 76",
@@ -108934,7 +108937,7 @@
    "student": "NAPATH T.",
    "studentKey": "NAPATH T.",
    "nick": null,
-   "instructor": "CHAMNONG S.",
+   "instructor": "PREECHA K.",
    "batch": "AP-126",
    "batchKey": "AP126",
    "lesson": "CDXI 78",

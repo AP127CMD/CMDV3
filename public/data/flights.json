@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-02T09:25:16.266Z",
+ "generatedAt": "2026-08-02T10:55:33.199Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-02T09:25:16.266Z",
-  "upstreamFetchedAt": "2026-08-02T09:21:17Z"
+  "fetchedAt": "2026-08-02T10:55:33.199Z",
+  "upstreamFetchedAt": "2026-08-02T10:48:12Z"
  },
  "flights": [
   {
@@ -109021,8 +109021,8 @@
    "instructor": "EKKAPHOP R.",
    "batch": "AP-126",
    "batchKey": "AP126",
-   "lesson": "CDXI 77",
-   "lessonNorm": "CDXI 77",
+   "lesson": "CDXI 80",
+   "lessonNorm": "CDXI 80",
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPW",

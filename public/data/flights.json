@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-03T11:49:11.242Z",
+ "generatedAt": "2026-08-03T15:21:20.274Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-03T11:49:11.242Z",
-  "upstreamFetchedAt": "2026-08-03T11:42:00Z"
+  "fetchedAt": "2026-08-03T15:21:20.274Z",
+  "upstreamFetchedAt": "2026-08-03T15:14:15Z"
  },
  "flights": [
   {
@@ -108821,9 +108821,9 @@
    }
   },
   {
-   "id": "BK-AP-126-RANG-VQLP2",
+   "id": "ACTUAL_ONLY_BK-AP-126-RANG-VQLP2",
    "date": "2026-08-03",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -108840,12 +108840,15 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPV",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:31",
+   "ldgTime": "09:24",
+   "airborneMin": 173,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-126-RAKC-MQXV4",
@@ -108998,9 +109001,9 @@
    }
   },
   {
-   "id": "BK-AP-126-PAKO-BVJ5C",
+   "id": "ACTUAL_ONLY_BK-AP-126-PAKO-BVJ5C",
    "date": "2026-08-03",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "13:30",
@@ -109017,12 +109020,15 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVE",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "13:54",
+   "ldgTime": "16:44",
+   "airborneMin": 170,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-126-WATT-INIOZ",
@@ -109457,9 +109463,9 @@
    }
   },
   {
-   "id": "BK-MSB6617H",
+   "id": "ACTUAL_ONLY_BK-MSB6617H",
    "date": "2026-08-03",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "10:00",
@@ -109476,12 +109482,15 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "10:20",
+   "ldgTime": "12:45",
+   "airborneMin": 145,
+   "to": 1,
+   "ldg": 1,
+   "inst": 1,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-MSB665GF",
@@ -109845,6 +109854,36 @@
    "tkoff": "11:05",
    "ldgTime": "12:00",
    "airborneMin": 55,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
+  },
+  {
+   "id": "ACTUAL_ONLY_MANUAL-AP-127-TAKO-ZYVFH",
+   "date": "2026-08-03",
+   "status": "Completed",
+   "isSim": false,
+   "isStandby": false,
+   "start": "16:30",
+   "end": "17:45",
+   "durMin": 75,
+   "student": "TAKORN C.",
+   "studentKey": "TAKORN C.",
+   "nick": "T-KORN",
+   "instructor": "PARINYA B.",
+   "batch": "AP-127",
+   "batchKey": "AP127",
+   "lesson": "CSGL 26",
+   "lessonNorm": "CSGL 26",
+   "cond": null,
+   "type": "DA40CS",
+   "tail": "HS-TVH",
+   "tkoff": "16:40",
+   "ldgTime": "17:40",
+   "airborneMin": 60,
    "to": 1,
    "ldg": 1,
    "inst": 0,
@@ -110802,190 +110841,139 @@
  ],
  "resources": [
   {
-   "tail": "HS-TCB",
-   "acType": "DA42TDI",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "tail": "HS - TPX",
+   "acType": "Solo",
+   "isMaint": true
   },
   {
    "tail": "HS-TCP",
    "acType": "DA42TDI",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": false
   },
   {
    "tail": "HS-TCP (SIM)",
    "acType": "DA42 (SIM)",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": true
   },
   {
    "tail": "HS-TPF",
    "acType": "C172",
-   "isMaint": false,
-   "maintReason": null
-  },
-  {
-   "tail": "HS-TPG",
-   "acType": "C172",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false
   },
   {
    "tail": "HS-TPH",
    "acType": "C172",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": false
   },
   {
    "tail": "HS-TPL",
    "acType": "DA42TDI",
-   "isMaint": false,
-   "maintReason": null
-  },
-  {
-   "tail": "HS-TPM",
-   "acType": "DA42TDI",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false
   },
   {
    "tail": "HS-TPN (SIM)",
-   "acType": "DA40 (SIM)",
-   "isMaint": false,
-   "maintReason": null
+   "acType": "DA40_SIM",
+   "isMaint": false
   },
   {
    "tail": "HS-TPO",
    "acType": "DA40TDI",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false
   },
   {
    "tail": "HS-TPO (SIM)",
-   "acType": "DA40 (SIM)",
-   "isMaint": false,
-   "maintReason": null
+   "acType": "DA40_SIM",
+   "isMaint": false
   },
   {
    "tail": "HS-TPQ",
    "acType": "DA42TDI",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": false
   },
   {
    "tail": "HS-TPR",
    "acType": "DA40TDI",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": false
   },
   {
    "tail": "HS-TPT",
    "acType": "DA40TDI",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": false
   },
   {
    "tail": "HS-TPU",
    "acType": "DA40TDI",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": true
   },
   {
    "tail": "HS-TPV",
    "acType": "DA40TDI",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": false
   },
   {
    "tail": "HS-TPW",
    "acType": "DA40TDI",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": false
   },
   {
    "tail": "HS-TPX",
    "acType": "DA40TDI",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": false
   },
   {
    "tail": "HS-TVA",
    "acType": "DA40CS",
-   "isMaint": true,
-   "maintReason": "Maintenance"
-  },
-  {
-   "tail": "HS-TVB",
-   "acType": "DA40CS",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false
   },
   {
    "tail": "HS-TVC",
    "acType": "DA40CS",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": false
   },
   {
    "tail": "HS-TVD",
    "acType": "DA40CS",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": false
   },
   {
    "tail": "HS-TVE",
    "acType": "DA40CS",
-   "isMaint": false,
-   "maintReason": null
-  },
-  {
-   "tail": "HS-TVF",
-   "acType": "DA42NG",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false
   },
   {
    "tail": "HS-TVG",
    "acType": "DA40CS",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": false
   },
   {
    "tail": "HS-TVH",
    "acType": "DA40CS",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": false
   },
   {
    "tail": "HS-TZQ (SIM)",
-   "acType": "R44 (SIM)",
-   "isMaint": false,
-   "maintReason": null
+   "acType": "R44_SIM",
+   "isMaint": false
   },
   {
    "tail": "HS-TZR",
    "acType": "R44",
-   "isMaint": false,
-   "maintReason": null
-  },
-  {
-   "tail": "HS-TZS",
-   "acType": "R44",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": false
   },
   {
    "tail": "HS-TZT",
    "acType": "R44",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": false
   },
   {
    "tail": "HS-TZU",
    "acType": "R44",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": false
+  },
+  {
+   "tail": "HSTZU",
+   "acType": "Dual",
+   "isMaint": true
   }
  ],
  "leaves": [

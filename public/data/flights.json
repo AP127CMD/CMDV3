@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-03T00:15:53.815Z",
+ "generatedAt": "2026-08-03T04:00:56.581Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-03T00:15:53.815Z",
-  "upstreamFetchedAt": "2026-08-03T00:07:53Z"
+  "fetchedAt": "2026-08-03T04:00:56.581Z",
+  "upstreamFetchedAt": "2026-08-03T03:51:37Z"
  },
  "flights": [
   {
@@ -108377,9 +108377,9 @@
    }
   },
   {
-   "id": "BK-TCAR / LPC-SUTA-DCOWM",
+   "id": "ACTUAL_ONLY_BK-TCAR / LPC-SUTA-DCOWM",
    "date": "2026-08-02",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "10:00",
@@ -108396,12 +108396,15 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVC",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "10:14",
+   "ldgTime": "11:40",
+   "airborneMin": 86,
+   "to": 3,
+   "ldg": 3,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-MS895ZRJ",
@@ -108494,9 +108497,9 @@
    }
   },
   {
-   "id": "BK-PPL-42-SIRI-KW6NS",
+   "id": "ACTUAL_ONLY_BK-PPL-42-SIRI-KW6NS",
    "date": "2026-08-03",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "08:30",
@@ -108513,12 +108516,15 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPO",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "08:36",
+   "ldgTime": "09:21",
+   "airborneMin": 45,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-126-GRAV-BL7RF",
@@ -108548,9 +108554,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-KANT-7P3XD",
+   "id": "ACTUAL_ONLY_BK-AP-126-KANT-7P3XD",
    "date": "2026-08-03",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -108567,12 +108573,15 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVE",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:31",
+   "ldgTime": "09:16",
+   "airborneMin": 165,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-126-KANA-XCWXV",
@@ -108739,7 +108748,7 @@
   {
    "id": "BK-AP-126-PARA-W83JU",
    "date": "2026-08-03",
-   "status": "Pending",
+   "status": "Canceled",
    "isSim": false,
    "isStandby": false,
    "start": "13:30",
@@ -108899,9 +108908,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-SUBH-S9PKW",
+   "id": "ACTUAL_ONLY_BK-AP-126-SUBH-S9PKW",
    "date": "2026-08-03",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -108918,17 +108927,20 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVD",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:27",
+   "ldgTime": "09:17",
+   "airborneMin": 170,
+   "to": 3,
+   "ldg": 3,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
-   "id": "BK-AP-126-NAPA-LAJFI",
+   "id": "ACTUAL_ONLY_BK-AP-126-NAPA-LAJFI",
    "date": "2026-08-03",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -108945,12 +108957,15 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPX",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "07:12",
+   "ldgTime": "09:52",
+   "airborneMin": 160,
+   "to": 3,
+   "ldg": 3,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-126-PAKO-BVJ5C",
@@ -109142,9 +109157,9 @@
    "inst": null
   },
   {
-   "id": "BK-HP-57-PREC-SBSZK",
+   "id": "ACTUAL_ONLY_BK-HP-57-PREC-SBSZK",
    "date": "2026-08-03",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "08:30",
@@ -109161,12 +109176,15 @@
    "cond": "Solo",
    "type": "R44",
    "tail": "HS-TZR",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "08:40",
+   "ldgTime": "09:20",
+   "airborneMin": 40,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-HP-57-NUTT-F382P",
@@ -109601,9 +109619,9 @@
    "inst": null
   },
   {
-   "id": "BK-MSBAIZRY",
+   "id": "ACTUAL_ONLY_BK-MSBAIZRY",
    "date": "2026-08-03",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -109620,12 +109638,15 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVC",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:36",
+   "ldgTime": "07:39",
+   "airborneMin": 63,
+   "to": 4,
+   "ldg": 4,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-MSBAP60P",
@@ -119172,6 +119193,17 @@
    "role": "Student"
   },
   {
+   "name": "APIRATKUNPAK K.",
+   "start": "2026-08-03",
+   "end": "2026-08-03",
+   "reason": "Other",
+   "id": "Leave Record|key|03/08/2026 08:16:27",
+   "batch": "N/A",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
    "name": "DOLSAKUL S.",
    "start": "2026-08-03",
    "end": "2026-08-03",
@@ -119214,6 +119246,50 @@
    "duration": "Full Day",
    "note": "สอบวิชา performance ที่ caat",
    "role": "Student"
+  },
+  {
+   "name": "APIRATKUNPAK K.",
+   "start": "2026-08-04",
+   "end": "2026-08-04",
+   "reason": "Other",
+   "id": "Leave Record|key|03/08/2026 08:17:11",
+   "batch": "N/A",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
+   "name": "APIRATKUNPAK K.",
+   "start": "2026-08-05",
+   "end": "2026-08-05",
+   "reason": "Other",
+   "id": "Leave Record|key|03/08/2026 08:17:29",
+   "batch": "N/A",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
+   "name": "APIRATKUNPAK K.",
+   "start": "2026-08-06",
+   "end": "2026-08-06",
+   "reason": "Other",
+   "id": "Leave Record|key|03/08/2026 08:17:53",
+   "batch": "N/A",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
+   "name": "APIRATKUNPAK K.",
+   "start": "2026-08-07",
+   "end": "2026-08-07",
+   "reason": "Other",
+   "id": "Leave Record|key|03/08/2026 08:18:17",
+   "batch": "N/A",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
   },
   {
    "name": "CHAMNONG S.",
@@ -119282,6 +119358,17 @@
    "role": "Student"
   },
   {
+   "name": "APIRATKUNPAK K.",
+   "start": "2026-08-10",
+   "end": "2026-08-10",
+   "reason": "Other",
+   "id": "Leave Record|key|03/08/2026 08:18:50",
+   "batch": "N/A",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
    "name": "SOWAN C.",
    "start": "2026-08-10",
    "end": "2026-08-10",
@@ -119293,6 +119380,17 @@
    "role": "Instructor"
   },
   {
+   "name": "APIRATKUNPAK K.",
+   "start": "2026-08-11",
+   "end": "2026-08-11",
+   "reason": "Other",
+   "id": "Leave Record|key|03/08/2026 08:19:09",
+   "batch": "N/A",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
    "name": "SOWAN C.",
    "start": "2026-08-11",
    "end": "2026-08-11",
@@ -119301,6 +119399,17 @@
    "batch": "N/A",
    "duration": "Full Day",
    "note": "รับ licence caat",
+   "role": "Instructor"
+  },
+  {
+   "name": "APIRATKUNPAK K.",
+   "start": "2026-08-13",
+   "end": "2026-08-13",
+   "reason": "Other",
+   "id": "Leave Record|key|03/08/2026 08:19:38",
+   "batch": "N/A",
+   "duration": "Full Day",
+   "note": "",
    "role": "Instructor"
   },
   {
@@ -119346,6 +119455,39 @@
    "duration": "Full Day",
    "note": "CAAT Exam",
    "role": "Student"
+  },
+  {
+   "name": "APIRATKUNPAK K.",
+   "start": "2026-08-18",
+   "end": "2026-08-18",
+   "reason": "Other",
+   "id": "Leave Record|key|03/08/2026 08:20:22",
+   "batch": "N/A",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
+   "name": "APIRATKUNPAK K.",
+   "start": "2026-08-19",
+   "end": "2026-08-19",
+   "reason": "Other",
+   "id": "Leave Record|key|03/08/2026 08:20:46",
+   "batch": "N/A",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
+   "name": "APIRATKUNPAK K.",
+   "start": "2026-08-20",
+   "end": "2026-08-20",
+   "reason": "Other",
+   "id": "Leave Record|key|03/08/2026 08:21:04",
+   "batch": "N/A",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
   },
   {
    "name": "PORNSKUL D.",

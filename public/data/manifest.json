@@ -1,20 +1,20 @@
 {
  "schemaVersion": 1,
  "pipelineVersion": "3.0.0",
- "generatedAt": "2026-08-03T07:52:06.557Z",
+ "generatedAt": "2026-08-03T11:49:11.242Z",
  "sources": {
   "flights": {
    "sourceUrl": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-   "fetchedAt": "2026-08-03T07:52:06.557Z",
-   "upstreamFetchedAt": "2026-08-03T07:45:32Z",
-   "contentHash": "sha256:78507c8bedda0791ca9603998f3b2a2038a93b8f3eec038dd985a09c735f2287",
-   "lastChangedAt": "2026-08-03T07:52:06.557Z",
+   "fetchedAt": "2026-08-03T11:49:11.242Z",
+   "upstreamFetchedAt": "2026-08-03T11:42:00Z",
+   "contentHash": "sha256:0fa37582a1b56b65f2ee4f2f095b1dae03f0feca873266486b269cdda6d806d4",
+   "lastChangedAt": "2026-08-03T11:49:11.242Z",
    "records": {
-    "flights": 4780,
+    "flights": 4810,
     "instructors": 27,
     "resources": 31,
     "leaves": 869,
-    "flightsAfterDedup": 3722
+    "flightsAfterDedup": 3752
    },
    "validation": {
     "errors": [],
@@ -51,45 +51,41 @@
     "nickBridged": 3
    },
    "diff": {
-    "added": 11,
-    "removed": 8,
-    "changed": 1,
-    "changedFields": {
-     "status": 1
-    }
+    "added": 42,
+    "removed": 12,
+    "changed": 0
    }
   },
   "progress": {
    "sourceUrl": "https://ap127-data-api.anusorn-tanmetha.workers.dev",
-   "fetchedAt": "2026-08-03T04:00:56.581Z",
-   "upstreamFetchedAt": "2026-08-03T03:55:29.439Z",
-   "contentHash": "sha256:d8147022291c1c7fa64a6964859b44ff94165420cc652d5431ad61eb65e99ac0",
-   "lastChangedAt": "2026-08-03T04:00:56.581Z",
+   "fetchedAt": "2026-08-03T11:49:11.242Z",
+   "upstreamFetchedAt": "2026-08-03T11:45:28.654Z",
+   "contentHash": "sha256:2ef645a14a66a48be357bd2d9bee97e5643a7d4c4d7318b16ef238b155c59d7a",
+   "lastChangedAt": "2026-08-03T11:49:11.242Z",
    "records": {
     "students": 28,
     "curriculum": 96
    },
    "validation": {
-    "errors": [
-     {
-      "code": "FETCH_FAILED",
-      "message": "Error: fetch failed after 3 attempts: https://ap127-data-api.anusorn-tanmetha.workers.dev — Error: response too small (50 bytes)"
-     }
-    ],
+    "errors": [],
     "warnings": []
    },
    "diff": {
     "added": 0,
     "removed": 0,
-    "changed": 0
+    "changed": 3,
+    "changedFields": {
+     "done": 3,
+     "nextLesson": 3
+    }
    }
   },
   "ngt": {
    "sourceUrl": "https://ap127-db001.pages.dev/cache.json",
-   "fetchedAt": "2026-08-03T04:00:56.581Z",
-   "upstreamFetchedAt": "2026-08-03T03:55:29.439Z",
-   "contentHash": "sha256:2d1830a30552e6ae1624a15f656d41db9ee7f762d1be6336b63fa38c33b72833",
-   "lastChangedAt": "2026-08-03T04:00:56.581Z",
+   "fetchedAt": "2026-08-03T11:49:11.242Z",
+   "upstreamFetchedAt": "2026-08-03T11:45:28.654Z",
+   "contentHash": "sha256:a151e2b1a6acef1dd128ff20a969f6dbb86153a2168f44af962068a57d00d86c",
+   "lastChangedAt": "2026-08-03T11:49:11.242Z",
    "records": {
     "ap124": 9,
     "ap126": 28,
@@ -97,12 +93,7 @@
     "ap129": 13
    },
    "validation": {
-    "errors": [
-     {
-      "code": "FETCH_FAILED",
-      "message": "Error: empty ap127[] — refusing"
-     }
-    ],
+    "errors": [],
     "warnings": []
    },
    "diff": null

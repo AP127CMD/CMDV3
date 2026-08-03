@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-03T15:21:20.274Z",
+ "generatedAt": "2026-08-03T17:21:34.162Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-03T15:21:20.274Z",
-  "upstreamFetchedAt": "2026-08-03T15:14:15Z"
+  "fetchedAt": "2026-08-03T17:21:34.162Z",
+  "upstreamFetchedAt": "2026-08-03T17:21:19Z"
  },
  "flights": [
   {
@@ -109319,9 +109319,9 @@
    "inst": null
   },
   {
-   "id": "BK-HP-57-CHIS-4B0MU",
+   "id": "ACTUAL_ONLY_BK-HP-57-CHIS-4B0MU",
    "date": "2026-08-03",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": true,
    "isStandby": false,
    "start": "08:30",
@@ -109338,12 +109338,15 @@
    "cond": "Sim R44",
    "type": "R44 (SIM)",
    "tail": "HS-TZQ (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "08:30",
+   "ldgTime": "09:30",
+   "airborneMin": 60,
+   "to": 3,
+   "ldg": 3,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-HP-57-YOTH-0QR42",
@@ -110149,8 +110152,8 @@
    "instructor": "SORRAWUT P.",
    "batch": "AP-126",
    "batchKey": "AP126",
-   "lesson": "CDXI 77",
-   "lessonNorm": "CDXI 77",
+   "lesson": "CDXI 76",
+   "lessonNorm": "CDXI 76",
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPT",
@@ -110841,139 +110844,190 @@
  ],
  "resources": [
   {
-   "tail": "HS - TPX",
-   "acType": "Solo",
-   "isMaint": true
+   "tail": "HS-TCB",
+   "acType": "DA42TDI",
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TCP",
    "acType": "DA42TDI",
-   "isMaint": false
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TCP (SIM)",
    "acType": "DA42 (SIM)",
-   "isMaint": true
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPF",
    "acType": "C172",
-   "isMaint": false
+   "isMaint": false,
+   "maintReason": null
+  },
+  {
+   "tail": "HS-TPG",
+   "acType": "C172",
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPH",
    "acType": "C172",
-   "isMaint": false
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPL",
    "acType": "DA42TDI",
-   "isMaint": false
+   "isMaint": false,
+   "maintReason": null
+  },
+  {
+   "tail": "HS-TPM",
+   "acType": "DA42TDI",
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPN (SIM)",
-   "acType": "DA40_SIM",
-   "isMaint": false
+   "acType": "DA40 (SIM)",
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPO",
    "acType": "DA40TDI",
-   "isMaint": false
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPO (SIM)",
-   "acType": "DA40_SIM",
-   "isMaint": false
+   "acType": "DA40 (SIM)",
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPQ",
    "acType": "DA42TDI",
-   "isMaint": false
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPR",
    "acType": "DA40TDI",
-   "isMaint": false
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPT",
    "acType": "DA40TDI",
-   "isMaint": false
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPU",
    "acType": "DA40TDI",
-   "isMaint": true
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPV",
    "acType": "DA40TDI",
-   "isMaint": false
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPW",
    "acType": "DA40TDI",
-   "isMaint": false
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPX",
    "acType": "DA40TDI",
-   "isMaint": false
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TVA",
    "acType": "DA40CS",
-   "isMaint": false
+   "isMaint": false,
+   "maintReason": null
+  },
+  {
+   "tail": "HS-TVB",
+   "acType": "DA40CS",
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TVC",
    "acType": "DA40CS",
-   "isMaint": false
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TVD",
    "acType": "DA40CS",
-   "isMaint": false
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TVE",
    "acType": "DA40CS",
-   "isMaint": false
+   "isMaint": false,
+   "maintReason": null
+  },
+  {
+   "tail": "HS-TVF",
+   "acType": "DA42NG",
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TVG",
    "acType": "DA40CS",
-   "isMaint": false
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TVH",
    "acType": "DA40CS",
-   "isMaint": false
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TZQ (SIM)",
-   "acType": "R44_SIM",
-   "isMaint": false
+   "acType": "R44 (SIM)",
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TZR",
    "acType": "R44",
-   "isMaint": false
+   "isMaint": false,
+   "maintReason": null
+  },
+  {
+   "tail": "HS-TZS",
+   "acType": "R44",
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TZT",
    "acType": "R44",
-   "isMaint": false
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TZU",
    "acType": "R44",
-   "isMaint": false
-  },
-  {
-   "tail": "HSTZU",
-   "acType": "Dual",
-   "isMaint": true
+   "isMaint": false,
+   "maintReason": null
   }
  ],
  "leaves": [
@@ -120185,6 +120239,17 @@
    "role": "Student"
   },
   {
+   "name": "JIRAYU A.",
+   "start": "2026-08-03",
+   "end": "2026-08-31",
+   "reason": "Personal Leave",
+   "id": "Leave Record|key|03/08/2026 23:02:33",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
    "name": "TEERAWAJ C.",
    "start": "2026-08-03",
    "end": "2026-08-03",
@@ -120273,6 +120338,17 @@
    "role": "Student"
   },
   {
+   "name": "KORN S.",
+   "start": "2026-08-08",
+   "end": "2026-08-09",
+   "reason": "Personal Leave",
+   "id": "Leave Record|key|03/08/2026 23:19:16",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ขอลา 2 วันเนื่องจากธุระทางที่บ้านครับ ",
+   "role": "Student"
+  },
+  {
    "name": "NATTARAT G.",
    "start": "2026-08-08",
    "end": "2026-08-09",
@@ -120328,6 +120404,17 @@
    "role": "Instructor"
   },
   {
+   "name": "AWIRUT S.",
+   "start": "2026-08-10",
+   "end": "2026-08-29",
+   "reason": "Sick Leave",
+   "id": "Leave Record|key|03/08/2026 23:04:33",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
    "name": "SOWAN C.",
    "start": "2026-08-10",
    "end": "2026-08-10",
@@ -120359,6 +120446,17 @@
    "duration": "Full Day",
    "note": "รับ licence caat",
    "role": "Instructor"
+  },
+  {
+   "name": "VASAPHON S.",
+   "start": "2026-08-12",
+   "end": "2026-08-30",
+   "reason": "Personal Leave",
+   "id": "Leave Record|key|03/08/2026 23:05:47",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
   },
   {
    "name": "APIRATKUNPAK K.",

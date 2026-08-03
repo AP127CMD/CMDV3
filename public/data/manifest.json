@@ -1,20 +1,20 @@
 {
  "schemaVersion": 1,
  "pipelineVersion": "3.0.0",
- "generatedAt": "2026-08-03T04:00:56.581Z",
+ "generatedAt": "2026-08-03T07:52:06.557Z",
  "sources": {
   "flights": {
    "sourceUrl": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-   "fetchedAt": "2026-08-03T04:00:56.581Z",
-   "upstreamFetchedAt": "2026-08-03T03:51:37Z",
-   "contentHash": "sha256:d753a383312d480d6f6437873151901a67f4bd85cd21291ef7b5ee54e402d238",
-   "lastChangedAt": "2026-08-03T04:00:56.581Z",
+   "fetchedAt": "2026-08-03T07:52:06.557Z",
+   "upstreamFetchedAt": "2026-08-03T07:45:32Z",
+   "contentHash": "sha256:78507c8bedda0791ca9603998f3b2a2038a93b8f3eec038dd985a09c735f2287",
+   "lastChangedAt": "2026-08-03T07:52:06.557Z",
    "records": {
-    "flights": 4777,
+    "flights": 4780,
     "instructors": 27,
     "resources": 31,
-    "leaves": 867,
-    "flightsAfterDedup": 3719
+    "leaves": 869,
+    "flightsAfterDedup": 3722
    },
    "validation": {
     "errors": [],
@@ -51,8 +51,8 @@
     "nickBridged": 3
    },
    "diff": {
-    "added": 7,
-    "removed": 7,
+    "added": 11,
+    "removed": 8,
     "changed": 1,
     "changedFields": {
      "status": 1
@@ -70,7 +70,12 @@
     "curriculum": 96
    },
    "validation": {
-    "errors": [],
+    "errors": [
+     {
+      "code": "FETCH_FAILED",
+      "message": "Error: fetch failed after 3 attempts: https://ap127-data-api.anusorn-tanmetha.workers.dev — Error: response too small (50 bytes)"
+     }
+    ],
     "warnings": []
    },
    "diff": {
@@ -92,7 +97,12 @@
     "ap129": 13
    },
    "validation": {
-    "errors": [],
+    "errors": [
+     {
+      "code": "FETCH_FAILED",
+      "message": "Error: empty ap127[] — refusing"
+     }
+    ],
     "warnings": []
    },
    "diff": null

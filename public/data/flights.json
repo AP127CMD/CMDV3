@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-04T12:21:27.261Z",
+ "generatedAt": "2026-08-04T14:45:03.806Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-04T12:21:27.261Z",
-  "upstreamFetchedAt": "2026-08-04T12:13:54Z"
+  "fetchedAt": "2026-08-04T14:45:03.806Z",
+  "upstreamFetchedAt": "2026-08-04T14:42:12Z"
  },
  "flights": [
   {
@@ -110612,9 +110612,9 @@
    }
   },
   {
-   "id": "BK-MSD3UPG0",
+   "id": "ACTUAL_ONLY_BK-MSD3UPG0",
    "date": "2026-08-04",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "11:00",
@@ -110631,12 +110631,15 @@
    "cond": null,
    "type": "R44",
    "tail": "HS-TZU",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "11:05",
+   "ldgTime": "12:00",
+   "airborneMin": 55,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-MSD3US3O",
@@ -110774,6 +110777,36 @@
    "tail": "HS-TZR",
    "tkoff": "12:15",
    "ldgTime": "13:10",
+   "airborneMin": 55,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
+  },
+  {
+   "id": "ACTUAL_ONLY_MANUAL-HP-57-YOTH-CX8N7",
+   "date": "2026-08-04",
+   "status": "Completed",
+   "isSim": false,
+   "isStandby": false,
+   "start": "08:30",
+   "end": "09:30",
+   "durMin": 60,
+   "student": "YOTHIN Y.",
+   "studentKey": "YOTHIN Y.",
+   "nick": null,
+   "instructor": "PORNSAK P.",
+   "batch": "HP-57",
+   "batchKey": "HP57",
+   "lesson": "LS 83",
+   "lessonNorm": "LS 83",
+   "cond": null,
+   "type": "R44",
+   "tail": "HS-TZU",
+   "tkoff": "08:35",
+   "ldgTime": "09:30",
    "airborneMin": 55,
    "to": 1,
    "ldg": 1,
@@ -112085,8 +112118,8 @@
   {
    "tail": "HS-TCB",
    "acType": "DA42TDI",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": true,
+   "maintReason": "Maintenance"
   },
   {
    "tail": "HS-TCP",
@@ -112109,8 +112142,8 @@
   {
    "tail": "HS-TPG",
    "acType": "C172",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": true,
+   "maintReason": "Maintenance"
   },
   {
    "tail": "HS-TPH",
@@ -112127,8 +112160,8 @@
   {
    "tail": "HS-TPM",
    "acType": "DA42TDI",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": true,
+   "maintReason": "Maintenance"
   },
   {
    "tail": "HS-TPN (SIM)",
@@ -112139,8 +112172,8 @@
   {
    "tail": "HS-TPO",
    "acType": "DA40TDI",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": true,
+   "maintReason": "Maintenance"
   },
   {
    "tail": "HS-TPO (SIM)",
@@ -112157,8 +112190,8 @@
   {
    "tail": "HS-TPR",
    "acType": "DA40TDI",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": true,
+   "maintReason": "Maintenance"
   },
   {
    "tail": "HS-TPT",
@@ -112169,8 +112202,8 @@
   {
    "tail": "HS-TPU",
    "acType": "DA40TDI",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": true,
+   "maintReason": "Maintenance"
   },
   {
    "tail": "HS-TPV",
@@ -112199,8 +112232,8 @@
   {
    "tail": "HS-TVB",
    "acType": "DA40CS",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": true,
+   "maintReason": "Maintenance"
   },
   {
    "tail": "HS-TVC",
@@ -112223,8 +112256,8 @@
   {
    "tail": "HS-TVF",
    "acType": "DA42NG",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": true,
+   "maintReason": "Maintenance"
   },
   {
    "tail": "HS-TVG",
@@ -121795,6 +121828,17 @@
    "duration": "Full Day",
    "note": "",
    "role": "Instructor"
+  },
+  {
+   "name": "PORNSKUL D.",
+   "start": "2026-08-21",
+   "end": "2026-08-22",
+   "reason": "Personal Leave",
+   "id": "Leave Record|key|04/08/2026 20:18:11",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "Personal leave",
+   "role": "Student"
   },
   {
    "name": "PORNSKUL D.",

@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-04T14:45:03.806Z",
+ "generatedAt": "2026-08-04T17:07:38.570Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-04T14:45:03.806Z",
-  "upstreamFetchedAt": "2026-08-04T14:42:12Z"
+  "fetchedAt": "2026-08-04T17:07:38.570Z",
+  "upstreamFetchedAt": "2026-08-04T17:06:58Z"
  },
  "flights": [
   {
@@ -110669,9 +110669,9 @@
    "inst": null
   },
   {
-   "id": "BK-MSD3UV67",
+   "id": "ACTUAL_ONLY_BK-MSD3UV67",
    "date": "2026-08-04",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "09:40",
@@ -110688,12 +110688,15 @@
    "cond": "Solo",
    "type": "R44",
    "tail": "HS-TZU",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "09:45",
+   "ldgTime": "10:40",
+   "airborneMin": 55,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-MSD3UXJ9",
@@ -121629,6 +121632,17 @@
    "batch": "AP-126",
    "duration": "Full Day",
    "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "PANITHAN V.",
+   "start": "2026-08-08",
+   "end": "2026-08-09",
+   "reason": "Other",
+   "id": "Leave Record|key|04/08/2026 23:57:26",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "Instructor leave ",
    "role": "Student"
   },
   {

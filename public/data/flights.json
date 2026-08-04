@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-04T00:17:25.606Z",
+ "generatedAt": "2026-08-04T03:43:09.801Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-04T00:17:25.606Z",
-  "upstreamFetchedAt": "2026-08-04T00:09:36Z"
+  "fetchedAt": "2026-08-04T03:43:09.801Z",
+  "upstreamFetchedAt": "2026-08-04T03:41:12Z"
  },
  "flights": [
   {
@@ -109924,7 +109924,7 @@
   {
    "id": "BK-AP-126-GRAV-JBWWC",
    "date": "2026-08-04",
-   "status": "Pending",
+   "status": "Canceled",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -110030,9 +110030,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-PORN-2NBAG",
+   "id": "ACTUAL_ONLY_BK-AP-126-PORN-2NBAG",
    "date": "2026-08-04",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -110049,12 +110049,15 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPX",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:40",
+   "ldgTime": "09:27",
+   "airborneMin": 167,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-126-RANG-BMBQ9",
@@ -110138,9 +110141,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-NATT-UUE6H",
+   "id": "ACTUAL_ONLY_BK-AP-126-NATT-UUE6H",
    "date": "2026-08-04",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -110157,17 +110160,20 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:59",
+   "ldgTime": "09:46",
+   "airborneMin": 167,
+   "to": 2,
+   "ldg": 2,
+   "inst": 4,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
-   "id": "BK-AP-126-NUTT-LSISK",
+   "id": "ACTUAL_ONLY_BK-AP-126-NUTT-LSISK",
    "date": "2026-08-04",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -110184,12 +110190,15 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPW",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:37",
+   "ldgTime": "09:20",
+   "airborneMin": 163,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-126-NAPA-ONV97",
@@ -110246,9 +110255,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-128-KITT-AAYUY",
+   "id": "ACTUAL_ONLY_BK-AP-128-KITT-AAYUY",
    "date": "2026-08-04",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -110265,17 +110274,20 @@
    "cond": null,
    "type": "C172",
    "tail": "HS-TPF",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:40",
+   "ldgTime": "07:55",
+   "airborneMin": 75,
+   "to": 3,
+   "ldg": 3,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
-   "id": "BK-AP-128-KITT-A3Z67",
+   "id": "ACTUAL_ONLY_BK-AP-128-KITT-A3Z67",
    "date": "2026-08-04",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "08:30",
@@ -110292,12 +110304,15 @@
    "cond": "Solo",
    "type": "C172",
    "tail": "HS-TPF",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "08:50",
+   "ldgTime": "09:55",
+   "airborneMin": 65,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-126-NANJ-XJJR7",
@@ -110435,9 +110450,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-128-KRID-3ZGAL",
+   "id": "ACTUAL_ONLY_BK-AP-128-KRID-3ZGAL",
    "date": "2026-08-04",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "08:00",
@@ -110454,12 +110469,15 @@
    "cond": "Nav",
    "type": "C172",
    "tail": "HS-TPH",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "08:10",
+   "ldgTime": "09:30",
+   "airborneMin": 80,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-MSD3UIFO",

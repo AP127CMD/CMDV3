@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-05T00:16:46.493Z",
+ "generatedAt": "2026-08-05T03:40:09.086Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-05T00:16:46.493Z",
-  "upstreamFetchedAt": "2026-08-05T00:08:01Z"
+  "fetchedAt": "2026-08-05T03:40:09.086Z",
+  "upstreamFetchedAt": "2026-08-05T03:34:31Z"
  },
  "flights": [
   {
@@ -110954,9 +110954,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-PRIT-7B2LN",
+   "id": "ACTUAL_ONLY_BK-AP-126-PRIT-7B2LN",
    "date": "2026-08-05",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -110973,12 +110973,15 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVH",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:30",
+   "ldgTime": "09:16",
+   "airborneMin": 166,
+   "to": 3,
+   "ldg": 3,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-126-PARA-A3Y8V",
@@ -111089,9 +111092,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-NATT-6RK9L",
+   "id": "ACTUAL_ONLY_BK-AP-126-NATT-6RK9L",
    "date": "2026-08-05",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -111108,12 +111111,15 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:39",
+   "ldgTime": "09:29",
+   "airborneMin": 170,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-126-PREM-DU5OX",
@@ -111143,9 +111149,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-PORN-01213",
+   "id": "ACTUAL_ONLY_BK-AP-126-PORN-01213",
    "date": "2026-08-05",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -111162,12 +111168,15 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPV",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:46",
+   "ldgTime": "09:26",
+   "airborneMin": 160,
+   "to": 2,
+   "ldg": 2,
+   "inst": 1,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-126-RANG-T3OFM",
@@ -111629,9 +111638,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-129-TUPP-G5NY5",
+   "id": "ACTUAL_ONLY_BK-AP-129-TUPP-G5NY5",
    "date": "2026-08-05",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -111648,12 +111657,15 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPX",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:40",
+   "ldgTime": "07:45",
+   "airborneMin": 65,
+   "to": 4,
+   "ldg": 4,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-MSEAC3FS",
@@ -111845,9 +111857,9 @@
    "inst": null
   },
   {
-   "id": "BK-MSEFCARZ",
+   "id": "ACTUAL_ONLY_BK-MSEFCARZ",
    "date": "2026-08-05",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": true,
    "isStandby": false,
    "start": "08:30",
@@ -111864,12 +111876,15 @@
    "cond": "Sim R44",
    "type": "R44 (SIM)",
    "tail": "HS-TZQ (SIM)",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "08:35",
+   "ldgTime": "09:30",
+   "airborneMin": 55,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-MSEFCWGN",
@@ -111972,6 +111987,33 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPO",
+   "tkoff": null,
+   "ldgTime": null,
+   "airborneMin": null,
+   "to": null,
+   "ldg": null,
+   "inst": null
+  },
+  {
+   "id": "BK-MSFHJLM8",
+   "date": "2026-08-05",
+   "status": "Pending",
+   "isSim": false,
+   "isStandby": false,
+   "start": "16:00",
+   "end": "17:15",
+   "durMin": 75,
+   "student": "AWIRUT S.",
+   "studentKey": "AWIRUT S.",
+   "nick": "A-RUT",
+   "instructor": "PARINYA B.",
+   "batch": "AP-127",
+   "batchKey": "AP127",
+   "lesson": "CSGL 26",
+   "lessonNorm": "CSGL 26",
+   "cond": "Solo",
+   "type": "DA40CS",
+   "tail": "HS-TVC",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,

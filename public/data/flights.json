@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-05T18:57:12.186Z",
+ "generatedAt": "2026-08-05T20:41:23.687Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-05T18:57:12.186Z",
-  "upstreamFetchedAt": "2026-08-05T18:41:29Z"
+  "fetchedAt": "2026-08-05T20:41:23.687Z",
+  "upstreamFetchedAt": "2026-08-05T20:32:51Z"
  },
  "flights": [
   {
@@ -111680,9 +111680,9 @@
    }
   },
   {
-   "id": "BK-AP-129-WANU-MVR24",
+   "id": "ACTUAL_ONLY_BK-AP-129-WANU-MVR24",
    "date": "2026-08-05",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "12:30",
@@ -111699,12 +111699,15 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVC",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "12:40",
+   "ldgTime": "13:40",
+   "airborneMin": 60,
+   "to": 4,
+   "ldg": 4,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-129-TUPP-G5NY5",

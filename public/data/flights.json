@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-05T14:38:30.787Z",
+ "generatedAt": "2026-08-05T16:54:59.808Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-05T14:38:30.787Z",
-  "upstreamFetchedAt": "2026-08-05T14:36:33Z"
+  "fetchedAt": "2026-08-05T16:54:59.808Z",
+  "upstreamFetchedAt": "2026-08-05T16:43:50Z"
  },
  "flights": [
   {
@@ -111296,9 +111296,9 @@
    }
   },
   {
-   "id": "BK-AP-126-PAKO-FP1X9",
+   "id": "ACTUAL_ONLY_BK-AP-126-PAKO-FP1X9",
    "date": "2026-08-05",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "10:00",
@@ -111315,12 +111315,15 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPW",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "14:20",
+   "ldgTime": "17:15",
+   "airborneMin": 175,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-126-WATT-8ACDM",
@@ -112175,6 +112178,36 @@
    }
   },
   {
+   "id": "ACTUAL_ONLY_MANUAL-AP-126-PAKO-SM6S1",
+   "date": "2026-08-05",
+   "status": "Completed",
+   "isSim": false,
+   "isStandby": false,
+   "start": "14:00",
+   "end": "17:21",
+   "durMin": 180,
+   "student": "PAKORN W.",
+   "studentKey": "PAKORN W.",
+   "nick": null,
+   "instructor": "PREECHA K.",
+   "batch": "AP-126",
+   "batchKey": "AP126",
+   "lesson": "CDXI 79",
+   "lessonNorm": "CDXI 79",
+   "cond": null,
+   "type": "DA40TDI",
+   "tail": "HS-TPO",
+   "tkoff": "14:20",
+   "ldgTime": "17:15",
+   "airborneMin": 175,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
+  },
+  {
    "id": "BK-AP-126-GRAV-SLQZN",
    "date": "2026-08-06",
    "status": "Pending",
@@ -112615,14 +112648,14 @@
    "start": "10:00",
    "end": "13:00",
    "durMin": 180,
-   "student": "WATTIKORN K.",
-   "studentKey": "WATTIKORN K.",
+   "student": "NABHADR P.",
+   "studentKey": "NABHADR P.",
    "nick": null,
    "instructor": "SORRAWUT P.",
    "batch": "AP-126",
    "batchKey": "AP126",
-   "lesson": "CDXI 80",
-   "lessonNorm": "CDXI 80",
+   "lesson": "CDXI 81",
+   "lessonNorm": "CDXI 81",
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPV",
@@ -113311,7 +113344,7 @@
   {
    "id": "BK-MSG18OGX",
    "date": "2026-08-06",
-   "status": "Pending",
+   "status": "Canceled",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -114422,8 +114455,8 @@
   {
    "tail": "HS-TCB",
    "acType": "DA42TDI",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": true,
+   "maintReason": "Maintenance"
   },
   {
    "tail": "HS-TCP",
@@ -114446,8 +114479,8 @@
   {
    "tail": "HS-TPG",
    "acType": "C172",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": true,
+   "maintReason": "Maintenance"
   },
   {
    "tail": "HS-TPH",
@@ -114464,8 +114497,8 @@
   {
    "tail": "HS-TPM",
    "acType": "DA42TDI",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": true,
+   "maintReason": "Maintenance"
   },
   {
    "tail": "HS-TPN (SIM)",
@@ -114476,8 +114509,8 @@
   {
    "tail": "HS-TPO",
    "acType": "DA40TDI",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": true,
+   "maintReason": "Maintenance"
   },
   {
    "tail": "HS-TPO (SIM)",
@@ -114494,8 +114527,8 @@
   {
    "tail": "HS-TPR",
    "acType": "DA40TDI",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": true,
+   "maintReason": "Maintenance"
   },
   {
    "tail": "HS-TPT",
@@ -114506,8 +114539,8 @@
   {
    "tail": "HS-TPU",
    "acType": "DA40TDI",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": true,
+   "maintReason": "Maintenance"
   },
   {
    "tail": "HS-TPV",
@@ -114536,8 +114569,8 @@
   {
    "tail": "HS-TVB",
    "acType": "DA40CS",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": true,
+   "maintReason": "Maintenance"
   },
   {
    "tail": "HS-TVC",
@@ -114560,8 +114593,8 @@
   {
    "tail": "HS-TVF",
    "acType": "DA42NG",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": true,
+   "maintReason": "Maintenance"
   },
   {
    "tail": "HS-TVG",

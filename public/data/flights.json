@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-05T12:19:51.724Z",
+ "generatedAt": "2026-08-05T14:38:30.787Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-05T12:19:51.724Z",
-  "upstreamFetchedAt": "2026-08-05T12:16:07Z"
+  "fetchedAt": "2026-08-05T14:38:30.787Z",
+  "upstreamFetchedAt": "2026-08-05T14:36:33Z"
  },
  "flights": [
   {
@@ -110849,9 +110849,9 @@
    }
   },
   {
-   "id": "BK-AP-126-GRAV-XB6C7",
+   "id": "ACTUAL_ONLY_BK-AP-126-GRAV-XB6C7",
    "date": "2026-08-05",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -110868,12 +110868,15 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVA",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "07:15",
+   "ldgTime": "10:00",
+   "airborneMin": 165,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-126-KANT-PIV4G",
@@ -111233,9 +111236,9 @@
    }
   },
   {
-   "id": "BK-AP-126-SIWA-1J0PG",
+   "id": "ACTUAL_ONLY_BK-AP-126-SIWA-1J0PG",
    "date": "2026-08-05",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "10:00",
@@ -111252,12 +111255,15 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVD",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "13:58",
+   "ldgTime": "17:08",
+   "airborneMin": 190,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-126-NUTT-7RWRC",
@@ -111377,9 +111383,9 @@
    }
   },
   {
-   "id": "BK-AP-126-NABH-0HUZ6",
+   "id": "ACTUAL_ONLY_BK-AP-126-NABH-0HUZ6",
    "date": "2026-08-05",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "10:00",
@@ -111396,12 +111402,15 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPX",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "10:03",
+   "ldgTime": "12:48",
+   "airborneMin": 165,
+   "to": 1,
+   "ldg": 1,
+   "inst": 1,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-126-NANJ-0ZSSN",
@@ -111551,9 +111560,9 @@
    }
   },
   {
-   "id": "BK-FAM FI-TANA-07YQM",
+   "id": "ACTUAL_ONLY_BK-FAM FI-TANA-07YQM",
    "date": "2026-08-05",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "10:00",
@@ -111570,12 +111579,15 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVC",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "10:10",
+   "ldgTime": "11:55",
+   "airborneMin": 105,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-127-AWIR-CMGDW",
@@ -112073,9 +112085,9 @@
    }
   },
   {
-   "id": "BK-MSFHJLM8",
+   "id": "ACTUAL_ONLY_BK-MSFHJLM8",
    "date": "2026-08-05",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "16:00",
@@ -112092,12 +112104,15 @@
    "cond": "Solo",
    "type": "DA40CS",
    "tail": "HS-TVC",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "16:25",
+   "ldgTime": "17:40",
+   "airborneMin": 75,
+   "to": 4,
+   "ldg": 4,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_MANUAL-HP-57-NUTT-S0UU3",
@@ -113273,8 +113288,8 @@
    "isSim": false,
    "isStandby": false,
    "start": "08:30",
-   "end": "18:00",
-   "durMin": 570,
+   "end": "16:00",
+   "durMin": 450,
    "student": null,
    "studentKey": null,
    "nick": null,
@@ -114407,8 +114422,8 @@
   {
    "tail": "HS-TCB",
    "acType": "DA42TDI",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TCP",
@@ -114431,8 +114446,8 @@
   {
    "tail": "HS-TPG",
    "acType": "C172",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPH",
@@ -114449,8 +114464,8 @@
   {
    "tail": "HS-TPM",
    "acType": "DA42TDI",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPN (SIM)",
@@ -114461,8 +114476,8 @@
   {
    "tail": "HS-TPO",
    "acType": "DA40TDI",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPO (SIM)",
@@ -114479,8 +114494,8 @@
   {
    "tail": "HS-TPR",
    "acType": "DA40TDI",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPT",
@@ -114491,8 +114506,8 @@
   {
    "tail": "HS-TPU",
    "acType": "DA40TDI",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPV",
@@ -114521,8 +114536,8 @@
   {
    "tail": "HS-TVB",
    "acType": "DA40CS",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TVC",
@@ -114545,8 +114560,8 @@
   {
    "tail": "HS-TVF",
    "acType": "DA42NG",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TVG",
@@ -123943,6 +123958,17 @@
    "role": "Student"
   },
   {
+   "name": "PORNSKUL D.",
+   "start": "2026-08-08",
+   "end": "2026-08-09",
+   "reason": "Other",
+   "id": "Leave Record|key|05/08/2026 19:29:28",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "Saturday Friday",
+   "role": "Student"
+  },
+  {
    "name": "PRITASNA M.",
    "start": "2026-08-08",
    "end": "2026-08-10",
@@ -123960,6 +123986,17 @@
    "reason": "Personal Leave",
    "id": "Leave Record|key|16/07/2026 15:03:34",
    "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SUPAWAN A.",
+   "start": "2026-08-08",
+   "end": "2026-08-12",
+   "reason": "Personal Leave",
+   "id": "Leave Record|key|05/08/2026 21:27:13",
+   "batch": "AP-127",
    "duration": "Full Day",
    "note": "",
    "role": "Student"
@@ -124182,6 +124219,17 @@
    "batch": "AP-128",
    "duration": "Full Day",
    "note": "Exam, 24 Aug",
+   "role": "Student"
+  },
+  {
+   "name": "PICHAKORN J.",
+   "start": "2026-09-04",
+   "end": "2026-09-04",
+   "reason": "Personal Leave",
+   "id": "Leave Record|key|05/08/2026 20:31:03",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "เข้าร่วมพิธีแต่งงานในกรุงเทพ",
    "role": "Student"
   },
   {

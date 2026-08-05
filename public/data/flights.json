@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-05T16:54:59.808Z",
+ "generatedAt": "2026-08-05T18:57:12.186Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-05T16:54:59.808Z",
-  "upstreamFetchedAt": "2026-08-05T16:43:50Z"
+  "fetchedAt": "2026-08-05T18:57:12.186Z",
+  "upstreamFetchedAt": "2026-08-05T18:41:29Z"
  },
  "flights": [
   {
@@ -114455,8 +114455,8 @@
   {
    "tail": "HS-TCB",
    "acType": "DA42TDI",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TCP",
@@ -114479,8 +114479,8 @@
   {
    "tail": "HS-TPG",
    "acType": "C172",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPH",
@@ -114497,8 +114497,8 @@
   {
    "tail": "HS-TPM",
    "acType": "DA42TDI",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPN (SIM)",
@@ -114509,8 +114509,8 @@
   {
    "tail": "HS-TPO",
    "acType": "DA40TDI",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPO (SIM)",
@@ -114527,8 +114527,8 @@
   {
    "tail": "HS-TPR",
    "acType": "DA40TDI",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPT",
@@ -114539,8 +114539,8 @@
   {
    "tail": "HS-TPU",
    "acType": "DA40TDI",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPV",
@@ -114569,8 +114569,8 @@
   {
    "tail": "HS-TVB",
    "acType": "DA40CS",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TVC",
@@ -114593,8 +114593,8 @@
   {
    "tail": "HS-TVF",
    "acType": "DA42NG",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TVG",
@@ -123955,6 +123955,17 @@
    "batch": "AP-127",
    "duration": "Full Day",
    "note": "ขอลา 2 วันเนื่องจากธุระทางที่บ้านครับ ",
+   "role": "Student"
+  },
+  {
+   "name": "NABHADR P.",
+   "start": "2026-08-08",
+   "end": "2026-08-08",
+   "reason": "Personal Leave",
+   "id": "Leave Record|key|05/08/2026 23:50:46",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "Attend family member funeral",
    "role": "Student"
   },
   {

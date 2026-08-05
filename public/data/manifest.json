@@ -1,14 +1,14 @@
 {
  "schemaVersion": 1,
  "pipelineVersion": "3.0.0",
- "generatedAt": "2026-08-04T22:31:28.291Z",
+ "generatedAt": "2026-08-05T00:16:46.493Z",
  "sources": {
   "flights": {
    "sourceUrl": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-   "fetchedAt": "2026-08-04T22:31:28.291Z",
-   "upstreamFetchedAt": "2026-08-04T22:25:04Z",
-   "contentHash": "sha256:895c07b9f4b654b3b01f91de1836299553a1a5b00ab14ee73366ce4279112d87",
-   "lastChangedAt": "2026-08-04T22:31:28.291Z",
+   "fetchedAt": "2026-08-05T00:16:46.493Z",
+   "upstreamFetchedAt": "2026-08-05T00:08:01Z",
+   "contentHash": "sha256:a9ba9bc8652a9eb9cdd14606b33740b7e173f5f89f530bf98cf9fb8fc1b086ce",
+   "lastChangedAt": "2026-08-05T00:16:46.493Z",
    "records": {
     "flights": 4855,
     "instructors": 27,
@@ -53,15 +53,20 @@
    "diff": {
     "added": 0,
     "removed": 0,
-    "changed": 0
+    "changed": 4,
+    "changedFields": {
+     "lesson": 4,
+     "end": 1,
+     "durMin": 1
+    }
    }
   },
   "progress": {
    "sourceUrl": "https://ap127-data-api.anusorn-tanmetha.workers.dev",
-   "fetchedAt": "2026-08-04T22:31:28.291Z",
-   "upstreamFetchedAt": "2026-08-04T22:30:34.624Z",
+   "fetchedAt": "2026-08-05T00:16:46.493Z",
+   "upstreamFetchedAt": "2026-08-05T00:15:41.393Z",
    "contentHash": "sha256:5bdca5429fc719664c1361df0f8c0d1f3cacf2c1370230ab55f85fd0150e4cdd",
-   "lastChangedAt": "2026-08-04T22:31:28.291Z",
+   "lastChangedAt": "2026-08-05T00:16:46.493Z",
    "records": {
     "students": 28,
     "curriculum": 96
@@ -78,10 +83,10 @@
   },
   "ngt": {
    "sourceUrl": "https://ap127-db001.pages.dev/cache.json",
-   "fetchedAt": "2026-08-04T22:31:28.291Z",
-   "upstreamFetchedAt": "2026-08-04T22:25:52.182Z",
+   "fetchedAt": "2026-08-05T00:16:46.493Z",
+   "upstreamFetchedAt": "2026-08-05T00:15:41.393Z",
    "contentHash": "sha256:2388fab29fdfffb9b8a8503022b4e290e0a44598e9a6a5fc40efbf10dffee051",
-   "lastChangedAt": "2026-08-04T22:31:28.291Z",
+   "lastChangedAt": "2026-08-05T00:16:46.493Z",
    "records": {
     "ap124": 9,
     "ap126": 28,

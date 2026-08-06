@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-06T10:02:59.591Z",
+ "generatedAt": "2026-08-06T12:21:58.712Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-06T10:02:59.591Z",
-  "upstreamFetchedAt": "2026-08-06T10:01:03Z"
+  "fetchedAt": "2026-08-06T12:21:58.712Z",
+  "upstreamFetchedAt": "2026-08-06T12:17:30Z"
  },
  "flights": [
   {
@@ -112606,7 +112606,7 @@
   {
    "id": "BK-AP-126-RANG-KGME9",
    "date": "2026-08-06",
-   "status": "Pending",
+   "status": "Canceled",
    "isSim": false,
    "isStandby": false,
    "start": "10:00",
@@ -112718,9 +112718,9 @@
    }
   },
   {
-   "id": "BK-AP-126-THAN-IZFL2",
+   "id": "ACTUAL_ONLY_BK-AP-126-THAN-IZFL2",
    "date": "2026-08-06",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "12:00",
@@ -112737,12 +112737,15 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPW",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "12:06",
+   "ldgTime": "13:30",
+   "airborneMin": 84,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-128-KITT-W5W10",
@@ -113953,8 +113956,8 @@
    "status": "Pending",
    "isSim": false,
    "isStandby": false,
-   "start": "10:10",
-   "end": "11:40",
+   "start": "08:30",
+   "end": "10:00",
    "durMin": 90,
    "student": "DOLSAKUL S.",
    "studentKey": "DOLSAKUL S.",
@@ -114507,6 +114510,33 @@
    "cond": "Solo",
    "type": "DA40CS",
    "tail": "HS-TVG",
+   "tkoff": null,
+   "ldgTime": null,
+   "airborneMin": null,
+   "to": null,
+   "ldg": null,
+   "inst": null
+  },
+  {
+   "id": "BK-MSHDC75V",
+   "date": "2026-08-07",
+   "status": "Pending",
+   "isSim": false,
+   "isStandby": false,
+   "start": "10:30",
+   "end": "11:50",
+   "durMin": 80,
+   "student": "DOLSAKUL S.",
+   "studentKey": "DOLSAKUL S.",
+   "nick": null,
+   "instructor": "PARINYA B.",
+   "batch": "AP-128",
+   "batchKey": "AP128",
+   "lesson": "CSGL 30",
+   "lessonNorm": "CSGL 30",
+   "cond": "Solo",
+   "type": "C172",
+   "tail": "HS-TPF",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,

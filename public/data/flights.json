@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-07T18:06:30.019Z",
+ "generatedAt": "2026-08-07T19:24:37.423Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-07T18:06:30.019Z",
-  "upstreamFetchedAt": "2026-08-07T17:58:34Z"
+  "fetchedAt": "2026-08-07T19:24:37.423Z",
+  "upstreamFetchedAt": "2026-08-07T19:15:24Z"
  },
  "flights": [
   {
@@ -115990,124 +115990,154 @@
  ],
  "instructors": [
   {
-   "name": "APIRATKUNPAK K.",
-   "type": null
-  },
-  {
-   "name": "ATHINAT H.",
-   "type": null
-  },
-  {
-   "name": "ATIDTAN P.",
-   "type": null
-  },
-  {
-   "name": "CHAMNONG S.",
-   "type": null
-  },
-  {
    "name": "CHAROENCHAI U.",
-   "type": null
-  },
-  {
-   "name": "CHAWIN K.",
-   "type": null
+   "isPartTime": false,
+   "type": "Flight Instructor"
   },
   {
    "name": "EKKAPHOP R.",
-   "type": null
+   "isPartTime": false,
+   "type": "Flight Instructor"
   },
   {
    "name": "ITTIPOL P.",
-   "type": null
-  },
-  {
-   "name": "JIRAT R.",
-   "type": null
-  },
-  {
-   "name": "KAMONVICH O.",
-   "type": null
-  },
-  {
-   "name": "KEVIN T.",
-   "type": null
+   "isPartTime": false,
+   "type": "Flight Instructor"
   },
   {
    "name": "KITTICHAI C.",
-   "type": null
+   "isPartTime": false,
+   "type": "Flight Instructor"
   },
   {
    "name": "KOONPHOL U.",
-   "type": null
-  },
-  {
-   "name": "NANTAWAT D.",
-   "type": null
+   "isPartTime": false,
+   "type": "Flight Instructor"
   },
   {
    "name": "NAPATTORN S.",
-   "type": null
-  },
-  {
-   "name": "NUNTAPOB T.",
-   "type": null
+   "isPartTime": false,
+   "type": "Flight Instructor"
   },
   {
    "name": "PARINYA B.",
-   "type": null
+   "isPartTime": false,
+   "type": "Flight Instructor"
   },
   {
    "name": "PHAHOLYUTH P.",
-   "type": null
-  },
-  {
-   "name": "PORNSAK P.",
-   "type": null
-  },
-  {
-   "name": "PORNTEP B.",
-   "type": null
-  },
-  {
-   "name": "PREECHA K.",
-   "type": null
+   "isPartTime": false,
+   "type": "Flight Instructor"
   },
   {
    "name": "SANTI PO.",
-   "type": null
+   "isPartTime": false,
+   "type": "Flight Instructor"
   },
   {
    "name": "SANTI SUK.",
-   "type": null
-  },
-  {
-   "name": "SORRAWUT P.",
-   "type": null
+   "isPartTime": false,
+   "type": "Flight Instructor"
   },
   {
    "name": "SOWAN C.",
-   "type": null
-  },
-  {
-   "name": "TANAKRIT V.",
-   "type": null
+   "isPartTime": false,
+   "type": "Flight Instructor"
   },
   {
    "name": "THAWATANAN P.",
-   "type": null
-  },
-  {
-   "name": "VASSAPON K.",
-   "type": null
+   "isPartTime": false,
+   "type": "Flight Instructor"
   },
   {
    "name": "WISANU T.",
-   "type": null
+   "isPartTime": false,
+   "type": "Flight Instructor"
   },
   {
    "name": "WUTTHICHAI L.",
-   "type": null
+   "isPartTime": false,
+   "type": "Flight Instructor"
+  },
+  {
+   "name": "ATHINAT H.",
+   "isPartTime": false,
+   "type": "Simulator Instructor"
+  },
+  {
+   "name": "CHAWIN K.",
+   "isPartTime": false,
+   "type": "Simulator Instructor"
+  },
+  {
+   "name": "JIRAT R.",
+   "isPartTime": false,
+   "type": "Simulator Instructor"
+  },
+  {
+   "name": "KAMONVICH O.",
+   "isPartTime": false,
+   "type": "Flight Instructor"
+  },
+  {
+   "name": "PORNSAK P.",
+   "isPartTime": false,
+   "type": "Flight Instructor"
+  },
+  {
+   "name": "SORRAWUT P.",
+   "isPartTime": false,
+   "type": "Flight Instructor"
+  },
+  {
+   "name": "PORNTEP B.",
+   "isPartTime": false,
+   "type": "Flight Instructor"
+  },
+  {
+   "name": "ATIDTAN P.",
+   "isPartTime": false,
+   "type": "Simulator Instructor"
+  },
+  {
+   "name": "PREECHA K.",
+   "isPartTime": true,
+   "type": "Flight Instructor"
+  },
+  {
+   "name": "APIRATKUNPAK K.",
+   "isPartTime": true,
+   "type": "Flight Instructor"
+  },
+  {
+   "name": "CHAMNONG S.",
+   "isPartTime": true,
+   "type": "Flight Instructor"
+  },
+  {
+   "name": "TANAKRIT V.",
+   "isPartTime": true,
+   "type": "Flight Instructor"
+  },
+  {
+   "name": "VASSAPON K.",
+   "isPartTime": true,
+   "type": "Flight Instructor"
+  },
+  {
+   "name": "NUNTAPOB T.",
+   "isPartTime": false,
+   "type": "Flight Instructor"
+  },
+  {
+   "name": "KEVIN T.",
+   "isPartTime": false,
+   "type": "Flight Instructor"
+  },
+  {
+   "name": "NANTAWAT D.",
+   "isPartTime": false,
+   "type": "Flight Instructor"
   }
  ],
  "resources": [

@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-07T11:11:09.750Z",
+ "generatedAt": "2026-08-07T12:01:00.512Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-07T11:11:09.750Z",
-  "upstreamFetchedAt": "2026-08-07T10:46:39Z"
+  "fetchedAt": "2026-08-07T12:01:00.512Z",
+  "upstreamFetchedAt": "2026-08-07T11:57:31Z"
  },
  "flights": [
   {
@@ -113477,9 +113477,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-NAPO-BY4WP",
+   "id": "ACTUAL_ONLY_BK-AP-126-NAPO-BY4WP",
    "date": "2026-08-07",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "10:00",
@@ -113496,12 +113496,15 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVA",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "13:35",
+   "ldgTime": "16:55",
+   "airborneMin": 200,
+   "to": 3,
+   "ldg": 3,
+   "inst": 3,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-126-SARA-316F4",
@@ -113534,9 +113537,9 @@
    }
   },
   {
-   "id": "BK-AP-126-PRAN-GS78W",
+   "id": "ACTUAL_ONLY_BK-AP-126-PRAN-GS78W",
    "date": "2026-08-07",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "13:30",
@@ -113553,12 +113556,15 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVH",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "13:47",
+   "ldgTime": "16:30",
+   "airborneMin": 163,
+   "to": 3,
+   "ldg": 3,
+   "inst": 4,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-126-PRIT-PO6Z8",

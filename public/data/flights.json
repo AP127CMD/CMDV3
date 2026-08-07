@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-07T05:53:23.937Z",
+ "generatedAt": "2026-08-07T07:47:25.074Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-07T05:53:23.937Z",
-  "upstreamFetchedAt": "2026-08-07T04:57:46Z"
+  "fetchedAt": "2026-08-07T07:47:25.074Z",
+  "upstreamFetchedAt": "2026-08-07T06:15:54Z"
  },
  "flights": [
   {
@@ -113615,9 +113615,9 @@
    }
   },
   {
-   "id": "BK-AP-126-PREM-092RY",
+   "id": "ACTUAL_ONLY_BK-AP-126-PREM-092RY",
    "date": "2026-08-07",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "10:00",
@@ -113634,12 +113634,15 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVD",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:36",
+   "ldgTime": "09:19",
+   "airborneMin": 163,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-126-SIWA-UBLCF",
@@ -113699,9 +113702,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-PATT-A3NE7",
+   "id": "ACTUAL_ONLY_BK-AP-126-PATT-A3NE7",
    "date": "2026-08-07",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -113718,12 +113721,15 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVD",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "09:53",
+   "ldgTime": "12:39",
+   "airborneMin": 166,
+   "to": 1,
+   "ldg": 1,
+   "inst": 1,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-126-MARU-U81U5",
@@ -113767,8 +113773,8 @@
    "instructor": "WISANU T.",
    "batch": "AP-126",
    "batchKey": "AP126",
-   "lesson": "CDXI 79",
-   "lessonNorm": "CDXI 79",
+   "lesson": "CDXI 78",
+   "lessonNorm": "CDXI 78",
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPT",
@@ -113918,9 +113924,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-PAKO-XFM97",
+   "id": "ACTUAL_ONLY_BK-AP-126-PAKO-XFM97",
    "date": "2026-08-07",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -113937,12 +113943,15 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPX",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:47",
+   "ldgTime": "09:30",
+   "airborneMin": 163,
+   "to": 5,
+   "ldg": 5,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-126-NANJ-CBX5M",
@@ -114113,9 +114122,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-KANA-MU9LZ",
+   "id": "ACTUAL_ONLY_BK-AP-126-KANA-MU9LZ",
    "date": "2026-08-07",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "10:00",
@@ -114132,12 +114141,15 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVC",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "09:52",
+   "ldgTime": "12:37",
+   "airborneMin": 165,
+   "to": 1,
+   "ldg": 1,
+   "inst": 1,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-126-SUBH-XCLA8",
@@ -114194,9 +114206,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-THAN-O8L61",
+   "id": "ACTUAL_ONLY_BK-AP-126-THAN-O8L61",
    "date": "2026-08-07",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "10:00",
@@ -114213,12 +114225,15 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPO",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "10:20",
+   "ldgTime": "12:05",
+   "airborneMin": 105,
+   "to": 5,
+   "ldg": 5,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-MSH3IAOQ",
@@ -124418,6 +124433,17 @@
    "reason": "Sick Leave",
    "id": "Leave Record|key|03/08/2026 23:04:33",
    "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "KITTIPAT M.",
+   "start": "2026-08-10",
+   "end": "2026-08-10",
+   "reason": "CAAT Exam",
+   "id": "Leave Record|key|07/08/2026 12:48:47",
+   "batch": "AP-128",
    "duration": "Full Day",
    "note": "",
    "role": "Student"

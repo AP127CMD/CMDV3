@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-08T16:56:35.086Z",
+ "generatedAt": "2026-08-08T17:51:04.647Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-08T16:56:35.086Z",
-  "upstreamFetchedAt": "2026-08-08T16:55:11Z"
+  "fetchedAt": "2026-08-08T17:51:04.647Z",
+  "upstreamFetchedAt": "2026-08-08T17:45:24Z"
  },
  "flights": [
   {
@@ -116315,8 +116315,8 @@
   {
    "tail": "HS-TPU",
    "acType": "DA40TDI",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPV",
@@ -116351,8 +116351,8 @@
   {
    "tail": "HS-TVC",
    "acType": "DA40CS",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TVD",

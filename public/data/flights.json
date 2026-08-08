@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-08T02:24:52.971Z",
+ "generatedAt": "2026-08-08T03:48:17.026Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-08T02:24:52.971Z",
-  "upstreamFetchedAt": "2026-08-08T02:21:57Z"
+  "fetchedAt": "2026-08-08T03:48:17.026Z",
+  "upstreamFetchedAt": "2026-08-08T03:43:51Z"
  },
  "flights": [
   {
@@ -114665,9 +114665,9 @@
    }
   },
   {
-   "id": "BK-AP-129-SURA-3KN48",
+   "id": "ACTUAL_ONLY_BK-AP-129-SURA-3KN48",
    "date": "2026-08-08",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -114684,12 +114684,15 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPX",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:46",
+   "ldgTime": "07:32",
+   "airborneMin": 46,
+   "to": 4,
+   "ldg": 4,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-126-PAKO-VVM35",
@@ -115043,9 +115046,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-THAN-4BJYO",
+   "id": "ACTUAL_ONLY_BK-AP-126-THAN-4BJYO",
    "date": "2026-08-08",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -115062,17 +115065,20 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:52",
+   "ldgTime": "08:38",
+   "airborneMin": 106,
+   "to": 3,
+   "ldg": 3,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
-   "id": "BK-AP-129-MARC-S7ZIZ",
+   "id": "ACTUAL_ONLY_BK-AP-129-MARC-S7ZIZ",
    "date": "2026-08-08",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -115089,12 +115095,15 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVD",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:35",
+   "ldgTime": "07:35",
+   "airborneMin": 60,
+   "to": 5,
+   "ldg": 5,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-126-MARU-GMNPO",
@@ -115178,9 +115187,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-SARA-UN863",
+   "id": "ACTUAL_ONLY_BK-AP-126-SARA-UN863",
    "date": "2026-08-08",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -115197,12 +115206,15 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVE",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:44",
+   "ldgTime": "09:32",
+   "airborneMin": 168,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-129-WANU-I3PYR",

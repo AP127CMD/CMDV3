@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-08T09:57:20.497Z",
+ "generatedAt": "2026-08-08T10:54:30.359Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-08T09:57:20.497Z",
-  "upstreamFetchedAt": "2026-08-08T09:47:41Z"
+  "fetchedAt": "2026-08-08T10:54:30.359Z",
+  "upstreamFetchedAt": "2026-08-08T10:53:26Z"
  },
  "flights": [
   {
@@ -115139,9 +115139,9 @@
    }
   },
   {
-   "id": "BK-AP-126-MARU-GMNPO",
+   "id": "ACTUAL_ONLY_BK-AP-126-MARU-GMNPO",
    "date": "2026-08-08",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -115158,12 +115158,15 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVH",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:30",
+   "ldgTime": "09:15",
+   "airborneMin": 165,
+   "to": 5,
+   "ldg": 5,
+   "inst": 4,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-127-SIWA-PWW33",

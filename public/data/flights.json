@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-08T05:59:57.472Z",
+ "generatedAt": "2026-08-08T07:24:53.688Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-08T05:59:57.472Z",
-  "upstreamFetchedAt": "2026-08-08T05:56:26Z"
+  "fetchedAt": "2026-08-08T07:24:53.688Z",
+  "upstreamFetchedAt": "2026-08-08T07:16:10Z"
  },
  "flights": [
   {
@@ -114695,9 +114695,9 @@
    }
   },
   {
-   "id": "BK-AP-126-PAKO-VVM35",
+   "id": "ACTUAL_ONLY_BK-AP-126-PAKO-VVM35",
    "date": "2026-08-08",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "08:30",
@@ -114714,12 +114714,15 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPU",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "09:16",
+   "ldgTime": "11:56",
+   "airborneMin": 160,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-126-GRAV-RX3GF",
@@ -114943,8 +114946,8 @@
    "instructor": "CHAROENCHAI U.",
    "batch": "AP-126",
    "batchKey": "AP126",
-   "lesson": "CDXI 78",
-   "lessonNorm": "CDXI 78",
+   "lesson": "CDXI77",
+   "lessonNorm": "CDXI77",
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVG",
@@ -114956,9 +114959,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-127-SIWA-A6AJI",
+   "id": "ACTUAL_ONLY_BK-AP-127-SIWA-A6AJI",
    "date": "2026-08-08",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "09:10",
@@ -114975,12 +114978,15 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "09:26",
+   "ldgTime": "10:21",
+   "airborneMin": 55,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-126-PATC-FUYQU",
@@ -115160,9 +115166,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-127-SIWA-PWW33",
+   "id": "ACTUAL_ONLY_BK-AP-127-SIWA-PWW33",
    "date": "2026-08-08",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "10:40",
@@ -115179,12 +115185,15 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "10:45",
+   "ldgTime": "11:47",
+   "airborneMin": 62,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-127-NUTT-3QC30",
@@ -115806,6 +115815,33 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPV",
+   "tkoff": null,
+   "ldgTime": null,
+   "airborneMin": null,
+   "to": null,
+   "ldg": null,
+   "inst": null
+  },
+  {
+   "id": "BK-MSJZF6E0",
+   "date": "2026-08-09",
+   "status": "Pending",
+   "isSim": false,
+   "isStandby": false,
+   "start": "10:00",
+   "end": "11:30",
+   "durMin": 90,
+   "student": "TEERAWAJ C.",
+   "studentKey": "TEERAWAJ C.",
+   "nick": "T-WAJ",
+   "instructor": "SOWAN C.",
+   "batch": "AP-127",
+   "batchKey": "AP127",
+   "lesson": "CDXV 29",
+   "lessonNorm": "CDXV 29",
+   "cond": "Nav",
+   "type": "DA40CS",
+   "tail": "HS-TVG",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,
@@ -125895,6 +125931,17 @@
    "batch": "AP-126",
    "duration": "Full Day",
    "note": "ไปงานแต่ง",
+   "role": "Student"
+  },
+  {
+   "name": "KRIT L.",
+   "start": "2026-08-09",
+   "end": "2026-08-16",
+   "reason": "Personal Leave",
+   "id": "Leave Record|key|08/08/2026 13:14:05",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
    "role": "Student"
   },
   {

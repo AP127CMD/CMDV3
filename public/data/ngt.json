@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-08T14:53:12.252Z",
+ "generatedAt": "2026-08-08T15:50:02.615Z",
  "source": {
   "url": "https://ap127-db001.pages.dev/cache.json",
-  "fetchedAt": "2026-08-08T14:53:12.252Z",
-  "upstreamFetchedAt": "2026-08-08T14:50:45.891Z"
+  "fetchedAt": "2026-08-08T15:50:02.615Z",
+  "upstreamFetchedAt": "2026-08-08T15:46:17.917Z"
  },
  "batches": {
   "ap124": [
@@ -11517,7 +11517,7 @@
       "lesson": "CSPGL 53",
       "lessonNorm": "CSPGL 53",
       "actualMins": 80,
-      "date": "2026-06-26"
+      "date": "2026-06-25"
      },
      {
       "lesson": "CSPGLC 54",

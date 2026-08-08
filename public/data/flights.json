@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-08T14:00:37.813Z",
+ "generatedAt": "2026-08-08T14:53:12.252Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-08T14:00:37.813Z",
-  "upstreamFetchedAt": "2026-08-08T13:51:01Z"
+  "fetchedAt": "2026-08-08T14:53:12.252Z",
+  "upstreamFetchedAt": "2026-08-08T14:50:41Z"
  },
  "flights": [
   {
@@ -115256,9 +115256,9 @@
    }
   },
   {
-   "id": "BK-AP-129-WANU-I3PYR",
+   "id": "ACTUAL_ONLY_BK-AP-129-WANU-I3PYR",
    "date": "2026-08-08",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "10:00",
@@ -115275,17 +115275,20 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVE",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "10:10",
+   "ldgTime": "10:10",
+   "airborneMin": 0,
+   "to": 5,
+   "ldg": 5,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
-   "id": "BK-MSIPS3CP",
+   "id": "ACTUAL_ONLY_BK-MSIPS3CP",
    "date": "2026-08-08",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "10:00",
@@ -115302,12 +115305,15 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPV",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "10:17",
+   "ldgTime": "11:11",
+   "airborneMin": 54,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-MSIRQ68G",
@@ -115462,8 +115468,8 @@
    "instructor": "SORRAWUT P.",
    "batch": "AP-126",
    "batchKey": "AP126",
-   "lesson": "CDXI 81",
-   "lessonNorm": "CDXI 81",
+   "lesson": "CDXI 80",
+   "lessonNorm": "CDXI 80",
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPX",

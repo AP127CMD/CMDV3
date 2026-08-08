@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-08T03:48:17.026Z",
+ "generatedAt": "2026-08-08T05:11:26.982Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-08T03:48:17.026Z",
-  "upstreamFetchedAt": "2026-08-08T03:43:51Z"
+  "fetchedAt": "2026-08-08T05:11:26.982Z",
+  "upstreamFetchedAt": "2026-08-08T05:05:56Z"
  },
  "flights": [
   {
@@ -114722,9 +114722,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-GRAV-RX3GF",
+   "id": "ACTUAL_ONLY_BK-AP-126-GRAV-RX3GF",
    "date": "2026-08-08",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -114741,17 +114741,20 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVA",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "09:20",
+   "ldgTime": "10:30",
+   "airborneMin": 70,
+   "to": 1,
+   "ldg": 1,
+   "inst": 1,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
-   "id": "BK-AP-126-NAPO-4GQX1",
+   "id": "ACTUAL_ONLY_BK-AP-126-NAPO-4GQX1",
    "date": "2026-08-08",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "08:30",
@@ -114768,12 +114771,15 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVD",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "08:32",
+   "ldgTime": "10:52",
+   "airborneMin": 140,
+   "to": 3,
+   "ldg": 3,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-127-AKAR-TEJZQ",
@@ -114830,9 +114836,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-PORN-07I49",
+   "id": "ACTUAL_ONLY_BK-AP-126-PORN-07I49",
    "date": "2026-08-08",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -114849,17 +114855,20 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPV",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:31",
+   "ldgTime": "09:21",
+   "airborneMin": 170,
+   "to": 3,
+   "ldg": 3,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
-   "id": "BK-AP-126-RANG-7U8QW",
+   "id": "ACTUAL_ONLY_BK-AP-126-RANG-7U8QW",
    "date": "2026-08-08",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -114876,12 +114885,15 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPO",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:39",
+   "ldgTime": "09:24",
+   "airborneMin": 165,
+   "to": 2,
+   "ldg": 2,
+   "inst": 1,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-129-NATT-P66T6",
@@ -114992,9 +115004,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-PATT-55K4U",
+   "id": "ACTUAL_ONLY_BK-AP-126-PATT-55K4U",
    "date": "2026-08-08",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "08:30",
@@ -115011,12 +115023,15 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVC",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "08:27",
+   "ldgTime": "11:05",
+   "airborneMin": 158,
+   "to": 4,
+   "ldg": 2,
+   "inst": 4,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-129-NALA-62TIH",

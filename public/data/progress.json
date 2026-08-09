@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-09T06:02:36.706Z",
+ "generatedAt": "2026-08-09T07:26:43.587Z",
  "source": {
   "url": "https://ap127-data-api.anusorn-tanmetha.workers.dev",
-  "fetchedAt": "2026-08-09T06:02:36.706Z",
-  "upstreamFetchedAt": "2026-08-09T06:01:22.477Z"
+  "fetchedAt": "2026-08-09T07:26:43.587Z",
+  "upstreamFetchedAt": "2026-08-09T07:26:13.202Z"
  },
  "students": [
   {
@@ -3985,7 +3985,7 @@
     },
     {
      "lesson": "CSPXV 42",
-     "date": "2026-09-15",
+     "date": "2026-09-14",
      "mins": 180
     },
     {
@@ -6647,7 +6647,7 @@
     },
     {
      "lesson": "CSPXV 42",
-     "date": "2026-09-16",
+     "date": "2026-09-15",
      "mins": 180
     },
     {
@@ -10345,7 +10345,7 @@
     },
     {
      "lesson": "CSPXV 38",
-     "date": "2026-08-27",
+     "date": "2026-08-31",
      "mins": 120
     },
     {
@@ -10360,7 +10360,7 @@
     },
     {
      "lesson": "CSPXV 41",
-     "date": "2026-09-11",
+     "date": "2026-09-10",
      "mins": 180
     },
     {
@@ -11955,7 +11955,7 @@
     },
     {
      "lesson": "CSPXV 41",
-     "date": "2026-09-14",
+     "date": "2026-09-11",
      "mins": 180
     },
     {
@@ -12244,11 +12244,11 @@
    "fiFull": "SOWAN C.",
    "se": "DA40-CS",
    "batch": "AP127",
-   "done": 28,
+   "done": 29,
    "total": 96,
-   "remaining": 68,
-   "pct": 29.2,
-   "nextLesson": "CDXV 29",
+   "remaining": 67,
+   "pct": 30.2,
+   "nextLesson": "CSGL 30",
    "flown": [
     {
      "lesson": "CDGL 01",
@@ -12417,67 +12417,68 @@
      "lessonNorm": "CSGL 28",
      "actualMins": 80,
      "date": "2026-07-24"
+    },
+    {
+     "lesson": "CDXV 29",
+     "lessonNorm": "CDXV 29",
+     "actualMins": 90,
+     "date": "2026-08-09"
     }
    ],
    "planned": [
     {
-     "lesson": "CDXV 29",
-     "date": "2026-08-10",
-     "mins": 90
-    },
-    {
      "lesson": "CSGL 30",
-     "date": "2026-08-13",
+     "date": "2026-08-10",
      "mins": 80
     },
     {
      "lesson": "CDXV 31",
-     "date": "2026-08-17",
+     "date": "2026-08-13",
      "mins": 90
     },
     {
      "lesson": "CDXV 32",
-     "date": "2026-08-19",
+     "date": "2026-08-17",
      "mins": 120
     },
     {
      "lesson": "CSXV 33",
-     "date": "2026-08-21",
+     "date": "2026-08-19",
      "mins": 90
     },
     {
      "lesson": "CDGL 34",
-     "date": "2026-08-25",
+     "date": "2026-08-21",
      "mins": 60
     },
     {
      "lesson": "CDGL 35",
-     "date": "2026-08-27",
+     "date": "2026-08-25",
      "mins": 60
     },
     {
      "lesson": "CSPGL 36",
-     "date": "2026-08-31",
+     "date": "2026-08-27",
      "mins": 75
     },
     {
      "lesson": "CSPGL 37",
-     "date": "2026-09-02",
+     "date": "2026-08-31",
      "mins": 75
     },
     {
      "lesson": "CSPXV 38",
-     "date": "2026-09-04",
+     "date": "2026-09-02",
      "mins": 120
     },
     {
      "lesson": "CSPXV 39",
-     "date": "2026-09-08",
+     "date": "2026-09-04",
      "mins": 180
     },
     {
      "lesson": "CSPXV 40",
-     "date": "2026-09-10",
+     "date": "2026-09-08",
      "mins": 180
     },
     {

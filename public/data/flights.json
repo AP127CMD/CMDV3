@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-09T07:26:43.587Z",
+ "generatedAt": "2026-08-09T09:05:51.256Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-09T07:26:43.587Z",
-  "upstreamFetchedAt": "2026-08-09T07:20:24Z"
+  "fetchedAt": "2026-08-09T09:05:51.256Z",
+  "upstreamFetchedAt": "2026-08-09T08:57:57Z"
  },
  "flights": [
   {
@@ -115703,9 +115703,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-NATT-EORZF",
+   "id": "ACTUAL_ONLY_BK-AP-126-NATT-EORZF",
    "date": "2026-08-09",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "08:30",
@@ -115722,17 +115722,20 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPO",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "10:21",
+   "ldgTime": "11:55",
+   "airborneMin": 94,
+   "to": 1,
+   "ldg": 1,
+   "inst": 1,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
-   "id": "BK-AP-129-WANU-MR6TX",
+   "id": "ACTUAL_ONLY_BK-AP-129-WANU-MR6TX",
    "date": "2026-08-09",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -115749,12 +115752,15 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVE",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:10",
+   "ldgTime": "07:40",
+   "airborneMin": 90,
+   "to": 4,
+   "ldg": 4,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-129-MARC-PWXZ8",
@@ -127098,6 +127104,17 @@
    "duration": "Full Day",
    "note": "รับ licence caat",
    "role": "Instructor"
+  },
+  {
+   "name": "VASAPHON S.",
+   "start": "2026-08-11",
+   "end": "2026-08-11",
+   "reason": "Personal Leave",
+   "id": "Leave Record|key|09/08/2026 14:35:52",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Student"
   },
   {
    "name": "VASAPHON S.",

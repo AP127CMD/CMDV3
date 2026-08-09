@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-09T11:49:27.855Z",
+ "generatedAt": "2026-08-09T13:22:50.486Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-09T11:49:27.855Z",
-  "upstreamFetchedAt": "2026-08-09T11:45:33Z"
+  "fetchedAt": "2026-08-09T13:22:50.486Z",
+  "upstreamFetchedAt": "2026-08-09T13:18:16Z"
  },
  "flights": [
   {
@@ -116542,8 +116542,8 @@
    "status": "Pending",
    "isSim": false,
    "isStandby": false,
-   "start": "06:30",
-   "end": "09:30",
+   "start": "09:00",
+   "end": "12:00",
    "durMin": 180,
    "student": "PORNTREETRA R.",
    "studentKey": "PORNTREETRA R.",
@@ -116920,8 +116920,8 @@
    "status": "Pending",
    "isSim": false,
    "isStandby": false,
-   "start": "10:00",
-   "end": "12:00",
+   "start": "06:30",
+   "end": "08:30",
    "durMin": 120,
    "student": "THANATHIP W.",
    "studentKey": "THANATHIP W.",

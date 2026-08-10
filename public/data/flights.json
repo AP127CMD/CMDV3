@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-10T12:02:54.639Z",
+ "generatedAt": "2026-08-10T13:49:09.536Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-10T12:02:54.639Z",
-  "upstreamFetchedAt": "2026-08-10T12:00:02Z"
+  "fetchedAt": "2026-08-10T13:49:09.536Z",
+  "upstreamFetchedAt": "2026-08-10T13:42:52Z"
  },
  "flights": [
   {
@@ -116681,9 +116681,9 @@
    }
   },
   {
-   "id": "BK-AP-126-NATT-RU3QT",
+   "id": "ACTUAL_ONLY_BK-AP-126-NATT-RU3QT",
    "date": "2026-08-10",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "13:30",
@@ -116700,12 +116700,15 @@
    "cond": "IR/Nav",
    "type": "DA40TDI",
    "tail": "HS-TPT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "13:55",
+   "ldgTime": "17:05",
+   "airborneMin": 190,
+   "to": 4,
+   "ldg": 4,
+   "inst": 4,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-129-WANU-0CUT6",

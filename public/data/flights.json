@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-11T04:44:13.129Z",
+ "generatedAt": "2026-08-11T06:08:21.443Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-11T04:44:13.129Z",
-  "upstreamFetchedAt": "2026-08-11T04:42:33Z"
+  "fetchedAt": "2026-08-11T06:08:21.443Z",
+  "upstreamFetchedAt": "2026-08-11T05:59:38Z"
  },
  "flights": [
   {
@@ -117410,9 +117410,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-NAPO-OWZFL",
+   "id": "ACTUAL_ONLY_BK-AP-126-NAPO-OWZFL",
    "date": "2026-08-11",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "08:00",
@@ -117429,17 +117429,20 @@
    "cond": "IR / Nav",
    "type": "DA40CS",
    "tail": "HS-TVC",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "08:30",
+   "ldgTime": "11:18",
+   "airborneMin": 168,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
-   "id": "BK-AP-126-PREM-KONBA",
+   "id": "ACTUAL_ONLY_BK-AP-126-PREM-KONBA",
    "date": "2026-08-11",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -117456,12 +117459,15 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVG",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:50",
+   "ldgTime": "09:27",
+   "airborneMin": 157,
+   "to": 3,
+   "ldg": 3,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-FAM FI-NUNT-N9O5P",
@@ -117968,9 +117974,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-MARU-3C62V",
+   "id": "ACTUAL_ONLY_BK-AP-126-MARU-3C62V",
    "date": "2026-08-11",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -117987,12 +117993,15 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVH",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:42",
+   "ldgTime": "09:27",
+   "airborneMin": 165,
+   "to": 5,
+   "ldg": 5,
+   "inst": 1,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-126-PORN-I789X",

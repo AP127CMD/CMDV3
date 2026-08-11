@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-11T12:01:00.542Z",
+ "generatedAt": "2026-08-11T13:47:06.456Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-11T12:01:00.542Z",
-  "upstreamFetchedAt": "2026-08-11T11:54:15Z"
+  "fetchedAt": "2026-08-11T13:47:06.456Z",
+  "upstreamFetchedAt": "2026-08-11T13:34:58Z"
  },
  "flights": [
   {
@@ -118406,9 +118406,9 @@
    }
   },
   {
-   "id": "BK-MSNAQTB7",
+   "id": "ACTUAL_ONLY_BK-MSNAQTB7",
    "date": "2026-08-11",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "12:10",
@@ -118425,12 +118425,15 @@
    "cond": null,
    "type": "R44",
    "tail": "HS-TZU",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "12:15",
+   "ldgTime": "13:10",
+   "airborneMin": 55,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-PPL-42-SIRI-ZDCIP",
@@ -118525,7 +118528,7 @@
    "student": "GRAVITAT C.",
    "studentKey": "GRAVITAT C.",
    "nick": null,
-   "instructor": "PHAHOLYUTH P.",
+   "instructor": "SOWAN C.",
    "batch": "AP-126",
    "batchKey": "AP126",
    "lesson": "CDXI 80",
@@ -118795,7 +118798,7 @@
    "student": "NUTTAWAT R.",
    "studentKey": "NUTTAWAT R.",
    "nick": null,
-   "instructor": "SOWAN C.",
+   "instructor": "PHAHOLYUTH P.",
    "batch": "AP-126",
    "batchKey": "AP126",
    "lesson": "UPRT 83",

@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-11T10:14:19.138Z",
+ "generatedAt": "2026-08-11T11:08:12.335Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-11T10:14:19.138Z",
-  "upstreamFetchedAt": "2026-08-11T10:08:24Z"
+  "fetchedAt": "2026-08-11T11:08:12.335Z",
+  "upstreamFetchedAt": "2026-08-11T11:05:29Z"
  },
  "flights": [
   {
@@ -117365,9 +117365,9 @@
    }
   },
   {
-   "id": "BK-AP-126-PRIT-UYBS7",
+   "id": "ACTUAL_ONLY_BK-AP-126-PRIT-UYBS7",
    "date": "2026-08-11",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "10:00",
@@ -117384,12 +117384,15 @@
    "cond": "IR/Nav",
    "type": "DA40CS",
    "tail": "HS-TVA",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "10:30",
+   "ldgTime": "13:25",
+   "airborneMin": 175,
+   "to": 2,
+   "ldg": 2,
+   "inst": 3,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-126-CHAN-SAF4P",

@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-11T09:17:17.351Z",
+ "generatedAt": "2026-08-11T10:14:19.138Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-11T09:17:17.351Z",
-  "upstreamFetchedAt": "2026-08-11T09:11:46Z"
+  "fetchedAt": "2026-08-11T10:14:19.138Z",
+  "upstreamFetchedAt": "2026-08-11T10:08:24Z"
  },
  "flights": [
   {
@@ -117245,9 +117245,9 @@
    }
   },
   {
-   "id": "BK-MSMJBZN2",
+   "id": "ACTUAL_ONLY_BK-MSMJBZN2",
    "date": "2026-08-11",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "08:00",
@@ -117264,12 +117264,15 @@
    "cond": null,
    "type": "DA42TDI",
    "tail": "HS-TCP",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "08:38",
+   "ldgTime": "09:34",
+   "airborneMin": 56,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-MSMJC2GB",
@@ -118065,8 +118068,8 @@
    "tkoff": "06:55",
    "ldgTime": "09:25",
    "airborneMin": 150,
-   "to": 5,
-   "ldg": 5,
+   "to": 7,
+   "ldg": 6,
    "inst": 3,
    "flags": {
     "actualOnly": true
@@ -119337,6 +119340,33 @@
    "cond": "XC",
    "type": "DA40CS",
    "tail": "HS-TVE",
+   "tkoff": null,
+   "ldgTime": null,
+   "airborneMin": null,
+   "to": null,
+   "ldg": null,
+   "inst": null
+  },
+  {
+   "id": "BK-MSOFX2QX",
+   "date": "2026-08-13",
+   "status": "Pending",
+   "isSim": false,
+   "isStandby": false,
+   "start": "14:00",
+   "end": "17:00",
+   "durMin": 180,
+   "student": "All Students",
+   "studentKey": "ALL S.",
+   "nick": null,
+   "instructor": "KITTICHAI C.",
+   "batch": "AP-126",
+   "batchKey": "AP126",
+   "lesson": "Advance UPRT Long brief",
+   "lessonNorm": "ADVANCE UPRT LONG BRIEF",
+   "cond": null,
+   "type": null,
+   "tail": null,
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,

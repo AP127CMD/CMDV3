@@ -1,14 +1,14 @@
 {
  "schemaVersion": 1,
  "pipelineVersion": "3.0.0",
- "generatedAt": "2026-08-12T10:29:35.898Z",
+ "generatedAt": "2026-08-12T12:02:21.169Z",
  "sources": {
   "flights": {
    "sourceUrl": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-   "fetchedAt": "2026-08-12T10:29:35.898Z",
-   "upstreamFetchedAt": "2026-08-12T10:23:05Z",
+   "fetchedAt": "2026-08-12T12:02:21.169Z",
+   "upstreamFetchedAt": "2026-08-12T11:54:48Z",
    "contentHash": "sha256:590e7875e417c32ca8d9f57f169ea4e2eb2c7eb3cb10be7185bf046f4b14b33e",
-   "lastChangedAt": "2026-08-12T10:29:35.898Z",
+   "lastChangedAt": "2026-08-12T12:02:21.169Z",
    "records": {
     "flights": 5104,
     "instructors": 30,
@@ -51,28 +51,23 @@
     "nickBridged": 3
    },
    "diff": {
-    "added": 2,
-    "removed": 2,
+    "added": 0,
+    "removed": 0,
     "changed": 0
    }
   },
   "progress": {
    "sourceUrl": "https://ap127-data-api.anusorn-tanmetha.workers.dev",
-   "fetchedAt": "2026-08-12T08:41:58.387Z",
-   "upstreamFetchedAt": "2026-08-12T08:41:00.039Z",
+   "fetchedAt": "2026-08-12T12:02:21.169Z",
+   "upstreamFetchedAt": "2026-08-12T12:01:21.836Z",
    "contentHash": "sha256:d6f3c3c22c888868743f6b241f59cbc067bd442582dd73a65f082d798e059bf7",
-   "lastChangedAt": "2026-08-12T08:41:58.387Z",
+   "lastChangedAt": "2026-08-12T12:02:21.169Z",
    "records": {
     "students": 28,
     "curriculum": 96
    },
    "validation": {
-    "errors": [
-     {
-      "code": "FETCH_FAILED",
-      "message": "Error: fetch failed after 3 attempts: https://ap127-data-api.anusorn-tanmetha.workers.dev — Error: response too small (50 bytes)"
-     }
-    ],
+    "errors": [],
     "warnings": []
    },
    "diff": {
@@ -83,10 +78,10 @@
   },
   "ngt": {
    "sourceUrl": "https://ap127-db001.pages.dev/cache.json",
-   "fetchedAt": "2026-08-12T08:41:58.387Z",
-   "upstreamFetchedAt": "2026-08-12T08:41:00.039Z",
+   "fetchedAt": "2026-08-12T12:02:21.169Z",
+   "upstreamFetchedAt": "2026-08-12T12:01:21.836Z",
    "contentHash": "sha256:1012d210cc4cabc4d932486ff72181ed38d062b3fe39ec31d0d19c0bacf0132f",
-   "lastChangedAt": "2026-08-12T08:41:58.387Z",
+   "lastChangedAt": "2026-08-12T12:02:21.169Z",
    "records": {
     "ap124": 9,
     "ap126": 28,
@@ -94,12 +89,7 @@
     "ap129": 13
    },
    "validation": {
-    "errors": [
-     {
-      "code": "FETCH_FAILED",
-      "message": "Error: empty ap127[] — refusing"
-     }
-    ],
+    "errors": [],
     "warnings": []
    },
    "diff": null

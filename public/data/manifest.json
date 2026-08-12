@@ -1,14 +1,14 @@
 {
  "schemaVersion": 1,
  "pipelineVersion": "3.0.0",
- "generatedAt": "2026-08-12T16:12:45.045Z",
+ "generatedAt": "2026-08-12T17:16:34.406Z",
  "sources": {
   "flights": {
    "sourceUrl": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-   "fetchedAt": "2026-08-12T16:12:45.045Z",
-   "upstreamFetchedAt": "2026-08-12T15:56:56Z",
-   "contentHash": "sha256:992f6561bdbf458984dbb1f0089eb06b7abb3be771345bb432fc82fcf291f06e",
-   "lastChangedAt": "2026-08-12T16:12:45.045Z",
+   "fetchedAt": "2026-08-12T17:16:34.406Z",
+   "upstreamFetchedAt": "2026-08-12T17:15:31Z",
+   "contentHash": "sha256:642a0075b6c19f3a59557f92b62be608a27619982db4349123a1053475833937",
+   "lastChangedAt": "2026-08-12T17:16:34.406Z",
    "records": {
     "flights": 5113,
     "instructors": 30,
@@ -51,28 +51,26 @@
     "nickBridged": 3
    },
    "diff": {
-    "added": 1,
+    "added": 0,
     "removed": 0,
-    "changed": 0
+    "changed": 1,
+    "changedFields": {
+     "status": 1
+    }
    }
   },
   "progress": {
    "sourceUrl": "https://ap127-data-api.anusorn-tanmetha.workers.dev",
-   "fetchedAt": "2026-08-12T15:17:46.934Z",
-   "upstreamFetchedAt": "2026-08-12T15:16:14.869Z",
-   "contentHash": "sha256:b7b435491b6f85b62650bdd9c8172959d2d8f0514f78e378d56b51b0382eaa1a",
-   "lastChangedAt": "2026-08-12T15:17:46.934Z",
+   "fetchedAt": "2026-08-12T17:16:34.406Z",
+   "upstreamFetchedAt": "2026-08-12T17:16:06.751Z",
+   "contentHash": "sha256:e7b9a955cacdc1a88e2ab60bd80b4919b88507b59abba9fc05a231e8c674ec2d",
+   "lastChangedAt": "2026-08-12T17:16:34.406Z",
    "records": {
     "students": 28,
     "curriculum": 96
    },
    "validation": {
-    "errors": [
-     {
-      "code": "FETCH_FAILED",
-      "message": "Error: fetch failed after 3 attempts: https://ap127-data-api.anusorn-tanmetha.workers.dev — Error: response too small (50 bytes)"
-     }
-    ],
+    "errors": [],
     "warnings": []
    },
    "diff": {
@@ -83,10 +81,10 @@
   },
   "ngt": {
    "sourceUrl": "https://ap127-db001.pages.dev/cache.json",
-   "fetchedAt": "2026-08-12T15:17:46.934Z",
-   "upstreamFetchedAt": "2026-08-12T15:16:14.869Z",
-   "contentHash": "sha256:0e6b3e7c8c35afc0e2abf729788b8b82676d5780ff7ed8ace0bae16757fc1810",
-   "lastChangedAt": "2026-08-12T15:17:46.934Z",
+   "fetchedAt": "2026-08-12T17:16:34.406Z",
+   "upstreamFetchedAt": "2026-08-12T17:11:17.292Z",
+   "contentHash": "sha256:ca7bbf7aaa01dbfb15074b763efedd9d4e6197f64eec1dd7cb1e9faa3fe4548f",
+   "lastChangedAt": "2026-08-12T17:16:34.406Z",
    "records": {
     "ap124": 9,
     "ap126": 28,
@@ -94,12 +92,7 @@
     "ap129": 13
    },
    "validation": {
-    "errors": [
-     {
-      "code": "FETCH_FAILED",
-      "message": "Error: empty ap127[] — refusing"
-     }
-    ],
+    "errors": [],
     "warnings": []
    },
    "diff": null

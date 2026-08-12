@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-12T05:09:06.033Z",
+ "generatedAt": "2026-08-12T06:46:58.925Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-12T05:09:06.033Z",
-  "upstreamFetchedAt": "2026-08-12T05:01:17Z"
+  "fetchedAt": "2026-08-12T06:46:58.925Z",
+  "upstreamFetchedAt": "2026-08-12T06:38:57Z"
  },
  "flights": [
   {

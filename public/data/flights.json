@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-12T18:15:21.959Z",
+ "generatedAt": "2026-08-12T19:30:38.942Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-12T18:15:21.959Z",
-  "upstreamFetchedAt": "2026-08-12T18:11:06Z"
+  "fetchedAt": "2026-08-12T19:30:38.942Z",
+  "upstreamFetchedAt": "2026-08-12T19:29:24Z"
  },
  "flights": [
   {
@@ -119789,8 +119789,8 @@
   {
    "tail": "HS-TCB",
    "acType": "DA42TDI",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": true,
+   "maintReason": "Maintenance"
   },
   {
    "tail": "HS-TCP",
@@ -119807,14 +119807,14 @@
   {
    "tail": "HS-TPF",
    "acType": "C172",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": true,
+   "maintReason": "Maintenance"
   },
   {
    "tail": "HS-TPG",
    "acType": "C172",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": true,
+   "maintReason": "Maintenance"
   },
   {
    "tail": "HS-TPH",
@@ -119831,8 +119831,8 @@
   {
    "tail": "HS-TPM",
    "acType": "DA42TDI",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": true,
+   "maintReason": "Maintenance"
   },
   {
    "tail": "HS-TPN (SIM)",
@@ -119861,8 +119861,8 @@
   {
    "tail": "HS-TPR",
    "acType": "DA40TDI",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": true,
+   "maintReason": "Maintenance"
   },
   {
    "tail": "HS-TPT",
@@ -119903,8 +119903,8 @@
   {
    "tail": "HS-TVB",
    "acType": "DA40CS",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": true,
+   "maintReason": "Maintenance"
   },
   {
    "tail": "HS-TVC",
@@ -119915,8 +119915,8 @@
   {
    "tail": "HS-TVD",
    "acType": "DA40CS",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": true,
+   "maintReason": "Maintenance"
   },
   {
    "tail": "HS-TVE",
@@ -119927,8 +119927,8 @@
   {
    "tail": "HS-TVF",
    "acType": "DA42NG",
-   "isMaint": false,
-   "maintReason": null
+   "isMaint": true,
+   "maintReason": "Maintenance"
   },
   {
    "tail": "HS-TVG",

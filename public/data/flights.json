@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-13T05:11:36.218Z",
+ "generatedAt": "2026-08-13T06:50:54.043Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-13T05:11:36.218Z",
-  "upstreamFetchedAt": "2026-08-13T05:11:18Z"
+  "fetchedAt": "2026-08-13T06:50:54.043Z",
+  "upstreamFetchedAt": "2026-08-13T06:47:43Z"
  },
  "flights": [
   {
@@ -118580,9 +118580,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-PATC-9RV2W",
+   "id": "ACTUAL_ONLY_BK-AP-126-PATC-9RV2W",
    "date": "2026-08-13",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "09:00",
@@ -118599,12 +118599,15 @@
    "cond": "IR / Nav",
    "type": "DA40TDI",
    "tail": "HS-TPO",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "09:30",
+   "ldgTime": "12:25",
+   "airborneMin": 175,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-126-NAPO-76U6T",
@@ -118745,9 +118748,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-RANG-CCPK6",
+   "id": "ACTUAL_ONLY_BK-AP-126-RANG-CCPK6",
    "date": "2026-08-13",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "08:00",
@@ -118764,12 +118767,15 @@
    "cond": "IR / Nav",
    "type": "DA40TDI",
    "tail": "HS-TPV",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "08:11",
+   "ldgTime": "10:59",
+   "airborneMin": 168,
+   "to": 2,
+   "ldg": 2,
+   "inst": 1,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-126-NAPA-H9CM9",
@@ -119518,7 +119524,7 @@
   {
    "id": "BK-MSQ3PSH4",
    "date": "2026-08-13",
-   "status": "Pending",
+   "status": "Canceled",
    "isSim": false,
    "isStandby": false,
    "start": "12:10",
@@ -119543,9 +119549,9 @@
    "inst": null
   },
   {
-   "id": "BK-MSQ3PVD1",
+   "id": "ACTUAL_ONLY_BK-MSQ3PVD1",
    "date": "2026-08-13",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "08:30",
@@ -119562,12 +119568,15 @@
    "cond": null,
    "type": "R44",
    "tail": "HS-TZU",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "08:35",
+   "ldgTime": "09:30",
+   "airborneMin": 55,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-MSQ3PY4K",
@@ -119626,7 +119635,7 @@
   {
    "id": "BK-MSQ3Q53P",
    "date": "2026-08-13",
-   "status": "Pending",
+   "status": "Canceled",
    "isSim": false,
    "isStandby": false,
    "start": "12:10",

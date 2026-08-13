@@ -1,14 +1,14 @@
 {
  "schemaVersion": 1,
  "pipelineVersion": "3.0.0",
- "generatedAt": "2026-08-13T21:07:18.206Z",
+ "generatedAt": "2026-08-13T22:06:30.457Z",
  "sources": {
   "flights": {
    "sourceUrl": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-   "fetchedAt": "2026-08-13T21:07:18.206Z",
-   "upstreamFetchedAt": "2026-08-13T21:05:58Z",
+   "fetchedAt": "2026-08-13T22:06:30.457Z",
+   "upstreamFetchedAt": "2026-08-13T21:59:55Z",
    "contentHash": "sha256:099c137c8efd2ba9a8227e180b6a05af71af4ddec86ff26c220563c1c47def48",
-   "lastChangedAt": "2026-08-13T21:07:18.206Z",
+   "lastChangedAt": "2026-08-13T22:06:30.457Z",
    "records": {
     "flights": 5153,
     "instructors": 30,
@@ -58,10 +58,10 @@
   },
   "progress": {
    "sourceUrl": "https://ap127-data-api.anusorn-tanmetha.workers.dev",
-   "fetchedAt": "2026-08-13T21:07:18.206Z",
-   "upstreamFetchedAt": "2026-08-13T21:06:29.146Z",
+   "fetchedAt": "2026-08-13T22:06:30.457Z",
+   "upstreamFetchedAt": "2026-08-13T22:06:05.359Z",
    "contentHash": "sha256:69721d29b07b3ba975cb69aa6797c9b0fcc143d4b0d9b152afa6ad123862827c",
-   "lastChangedAt": "2026-08-13T21:07:18.206Z",
+   "lastChangedAt": "2026-08-13T22:06:30.457Z",
    "records": {
     "students": 28,
     "curriculum": 96
@@ -78,10 +78,10 @@
   },
   "ngt": {
    "sourceUrl": "https://ap127-db001.pages.dev/cache.json",
-   "fetchedAt": "2026-08-13T21:07:18.206Z",
-   "upstreamFetchedAt": "2026-08-13T21:06:29.146Z",
+   "fetchedAt": "2026-08-13T22:06:30.457Z",
+   "upstreamFetchedAt": "2026-08-13T22:06:05.359Z",
    "contentHash": "sha256:61765cc2d1cac34a3307ef5b77d7d2c7f0b7d162edbbcf705c457e5f864fef7e",
-   "lastChangedAt": "2026-08-13T21:07:18.206Z",
+   "lastChangedAt": "2026-08-13T22:06:30.457Z",
    "records": {
     "ap124": 9,
     "ap126": 28,

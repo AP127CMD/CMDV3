@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-13T00:01:34.076Z",
+ "generatedAt": "2026-08-13T03:03:03.731Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-13T00:01:34.076Z",
-  "upstreamFetchedAt": "2026-08-12T23:53:06Z"
+  "fetchedAt": "2026-08-13T03:03:03.731Z",
+  "upstreamFetchedAt": "2026-08-13T02:57:54Z"
  },
  "flights": [
   {
@@ -118877,9 +118877,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-PONG-H3QJ2",
+   "id": "ACTUAL_ONLY_BK-AP-126-PONG-H3QJ2",
    "date": "2026-08-13",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "08:00",
@@ -118896,12 +118896,15 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "08:12",
+   "ldgTime": "09:24",
+   "airborneMin": 72,
+   "to": 6,
+   "ldg": 6,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-126-THAN-CJNS4",
@@ -118931,9 +118934,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-PAKO-ZWC3L",
+   "id": "ACTUAL_ONLY_BK-AP-126-PAKO-ZWC3L",
    "date": "2026-08-13",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -118950,12 +118953,15 @@
    "cond": "IR / Nav",
    "type": "DA40TDI",
    "tail": "HS-TPO",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:38",
+   "ldgTime": "08:23",
+   "airborneMin": 105,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-128-KITT-3SFT0",
@@ -119012,9 +119018,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-129-CHAI-NRI7S",
+   "id": "ACTUAL_ONLY_BK-AP-129-CHAI-NRI7S",
    "date": "2026-08-13",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -119031,12 +119037,15 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPX",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:55",
+   "ldgTime": "07:25",
+   "airborneMin": 30,
+   "to": 4,
+   "ldg": 4,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-129-MATH-B4XNR",
@@ -119093,9 +119102,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-129-SURA-8P4BA",
+   "id": "ACTUAL_ONLY_BK-AP-129-SURA-8P4BA",
    "date": "2026-08-13",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -119112,12 +119121,15 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:35",
+   "ldgTime": "07:18",
+   "airborneMin": 43,
+   "to": 5,
+   "ldg": 5,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-129-MARC-TUVPG",
@@ -119228,9 +119240,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-129-TUPP-Z71HM",
+   "id": "ACTUAL_ONLY_BK-AP-129-TUPP-Z71HM",
    "date": "2026-08-13",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -119247,12 +119259,15 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPV",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:35",
+   "ldgTime": "07:30",
+   "airborneMin": 55,
+   "to": 6,
+   "ldg": 6,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-Recurrent-OIL-HOCIF",
@@ -119611,8 +119626,8 @@
    "status": "Pending",
    "isSim": false,
    "isStandby": false,
-   "start": "09:00",
-   "end": "11:00",
+   "start": "10:00",
+   "end": "12:00",
    "durMin": 120,
    "student": "Oil",
    "studentKey": "OIL",
@@ -129666,6 +129681,17 @@
    "role": "Instructor"
   },
   {
+   "name": "CHAROENCHAI U.",
+   "start": "2026-08-13",
+   "end": "2026-08-14",
+   "reason": "Personal Leave",
+   "id": "Leave Record|key|13/08/2026 07:30:57",
+   "batch": "N/A",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
    "name": "NAPON R.",
    "start": "2026-08-13",
    "end": "2026-08-13",
@@ -129675,6 +129701,17 @@
    "duration": "Full Day",
    "note": "",
    "role": "Student"
+  },
+  {
+   "name": "SANTI SUK.",
+   "start": "2026-08-13",
+   "end": "2026-08-14",
+   "reason": "Personal Leave",
+   "id": "Leave Record|key|13/08/2026 07:46:22",
+   "batch": "N/A",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
   },
   {
    "name": "KANANON V.",

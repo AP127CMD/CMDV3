@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-14T13:48:27.607Z",
+ "generatedAt": "2026-08-14T15:10:00.099Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-14T13:48:27.607Z",
-  "upstreamFetchedAt": "2026-08-14T13:41:35Z"
+  "fetchedAt": "2026-08-14T15:10:00.099Z",
+  "upstreamFetchedAt": "2026-08-14T15:02:48Z"
  },
  "flights": [
   {
@@ -121288,7 +121288,7 @@
   {
    "id": "BK-AP-129-TORN-FVWC9",
    "date": "2026-08-15",
-   "status": "Pending",
+   "status": "Canceled",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",

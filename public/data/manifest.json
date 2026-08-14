@@ -1,20 +1,20 @@
 {
  "schemaVersion": 1,
  "pipelineVersion": "3.0.0",
- "generatedAt": "2026-08-14T05:09:08.715Z",
+ "generatedAt": "2026-08-14T06:47:41.036Z",
  "sources": {
   "flights": {
    "sourceUrl": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-   "fetchedAt": "2026-08-14T05:09:08.715Z",
-   "upstreamFetchedAt": "2026-08-14T05:05:33Z",
-   "contentHash": "sha256:dffb2d4469e37b7663b90c64e7f811beb60f6d7964b0175bdfa6af7c58ba7404",
-   "lastChangedAt": "2026-08-14T05:09:08.715Z",
+   "fetchedAt": "2026-08-14T06:47:41.036Z",
+   "upstreamFetchedAt": "2026-08-14T06:43:20Z",
+   "contentHash": "sha256:6ead8538bd049c1a7ee31c48bf8f29844a9f9d13a2875f84bdf78ba40c4bee84",
+   "lastChangedAt": "2026-08-14T06:47:41.036Z",
    "records": {
-    "flights": 5155,
+    "flights": 5154,
     "instructors": 30,
     "resources": 31,
-    "leaves": 908,
-    "flightsAfterDedup": 4097
+    "leaves": 909,
+    "flightsAfterDedup": 4096
    },
    "validation": {
     "errors": [],
@@ -51,41 +51,50 @@
     "nickBridged": 3
    },
    "diff": {
-    "added": 11,
-    "removed": 10,
+    "added": 7,
+    "removed": 8,
     "changed": 0
    }
   },
   "progress": {
    "sourceUrl": "https://ap127-data-api.anusorn-tanmetha.workers.dev",
-   "fetchedAt": "2026-08-14T05:09:08.715Z",
-   "upstreamFetchedAt": "2026-08-14T05:06:08.757Z",
-   "contentHash": "sha256:d603b09cf4c06b3aa9557293c85cbe46c64141fff460dc6c9ef094b04596ca08",
-   "lastChangedAt": "2026-08-14T05:09:08.715Z",
+   "fetchedAt": "2026-08-14T06:47:41.036Z",
+   "upstreamFetchedAt": "2026-08-14T06:46:08.525Z",
+   "contentHash": "sha256:55362659b22aa0e63f058aebe3b64151be7abc43580cbd90a6ffbcbd00c40472",
+   "lastChangedAt": "2026-08-14T06:47:41.036Z",
    "records": {
-    "students": 28,
+    "students": 27,
     "curriculum": 96
    },
    "validation": {
     "errors": [],
-    "warnings": []
+    "warnings": [
+     {
+      "code": "ROSTER_MISSING",
+      "message": "roster students absent from the progress feed (upstream usually self-heals; do NOT fabricate)",
+      "count": 1,
+      "samples": [
+       "Vasaphon Sinsab"
+      ]
+     }
+    ]
    },
    "diff": {
     "added": 0,
-    "removed": 0,
+    "removed": 1,
     "changed": 0
    }
   },
   "ngt": {
    "sourceUrl": "https://ap127-db001.pages.dev/cache.json",
-   "fetchedAt": "2026-08-14T05:09:08.715Z",
-   "upstreamFetchedAt": "2026-08-14T05:06:08.757Z",
-   "contentHash": "sha256:5abcabd85ffe07829886b6315b35b2fd8acbd83bcee8c48b735d78f5acf066f0",
-   "lastChangedAt": "2026-08-14T05:09:08.715Z",
+   "fetchedAt": "2026-08-14T06:47:41.036Z",
+   "upstreamFetchedAt": "2026-08-14T06:46:08.525Z",
+   "contentHash": "sha256:e16653b06e9b2bf3c90c34a433abfbd6a4adc323169db92eb77909f7ee749eaf",
+   "lastChangedAt": "2026-08-14T06:47:41.036Z",
    "records": {
     "ap124": 9,
     "ap126": 28,
-    "ap127": 28,
+    "ap127": 27,
     "ap129": 13
    },
    "validation": {

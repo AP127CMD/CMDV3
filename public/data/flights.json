@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-13T23:06:21.674Z",
+ "generatedAt": "2026-08-14T00:01:40.965Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-13T23:06:21.674Z",
-  "upstreamFetchedAt": "2026-08-13T23:02:55Z"
+  "fetchedAt": "2026-08-14T00:01:40.965Z",
+  "upstreamFetchedAt": "2026-08-14T00:00:00Z"
  },
  "flights": [
   {
@@ -120550,8 +120550,8 @@
    "status": "Pending",
    "isSim": false,
    "isStandby": false,
-   "start": "09:00",
-   "end": "10:00",
+   "start": "10:30",
+   "end": "11:30",
    "durMin": 60,
    "student": "CHAWIN K.",
    "studentKey": "CHAWIN K.",
@@ -120604,8 +120604,8 @@
    "status": "Pending",
    "isSim": false,
    "isStandby": false,
-   "start": "10:30",
-   "end": "11:30",
+   "start": "09:00",
+   "end": "10:00",
    "durMin": 60,
    "student": "Test Flight",
    "studentKey": "TEST F.",

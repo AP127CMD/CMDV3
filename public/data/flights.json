@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-14T19:59:04.554Z",
+ "generatedAt": "2026-08-14T20:49:29.840Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-14T19:59:04.554Z",
-  "upstreamFetchedAt": "2026-08-14T19:54:16Z"
+  "fetchedAt": "2026-08-14T20:49:29.840Z",
+  "upstreamFetchedAt": "2026-08-14T20:40:54Z"
  },
  "flights": [
   {
@@ -119912,9 +119912,9 @@
    }
   },
   {
-   "id": "BK-AP-126-PARA-26ZDQ",
+   "id": "ACTUAL_ONLY_BK-AP-126-PARA-26ZDQ",
    "date": "2026-08-14",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "13:30",
@@ -119931,12 +119931,15 @@
    "cond": "XC / IR",
    "type": "DA40CS",
    "tail": "HS-TVC",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "13:50",
+   "ldgTime": "16:20",
+   "airborneMin": 150,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-129-CHAI-34Y3F",

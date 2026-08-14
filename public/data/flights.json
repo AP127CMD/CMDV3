@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-14T00:01:40.965Z",
+ "generatedAt": "2026-08-14T03:02:07.956Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-14T00:01:40.965Z",
-  "upstreamFetchedAt": "2026-08-14T00:00:00Z"
+  "fetchedAt": "2026-08-14T03:02:07.956Z",
+  "upstreamFetchedAt": "2026-08-14T02:55:29Z"
  },
  "flights": [
   {
@@ -120194,9 +120194,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-129-MATH-WPF5K",
+   "id": "ACTUAL_ONLY_BK-AP-129-MATH-WPF5K",
    "date": "2026-08-14",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -120213,12 +120213,15 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPO",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:45",
+   "ldgTime": "07:10",
+   "airborneMin": 25,
+   "to": 10,
+   "ldg": 10,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-129-NALA-W657F",
@@ -120807,6 +120810,33 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVC",
+   "tkoff": null,
+   "ldgTime": null,
+   "airborneMin": null,
+   "to": null,
+   "ldg": null,
+   "inst": null
+  },
+  {
+   "id": "BK-MSS8Y9OR",
+   "date": "2026-08-14",
+   "status": "Pending",
+   "isSim": false,
+   "isStandby": false,
+   "start": "07:40",
+   "end": "08:25",
+   "durMin": 45,
+   "student": "MARC W.",
+   "studentKey": "MARC W.",
+   "nick": null,
+   "instructor": "KITTICHAI C.",
+   "batch": "AP-129",
+   "batchKey": "AP129",
+   "lesson": "CDGL 13",
+   "lessonNorm": "CDGL 13",
+   "cond": null,
+   "type": "DA40CS",
+   "tail": "HS-TVA",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,

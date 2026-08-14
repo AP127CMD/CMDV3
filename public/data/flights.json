@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-14T12:00:51.008Z",
+ "generatedAt": "2026-08-14T13:48:27.607Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-14T12:00:51.008Z",
-  "upstreamFetchedAt": "2026-08-14T11:52:12Z"
+  "fetchedAt": "2026-08-14T13:48:27.607Z",
+  "upstreamFetchedAt": "2026-08-14T13:41:35Z"
  },
  "flights": [
   {
@@ -119882,9 +119882,9 @@
    }
   },
   {
-   "id": "BK-AP-126-NAPO-2BQAM",
+   "id": "ACTUAL_ONLY_BK-AP-126-NAPO-2BQAM",
    "date": "2026-08-14",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "13:30",
@@ -119901,12 +119901,15 @@
    "cond": "XC / IR",
    "type": "DA40CS",
    "tail": "HS-TVA",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "13:50",
+   "ldgTime": "16:35",
+   "airborneMin": 165,
+   "to": 5,
+   "ldg": 5,
+   "inst": 4,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-126-PARA-26ZDQ",
@@ -121139,7 +121142,7 @@
    "lessonNorm": "CDGL 13",
    "cond": null,
    "type": "DA40CS",
-   "tail": "HS-TVA",
+   "tail": "HS-TVE",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,
@@ -121274,7 +121277,7 @@
    "lessonNorm": "CSGL 14",
    "cond": "Solo",
    "type": "DA40CS",
-   "tail": "HS-TVA",
+   "tail": "HS-TVE",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,

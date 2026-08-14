@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-14T16:08:38.520Z",
+ "generatedAt": "2026-08-14T17:14:45.901Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-14T16:08:38.520Z",
-  "upstreamFetchedAt": "2026-08-14T16:01:29Z"
+  "fetchedAt": "2026-08-14T17:14:45.901Z",
+  "upstreamFetchedAt": "2026-08-14T17:08:57Z"
  },
  "flights": [
   {
@@ -121450,7 +121450,7 @@
   {
    "id": "BK-AP-126-PARA-3B3T3",
    "date": "2026-08-15",
-   "status": "Pending",
+   "status": "Canceled",
    "isSim": false,
    "isStandby": false,
    "start": "09:00",
@@ -121793,8 +121793,8 @@
   {
    "tail": "HS-TCB",
    "acType": "DA42TDI",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TCP",
@@ -121811,14 +121811,14 @@
   {
    "tail": "HS-TPF",
    "acType": "C172",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPG",
    "acType": "C172",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPH",
@@ -121835,8 +121835,8 @@
   {
    "tail": "HS-TPM",
    "acType": "DA42TDI",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPN (SIM)",
@@ -121865,8 +121865,8 @@
   {
    "tail": "HS-TPR",
    "acType": "DA40TDI",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPT",
@@ -121907,8 +121907,8 @@
   {
    "tail": "HS-TVB",
    "acType": "DA40CS",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TVC",
@@ -121919,8 +121919,8 @@
   {
    "tail": "HS-TVD",
    "acType": "DA40CS",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TVE",
@@ -121931,8 +121931,8 @@
   {
    "tail": "HS-TVF",
    "acType": "DA42NG",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TVG",

@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-14T10:27:44.505Z",
+ "generatedAt": "2026-08-14T12:00:51.008Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-14T10:27:44.505Z",
-  "upstreamFetchedAt": "2026-08-14T10:22:32Z"
+  "fetchedAt": "2026-08-14T12:00:51.008Z",
+  "upstreamFetchedAt": "2026-08-14T11:52:12Z"
  },
  "flights": [
   {
@@ -120056,9 +120056,9 @@
    }
   },
   {
-   "id": "BK-AP-126-SUBH-M7O9L",
+   "id": "ACTUAL_ONLY_BK-AP-126-SUBH-M7O9L",
    "date": "2026-08-14",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "13:30",
@@ -120075,12 +120075,15 @@
    "cond": "XC / IR",
    "type": "DA40CS",
    "tail": "HS-TVE",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "13:47",
+   "ldgTime": "16:29",
+   "airborneMin": 162,
+   "to": 4,
+   "ldg": 4,
+   "inst": 4,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-129-SURA-JZC54",
@@ -120650,9 +120653,9 @@
    }
   },
   {
-   "id": "BK-AP-126-THAN-4CFO3",
+   "id": "ACTUAL_ONLY_BK-AP-126-THAN-4CFO3",
    "date": "2026-08-14",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "13:30",
@@ -120669,12 +120672,15 @@
    "cond": "XC / IR",
    "type": "DA40TDI",
    "tail": "HS-TPO",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "13:59",
+   "ldgTime": "17:03",
+   "airborneMin": 184,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-Test Flight-TEST-CVB3E",
@@ -121576,7 +121582,7 @@
   {
    "id": "BK-MSSR1PIO",
    "date": "2026-08-15",
-   "status": "Pending",
+   "status": "Canceled",
    "isSim": false,
    "isStandby": false,
    "start": "08:20",

@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-15T09:44:14.419Z",
+ "generatedAt": "2026-08-15T10:43:08.195Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-15T09:44:14.419Z",
-  "upstreamFetchedAt": "2026-08-15T09:36:41Z"
+  "fetchedAt": "2026-08-15T10:43:08.195Z",
+  "upstreamFetchedAt": "2026-08-15T10:39:09Z"
  },
  "flights": [
   {
@@ -121496,9 +121496,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-PREM-9GOJW",
+   "id": "ACTUAL_ONLY_BK-AP-126-PREM-9GOJW",
    "date": "2026-08-15",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "09:00",
@@ -121515,12 +121515,15 @@
    "cond": "XC / IR",
    "type": "DA40CS",
    "tail": "HS-TVE",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "08:53",
+   "ldgTime": "11:39",
+   "airborneMin": 166,
+   "to": 4,
+   "ldg": 4,
+   "inst": 4,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-126-PATC-72W7O",

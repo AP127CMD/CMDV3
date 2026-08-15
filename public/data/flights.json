@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-15T03:57:28.191Z",
+ "generatedAt": "2026-08-15T04:50:34.742Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-15T03:57:28.191Z",
-  "upstreamFetchedAt": "2026-08-15T03:55:21Z"
+  "fetchedAt": "2026-08-15T04:50:34.742Z",
+  "upstreamFetchedAt": "2026-08-15T04:50:14Z"
  },
  "flights": [
   {
@@ -121532,9 +121532,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-NUTT-O1EW6",
+   "id": "ACTUAL_ONLY_BK-AP-126-NUTT-O1EW6",
    "date": "2026-08-15",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "10:30",
@@ -121551,17 +121551,20 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "09:43",
+   "ldgTime": "10:38",
+   "airborneMin": 55,
+   "to": 4,
+   "ldg": 4,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
-   "id": "BK-AP-126-THAN-50L46",
+   "id": "ACTUAL_ONLY_BK-AP-126-THAN-50L46",
    "date": "2026-08-15",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "10:00",
@@ -121578,12 +121581,15 @@
    "cond": "XC / IR",
    "type": "DA40TDI",
    "tail": "HS-TPV",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "10:10",
+   "ldgTime": "10:55",
+   "airborneMin": 45,
+   "to": 3,
+   "ldg": 3,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-MSSR1PIO",

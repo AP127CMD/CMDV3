@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-15T05:45:07.829Z",
+ "generatedAt": "2026-08-15T07:01:24.973Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-15T05:45:07.829Z",
-  "upstreamFetchedAt": "2026-08-15T05:37:43Z"
+  "fetchedAt": "2026-08-15T07:01:24.973Z",
+  "upstreamFetchedAt": "2026-08-15T06:58:48Z"
  },
  "flights": [
   {
@@ -121088,9 +121088,9 @@
    }
   },
   {
-   "id": "BK-AP-126-NABH-4C9IE",
+   "id": "ACTUAL_ONLY_BK-AP-126-NABH-4C9IE",
    "date": "2026-08-15",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -121107,12 +121107,15 @@
    "cond": "XC / IR",
    "type": "DA40TDI",
    "tail": "HS-TPO",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:30",
+   "ldgTime": "08:15",
+   "airborneMin": 105,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-126-SIWA-C1P77",
@@ -121235,9 +121238,9 @@
    }
   },
   {
-   "id": "BK-AP-126-PORN-5OIZ8",
+   "id": "ACTUAL_ONLY_BK-AP-126-PORN-5OIZ8",
    "date": "2026-08-15",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "08:20",
@@ -121254,12 +121257,15 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPU",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "08:20",
+   "ldgTime": "09:40",
+   "airborneMin": 80,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-129-MARC-AG6V5",

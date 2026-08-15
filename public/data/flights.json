@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-15T11:38:30.056Z",
+ "generatedAt": "2026-08-15T13:02:20.538Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-15T11:38:30.056Z",
-  "upstreamFetchedAt": "2026-08-15T11:32:27Z"
+  "fetchedAt": "2026-08-15T13:02:20.538Z",
+  "upstreamFetchedAt": "2026-08-15T12:54:00Z"
  },
  "flights": [
   {
@@ -119735,9 +119735,9 @@
    "inst": null
   },
   {
-   "id": "BK-MSR8VJ1K",
+   "id": "ACTUAL_ONLY_BK-MSR8VJ1K",
    "date": "2026-08-14",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "08:30",
@@ -119754,12 +119754,15 @@
    "cond": null,
    "type": "R44",
    "tail": "HS-TZT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "08:40",
+   "ldgTime": "09:30",
+   "airborneMin": 50,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-MSR8VLTC",

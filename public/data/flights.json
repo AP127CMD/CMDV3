@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-15T07:01:24.973Z",
+ "generatedAt": "2026-08-15T07:47:01.470Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-15T07:01:24.973Z",
-  "upstreamFetchedAt": "2026-08-15T06:58:48Z"
+  "fetchedAt": "2026-08-15T07:47:01.470Z",
+  "upstreamFetchedAt": "2026-08-15T07:46:10Z"
  },
  "flights": [
   {
@@ -121382,9 +121382,9 @@
    }
   },
   {
-   "id": "BK-AP-126-PAKO-0CPGI",
+   "id": "ACTUAL_ONLY_BK-AP-126-PAKO-0CPGI",
    "date": "2026-08-15",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "09:00",
@@ -121401,12 +121401,15 @@
    "cond": "XC / IR",
    "type": "DA40CS",
    "tail": "HS-TPO",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "09:05",
+   "ldgTime": "11:59",
+   "airborneMin": 174,
+   "to": 3,
+   "ldg": 3,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-126-MARU-9Q227",

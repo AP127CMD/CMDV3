@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-15T04:50:34.742Z",
+ "generatedAt": "2026-08-15T05:45:07.829Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-15T04:50:34.742Z",
-  "upstreamFetchedAt": "2026-08-15T04:50:14Z"
+  "fetchedAt": "2026-08-15T05:45:07.829Z",
+  "upstreamFetchedAt": "2026-08-15T05:37:43Z"
  },
  "flights": [
   {
@@ -121205,9 +121205,9 @@
    }
   },
   {
-   "id": "BK-AP-126-KANT-37T0I",
+   "id": "ACTUAL_ONLY_BK-AP-126-KANT-37T0I",
    "date": "2026-08-15",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "09:00",
@@ -121224,12 +121224,15 @@
    "cond": "XC / IR",
    "type": "DA40CS",
    "tail": "HS-TVG",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "08:58",
+   "ldgTime": "11:50",
+   "airborneMin": 172,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-126-PORN-5OIZ8",
@@ -121343,9 +121346,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-129-NALA-P7KN6",
+   "id": "ACTUAL_ONLY_BK-AP-129-NALA-P7KN6",
    "date": "2026-08-15",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -121362,12 +121365,15 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVG",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:28",
+   "ldgTime": "07:15",
+   "airborneMin": 47,
+   "to": 5,
+   "ldg": 5,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-126-PAKO-0CPGI",
@@ -121424,9 +121430,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-NAPA-0FG6P",
+   "id": "ACTUAL_ONLY_BK-AP-126-NAPA-0FG6P",
    "date": "2026-08-15",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "10:30",
@@ -121443,12 +121449,15 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPU",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "10:10",
+   "ldgTime": "11:20",
+   "airborneMin": 70,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-126-PARA-3B3T3",
@@ -121732,7 +121741,7 @@
   {
    "id": "BK-AP-126-THAN-O7MHQ",
    "date": "2026-08-16",
-   "status": "Pending",
+   "status": "Canceled",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -121957,7 +121966,7 @@
    "student": "NAPON R.",
    "studentKey": "NAPON R.",
    "nick": null,
-   "instructor": "SORRAWUT P.",
+   "instructor": "SOWAN C.",
    "batch": "AP-126",
    "batchKey": "AP126",
    "lesson": "CDXI 81",
@@ -122113,20 +122122,20 @@
    "status": "Pending",
    "isSim": false,
    "isStandby": false,
-   "start": "09:00",
-   "end": "12:00",
+   "start": "06:30",
+   "end": "09:30",
    "durMin": 180,
    "student": "SARACH C.",
    "studentKey": "SARACH C.",
    "nick": null,
-   "instructor": "PHAHOLYUTH P.",
+   "instructor": "APIRATKUNPAK K.",
    "batch": "AP-126",
    "batchKey": "AP126",
    "lesson": "CDXI 81",
    "lessonNorm": "CDXI 81",
    "cond": "XC / IR",
-   "type": "DA40CS",
-   "tail": "HS-TVG",
+   "type": "DA40TDI",
+   "tail": "HS-TPX",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,
@@ -122167,8 +122176,8 @@
    "status": "Pending",
    "isSim": false,
    "isStandby": false,
-   "start": "10:30",
-   "end": "11:30",
+   "start": "10:00",
+   "end": "12:00",
    "durMin": 180,
    "student": "THANACHOTE A.",
    "studentKey": "THANACHOTE A.",
@@ -122275,20 +122284,20 @@
    "status": "Pending",
    "isSim": false,
    "isStandby": false,
-   "start": "06:30",
-   "end": "08:30",
-   "durMin": 120,
-   "student": "PONGSAKORN A.",
-   "studentKey": "PONGSAKORN A.",
+   "start": "09:00",
+   "end": "12:00",
+   "durMin": 180,
+   "student": "SIWAT C.",
+   "studentKey": "SIWAT C.",
    "nick": null,
-   "instructor": "APIRATKUNPAK K.",
+   "instructor": "PHAHOLYUTH P.",
    "batch": "AP-126",
    "batchKey": "AP126",
-   "lesson": "CSPXI 86",
-   "lessonNorm": "CSPXI 86",
+   "lesson": "CDXI 82",
+   "lessonNorm": "CDXI 82",
    "cond": "XC / IR",
-   "type": "DA40TDI",
-   "tail": "HS-TPX",
+   "type": "DA40CS",
+   "tail": "HS-TVG",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,

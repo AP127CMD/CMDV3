@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-16T07:48:18.110Z",
+ "generatedAt": "2026-08-16T08:50:39.074Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-16T07:48:18.110Z",
-  "upstreamFetchedAt": "2026-08-16T07:44:44Z"
+  "fetchedAt": "2026-08-16T08:50:39.074Z",
+  "upstreamFetchedAt": "2026-08-16T08:50:16Z"
  },
  "flights": [
   {
@@ -122228,9 +122228,9 @@
    }
   },
   {
-   "id": "BK-AP-126-THAN-OXMKC",
+   "id": "ACTUAL_ONLY_BK-AP-126-THAN-OXMKC",
    "date": "2026-08-16",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "10:00",
@@ -122247,12 +122247,15 @@
    "cond": "XC / IR",
    "type": "DA40TDI",
    "tail": "HS-TPU",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "10:20",
+   "ldgTime": "12:10",
+   "airborneMin": 110,
+   "to": 4,
+   "ldg": 4,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-MSTKL4UB",

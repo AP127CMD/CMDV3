@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-16T03:14:56.462Z",
+ "generatedAt": "2026-08-16T04:03:19.034Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-16T03:14:56.462Z",
-  "upstreamFetchedAt": "2026-08-16T03:08:47Z"
+  "fetchedAt": "2026-08-16T04:03:19.034Z",
+  "upstreamFetchedAt": "2026-08-16T04:03:01Z"
  },
  "flights": [
   {
@@ -121730,9 +121730,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-PARA-8NUZO",
+   "id": "ACTUAL_ONLY_BK-AP-126-PARA-8NUZO",
    "date": "2026-08-16",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -121749,12 +121749,15 @@
    "cond": "XC / IR",
    "type": "DA40CS",
    "tail": "HS-TVD",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:32",
+   "ldgTime": "09:17",
+   "airborneMin": 165,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-126-THAN-O7MHQ",
@@ -121865,9 +121868,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-129-TUPP-X594W",
+   "id": "ACTUAL_ONLY_BK-AP-129-TUPP-X594W",
    "date": "2026-08-16",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -121884,12 +121887,15 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPU",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:36",
+   "ldgTime": "07:10",
+   "airborneMin": 34,
+   "to": 4,
+   "ldg": 4,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-129-MATH-3NAH9",
@@ -122087,9 +122093,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-NUTT-5K0OW",
+   "id": "ACTUAL_ONLY_BK-AP-126-NUTT-5K0OW",
    "date": "2026-08-16",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "08:00",
@@ -122106,12 +122112,15 @@
    "cond": "XC / IR",
    "type": "DA40TDI",
    "tail": "HS-TPU",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "07:57",
+   "ldgTime": "09:47",
+   "airborneMin": 110,
+   "to": 4,
+   "ldg": 4,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-PPL-41-PARO-Q9MH9",
@@ -122258,9 +122267,9 @@
    }
   },
   {
-   "id": "BK-MSTQYO58",
+   "id": "ACTUAL_ONLY_BK-MSTQYO58",
    "date": "2026-08-16",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "07:20",
@@ -122277,12 +122286,15 @@
    "cond": "Solo",
    "type": "DA40TDI",
    "tail": "HS-TPU",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "07:27",
+   "ldgTime": "07:35",
+   "airborneMin": 8,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-MSTRF2IE",
@@ -122776,8 +122788,8 @@
    "status": "Pending",
    "isSim": false,
    "isStandby": false,
-   "start": "10:20",
-   "end": "11:35",
+   "start": "08:30",
+   "end": "09:45",
    "durMin": 75,
    "student": "AKINKORN L.",
    "studentKey": "AKINKORN L.",
@@ -122789,7 +122801,7 @@
    "lessonNorm": "CDGL 06",
    "cond": null,
    "type": "DA40TDI",
-   "tail": "HS-TPT",
+   "tail": "HS-TPV",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,

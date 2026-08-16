@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-16T13:47:34.383Z",
+ "generatedAt": "2026-08-16T14:42:44.123Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-16T13:47:34.383Z",
-  "upstreamFetchedAt": "2026-08-16T13:38:17Z"
+  "fetchedAt": "2026-08-16T14:42:44.123Z",
+  "upstreamFetchedAt": "2026-08-16T14:36:42Z"
  },
  "flights": [
   {
@@ -121790,9 +121790,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-129-RAVE-JPYXL",
+   "id": "ACTUAL_ONLY_BK-AP-129-RAVE-JPYXL",
    "date": "2026-08-16",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -121809,17 +121809,20 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:25",
+   "ldgTime": "06:55",
+   "airborneMin": 30,
+   "to": 3,
+   "ldg": 3,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
-   "id": "BK-AP-129-RAVE-OK4IO",
+   "id": "ACTUAL_ONLY_BK-AP-129-RAVE-OK4IO",
    "date": "2026-08-16",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "07:20",
@@ -121836,12 +121839,15 @@
    "cond": "Solo",
    "type": "DA40TDI",
    "tail": "HS-TPT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "07:15",
+   "ldgTime": "07:20",
+   "airborneMin": 5,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-129-TORN-RM09L",

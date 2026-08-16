@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-16T13:47:34.383Z",
+ "generatedAt": "2026-08-16T14:42:44.123Z",
  "source": {
   "url": "https://ap127-data-api.anusorn-tanmetha.workers.dev",
-  "fetchedAt": "2026-08-16T13:47:34.383Z",
-  "upstreamFetchedAt": "2026-08-16T13:46:12.838Z"
+  "fetchedAt": "2026-08-16T14:42:44.123Z",
+  "upstreamFetchedAt": "2026-08-16T14:41:01.871Z"
  },
  "students": [
   {
@@ -3945,27 +3945,27 @@
     },
     {
      "lesson": "CDGL 34",
-     "date": "2026-08-25",
+     "date": "2026-08-21",
      "mins": 60
     },
     {
      "lesson": "CDGL 35",
-     "date": "2026-08-27",
+     "date": "2026-08-25",
      "mins": 60
     },
     {
      "lesson": "CSPGL 36",
-     "date": "2026-08-31",
+     "date": "2026-08-27",
      "mins": 75
     },
     {
      "lesson": "CSPGL 37",
-     "date": "2026-09-02",
+     "date": "2026-08-31",
      "mins": 75
     },
     {
      "lesson": "CSPXV 38",
-     "date": "2026-09-04",
+     "date": "2026-09-02",
      "mins": 120
     },
     {
@@ -5581,7 +5581,7 @@
     },
     {
      "lesson": "CSPXV 40",
-     "date": "2026-09-10",
+     "date": "2026-09-11",
      "mins": 180
     },
     {
@@ -9291,7 +9291,7 @@
     },
     {
      "lesson": "CSPXV 40",
-     "date": "2026-09-11",
+     "date": "2026-09-14",
      "mins": 180
     },
     {
@@ -9815,12 +9815,12 @@
     },
     {
      "lesson": "CSPXV 38",
-     "date": "2026-08-27",
+     "date": "2026-09-04",
      "mins": 120
     },
     {
      "lesson": "CSPXV 39",
-     "date": "2026-09-08",
+     "date": "2026-09-09",
      "mins": 180
     },
     {
@@ -11426,7 +11426,7 @@
     },
     {
      "lesson": "CSPXV 39",
-     "date": "2026-09-09",
+     "date": "2026-09-10",
      "mins": 180
     },
     {
@@ -14072,7 +14072,7 @@
     },
     {
      "lesson": "CSPGL 37",
-     "date": "2026-08-19",
+     "date": "2026-08-27",
      "mins": 75
     },
     {

@@ -1,19 +1,19 @@
 {
  "schemaVersion": 1,
  "pipelineVersion": "3.0.0",
- "generatedAt": "2026-08-17T10:00:34.186Z",
+ "generatedAt": "2026-08-17T10:51:07.830Z",
  "sources": {
   "flights": {
    "sourceUrl": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-   "fetchedAt": "2026-08-17T10:00:34.186Z",
-   "upstreamFetchedAt": "2026-08-17T09:57:09Z",
-   "contentHash": "sha256:fdd8c2493009bfe09ac9d25a28b249fa6b2100adfa5d796f3527f717827e113c",
-   "lastChangedAt": "2026-08-17T10:00:34.186Z",
+   "fetchedAt": "2026-08-17T10:51:07.830Z",
+   "upstreamFetchedAt": "2026-08-17T10:44:26Z",
+   "contentHash": "sha256:cc18e785947a81926683f7bc9b26455746a8e854a6cad2dac54b5cc6dbd69eb6",
+   "lastChangedAt": "2026-08-17T10:51:07.830Z",
    "records": {
     "flights": 5304,
     "instructors": 30,
     "resources": 31,
-    "leaves": 922,
+    "leaves": 923,
     "flightsAfterDedup": 4246
    },
    "validation": {
@@ -51,20 +51,17 @@
     "nickBridged": 3
    },
    "diff": {
-    "added": 10,
-    "removed": 2,
-    "changed": 1,
-    "changedFields": {
-     "lesson": 1
-    }
+    "added": 3,
+    "removed": 3,
+    "changed": 0
    }
   },
   "progress": {
    "sourceUrl": "https://ap127-data-api.anusorn-tanmetha.workers.dev",
-   "fetchedAt": "2026-08-17T10:00:34.186Z",
-   "upstreamFetchedAt": "2026-08-17T09:56:03.867Z",
-   "contentHash": "sha256:23ce59bb01b0d3af7596178af4d150db9a3628075d47af7d156bb311d3f5be28",
-   "lastChangedAt": "2026-08-17T10:00:34.186Z",
+   "fetchedAt": "2026-08-17T10:51:07.830Z",
+   "upstreamFetchedAt": "2026-08-17T10:45:55.285Z",
+   "contentHash": "sha256:8df2cd1041d9d1a41fc4d9ed493e1b44747d662d5243e415bc2bea6a1605c0ac",
+   "lastChangedAt": "2026-08-17T10:51:07.830Z",
    "records": {
     "students": 28,
     "curriculum": 96
@@ -76,19 +73,15 @@
    "diff": {
     "added": 0,
     "removed": 0,
-    "changed": 1,
-    "changedFields": {
-     "done": 1,
-     "nextLesson": 1
-    }
+    "changed": 0
    }
   },
   "ngt": {
    "sourceUrl": "https://ap127-db001.pages.dev/cache.json",
-   "fetchedAt": "2026-08-17T10:00:34.186Z",
-   "upstreamFetchedAt": "2026-08-17T09:56:03.867Z",
-   "contentHash": "sha256:a6c395f7597af6e67bded53c0eb3afcac5502aacc9f0fd3aa54fb8cec06a3d90",
-   "lastChangedAt": "2026-08-17T10:00:34.186Z",
+   "fetchedAt": "2026-08-17T10:51:07.830Z",
+   "upstreamFetchedAt": "2026-08-17T10:45:55.285Z",
+   "contentHash": "sha256:506c72e91f039754b448aac828690a587cb9467ef9c3f39c178608889cf1f636",
+   "lastChangedAt": "2026-08-17T10:51:07.830Z",
    "records": {
     "ap124": 9,
     "ap126": 28,

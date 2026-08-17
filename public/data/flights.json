@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-17T13:55:37.412Z",
+ "generatedAt": "2026-08-17T15:44:14.738Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-17T13:55:37.412Z",
-  "upstreamFetchedAt": "2026-08-17T13:51:27Z"
+  "fetchedAt": "2026-08-17T15:44:14.738Z",
+  "upstreamFetchedAt": "2026-08-17T15:33:47Z"
  },
  "flights": [
   {
@@ -123548,9 +123548,9 @@
    "inst": null
   },
   {
-   "id": "BK-MSVCC7FS",
+   "id": "ACTUAL_ONLY_BK-MSVCC7FS",
    "date": "2026-08-17",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "17:10",
@@ -123567,12 +123567,15 @@
    "cond": null,
    "type": "R44",
    "tail": "HS-TZT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "17:20",
+   "ldgTime": "18:10",
+   "airborneMin": 50,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-MSVCCAGL",
@@ -135587,6 +135590,17 @@
    "duration": "Half Day (PM)",
    "note": "",
    "role": "Instructor"
+  },
+  {
+   "name": "PICHAKORN J.",
+   "start": "2026-08-22",
+   "end": "2026-08-23",
+   "reason": "Personal Leave",
+   "id": "Leave Record|key|17/08/2026 21:16:44",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ธุระส่วนตัวที่กรุงเทพ",
+   "role": "Student"
   },
   {
    "name": "PORNSKUL D.",

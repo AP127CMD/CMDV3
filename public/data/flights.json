@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-17T05:01:56.729Z",
+ "generatedAt": "2026-08-17T05:53:31.338Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-17T05:01:56.729Z",
-  "upstreamFetchedAt": "2026-08-17T04:56:56Z"
+  "fetchedAt": "2026-08-17T05:53:31.338Z",
+  "upstreamFetchedAt": "2026-08-17T05:47:34Z"
  },
  "flights": [
   {
@@ -122939,9 +122939,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-SIWA-WXDYR",
+   "id": "ACTUAL_ONLY_BK-AP-126-SIWA-WXDYR",
    "date": "2026-08-17",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "10:00",
@@ -122958,17 +122958,20 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVG",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "10:20",
+   "ldgTime": "11:25",
+   "airborneMin": 65,
+   "to": 4,
+   "ldg": 4,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
-   "id": "BK-AP-126-PONG-QS4KA",
+   "id": "ACTUAL_ONLY_BK-AP-126-PONG-QS4KA",
    "date": "2026-08-17",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "09:00",
@@ -122985,12 +122988,15 @@
    "cond": "XC / IR",
    "type": "DA40TDI",
    "tail": "HS-TPU",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "09:21",
+   "ldgTime": "10:57",
+   "airborneMin": 96,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-126-MARU-5050O",
@@ -123103,7 +123109,7 @@
   {
    "id": "BK-AP-127-PUWA-RNAGO",
    "date": "2026-08-17",
-   "status": "Pending",
+   "status": "Canceled",
    "isSim": false,
    "isStandby": false,
    "start": "11:50",
@@ -123157,7 +123163,7 @@
   {
    "id": "BK-AP-128-EKKA-U9XTO",
    "date": "2026-08-17",
-   "status": "Pending",
+   "status": "Canceled",
    "isSim": false,
    "isStandby": false,
    "start": "12:10",
@@ -123749,9 +123755,9 @@
    "inst": null
   },
   {
-   "id": "BK-MSVUD78D",
+   "id": "ACTUAL_ONLY_BK-MSVUD78D",
    "date": "2026-08-17",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "10:00",
@@ -123768,12 +123774,15 @@
    "cond": null,
    "type": "C172",
    "tail": "HS-TPH",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "10:20",
+   "ldgTime": "11:15",
+   "airborneMin": 55,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-MSTQX364",

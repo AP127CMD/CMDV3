@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-17T15:44:14.738Z",
+ "generatedAt": "2026-08-17T16:49:06.138Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-17T15:44:14.738Z",
-  "upstreamFetchedAt": "2026-08-17T15:33:47Z"
+  "fetchedAt": "2026-08-17T16:49:06.138Z",
+  "upstreamFetchedAt": "2026-08-17T16:41:26Z"
  },
  "flights": [
   {
@@ -123578,9 +123578,9 @@
    }
   },
   {
-   "id": "BK-MSVCCAGL",
+   "id": "ACTUAL_ONLY_BK-MSVCCAGL",
    "date": "2026-08-17",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "18:30",
@@ -123597,12 +123597,15 @@
    "cond": "Night",
    "type": "R44",
    "tail": "HS-TZT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "18:35",
+   "ldgTime": "19:25",
+   "airborneMin": 50,
+   "to": 5,
+   "ldg": 5,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-MSVCCCPK",

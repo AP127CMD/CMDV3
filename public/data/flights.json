@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-16T23:37:34.358Z",
+ "generatedAt": "2026-08-17T01:57:52.609Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-16T23:37:34.358Z",
-  "upstreamFetchedAt": "2026-08-16T23:37:09Z"
+  "fetchedAt": "2026-08-17T01:57:52.609Z",
+  "upstreamFetchedAt": "2026-08-17T01:49:47Z"
  },
  "flights": [
   {
@@ -123702,33 +123702,6 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVC",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
-  },
-  {
-   "id": "BK-MSVFXLZJ",
-   "date": "2026-08-17",
-   "status": "Pending",
-   "isSim": false,
-   "isStandby": false,
-   "start": "09:30",
-   "end": "10:30",
-   "durMin": 60,
-   "student": "Test Flight",
-   "studentKey": "TEST F.",
-   "nick": null,
-   "instructor": "ITTIPOL P.",
-   "batch": "Test Flight",
-   "batchKey": "TESTFLIGHT",
-   "lesson": "Test Flight",
-   "lessonNorm": "TEST FLIGHT",
-   "cond": null,
-   "type": "DA40CS",
-   "tail": "HS-TVH",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,

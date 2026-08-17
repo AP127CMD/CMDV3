@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-17T05:53:31.338Z",
+ "generatedAt": "2026-08-17T07:26:26.139Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-17T05:53:31.338Z",
-  "upstreamFetchedAt": "2026-08-17T05:47:34Z"
+  "fetchedAt": "2026-08-17T07:26:26.139Z",
+  "upstreamFetchedAt": "2026-08-17T07:20:43Z"
  },
  "flights": [
   {
@@ -122447,9 +122447,9 @@
    }
   },
   {
-   "id": "BK-AP-129-NALA-E9GNY",
+   "id": "ACTUAL_ONLY_BK-AP-129-NALA-E9GNY",
    "date": "2026-08-17",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -122466,17 +122466,20 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVA",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:34",
+   "ldgTime": "07:00",
+   "airborneMin": 26,
+   "to": 3,
+   "ldg": 3,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
-   "id": "BK-AP-129-NALA-0N1V1",
+   "id": "ACTUAL_ONLY_BK-AP-129-NALA-0N1V1",
    "date": "2026-08-17",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "07:30",
@@ -122493,12 +122496,15 @@
    "cond": "Solo",
    "type": "DA40CS",
    "tail": "HS-TVA",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "07:07",
+   "ldgTime": "07:20",
+   "airborneMin": 13,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-126-PRIT-N83RT",
@@ -122885,9 +122891,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-PARA-JK4VR",
+   "id": "ACTUAL_ONLY_BK-AP-126-PARA-JK4VR",
    "date": "2026-08-17",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "10:00",
@@ -122904,12 +122910,15 @@
    "cond": "XC / IR",
    "type": "DA40CS",
    "tail": "HS-TVD",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "09:59",
+   "ldgTime": "12:44",
+   "airborneMin": 165,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-128-DOLS-YO1N5",
@@ -123080,9 +123089,9 @@
    "inst": null
   },
   {
-   "id": "BK-PPL-42-SIRI-O15OL",
+   "id": "ACTUAL_ONLY_BK-PPL-42-SIRI-O15OL",
    "date": "2026-08-17",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "10:30",
@@ -123099,12 +123108,15 @@
    "cond": "Solo",
    "type": "DA40TDI",
    "tail": "HS-TPX",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "10:40",
+   "ldgTime": "12:25",
+   "airborneMin": 105,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-127-PUWA-RNAGO",
@@ -123134,9 +123146,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-PREM-O72B1",
+   "id": "ACTUAL_ONLY_BK-AP-126-PREM-O72B1",
    "date": "2026-08-17",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "11:30",
@@ -123153,12 +123165,15 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVA",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "11:34",
+   "ldgTime": "12:51",
+   "airborneMin": 77,
+   "to": 4,
+   "ldg": 4,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-128-EKKA-U9XTO",
@@ -123188,9 +123203,9 @@
    "inst": null
   },
   {
-   "id": "BK-FAM FI-NUNT-IE68R",
+   "id": "ACTUAL_ONLY_BK-FAM FI-NUNT-IE68R",
    "date": "2026-08-17",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "11:30",
@@ -123207,12 +123222,15 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPU",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "11:45",
+   "ldgTime": "13:00",
+   "airborneMin": 75,
+   "to": 3,
+   "ldg": 3,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-126-RAKC-8IVJ2",

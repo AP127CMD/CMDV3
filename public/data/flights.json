@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-17T13:10:17.139Z",
+ "generatedAt": "2026-08-17T13:55:37.412Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-17T13:10:17.139Z",
-  "upstreamFetchedAt": "2026-08-17T13:08:34Z"
+  "fetchedAt": "2026-08-17T13:55:37.412Z",
+  "upstreamFetchedAt": "2026-08-17T13:51:27Z"
  },
  "flights": [
   {
@@ -123686,9 +123686,9 @@
    "inst": null
   },
   {
-   "id": "BK-MSVCCJIO",
+   "id": "ACTUAL_ONLY_BK-MSVCCJIO",
    "date": "2026-08-17",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "18:30",
@@ -123705,12 +123705,15 @@
    "cond": "Night",
    "type": "R44",
    "tail": "HS-TZU",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "18:35",
+   "ldgTime": "19:30",
+   "airborneMin": 55,
+   "to": 3,
+   "ldg": 3,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-MSVCCMEQ",

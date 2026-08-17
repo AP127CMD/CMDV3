@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-17T10:51:07.830Z",
+ "generatedAt": "2026-08-17T11:44:39.001Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-17T10:51:07.830Z",
-  "upstreamFetchedAt": "2026-08-17T10:44:26Z"
+  "fetchedAt": "2026-08-17T11:44:39.001Z",
+  "upstreamFetchedAt": "2026-08-17T11:38:21Z"
  },
  "flights": [
   {
@@ -135624,6 +135624,17 @@
    "batch": "AP-128",
    "duration": "Full Day",
    "note": "Exam, 24 Aug",
+   "role": "Student"
+  },
+  {
+   "name": "NAPON R.",
+   "start": "2026-08-24",
+   "end": "2026-08-24",
+   "reason": "Personal Leave",
+   "id": "Leave Record|key|17/08/2026 18:02:12",
+   "batch": "AP-126",
+   "duration": "Full Day",
+   "note": "",
    "role": "Student"
   },
   {

@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-17T11:44:39.001Z",
+ "generatedAt": "2026-08-17T13:10:17.139Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-17T11:44:39.001Z",
-  "upstreamFetchedAt": "2026-08-17T11:38:21Z"
+  "fetchedAt": "2026-08-17T13:10:17.139Z",
+  "upstreamFetchedAt": "2026-08-17T13:08:34Z"
  },
  "flights": [
   {
@@ -123269,9 +123269,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-KANA-8FJVH",
+   "id": "ACTUAL_ONLY_BK-AP-126-KANA-8FJVH",
    "date": "2026-08-17",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "13:30",
@@ -123288,12 +123288,15 @@
    "cond": "XC / IR",
    "type": "DA40TDI",
    "tail": "HS-TPO",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "13:39",
+   "ldgTime": "16:25",
+   "airborneMin": 166,
+   "to": 2,
+   "ldg": 2,
+   "inst": 1,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-126-GRAV-JLYQW",

@@ -1,14 +1,14 @@
 {
  "schemaVersion": 1,
  "pipelineVersion": "3.0.0",
- "generatedAt": "2026-08-18T13:12:36.877Z",
+ "generatedAt": "2026-08-18T14:00:04.433Z",
  "sources": {
   "flights": {
    "sourceUrl": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-   "fetchedAt": "2026-08-18T13:12:36.877Z",
-   "upstreamFetchedAt": "2026-08-18T13:12:27Z",
+   "fetchedAt": "2026-08-18T14:00:04.433Z",
+   "upstreamFetchedAt": "2026-08-18T13:48:10Z",
    "contentHash": "sha256:d1c585d6fe42e9594b39e1c2df41b35fd7ec7d6d0297afb0814802f1af87de68",
-   "lastChangedAt": "2026-08-18T13:12:36.877Z",
+   "lastChangedAt": "2026-08-18T14:00:04.433Z",
    "records": {
     "flights": 5353,
     "instructors": 30,
@@ -51,21 +51,17 @@
     "nickBridged": 3
    },
    "diff": {
-    "added": 4,
-    "removed": 4,
-    "changed": 2,
-    "changedFields": {
-     "start": 2,
-     "end": 2
-    }
+    "added": 0,
+    "removed": 0,
+    "changed": 0
    }
   },
   "progress": {
    "sourceUrl": "https://ap127-data-api.anusorn-tanmetha.workers.dev",
-   "fetchedAt": "2026-08-18T13:12:36.877Z",
-   "upstreamFetchedAt": "2026-08-18T13:10:53.217Z",
+   "fetchedAt": "2026-08-18T14:00:04.433Z",
+   "upstreamFetchedAt": "2026-08-18T13:55:53.244Z",
    "contentHash": "sha256:36e68d58f1e96e3f90ded06056442eb60a84415d1c6a57600ac17b057e7cbe90",
-   "lastChangedAt": "2026-08-18T13:12:36.877Z",
+   "lastChangedAt": "2026-08-18T14:00:04.433Z",
    "records": {
     "students": 28,
     "curriculum": 96
@@ -82,10 +78,10 @@
   },
   "ngt": {
    "sourceUrl": "https://ap127-db001.pages.dev/cache.json",
-   "fetchedAt": "2026-08-18T13:12:36.877Z",
-   "upstreamFetchedAt": "2026-08-18T13:10:53.217Z",
+   "fetchedAt": "2026-08-18T14:00:04.433Z",
+   "upstreamFetchedAt": "2026-08-18T13:55:53.244Z",
    "contentHash": "sha256:e8949d99bc5cd74775d38dccd157c1832480ecaee7fa9f2093541a4347705227",
-   "lastChangedAt": "2026-08-18T13:12:36.877Z",
+   "lastChangedAt": "2026-08-18T14:00:04.433Z",
    "records": {
     "ap124": 9,
     "ap126": 28,

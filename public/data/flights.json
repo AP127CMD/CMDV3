@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-17T23:41:11.716Z",
+ "generatedAt": "2026-08-18T01:53:57.016Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-17T23:41:11.716Z",
-  "upstreamFetchedAt": "2026-08-17T23:40:48Z"
+  "fetchedAt": "2026-08-18T01:53:57.016Z",
+  "upstreamFetchedAt": "2026-08-18T01:48:48Z"
  },
  "flights": [
   {
@@ -123665,9 +123665,9 @@
    }
   },
   {
-   "id": "BK-MSVCCHA7",
+   "id": "ACTUAL_ONLY_BK-MSVCCHA7",
    "date": "2026-08-17",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "17:10",
@@ -123684,12 +123684,15 @@
    "cond": null,
    "type": "R44",
    "tail": "HS-TZU",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "17:15",
+   "ldgTime": "18:10",
+   "airborneMin": 55,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-MSVCCJIO",
@@ -123914,9 +123917,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-128-EKKA-DKCBK",
+   "id": "ACTUAL_ONLY_BK-AP-128-EKKA-DKCBK",
    "date": "2026-08-18",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -123933,12 +123936,15 @@
    "cond": null,
    "type": "C172",
    "tail": "HS-TPH",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:54",
+   "ldgTime": "07:39",
+   "airborneMin": 45,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-129-AKIN-GH272",
@@ -124211,9 +124217,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-129-WARI-8YBO5",
+   "id": "ACTUAL_ONLY_BK-AP-129-WARI-8YBO5",
    "date": "2026-08-18",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -124230,12 +124236,15 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVG",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:35",
+   "ldgTime": "07:25",
+   "airborneMin": 50,
+   "to": 8,
+   "ldg": 8,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-126-NATT-HFGPQ",
@@ -124282,8 +124291,8 @@
    "lesson": "CSPXI 86",
    "lessonNorm": "CSPXI 86",
    "cond": "XC / IR",
-   "type": "DA40TDI",
-   "tail": "HS-TPW",
+   "type": "DA40CS",
+   "tail": "HS-TVD",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,
@@ -135527,6 +135536,17 @@
    "duration": "Full Day",
    "note": "",
    "role": "Instructor"
+  },
+  {
+   "name": "PUWADET H.",
+   "start": "2026-08-19",
+   "end": "2026-08-21",
+   "reason": "Sick Leave",
+   "id": "Leave Record|key|18/08/2026 08:17:12",
+   "batch": "AP-127",
+   "duration": "Full Day",
+   "note": "ผ่าฟันคุดครับ",
+   "role": "Student"
   },
   {
    "name": "SOWAN C.",

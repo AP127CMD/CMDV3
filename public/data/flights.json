@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-18T15:50:13.779Z",
+ "generatedAt": "2026-08-18T17:47:35.323Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-18T15:50:13.779Z",
-  "upstreamFetchedAt": "2026-08-18T15:48:40Z"
+  "fetchedAt": "2026-08-18T17:47:35.323Z",
+  "upstreamFetchedAt": "2026-08-18T17:47:27Z"
  },
  "flights": [
   {
@@ -126678,20 +126678,20 @@
   {
    "name": "ITTIPOL P.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "KITTICHAI C.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "KOONPHOL U.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "NAPATTORN S.",
@@ -126702,20 +126702,20 @@
   {
    "name": "PARINYA B.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "PHAHOLYUTH P.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "SANTI PO.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "SANTI SUK.",
@@ -126750,8 +126750,8 @@
   {
    "name": "ATHINAT H.",
    "isPartTime": false,
-   "type": "Simulator Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Simulator Instructor"
   },
   {
    "name": "CHAWIN K.",
@@ -126762,8 +126762,8 @@
   {
    "name": "JIRAT R.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Simulator Instructor"
+   "type": "Simulator Instructor",
+   "category": "Airplane"
   },
   {
    "name": "KAMONVICH O.",
@@ -126774,8 +126774,8 @@
   {
    "name": "PORNSAK P.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Helicopter"
+   "category": "Helicopter",
+   "type": "Flight Instructor"
   },
   {
    "name": "SORRAWUT P.",
@@ -126798,58 +126798,58 @@
   {
    "name": "PREECHA K.",
    "isPartTime": true,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "APIRATKUNPAK K.",
    "isPartTime": true,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "CHAMNONG S.",
    "isPartTime": true,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "TANAKRIT V.",
    "isPartTime": true,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "VASSAPON K.",
    "isPartTime": true,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "NUNTAPOB T.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "KEVIN T.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "NANTAWAT D.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   }
  ],
  "resources": [
   {
    "tail": "HS-TCB",
    "acType": "DA42TDI",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TCP",
@@ -126866,14 +126866,14 @@
   {
    "tail": "HS-TPF",
    "acType": "C172",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPG",
    "acType": "C172",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPH",
@@ -126890,8 +126890,8 @@
   {
    "tail": "HS-TPM",
    "acType": "DA42TDI",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPN (SIM)",
@@ -126920,8 +126920,8 @@
   {
    "tail": "HS-TPR",
    "acType": "DA40TDI",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPT",
@@ -126938,8 +126938,8 @@
   {
    "tail": "HS-TPV",
    "acType": "DA40TDI",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TPW",
@@ -126962,14 +126962,14 @@
   {
    "tail": "HS-TVB",
    "acType": "DA40CS",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TVC",
    "acType": "DA40CS",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TVD",
@@ -126986,8 +126986,8 @@
   {
    "tail": "HS-TVF",
    "acType": "DA42NG",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TVG",
@@ -126998,8 +126998,8 @@
   {
    "tail": "HS-TVH",
    "acType": "DA40CS",
-   "isMaint": true,
-   "maintReason": "Maintenance"
+   "isMaint": false,
+   "maintReason": null
   },
   {
    "tail": "HS-TZQ (SIM)",

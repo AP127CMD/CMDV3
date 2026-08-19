@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-19T01:55:57.891Z",
+ "generatedAt": "2026-08-19T03:13:22.367Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-19T01:55:57.891Z",
-  "upstreamFetchedAt": "2026-08-19T01:49:31Z"
+  "fetchedAt": "2026-08-19T03:13:22.367Z",
+  "upstreamFetchedAt": "2026-08-19T02:49:06Z"
  },
  "flights": [
   {
@@ -125744,9 +125744,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-128-EKKA-WR403",
+   "id": "ACTUAL_ONLY_BK-AP-128-EKKA-WR403",
    "date": "2026-08-19",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -125763,12 +125763,15 @@
    "cond": null,
    "type": "C172",
    "tail": "HS-TPH",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:41",
+   "ldgTime": "07:41",
+   "airborneMin": 60,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-129-RAVE-B4KS5",
@@ -126527,9 +126530,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-RAKC-F1OMZ",
+   "id": "ACTUAL_ONLY_BK-AP-126-RAKC-F1OMZ",
    "date": "2026-08-19",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -126546,12 +126549,15 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVD",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:55",
+   "ldgTime": "08:05",
+   "airborneMin": 70,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-126-PONG-EKTI2",
@@ -126672,14 +126678,14 @@
   {
    "name": "EKKAPHOP R.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "ITTIPOL P.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "KITTICHAI C.",
@@ -126696,14 +126702,14 @@
   {
    "name": "NAPATTORN S.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "PARINYA B.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "PHAHOLYUTH P.",
@@ -126762,26 +126768,26 @@
   {
    "name": "JIRAT R.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Simulator Instructor"
+   "type": "Simulator Instructor",
+   "category": "Airplane"
   },
   {
    "name": "KAMONVICH O.",
-   "isPartTime": false,
-   "category": "Helicopter",
-   "type": "Flight Instructor"
-  },
-  {
-   "name": "PORNSAK P.",
    "isPartTime": false,
    "type": "Flight Instructor",
    "category": "Helicopter"
   },
   {
+   "name": "PORNSAK P.",
+   "isPartTime": false,
+   "category": "Helicopter",
+   "type": "Flight Instructor"
+  },
+  {
    "name": "SORRAWUT P.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "PORNTEP B.",
@@ -126828,14 +126834,14 @@
   {
    "name": "NUNTAPOB T.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "KEVIN T.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "NANTAWAT D.",
@@ -137066,11 +137072,33 @@
    "role": "Student"
   },
   {
+   "name": "PHAHOLYUTH P.",
+   "start": "2026-08-20",
+   "end": "2026-08-20",
+   "reason": "Other",
+   "id": "Leave Record|key|19/08/2026 09:01:10",
+   "batch": "N/A",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
    "name": "PREECHA K.",
    "start": "2026-08-20",
    "end": "2026-08-21",
    "reason": "Other",
    "id": "Leave Record|key|14/08/2026 14:33:59",
+   "batch": "N/A",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
+   "name": "PHAHOLYUTH P.",
+   "start": "2026-08-21",
+   "end": "2026-08-21",
+   "reason": "Other",
+   "id": "Leave Record|key|19/08/2026 09:02:23",
    "batch": "N/A",
    "duration": "Full Day",
    "note": "",

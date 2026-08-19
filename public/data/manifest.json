@@ -1,14 +1,14 @@
 {
  "schemaVersion": 1,
  "pipelineVersion": "3.0.0",
- "generatedAt": "2026-08-19T22:45:20.708Z",
+ "generatedAt": "2026-08-19T23:41:08.991Z",
  "sources": {
   "flights": {
    "sourceUrl": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-   "fetchedAt": "2026-08-19T22:45:20.708Z",
-   "upstreamFetchedAt": "2026-08-19T22:43:39Z",
-   "contentHash": "sha256:4a10f022eecacd0c8fdb9ccce3c38f04cad1a9034441e4cb1dcf22071bd6dbee",
-   "lastChangedAt": "2026-08-19T22:45:20.708Z",
+   "fetchedAt": "2026-08-19T23:41:08.991Z",
+   "upstreamFetchedAt": "2026-08-19T23:29:56Z",
+   "contentHash": "sha256:dfb9af23e3e91f2ea25223c2d843d72844b5078901fd72d89aeef1a3e4c5e956",
+   "lastChangedAt": "2026-08-19T23:41:08.991Z",
    "records": {
     "flights": 5393,
     "instructors": 30,
@@ -58,10 +58,10 @@
   },
   "progress": {
    "sourceUrl": "https://ap127-data-api.anusorn-tanmetha.workers.dev",
-   "fetchedAt": "2026-08-19T22:45:20.708Z",
-   "upstreamFetchedAt": "2026-08-19T22:41:27.511Z",
-   "contentHash": "sha256:6b5e758883a87a7ddc71d14e7270517f479a719e1cac54c4fa80b61d8a6a4c10",
-   "lastChangedAt": "2026-08-19T22:45:20.708Z",
+   "fetchedAt": "2026-08-19T23:41:08.991Z",
+   "upstreamFetchedAt": "2026-08-19T23:40:54.693Z",
+   "contentHash": "sha256:f6c5262d17243fa13be609599c1d296fbc6ed49337efb4e62335f5682cc74b4e",
+   "lastChangedAt": "2026-08-19T23:41:08.991Z",
    "records": {
     "students": 28,
     "curriculum": 96
@@ -78,10 +78,10 @@
   },
   "ngt": {
    "sourceUrl": "https://ap127-db001.pages.dev/cache.json",
-   "fetchedAt": "2026-08-19T22:45:20.708Z",
-   "upstreamFetchedAt": "2026-08-19T22:41:27.511Z",
-   "contentHash": "sha256:ff44794de6690f3d9ed6c56a845029803603ca654e4accfefd8012334e68bff2",
-   "lastChangedAt": "2026-08-19T22:45:20.708Z",
+   "fetchedAt": "2026-08-19T23:41:08.991Z",
+   "upstreamFetchedAt": "2026-08-19T23:35:59.187Z",
+   "contentHash": "sha256:d8ea9eed442ebd2e3879892e866fbc5974095407820614c01a67c5c7b11f885c",
+   "lastChangedAt": "2026-08-19T23:41:08.991Z",
    "records": {
     "ap124": 9,
     "ap126": 28,

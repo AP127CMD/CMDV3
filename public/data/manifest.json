@@ -1,20 +1,20 @@
 {
  "schemaVersion": 1,
  "pipelineVersion": "3.0.0",
- "generatedAt": "2026-08-19T08:58:08.123Z",
+ "generatedAt": "2026-08-19T09:52:40.924Z",
  "sources": {
   "flights": {
    "sourceUrl": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-   "fetchedAt": "2026-08-19T08:58:08.123Z",
-   "upstreamFetchedAt": "2026-08-19T08:15:36Z",
-   "contentHash": "sha256:fb139fa70208602f3e7a5b6053c501ef3e4eaf401da6cf24a88cc0a2a66b4755",
-   "lastChangedAt": "2026-08-19T08:58:08.123Z",
+   "fetchedAt": "2026-08-19T09:52:40.924Z",
+   "upstreamFetchedAt": "2026-08-19T09:48:10Z",
+   "contentHash": "sha256:86d94379aeea3224beb4b800d73bec07670309bc9cd9bd1d834235f6f55b8938",
+   "lastChangedAt": "2026-08-19T09:52:40.924Z",
    "records": {
-    "flights": 5353,
+    "flights": 5393,
     "instructors": 30,
     "resources": 31,
-    "leaves": 935,
-    "flightsAfterDedup": 4295
+    "leaves": 936,
+    "flightsAfterDedup": 4335
    },
    "validation": {
     "errors": [],
@@ -48,44 +48,53 @@
     "dedupRemovedById": 1057,
     "dedupRemovedByKey": 1,
     "unplannedStripped": 213,
-    "nickBridged": 3
+    "nickBridged": 2
    },
    "diff": {
-    "added": 3,
-    "removed": 3,
+    "added": 48,
+    "removed": 8,
     "changed": 0
    }
   },
   "progress": {
    "sourceUrl": "https://ap127-data-api.anusorn-tanmetha.workers.dev",
-   "fetchedAt": "2026-08-19T08:58:08.123Z",
-   "upstreamFetchedAt": "2026-08-19T08:55:53.980Z",
-   "contentHash": "sha256:ba4800f75a466037f80266bb9e92ee4a520ead95553c4a50c6a453fda3e86a65",
-   "lastChangedAt": "2026-08-19T08:58:08.123Z",
+   "fetchedAt": "2026-08-19T09:52:40.924Z",
+   "upstreamFetchedAt": "2026-08-19T09:50:53.770Z",
+   "contentHash": "sha256:66023c5ea1928e05ea0fb140a3a86af781bb6f538ec5341c66abe2d5bd132eb7",
+   "lastChangedAt": "2026-08-19T09:52:40.924Z",
    "records": {
-    "students": 28,
+    "students": 27,
     "curriculum": 96
    },
    "validation": {
     "errors": [],
-    "warnings": []
+    "warnings": [
+     {
+      "code": "ROSTER_MISSING",
+      "message": "roster students absent from the progress feed (upstream usually self-heals; do NOT fabricate)",
+      "count": 1,
+      "samples": [
+       "Pichakorn Jirapinyo"
+      ]
+     }
+    ]
    },
    "diff": {
     "added": 0,
-    "removed": 0,
+    "removed": 1,
     "changed": 0
    }
   },
   "ngt": {
    "sourceUrl": "https://ap127-db001.pages.dev/cache.json",
-   "fetchedAt": "2026-08-19T08:58:08.123Z",
-   "upstreamFetchedAt": "2026-08-19T08:55:53.980Z",
-   "contentHash": "sha256:54fc3e150a542c9df37d88aa38a8778789d025c85a161ecb9e60e1fc588d669b",
-   "lastChangedAt": "2026-08-19T08:58:08.123Z",
+   "fetchedAt": "2026-08-19T09:52:40.924Z",
+   "upstreamFetchedAt": "2026-08-19T09:50:53.770Z",
+   "contentHash": "sha256:5ba71d7214d2422a88f3cc528f4f317b838d3e50e0afb45b5348df8145a20da1",
+   "lastChangedAt": "2026-08-19T09:52:40.924Z",
    "records": {
     "ap124": 9,
     "ap126": 28,
-    "ap127": 28,
+    "ap127": 27,
     "ap129": 13
    },
    "validation": {

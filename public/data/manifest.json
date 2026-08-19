@@ -1,19 +1,19 @@
 {
  "schemaVersion": 1,
  "pipelineVersion": "3.0.0",
- "generatedAt": "2026-08-19T09:52:40.924Z",
+ "generatedAt": "2026-08-19T10:49:42.108Z",
  "sources": {
   "flights": {
    "sourceUrl": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-   "fetchedAt": "2026-08-19T09:52:40.924Z",
-   "upstreamFetchedAt": "2026-08-19T09:48:10Z",
-   "contentHash": "sha256:86d94379aeea3224beb4b800d73bec07670309bc9cd9bd1d834235f6f55b8938",
-   "lastChangedAt": "2026-08-19T09:52:40.924Z",
+   "fetchedAt": "2026-08-19T10:49:42.108Z",
+   "upstreamFetchedAt": "2026-08-19T10:46:37Z",
+   "contentHash": "sha256:2e4ad50c7434c651bcc0f97eb8021ed7a569e1765c0956a2b1684bda0a097718",
+   "lastChangedAt": "2026-08-19T10:49:42.108Z",
    "records": {
     "flights": 5393,
     "instructors": 30,
     "resources": 31,
-    "leaves": 936,
+    "leaves": 937,
     "flightsAfterDedup": 4335
    },
    "validation": {
@@ -48,53 +48,44 @@
     "dedupRemovedById": 1057,
     "dedupRemovedByKey": 1,
     "unplannedStripped": 213,
-    "nickBridged": 2
+    "nickBridged": 3
    },
    "diff": {
-    "added": 48,
-    "removed": 8,
+    "added": 3,
+    "removed": 3,
     "changed": 0
    }
   },
   "progress": {
    "sourceUrl": "https://ap127-data-api.anusorn-tanmetha.workers.dev",
-   "fetchedAt": "2026-08-19T09:52:40.924Z",
-   "upstreamFetchedAt": "2026-08-19T09:50:53.770Z",
-   "contentHash": "sha256:66023c5ea1928e05ea0fb140a3a86af781bb6f538ec5341c66abe2d5bd132eb7",
-   "lastChangedAt": "2026-08-19T09:52:40.924Z",
+   "fetchedAt": "2026-08-19T10:49:42.108Z",
+   "upstreamFetchedAt": "2026-08-19T10:46:16.973Z",
+   "contentHash": "sha256:624c92ef9b8edc67b7b44141be21acf0486978a259e8176b5f6c99c917ee51e1",
+   "lastChangedAt": "2026-08-19T10:49:42.108Z",
    "records": {
-    "students": 27,
+    "students": 28,
     "curriculum": 96
    },
    "validation": {
     "errors": [],
-    "warnings": [
-     {
-      "code": "ROSTER_MISSING",
-      "message": "roster students absent from the progress feed (upstream usually self-heals; do NOT fabricate)",
-      "count": 1,
-      "samples": [
-       "Pichakorn Jirapinyo"
-      ]
-     }
-    ]
+    "warnings": []
    },
    "diff": {
-    "added": 0,
-    "removed": 1,
+    "added": 1,
+    "removed": 0,
     "changed": 0
    }
   },
   "ngt": {
    "sourceUrl": "https://ap127-db001.pages.dev/cache.json",
-   "fetchedAt": "2026-08-19T09:52:40.924Z",
-   "upstreamFetchedAt": "2026-08-19T09:50:53.770Z",
-   "contentHash": "sha256:5ba71d7214d2422a88f3cc528f4f317b838d3e50e0afb45b5348df8145a20da1",
-   "lastChangedAt": "2026-08-19T09:52:40.924Z",
+   "fetchedAt": "2026-08-19T10:49:42.108Z",
+   "upstreamFetchedAt": "2026-08-19T10:46:16.973Z",
+   "contentHash": "sha256:15e223b1e54f8100c33135bf644f9e370be8fc08483d746519ba8075a5b9fbbf",
+   "lastChangedAt": "2026-08-19T10:49:42.108Z",
    "records": {
     "ap124": 9,
     "ap126": 28,
-    "ap127": 27,
+    "ap127": 28,
     "ap129": 13
    },
    "validation": {

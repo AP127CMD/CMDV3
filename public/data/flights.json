@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-20T03:12:59.541Z",
+ "generatedAt": "2026-08-20T04:02:42.159Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-20T03:12:59.541Z",
-  "upstreamFetchedAt": "2026-08-20T03:06:55Z"
+  "fetchedAt": "2026-08-20T04:02:42.159Z",
+  "upstreamFetchedAt": "2026-08-20T03:54:26Z"
  },
  "flights": [
   {
@@ -126860,9 +126860,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-PATT-XZMGA",
+   "id": "ACTUAL_ONLY_BK-AP-126-PATT-XZMGA",
    "date": "2026-08-20",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -126879,12 +126879,15 @@
    "cond": "XC / IR",
    "type": "DA40CS",
    "tail": "HS-TVA",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:33",
+   "ldgTime": "09:19",
+   "airborneMin": 166,
+   "to": 3,
+   "ldg": 3,
+   "inst": 3,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-126-KANT-MIFH2",
@@ -126974,9 +126977,9 @@
    }
   },
   {
-   "id": "BK-AP-126-NANJ-4K533",
+   "id": "ACTUAL_ONLY_BK-AP-126-NANJ-4K533",
    "date": "2026-08-20",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -126993,17 +126996,20 @@
    "cond": "XC / IR",
    "type": "DA40TDI",
    "tail": "HS-TPT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "07:00",
+   "ldgTime": "09:35",
+   "airborneMin": 155,
+   "to": 3,
+   "ldg": 3,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
-   "id": "BK-AP-126-THAN-HXXGS",
+   "id": "ACTUAL_ONLY_BK-AP-126-THAN-HXXGS",
    "date": "2026-08-20",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -127020,12 +127026,15 @@
    "cond": null,
    "type": "DA42TDI",
    "tail": "HS-TPL",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "07:33",
+   "ldgTime": "08:20",
+   "airborneMin": 47,
+   "to": 3,
+   "ldg": 3,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-MSZU2OB2",
@@ -127301,9 +127310,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-MARU-VLWM5",
+   "id": "ACTUAL_ONLY_BK-AP-126-MARU-VLWM5",
    "date": "2026-08-20",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -127320,12 +127329,15 @@
    "cond": "XC / IR",
    "type": "DA40CS",
    "tail": "HS-TVC",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:35",
+   "ldgTime": "09:20",
+   "airborneMin": 165,
+   "to": 3,
+   "ldg": 3,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-MSZU328K",
@@ -127899,20 +127911,50 @@
    "to": null,
    "ldg": null,
    "inst": null
+  },
+  {
+   "id": "ACTUAL_ONLY_BK-MT0Y5WN6",
+   "date": "2026-08-20",
+   "status": "Completed",
+   "isSim": false,
+   "isStandby": false,
+   "start": "18:10",
+   "end": "19:40",
+   "durMin": 120,
+   "student": "VIRUTH S.",
+   "studentKey": "VIRUTH S.",
+   "nick": null,
+   "instructor": "PORNTEP B.",
+   "batch": "AP-121",
+   "batchKey": "AP121",
+   "lesson": "CMSPXI 95",
+   "lessonNorm": "CMSPXI 95",
+   "cond": null,
+   "type": "DA42TDI",
+   "tail": "HS-TPM",
+   "tkoff": "19:10",
+   "ldgTime": "20:55",
+   "airborneMin": 105,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   }
  ],
  "instructors": [
   {
    "name": "CHAROENCHAI U.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "EKKAPHOP R.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "ITTIPOL P.",
@@ -127935,8 +127977,8 @@
   {
    "name": "NAPATTORN S.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "PARINYA B.",
@@ -127947,8 +127989,8 @@
   {
    "name": "PHAHOLYUTH P.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "SANTI PO.",
@@ -127977,14 +128019,14 @@
   {
    "name": "WISANU T.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "WUTTHICHAI L.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "ATHINAT H.",
@@ -128007,8 +128049,8 @@
   {
    "name": "KAMONVICH O.",
    "isPartTime": false,
-   "category": "Helicopter",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Helicopter"
   },
   {
    "name": "PORNSAK P.",
@@ -128019,8 +128061,8 @@
   {
    "name": "SORRAWUT P.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "PORNTEP B.",
@@ -128037,8 +128079,8 @@
   {
    "name": "PREECHA K.",
    "isPartTime": true,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "APIRATKUNPAK K.",
@@ -128049,26 +128091,26 @@
   {
    "name": "CHAMNONG S.",
    "isPartTime": true,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "TANAKRIT V.",
-   "isPartTime": true,
-   "category": "Airplane",
-   "type": "Flight Instructor"
-  },
-  {
-   "name": "VASSAPON K.",
    "isPartTime": true,
    "type": "Flight Instructor",
    "category": "Airplane"
   },
   {
-   "name": "NUNTAPOB T.",
-   "isPartTime": false,
+   "name": "VASSAPON K.",
+   "isPartTime": true,
    "category": "Airplane",
    "type": "Flight Instructor"
+  },
+  {
+   "name": "NUNTAPOB T.",
+   "isPartTime": false,
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "KEVIN T.",

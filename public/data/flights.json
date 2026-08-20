@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-20T04:02:42.159Z",
+ "generatedAt": "2026-08-20T04:56:38.341Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-20T04:02:42.159Z",
-  "upstreamFetchedAt": "2026-08-20T03:54:26Z"
+  "fetchedAt": "2026-08-20T04:56:38.341Z",
+  "upstreamFetchedAt": "2026-08-20T04:53:50Z"
  },
  "flights": [
   {
@@ -126890,9 +126890,9 @@
    }
   },
   {
-   "id": "BK-AP-126-KANT-MIFH2",
+   "id": "ACTUAL_ONLY_BK-AP-126-KANT-MIFH2",
    "date": "2026-08-20",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "09:00",
@@ -126909,12 +126909,15 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVH",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "09:20",
+   "ldgTime": "10:34",
+   "airborneMin": 74,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-126-NAPO-0K9KY",
@@ -127697,9 +127700,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-129-CHAI-TZWF1",
+   "id": "ACTUAL_ONLY_BK-AP-129-CHAI-TZWF1",
    "date": "2026-08-20",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "08:00",
@@ -127716,12 +127719,15 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPU",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "08:27",
+   "ldgTime": "09:17",
+   "airborneMin": 50,
+   "to": 7,
+   "ldg": 7,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-126-KANA-5YQ1S",
@@ -127913,48 +127919,45 @@
    "inst": null
   },
   {
-   "id": "ACTUAL_ONLY_BK-MT0Y5WN6",
+   "id": "BK-MT0ZJC52",
    "date": "2026-08-20",
-   "status": "Completed",
+   "status": "Pending",
    "isSim": false,
    "isStandby": false,
-   "start": "18:10",
-   "end": "19:40",
-   "durMin": 120,
-   "student": "VIRUTH S.",
-   "studentKey": "VIRUTH S.",
+   "start": "11:00",
+   "end": "12:00",
+   "durMin": 60,
+   "student": "NATHAKORN W.",
+   "studentKey": "NATHAKORN W.",
    "nick": null,
-   "instructor": "PORNTEP B.",
-   "batch": "AP-121",
-   "batchKey": "AP121",
-   "lesson": "CMSPXI 95",
-   "lessonNorm": "CMSPXI 95",
+   "instructor": "WUTTHICHAI L.",
+   "batch": "Test Flight",
+   "batchKey": "TESTFLIGHT",
+   "lesson": "Test Flight",
+   "lessonNorm": "TEST FLIGHT",
    "cond": null,
-   "type": "DA42TDI",
-   "tail": "HS-TPM",
-   "tkoff": "19:10",
-   "ldgTime": "20:55",
-   "airborneMin": 105,
-   "to": 1,
-   "ldg": 1,
-   "inst": 0,
-   "flags": {
-    "actualOnly": true
-   }
+   "type": "DA40CS",
+   "tail": "HS-TVE",
+   "tkoff": null,
+   "ldgTime": null,
+   "airborneMin": null,
+   "to": null,
+   "ldg": null,
+   "inst": null
   }
  ],
  "instructors": [
   {
    "name": "CHAROENCHAI U.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "EKKAPHOP R.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "ITTIPOL P.",
@@ -127983,14 +127986,14 @@
   {
    "name": "PARINYA B.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "PHAHOLYUTH P.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "SANTI PO.",
@@ -128019,8 +128022,8 @@
   {
    "name": "WISANU T.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "WUTTHICHAI L.",
@@ -128037,8 +128040,8 @@
   {
    "name": "CHAWIN K.",
    "isPartTime": false,
-   "type": "Simulator Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Simulator Instructor"
   },
   {
    "name": "JIRAT R.",
@@ -128067,8 +128070,8 @@
   {
    "name": "PORNTEP B.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "ATIDTAN P.",
@@ -128079,14 +128082,14 @@
   {
    "name": "PREECHA K.",
    "isPartTime": true,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "APIRATKUNPAK K.",
    "isPartTime": true,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "CHAMNONG S.",
@@ -128115,8 +128118,8 @@
   {
    "name": "KEVIN T.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "NANTAWAT D.",
@@ -128135,12 +128138,6 @@
   {
    "tail": "HS-TCP",
    "acType": "DA42TDI",
-   "isMaint": false,
-   "maintReason": null
-  },
-  {
-   "tail": "HS-TCP (SIM)",
-   "acType": "DA42 (SIM)",
    "isMaint": false,
    "maintReason": null
   },
@@ -128175,20 +128172,8 @@
    "maintReason": "Maintenance"
   },
   {
-   "tail": "HS-TPN (SIM)",
-   "acType": "DA40 (SIM)",
-   "isMaint": false,
-   "maintReason": null
-  },
-  {
    "tail": "HS-TPO",
    "acType": "DA40TDI",
-   "isMaint": false,
-   "maintReason": null
-  },
-  {
-   "tail": "HS-TPO (SIM)",
-   "acType": "DA40 (SIM)",
    "isMaint": false,
    "maintReason": null
   },
@@ -128279,12 +128264,6 @@
   {
    "tail": "HS-TVH",
    "acType": "DA40CS",
-   "isMaint": false,
-   "maintReason": null
-  },
-  {
-   "tail": "HS-TZQ (SIM)",
-   "acType": "R44 (SIM)",
    "isMaint": false,
    "maintReason": null
   },

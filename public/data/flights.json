@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-20T01:54:56.886Z",
+ "generatedAt": "2026-08-20T03:12:59.541Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-20T01:54:56.886Z",
-  "upstreamFetchedAt": "2026-08-20T01:45:04Z"
+  "fetchedAt": "2026-08-20T03:12:59.541Z",
+  "upstreamFetchedAt": "2026-08-20T03:06:55Z"
  },
  "flights": [
   {
@@ -126803,9 +126803,9 @@
    }
   },
   {
-   "id": "BK-AP-129-AKIN-5JE4H",
+   "id": "ACTUAL_ONLY_BK-AP-129-AKIN-5JE4H",
    "date": "2026-08-20",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -126822,12 +126822,15 @@
    "cond": null,
    "type": "DA40TDI",
    "tail": "HS-TPV",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:50",
+   "ldgTime": "07:50",
+   "airborneMin": 60,
+   "to": 3,
+   "ldg": 3,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-129-TORN-G7TCC",
@@ -127016,7 +127019,7 @@
    "lessonNorm": "CMDIF (SIM) 92",
    "cond": null,
    "type": "DA42TDI",
-   "tail": "HS-TPQ",
+   "tail": "HS-TPL",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,
@@ -127133,9 +127136,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-SARA-3W048",
+   "id": "ACTUAL_ONLY_BK-AP-126-SARA-3W048",
    "date": "2026-08-20",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "08:20",
@@ -127152,12 +127155,15 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVD",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "08:30",
+   "ldgTime": "09:45",
+   "airborneMin": 75,
+   "to": 1,
+   "ldg": 1,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-126-NATT-LPQ5H",
@@ -127189,7 +127195,7 @@
   {
    "id": "BK-AP-129-RAVE-OIZIR",
    "date": "2026-08-20",
-   "status": "Pending",
+   "status": "Canceled",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -127511,9 +127517,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-PREM-KEHY7",
+   "id": "ACTUAL_ONLY_BK-AP-126-PREM-KEHY7",
    "date": "2026-08-20",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "06:30",
@@ -127530,12 +127536,15 @@
    "cond": "XC / IR",
    "type": "DA40CS",
    "tail": "HS-TVH",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "06:46",
+   "ldgTime": "08:46",
+   "airborneMin": 120,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-128-EKKA-1PC13",
@@ -127640,7 +127649,7 @@
    "lessonNorm": "SKILL TEST CPL ME",
    "cond": "XC",
    "type": "DA42TDI",
-   "tail": "HS-TPQ",
+   "tail": "HS-TPL",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,
@@ -127908,8 +127917,8 @@
   {
    "name": "ITTIPOL P.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "KITTICHAI C.",
@@ -127944,8 +127953,8 @@
   {
    "name": "SANTI PO.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "SANTI SUK.",
@@ -127980,32 +127989,32 @@
   {
    "name": "ATHINAT H.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Simulator Instructor"
+   "type": "Simulator Instructor",
+   "category": "Airplane"
   },
   {
    "name": "CHAWIN K.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Simulator Instructor"
+   "type": "Simulator Instructor",
+   "category": "Airplane"
   },
   {
    "name": "JIRAT R.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Simulator Instructor"
+   "type": "Simulator Instructor",
+   "category": "Airplane"
   },
   {
    "name": "KAMONVICH O.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Helicopter"
+   "category": "Helicopter",
+   "type": "Flight Instructor"
   },
   {
    "name": "PORNSAK P.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Helicopter"
+   "category": "Helicopter",
+   "type": "Flight Instructor"
   },
   {
    "name": "SORRAWUT P.",
@@ -128016,14 +128025,14 @@
   {
    "name": "PORNTEP B.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "ATIDTAN P.",
    "isPartTime": false,
-   "category": "Helicopter",
-   "type": "Simulator Instructor"
+   "type": "Simulator Instructor",
+   "category": "Helicopter"
   },
   {
    "name": "PREECHA K.",

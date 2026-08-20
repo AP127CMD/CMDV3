@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-20T08:59:40.043Z",
+ "generatedAt": "2026-08-20T09:52:57.718Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-20T08:59:40.043Z",
-  "upstreamFetchedAt": "2026-08-20T08:57:34Z"
+  "fetchedAt": "2026-08-20T09:52:57.718Z",
+  "upstreamFetchedAt": "2026-08-20T09:44:47Z"
  },
  "flights": [
   {
@@ -129009,14 +129009,284 @@
    "to": null,
    "ldg": null,
    "inst": null
+  },
+  {
+   "id": "BK-MT1AXM2L",
+   "date": "2026-08-21",
+   "status": "Pending",
+   "isSim": false,
+   "isStandby": false,
+   "start": "07:00",
+   "end": "08:00",
+   "durMin": 60,
+   "student": "PRECHAWUT N.",
+   "studentKey": "PRECHAWUT N.",
+   "nick": null,
+   "instructor": "KAMONVICH O.",
+   "batch": "HP-57",
+   "batchKey": "HP57",
+   "lesson": "LS 103",
+   "lessonNorm": "LS 103",
+   "cond": "Solo",
+   "type": "R44",
+   "tail": "HS-TZT",
+   "tkoff": null,
+   "ldgTime": null,
+   "airborneMin": null,
+   "to": null,
+   "ldg": null,
+   "inst": null
+  },
+  {
+   "id": "BK-MT1AXOLD",
+   "date": "2026-08-21",
+   "status": "Pending",
+   "isSim": false,
+   "isStandby": false,
+   "start": "08:10",
+   "end": "09:10",
+   "durMin": 60,
+   "student": "THIPHOP P.",
+   "studentKey": "THIPHOP P.",
+   "nick": null,
+   "instructor": "KAMONVICH O.",
+   "batch": "HP-57",
+   "batchKey": "HP57",
+   "lesson": "LS 105",
+   "lessonNorm": "LS 105",
+   "cond": null,
+   "type": "R44",
+   "tail": "HS-TZT",
+   "tkoff": null,
+   "ldgTime": null,
+   "airborneMin": null,
+   "to": null,
+   "ldg": null,
+   "inst": null
+  },
+  {
+   "id": "BK-MT1AXQOP",
+   "date": "2026-08-21",
+   "status": "Pending",
+   "isSim": false,
+   "isStandby": false,
+   "start": "09:30",
+   "end": "10:30",
+   "durMin": 60,
+   "student": "SIRAWIT K.",
+   "studentKey": "SIRAWIT K.",
+   "nick": null,
+   "instructor": "KAMONVICH O.",
+   "batch": "HP-57",
+   "batchKey": "HP57",
+   "lesson": "LS 103",
+   "lessonNorm": "LS 103",
+   "cond": "Solo",
+   "type": "R44",
+   "tail": "HS-TZT",
+   "tkoff": null,
+   "ldgTime": null,
+   "airborneMin": null,
+   "to": null,
+   "ldg": null,
+   "inst": null
+  },
+  {
+   "id": "BK-MT1AXUDV",
+   "date": "2026-08-21",
+   "status": "Pending",
+   "isSim": false,
+   "isStandby": false,
+   "start": "10:40",
+   "end": "11:40",
+   "durMin": 60,
+   "student": "SIRAWIT K.",
+   "studentKey": "SIRAWIT K.",
+   "nick": null,
+   "instructor": "KAMONVICH O.",
+   "batch": "HP-57",
+   "batchKey": "HP57",
+   "lesson": "LS 105",
+   "lessonNorm": "LS 105",
+   "cond": null,
+   "type": "R44",
+   "tail": "HS-TZT",
+   "tkoff": null,
+   "ldgTime": null,
+   "airborneMin": null,
+   "to": null,
+   "ldg": null,
+   "inst": null
+  },
+  {
+   "id": "BK-MT1AXXGO",
+   "date": "2026-08-21",
+   "status": "Pending",
+   "isSim": false,
+   "isStandby": false,
+   "start": "11:50",
+   "end": "12:50",
+   "durMin": 60,
+   "student": "NUTTAPONG S.",
+   "studentKey": "NUTTAPONG S.",
+   "nick": null,
+   "instructor": "KAMONVICH O.",
+   "batch": "HP-57",
+   "batchKey": "HP57",
+   "lesson": "LS 103",
+   "lessonNorm": "LS 103",
+   "cond": "Solo",
+   "type": "R44",
+   "tail": "HS-TZT",
+   "tkoff": null,
+   "ldgTime": null,
+   "airborneMin": null,
+   "to": null,
+   "ldg": null,
+   "inst": null
+  },
+  {
+   "id": "BK-MT1AXZQG",
+   "date": "2026-08-21",
+   "status": "Pending",
+   "isSim": false,
+   "isStandby": false,
+   "start": "13:00",
+   "end": "14:00",
+   "durMin": 60,
+   "student": "NUTTAPONG S.",
+   "studentKey": "NUTTAPONG S.",
+   "nick": null,
+   "instructor": "KAMONVICH O.",
+   "batch": "HP-57",
+   "batchKey": "HP57",
+   "lesson": "LS 105",
+   "lessonNorm": "LS 105",
+   "cond": null,
+   "type": "R44",
+   "tail": "HS-TZT",
+   "tkoff": null,
+   "ldgTime": null,
+   "airborneMin": null,
+   "to": null,
+   "ldg": null,
+   "inst": null
+  },
+  {
+   "id": "BK-MT1AY26E",
+   "date": "2026-08-21",
+   "status": "Pending",
+   "isSim": false,
+   "isStandby": false,
+   "start": "08:30",
+   "end": "09:30",
+   "durMin": 60,
+   "student": "CHISANUPONG N.",
+   "studentKey": "CHISANUPONG N.",
+   "nick": null,
+   "instructor": "PORNSAK P.",
+   "batch": "HP-57",
+   "batchKey": "HP57",
+   "lesson": "LS 103",
+   "lessonNorm": "LS 103",
+   "cond": "Solo",
+   "type": "R44",
+   "tail": "HS-TZU",
+   "tkoff": null,
+   "ldgTime": null,
+   "airborneMin": null,
+   "to": null,
+   "ldg": null,
+   "inst": null
+  },
+  {
+   "id": "BK-MT1AY4HM",
+   "date": "2026-08-21",
+   "status": "Pending",
+   "isSim": false,
+   "isStandby": false,
+   "start": "09:40",
+   "end": "10:40",
+   "durMin": 60,
+   "student": "YOTHIN Y.",
+   "studentKey": "YOTHIN Y.",
+   "nick": null,
+   "instructor": "PORNSAK P.",
+   "batch": "HP-57",
+   "batchKey": "HP57",
+   "lesson": "LS 103",
+   "lessonNorm": "LS 103",
+   "cond": "Solo",
+   "type": "R44",
+   "tail": "HS-TZU",
+   "tkoff": null,
+   "ldgTime": null,
+   "airborneMin": null,
+   "to": null,
+   "ldg": null,
+   "inst": null
+  },
+  {
+   "id": "BK-MT1AY8LC",
+   "date": "2026-08-21",
+   "status": "Pending",
+   "isSim": false,
+   "isStandby": false,
+   "start": "11:00",
+   "end": "12:00",
+   "durMin": 60,
+   "student": "WACHIRAWIT M.",
+   "studentKey": "WACHIRAWIT M.",
+   "nick": null,
+   "instructor": "PORNSAK P.",
+   "batch": "HP-57",
+   "batchKey": "HP57",
+   "lesson": "LS 105",
+   "lessonNorm": "LS 105",
+   "cond": null,
+   "type": "R44",
+   "tail": "HS-TZU",
+   "tkoff": null,
+   "ldgTime": null,
+   "airborneMin": null,
+   "to": null,
+   "ldg": null,
+   "inst": null
+  },
+  {
+   "id": "BK-MT1AYB8Z",
+   "date": "2026-08-21",
+   "status": "Pending",
+   "isSim": false,
+   "isStandby": false,
+   "start": "12:10",
+   "end": "13:10",
+   "durMin": 60,
+   "student": "NAKARIN P.",
+   "studentKey": "NAKARIN P.",
+   "nick": null,
+   "instructor": "PORNSAK P.",
+   "batch": "HP-57",
+   "batchKey": "HP57",
+   "lesson": "LS 105",
+   "lessonNorm": "LS 105",
+   "cond": null,
+   "type": "R44",
+   "tail": "HS-TZU",
+   "tkoff": null,
+   "ldgTime": null,
+   "airborneMin": null,
+   "to": null,
+   "ldg": null,
+   "inst": null
   }
  ],
  "instructors": [
   {
    "name": "CHAROENCHAI U.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "EKKAPHOP R.",
@@ -129033,20 +129303,20 @@
   {
    "name": "KITTICHAI C.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "KOONPHOL U.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "NAPATTORN S.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "PARINYA B.",
@@ -129057,8 +129327,8 @@
   {
    "name": "PHAHOLYUTH P.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "SANTI PO.",
@@ -129075,8 +129345,8 @@
   {
    "name": "SOWAN C.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "THAWATANAN P.",
@@ -129093,8 +129363,8 @@
   {
    "name": "WUTTHICHAI L.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "ATHINAT H.",
@@ -129105,14 +129375,14 @@
   {
    "name": "CHAWIN K.",
    "isPartTime": false,
-   "type": "Simulator Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Simulator Instructor"
   },
   {
    "name": "JIRAT R.",
    "isPartTime": false,
-   "type": "Simulator Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Simulator Instructor"
   },
   {
    "name": "KAMONVICH O.",
@@ -129135,26 +129405,26 @@
   {
    "name": "PORNTEP B.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "ATIDTAN P.",
    "isPartTime": false,
-   "category": "Helicopter",
-   "type": "Simulator Instructor"
+   "type": "Simulator Instructor",
+   "category": "Helicopter"
   },
   {
    "name": "PREECHA K.",
    "isPartTime": true,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "APIRATKUNPAK K.",
    "isPartTime": true,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "CHAMNONG S.",
@@ -129165,8 +129435,8 @@
   {
    "name": "TANAKRIT V.",
    "isPartTime": true,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "VASSAPON K.",
@@ -129177,20 +129447,20 @@
   {
    "name": "NUNTAPOB T.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Flight Instructor"
-  },
-  {
-   "name": "KEVIN T.",
-   "isPartTime": false,
    "type": "Flight Instructor",
    "category": "Airplane"
   },
   {
-   "name": "NANTAWAT D.",
+   "name": "KEVIN T.",
    "isPartTime": false,
    "category": "Airplane",
    "type": "Flight Instructor"
+  },
+  {
+   "name": "NANTAWAT D.",
+   "isPartTime": false,
+   "type": "Flight Instructor",
+   "category": "Airplane"
   }
  ],
  "resources": [
@@ -139586,6 +139856,17 @@
    "batch": "AP-126",
    "duration": "Full Day",
    "note": "",
+   "role": "Student"
+  },
+  {
+   "name": "SURATHEE S.",
+   "start": "2026-08-24",
+   "end": "2026-08-25",
+   "reason": "Personal Leave",
+   "id": "Leave Record|key|20/08/2026 16:00:16",
+   "batch": "AP-129",
+   "duration": "Full Day",
+   "note": "ธุระส่วนตัวครับ",
    "role": "Student"
   },
   {

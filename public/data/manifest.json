@@ -1,14 +1,14 @@
 {
  "schemaVersion": 1,
  "pipelineVersion": "3.0.0",
- "generatedAt": "2026-08-19T23:41:08.991Z",
+ "generatedAt": "2026-08-20T01:54:56.886Z",
  "sources": {
   "flights": {
    "sourceUrl": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-   "fetchedAt": "2026-08-19T23:41:08.991Z",
-   "upstreamFetchedAt": "2026-08-19T23:29:56Z",
-   "contentHash": "sha256:dfb9af23e3e91f2ea25223c2d843d72844b5078901fd72d89aeef1a3e4c5e956",
-   "lastChangedAt": "2026-08-19T23:41:08.991Z",
+   "fetchedAt": "2026-08-20T01:54:56.886Z",
+   "upstreamFetchedAt": "2026-08-20T01:45:04Z",
+   "contentHash": "sha256:7e3ac509f54aa36c27999eee3fc94de81ea68c8e80f53647da53792f57be07ae",
+   "lastChangedAt": "2026-08-20T01:54:56.886Z",
    "records": {
     "flights": 5393,
     "instructors": 30,
@@ -51,17 +51,20 @@
     "nickBridged": 3
    },
    "diff": {
-    "added": 0,
-    "removed": 0,
-    "changed": 0
+    "added": 3,
+    "removed": 3,
+    "changed": 43,
+    "changedFields": {
+     "lesson": 43
+    }
    }
   },
   "progress": {
    "sourceUrl": "https://ap127-data-api.anusorn-tanmetha.workers.dev",
-   "fetchedAt": "2026-08-19T23:41:08.991Z",
-   "upstreamFetchedAt": "2026-08-19T23:40:54.693Z",
+   "fetchedAt": "2026-08-20T01:54:56.886Z",
+   "upstreamFetchedAt": "2026-08-20T01:50:55.303Z",
    "contentHash": "sha256:f6c5262d17243fa13be609599c1d296fbc6ed49337efb4e62335f5682cc74b4e",
-   "lastChangedAt": "2026-08-19T23:41:08.991Z",
+   "lastChangedAt": "2026-08-20T01:54:56.886Z",
    "records": {
     "students": 28,
     "curriculum": 96
@@ -78,10 +81,10 @@
   },
   "ngt": {
    "sourceUrl": "https://ap127-db001.pages.dev/cache.json",
-   "fetchedAt": "2026-08-19T23:41:08.991Z",
-   "upstreamFetchedAt": "2026-08-19T23:35:59.187Z",
+   "fetchedAt": "2026-08-20T01:54:56.886Z",
+   "upstreamFetchedAt": "2026-08-20T01:50:55.303Z",
    "contentHash": "sha256:d8ea9eed442ebd2e3879892e866fbc5974095407820614c01a67c5c7b11f885c",
-   "lastChangedAt": "2026-08-19T23:41:08.991Z",
+   "lastChangedAt": "2026-08-20T01:54:56.886Z",
    "records": {
     "ap124": 9,
     "ap126": 28,

@@ -1,20 +1,20 @@
 {
  "schemaVersion": 1,
  "pipelineVersion": "3.0.0",
- "generatedAt": "2026-08-21T08:00:48.332Z",
+ "generatedAt": "2026-08-21T09:01:39.222Z",
  "sources": {
   "flights": {
    "sourceUrl": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-   "fetchedAt": "2026-08-21T08:00:48.332Z",
-   "upstreamFetchedAt": "2026-08-21T07:55:08Z",
-   "contentHash": "sha256:b4b4968dcb200fd263f3a01706094d9ff954b1f12f80693a8d2d72df7ff31391",
-   "lastChangedAt": "2026-08-21T08:00:48.332Z",
+   "fetchedAt": "2026-08-21T09:01:39.222Z",
+   "upstreamFetchedAt": "2026-08-21T08:55:47Z",
+   "contentHash": "sha256:388c3b97082d7e0cd2f32810dfdc4e1aaea8e8304a3d9f9a4ea9f6d8a72d3901",
+   "lastChangedAt": "2026-08-21T09:01:39.222Z",
    "records": {
-    "flights": 5441,
+    "flights": 5485,
     "instructors": 30,
     "resources": 27,
     "leaves": 941,
-    "flightsAfterDedup": 4383
+    "flightsAfterDedup": 4427
    },
    "validation": {
     "errors": [],
@@ -51,28 +51,23 @@
     "nickBridged": 3
    },
    "diff": {
-    "added": 4,
-    "removed": 4,
+    "added": 44,
+    "removed": 0,
     "changed": 0
    }
   },
   "progress": {
    "sourceUrl": "https://ap127-data-api.anusorn-tanmetha.workers.dev",
-   "fetchedAt": "2026-08-21T07:11:40.609Z",
-   "upstreamFetchedAt": "2026-08-21T07:11:26.465Z",
-   "contentHash": "sha256:a72f9612ae7343234197bb6712d05e4146fe86182500b0445dfbc16811189c5e",
-   "lastChangedAt": "2026-08-21T07:11:40.609Z",
+   "fetchedAt": "2026-08-21T09:01:39.222Z",
+   "upstreamFetchedAt": "2026-08-21T09:00:53.478Z",
+   "contentHash": "sha256:4510d5073c746adbd77cff8663e3cf125d3f324182f2faf69f6a6eb44ee75028",
+   "lastChangedAt": "2026-08-21T09:01:39.222Z",
    "records": {
     "students": 28,
     "curriculum": 96
    },
    "validation": {
-    "errors": [
-     {
-      "code": "FETCH_FAILED",
-      "message": "Error: fetch failed after 3 attempts: https://ap127-data-api.anusorn-tanmetha.workers.dev — Error: response too small (50 bytes)"
-     }
-    ],
+    "errors": [],
     "warnings": []
    },
    "diff": {
@@ -83,10 +78,10 @@
   },
   "ngt": {
    "sourceUrl": "https://ap127-db001.pages.dev/cache.json",
-   "fetchedAt": "2026-08-21T07:11:40.609Z",
-   "upstreamFetchedAt": "2026-08-21T07:05:57.922Z",
-   "contentHash": "sha256:81a26ffeda3f904935d5f307faaf064594c24fc14039acd61f0f13e4f325d885",
-   "lastChangedAt": "2026-08-21T07:11:40.609Z",
+   "fetchedAt": "2026-08-21T09:01:39.222Z",
+   "upstreamFetchedAt": "2026-08-21T09:00:53.478Z",
+   "contentHash": "sha256:3ba95b312eabcc3ab9a963dd643bbec5a8a48b33f4e5314fdca1d6b27d97336f",
+   "lastChangedAt": "2026-08-21T09:01:39.222Z",
    "records": {
     "ap124": 9,
     "ap126": 28,
@@ -94,12 +89,7 @@
     "ap129": 13
    },
    "validation": {
-    "errors": [
-     {
-      "code": "FETCH_FAILED",
-      "message": "Error: empty ap127[] — refusing"
-     }
-    ],
+    "errors": [],
     "warnings": []
    },
    "diff": null

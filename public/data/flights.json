@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-21T07:11:40.609Z",
+ "generatedAt": "2026-08-21T08:00:48.332Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-21T07:11:40.609Z",
-  "upstreamFetchedAt": "2026-08-21T07:02:43Z"
+  "fetchedAt": "2026-08-21T08:00:48.332Z",
+  "upstreamFetchedAt": "2026-08-21T07:55:08Z"
  },
  "flights": [
   {
@@ -128600,9 +128600,9 @@
    }
   },
   {
-   "id": "BK-AP-126-RAKC-J6GZQ",
+   "id": "ACTUAL_ONLY_BK-AP-126-RAKC-J6GZQ",
    "date": "2026-08-21",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "11:00",
@@ -128619,12 +128619,15 @@
    "cond": "XC / IR",
    "type": "DA40CS",
    "tail": "HS-TVD",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "11:00",
+   "ldgTime": "13:00",
+   "airborneMin": 120,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-126-SARA-HFAWS",
@@ -128921,9 +128924,9 @@
    }
   },
   {
-   "id": "BK-FAM FI-NANT-UJ95W",
+   "id": "ACTUAL_ONLY_BK-FAM FI-NANT-UJ95W",
    "date": "2026-08-21",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "11:30",
@@ -128940,12 +128943,15 @@
    "cond": null,
    "type": "DA40CS",
    "tail": "HS-TVH",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "12:11",
+   "ldgTime": "12:26",
+   "airborneMin": 15,
+   "to": 5,
+   "ldg": 5,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-126-PARA-6SGHA",
@@ -129233,9 +129239,9 @@
    }
   },
   {
-   "id": "BK-MT1AXXGO",
+   "id": "ACTUAL_ONLY_BK-MT1AXXGO",
    "date": "2026-08-21",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "11:50",
@@ -129252,17 +129258,20 @@
    "cond": "Solo",
    "type": "R44",
    "tail": "HS-TZT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "12:00",
+   "ldgTime": "12:50",
+   "airborneMin": 50,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
-   "id": "BK-MT1AXZQG",
+   "id": "ACTUAL_ONLY_BK-MT1AXZQG",
    "date": "2026-08-21",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "13:00",
@@ -129279,12 +129288,15 @@
    "cond": null,
    "type": "R44",
    "tail": "HS-TZT",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "13:10",
+   "ldgTime": "14:00",
+   "airborneMin": 50,
+   "to": 2,
+   "ldg": 2,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-MT1AY26E",
@@ -129429,8 +129441,8 @@
   {
    "name": "KOONPHOL U.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "NAPATTORN S.",
@@ -129459,8 +129471,8 @@
   {
    "name": "SANTI SUK.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "SOWAN C.",
@@ -129471,8 +129483,8 @@
   {
    "name": "THAWATANAN P.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "WISANU T.",
@@ -129489,14 +129501,14 @@
   {
    "name": "ATHINAT H.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Simulator Instructor"
+   "type": "Simulator Instructor",
+   "category": "Airplane"
   },
   {
    "name": "CHAWIN K.",
    "isPartTime": false,
-   "type": "Simulator Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Simulator Instructor"
   },
   {
    "name": "JIRAT R.",
@@ -129507,44 +129519,44 @@
   {
    "name": "KAMONVICH O.",
    "isPartTime": false,
-   "category": "Helicopter",
-   "type": "Flight Instructor"
-  },
-  {
-   "name": "PORNSAK P.",
-   "isPartTime": false,
    "type": "Flight Instructor",
    "category": "Helicopter"
   },
   {
+   "name": "PORNSAK P.",
+   "isPartTime": false,
+   "category": "Helicopter",
+   "type": "Flight Instructor"
+  },
+  {
    "name": "SORRAWUT P.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "PORNTEP B.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "ATIDTAN P.",
    "isPartTime": false,
-   "category": "Helicopter",
-   "type": "Simulator Instructor"
+   "type": "Simulator Instructor",
+   "category": "Helicopter"
   },
   {
    "name": "PREECHA K.",
    "isPartTime": true,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "APIRATKUNPAK K.",
    "isPartTime": true,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "CHAMNONG S.",
@@ -129555,8 +129567,8 @@
   {
    "name": "TANAKRIT V.",
    "isPartTime": true,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "VASSAPON K.",
@@ -129579,8 +129591,8 @@
   {
    "name": "NANTAWAT D.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   }
  ],
  "resources": [
@@ -139924,6 +139936,17 @@
    "role": "Student"
   },
   {
+   "name": "TANAKRIT V.",
+   "start": "2026-08-22",
+   "end": "2026-09-03",
+   "reason": "Personal Leave",
+   "id": "Leave Record|key|21/08/2026 14:00:42",
+   "batch": "N/A",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
+  },
+  {
    "name": "KITTHANYA T.",
    "start": "2026-08-23",
    "end": "2026-08-24",
@@ -139999,6 +140022,17 @@
    "duration": "Full Day",
    "note": "ไปหาญาติที่ต่างจังหวัดครับ",
    "role": "Student"
+  },
+  {
+   "name": "ITTIPOL P.",
+   "start": "2026-08-25",
+   "end": "2026-08-25",
+   "reason": "Personal Leave",
+   "id": "Leave Record|key|21/08/2026 13:59:39",
+   "batch": "N/A",
+   "duration": "Full Day",
+   "note": "",
+   "role": "Instructor"
   },
   {
    "name": "MATHANAPHADA P.",

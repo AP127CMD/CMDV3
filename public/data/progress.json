@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-21T20:43:49.570Z",
+ "generatedAt": "2026-08-21T21:42:58.739Z",
  "source": {
   "url": "https://ap127-data-api.anusorn-tanmetha.workers.dev",
-  "fetchedAt": "2026-08-21T20:43:49.570Z",
-  "upstreamFetchedAt": "2026-08-21T20:40:55.174Z"
+  "fetchedAt": "2026-08-21T21:42:58.739Z",
+  "upstreamFetchedAt": "2026-08-21T21:40:55.837Z"
  },
  "students": [
   {

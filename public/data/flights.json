@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-21T04:57:22.776Z",
+ "generatedAt": "2026-08-21T05:51:19.465Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-21T04:57:22.776Z",
-  "upstreamFetchedAt": "2026-08-21T04:55:15Z"
+  "fetchedAt": "2026-08-21T05:51:19.465Z",
+  "upstreamFetchedAt": "2026-08-21T05:43:09Z"
  },
  "flights": [
   {
@@ -128447,9 +128447,9 @@
    }
   },
   {
-   "id": "BK-AP-129-RAVE-32A84",
+   "id": "ACTUAL_ONLY_BK-AP-129-RAVE-32A84",
    "date": "2026-08-21",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "07:30",
@@ -128466,12 +128466,15 @@
    "cond": "Solo",
    "type": "DA40TDI",
    "tail": "HS-TPV",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "07:25",
+   "ldgTime": "08:00",
+   "airborneMin": 35,
+   "to": 3,
+   "ldg": 3,
+   "inst": 0,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-129-SURA-0M3GY",
@@ -128821,7 +128824,7 @@
   {
    "id": "BK-AP-126-PATC-NAD9Q",
    "date": "2026-08-21",
-   "status": "Pending",
+   "status": "Canceled",
    "isSim": false,
    "isStandby": false,
    "start": "11:40",
@@ -129375,8 +129378,8 @@
   {
    "name": "EKKAPHOP R.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "ITTIPOL P.",
@@ -129393,8 +129396,8 @@
   {
    "name": "KOONPHOL U.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "NAPATTORN S.",
@@ -129417,8 +129420,8 @@
   {
    "name": "SANTI PO.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "SANTI SUK.",
@@ -129435,14 +129438,14 @@
   {
    "name": "THAWATANAN P.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "WISANU T.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "WUTTHICHAI L.",
@@ -129453,8 +129456,8 @@
   {
    "name": "ATHINAT H.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Simulator Instructor"
+   "type": "Simulator Instructor",
+   "category": "Airplane"
   },
   {
    "name": "CHAWIN K.",
@@ -129483,32 +129486,32 @@
   {
    "name": "SORRAWUT P.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "PORNTEP B.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "ATIDTAN P.",
    "isPartTime": false,
-   "category": "Helicopter",
-   "type": "Simulator Instructor"
+   "type": "Simulator Instructor",
+   "category": "Helicopter"
   },
   {
    "name": "PREECHA K.",
    "isPartTime": true,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "APIRATKUNPAK K.",
    "isPartTime": true,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "CHAMNONG S.",
@@ -129543,8 +129546,8 @@
   {
    "name": "NANTAWAT D.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   }
  ],
  "resources": [

@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-22T09:46:29.728Z",
+ "generatedAt": "2026-08-22T10:43:37.824Z",
  "source": {
   "url": "https://ap127-db001.pages.dev/cache.json",
-  "fetchedAt": "2026-08-22T09:46:29.728Z",
-  "upstreamFetchedAt": "2026-08-22T09:40:50.065Z"
+  "fetchedAt": "2026-08-22T10:43:37.824Z",
+  "upstreamFetchedAt": "2026-08-22T10:41:15.890Z"
  },
  "batches": {
   "ap124": [
@@ -19399,7 +19399,7 @@
       "lesson": "CSPXI 87",
       "lessonNorm": "CSPXI 87",
       "actualMins": 180,
-      "date": "2026-08-21"
+      "date": "2026-08-22"
      }
     ],
     "planned": [

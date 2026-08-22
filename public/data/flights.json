@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-22T04:53:23.046Z",
+ "generatedAt": "2026-08-22T05:46:50.913Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-22T04:53:23.046Z",
-  "upstreamFetchedAt": "2026-08-22T04:49:57Z"
+  "fetchedAt": "2026-08-22T05:46:50.913Z",
+  "upstreamFetchedAt": "2026-08-22T05:36:19Z"
  },
  "flights": [
   {
@@ -129662,9 +129662,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-PATC-D3CLM",
+   "id": "ACTUAL_ONLY_BK-AP-126-PATC-D3CLM",
    "date": "2026-08-22",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "08:00",
@@ -129681,12 +129681,15 @@
    "cond": "XC / IR",
    "type": "DA40TDI",
    "tail": "HS-TPX",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "08:35",
+   "ldgTime": "10:25",
+   "airborneMin": 110,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "ACTUAL_ONLY_BK-AP-126-KANT-2GUWW",
@@ -130052,9 +130055,9 @@
    "inst": null
   },
   {
-   "id": "BK-AP-126-PRIT-Z0D1V",
+   "id": "ACTUAL_ONLY_BK-AP-126-PRIT-Z0D1V",
    "date": "2026-08-22",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "09:30",
@@ -130071,17 +130074,20 @@
    "cond": "XC / IR",
    "type": "DA40CS",
    "tail": "HS-TVC",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "09:50",
+   "ldgTime": "11:30",
+   "airborneMin": 100,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
-   "id": "BK-AP-126-PRAN-G7ZGE",
+   "id": "ACTUAL_ONLY_BK-AP-126-PRAN-G7ZGE",
    "date": "2026-08-22",
-   "status": "Pending",
+   "status": "Completed",
    "isSim": false,
    "isStandby": false,
    "start": "08:30",
@@ -130098,12 +130104,15 @@
    "cond": "XC / IR",
    "type": "DA40CS",
    "tail": "HS-TVD",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
+   "tkoff": "08:52",
+   "ldgTime": "10:31",
+   "airborneMin": 99,
+   "to": 2,
+   "ldg": 2,
+   "inst": 2,
+   "flags": {
+    "actualOnly": true
+   }
   },
   {
    "id": "BK-AP-129-AKIN-C66HX",
@@ -130111,8 +130120,8 @@
    "status": "Pending",
    "isSim": false,
    "isStandby": false,
-   "start": "06:30",
-   "end": "07:15",
+   "start": "07:40",
+   "end": "08:25",
    "durMin": 45,
    "student": "AKINKORN L.",
    "studentKey": "AKINKORN L.",
@@ -130327,8 +130336,8 @@
    "status": "Pending",
    "isSim": false,
    "isStandby": false,
-   "start": "08:30",
-   "end": "10:30",
+   "start": "09:30",
+   "end": "11:30",
    "durMin": 120,
    "student": "GRAVITAT C.",
    "studentKey": "GRAVITAT C.",
@@ -130394,7 +130403,7 @@
    "lessonNorm": "CMDGL 93",
    "cond": null,
    "type": "DA42TDI",
-   "tail": "HS-TPQ",
+   "tail": "HS-TPL",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,
@@ -130438,14 +130447,14 @@
    "start": "08:00",
    "end": "11:00",
    "durMin": 180,
-   "student": "RANGSIMAN S.",
-   "studentKey": "RANGSIMAN S.",
+   "student": "NAPATH T.",
+   "studentKey": "NAPATH T.",
    "nick": null,
    "instructor": "SORRAWUT P.",
    "batch": "AP-126",
    "batchKey": "AP126",
-   "lesson": "CSPXI 87",
-   "lessonNorm": "CSPXI 87",
+   "lesson": "CSPXI 89",
+   "lessonNorm": "CSPXI 89",
    "cond": "XC / IR",
    "type": "DA40TDI",
    "tail": "HS-TPV",
@@ -130476,33 +130485,6 @@
    "cond": "XC / IR",
    "type": "DA40TDI",
    "tail": "HS-TPO",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
-  },
-  {
-   "id": "BK-AP-126-PONG-LRN1T",
-   "date": "2026-08-23",
-   "status": "Pending",
-   "isSim": false,
-   "isStandby": false,
-   "start": "08:00",
-   "end": "11:00",
-   "durMin": 180,
-   "student": "PONGSAKORN A.",
-   "studentKey": "PONGSAKORN A.",
-   "nick": null,
-   "instructor": "PARINYA B.",
-   "batch": "AP-126",
-   "batchKey": "AP126",
-   "lesson": "CSPXIC 90",
-   "lessonNorm": "CSPXIC 90",
-   "cond": "XC / IR",
-   "type": "DA40TDI",
-   "tail": "HS-TPX",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,
@@ -130610,34 +130592,7 @@
    "lessonNorm": "CMDXV 94",
    "cond": null,
    "type": "DA42TDI",
-   "tail": "HS-TPQ",
-   "tkoff": null,
-   "ldgTime": null,
-   "airborneMin": null,
-   "to": null,
-   "ldg": null,
-   "inst": null
-  },
-  {
-   "id": "BK-MT3KC8PZ",
-   "date": "2026-08-23",
-   "status": "Pending",
-   "isSim": false,
-   "isStandby": false,
-   "start": "07:20",
-   "end": "07:40",
-   "durMin": 20,
-   "student": "AKINKORN L.",
-   "studentKey": "AKINKORN L.",
-   "nick": null,
-   "instructor": "SANTI SUK.",
-   "batch": "AP-129",
-   "batchKey": "AP129",
-   "lesson": "CSGL 14",
-   "lessonNorm": "CSGL 14",
-   "cond": "Solo",
-   "type": "DA40TDI",
-   "tail": "HS-TPX",
+   "tail": "HS-TPL",
    "tkoff": null,
    "ldgTime": null,
    "airborneMin": null,
@@ -130671,6 +130626,87 @@
    "to": null,
    "ldg": null,
    "inst": null
+  },
+  {
+   "id": "BK-MT3X34WH",
+   "date": "2026-08-23",
+   "status": "Pending",
+   "isSim": false,
+   "isStandby": false,
+   "start": "06:30",
+   "end": "07:30",
+   "durMin": 60,
+   "student": "AKINKORN L.",
+   "studentKey": "AKINKORN L.",
+   "nick": null,
+   "instructor": "SANTI SUK.",
+   "batch": "AP-129",
+   "batchKey": "AP129",
+   "lesson": "CDGL 12",
+   "lessonNorm": "CDGL 12",
+   "cond": null,
+   "type": "DA40TDI",
+   "tail": "HS-TPX",
+   "tkoff": null,
+   "ldgTime": null,
+   "airborneMin": null,
+   "to": null,
+   "ldg": null,
+   "inst": null
+  },
+  {
+   "id": "BK-MT3X374N",
+   "date": "2026-08-23",
+   "status": "Pending",
+   "isSim": false,
+   "isStandby": false,
+   "start": "08:30",
+   "end": "08:50",
+   "durMin": 20,
+   "student": "AKINKORN L.",
+   "studentKey": "AKINKORN L.",
+   "nick": null,
+   "instructor": "SANTI SUK.",
+   "batch": "AP-129",
+   "batchKey": "AP129",
+   "lesson": "CSGL 14",
+   "lessonNorm": "CSGL 14",
+   "cond": "Solo",
+   "type": "DA40TDI",
+   "tail": "HS-TPX",
+   "tkoff": null,
+   "ldgTime": null,
+   "airborneMin": null,
+   "to": null,
+   "ldg": null,
+   "inst": null
+  },
+  {
+   "id": "BK-MT3XAM84",
+   "date": "2026-08-23",
+   "status": "Pending",
+   "isSim": false,
+   "isStandby": false,
+   "start": "07:10",
+   "end": "07:50",
+   "durMin": 60,
+   "student": "THANATHIP W.",
+   "studentKey": "THANATHIP W.",
+   "nick": null,
+   "instructor": "ITTIPOL P.",
+   "batch": "AP-126",
+   "batchKey": "AP126",
+   "lesson": "CMDIF (SIM) 92",
+   "lessonNorm": "CMDIF (SIM) 92",
+   "cond": "Sim DA42",
+   "type": "DA42TDI",
+   "tail": "HS-TPL",
+   "tkoff": null,
+   "ldgTime": null,
+   "airborneMin": null,
+   "to": null,
+   "ldg": null,
+   "inst": null
   }
  ],
  "instructors": [
@@ -130689,14 +130725,14 @@
   {
    "name": "ITTIPOL P.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "KITTICHAI C.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "KOONPHOL U.",
@@ -130719,26 +130755,26 @@
   {
    "name": "PHAHOLYUTH P.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "SANTI PO.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "SANTI SUK.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "SOWAN C.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "THAWATANAN P.",
@@ -130749,8 +130785,8 @@
   {
    "name": "WISANU T.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "WUTTHICHAI L.",
@@ -130761,8 +130797,8 @@
   {
    "name": "ATHINAT H.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Simulator Instructor"
+   "type": "Simulator Instructor",
+   "category": "Airplane"
   },
   {
    "name": "CHAWIN K.",
@@ -130773,8 +130809,8 @@
   {
    "name": "JIRAT R.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Simulator Instructor"
+   "type": "Simulator Instructor",
+   "category": "Airplane"
   },
   {
    "name": "KAMONVICH O.",
@@ -130797,14 +130833,14 @@
   {
    "name": "PORNTEP B.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "ATIDTAN P.",
    "isPartTime": false,
-   "type": "Simulator Instructor",
-   "category": "Helicopter"
+   "category": "Helicopter",
+   "type": "Simulator Instructor"
   },
   {
    "name": "PREECHA K.",
@@ -130815,8 +130851,8 @@
   {
    "name": "APIRATKUNPAK K.",
    "isPartTime": true,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "CHAMNONG S.",
@@ -130839,14 +130875,14 @@
   {
    "name": "NUNTAPOB T.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "KEVIN T.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "NANTAWAT D.",

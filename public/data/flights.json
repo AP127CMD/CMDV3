@@ -1,10 +1,10 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-22T19:40:43.473Z",
+ "generatedAt": "2026-08-22T20:43:03.270Z",
  "source": {
   "url": "https://raw.githubusercontent.com/AP127CMD/CMD_CTR/main/flight-data.js",
-  "fetchedAt": "2026-08-22T19:40:43.473Z",
-  "upstreamFetchedAt": "2026-08-22T19:39:03Z"
+  "fetchedAt": "2026-08-22T20:43:03.270Z",
+  "upstreamFetchedAt": "2026-08-22T20:39:57Z"
  },
  "flights": [
   {
@@ -130752,8 +130752,8 @@
   {
    "name": "ITTIPOL P.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "KITTICHAI C.",
@@ -130764,8 +130764,8 @@
   {
    "name": "KOONPHOL U.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "NAPATTORN S.",
@@ -130782,14 +130782,14 @@
   {
    "name": "PHAHOLYUTH P.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "SANTI PO.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "SANTI SUK.",
@@ -130800,8 +130800,8 @@
   {
    "name": "SOWAN C.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "THAWATANAN P.",
@@ -130818,8 +130818,8 @@
   {
    "name": "WUTTHICHAI L.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "ATHINAT H.",
@@ -130830,8 +130830,8 @@
   {
    "name": "CHAWIN K.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Simulator Instructor"
+   "type": "Simulator Instructor",
+   "category": "Airplane"
   },
   {
    "name": "JIRAT R.",
@@ -130848,14 +130848,14 @@
   {
    "name": "PORNSAK P.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Helicopter"
+   "category": "Helicopter",
+   "type": "Flight Instructor"
   },
   {
    "name": "SORRAWUT P.",
    "isPartTime": false,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "PORNTEP B.",
@@ -130866,20 +130866,20 @@
   {
    "name": "ATIDTAN P.",
    "isPartTime": false,
-   "type": "Simulator Instructor",
-   "category": "Helicopter"
+   "category": "Helicopter",
+   "type": "Simulator Instructor"
   },
   {
    "name": "PREECHA K.",
    "isPartTime": true,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "APIRATKUNPAK K.",
    "isPartTime": true,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "CHAMNONG S.",
@@ -130896,8 +130896,8 @@
   {
    "name": "VASSAPON K.",
    "isPartTime": true,
-   "category": "Airplane",
-   "type": "Flight Instructor"
+   "type": "Flight Instructor",
+   "category": "Airplane"
   },
   {
    "name": "NUNTAPOB T.",
@@ -130908,14 +130908,14 @@
   {
    "name": "KEVIN T.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   },
   {
    "name": "NANTAWAT D.",
    "isPartTime": false,
-   "type": "Flight Instructor",
-   "category": "Airplane"
+   "category": "Airplane",
+   "type": "Flight Instructor"
   }
  ],
  "resources": [
